@@ -1,0 +1,127 @@
+blockGatheringSpots:
+  # Human farm
+  - minimumCorner:
+      world: OVERWORLD
+      x: -1620
+      y: 32
+      z: -47
+    maximumCorner:
+      world: OVERWORLD
+      x: -1538
+      y: 50
+      z: 24
+    blockTypes: [RIPE_WHEAT_CROPS]
+    cooldownType: MEDIUM_WHEAT_CROPS
+    drops:
+      - type: WHEAT_CROPS
+        name: Wheat
+        chance: 100
+    cooldownInSeconds: 60
+    cooldownDeviationPercentage: 20
+
+  # Human lumber mill
+  - minimumCorner:
+      world: OVERWORLD
+      x: -780
+      y: 33
+      z: 397
+    maximumCorner:
+      world: OVERWORLD
+      x: -760
+      y: 34
+      z: 421
+    blockTypes: [OAK_WOOD, SPRUCE_WOOD, BIRCH_WOOD, JUNGLE_WOOD, ACACIA_WOOD, DARK_OAK_WOOD]
+    cooldownType: BEDROCK
+    drops:
+      - type: OAK_WOOD
+        name: Lumber
+        chance: 100
+    cooldownInSeconds: 60
+    cooldownDeviationPercentage: 20
+
+  # Human mine
+  - minimumCorner:
+      world: OVERWORLD
+      x: -1156
+      y: 26
+      z: 489
+    maximumCorner:
+      world: OVERWORLD
+      x: -1127
+      y: 46
+      z: 519
+    blockTypes: [STONE]
+    cooldownType: BEDROCK
+    drops:
+      - type: STONE
+        name: Stone
+        chance: 100
+    cooldownInSeconds: 60
+    cooldownDeviationPercentage: 20
+
+  # Orc lumber mill
+  - minimumCorner:
+      world: OVERWORLD
+      x: 445
+      y: 35
+      z: -5
+    maximumCorner:
+      world: OVERWORLD
+      x: 479
+      y: 38
+      z: 18
+    blockTypes: [OAK_WOOD, SPRUCE_WOOD, BIRCH_WOOD, JUNGLE_WOOD, ACACIA_WOOD, DARK_OAK_WOOD]
+    cooldownType: BEDROCK
+    drops:
+      - type: OAK_WOOD
+        name: Lumber
+        chance: 100
+    cooldownInSeconds: 60
+    cooldownDeviationPercentage: 20
+
+  # Orc mine
+  - minimumCorner:
+      world: OVERWORLD
+      x: -138
+      y: 33
+      z: 475
+    maximumCorner:
+      world: OVERWORLD
+      x: -105
+      y: 36
+      z: 508
+    blockTypes: [STONE]
+    cooldownType: BEDROCK
+    drops:
+      - type: STONE
+        name: Stone
+        chance: 100
+    cooldownInSeconds: 60
+    cooldownDeviationPercentage: 20
+
+entityGatheringSpots:
+  # Orc farm
+  - entityType: PIG
+    entityCount: 10
+    spawnLocations:
+      - world: OVERWORLD
+        x: 89
+        y: 43
+        z: 420
+        radius: 5
+      - world: OVERWORLD
+        x: 64
+        y: 43
+        z: 415
+        radius: 5
+      - world: OVERWORLD
+        x: 59
+        y: 43
+        z: 416
+        radius: 5
+    drops:
+      - type: PORKCHOP
+        name: Meat
+        chance: 100
+    cooldownInSeconds: 10
+    cooldownDeviationPercentage: 20
