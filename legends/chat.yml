@@ -8,13 +8,24 @@ globalChannels:
     shortcut:
     color: GRAY
     formattingString: [{channel.name}] {sender.color}[{sender.tag}] {channel.color}{sender.name}: {text}
-    requiredPermission:
   - name: Staff
     aliases: []
     shortcut:
     color: LIGHT_PURPLE
     formattingString: [{channel.name}] {sender.name}: {text}
     requiredPermission: monolith.staff
+  - name: Human
+    aliases: []
+    shortcut:
+    color: GRAY
+    formattingString: [{channel.name}] {sender.color}[{sender.tag}] {channel.color}{sender.name}: {text}
+    requiredPermission: legends.human
+  - name: Orc
+    aliases: []
+    shortcut:
+    color: GRAY
+    formattingString: [{channel.name}] {sender.color}[{sender.tag}] {channel.color}{sender.name}: {text}
+    requiredPermission: legends.orc
 
 localChannels:
   - name: Local
@@ -41,15 +52,3 @@ localChannels:
     color: AQUA
     formattingString: {sender.color}[{sender.tag}] {channel.color}{sender.name}: {text}
     radius: 5
-  - name: Human
-    aliases: []
-    shortcut:
-    color: GRAY
-    formattingString: [{channel.name}] {sender.color}[{sender.tag}] {channel.color}{sender.name}: {text}
-    radius: 30
-  - name: Orc
-    aliases: []
-    shortcut:
-    color: GRAY
-    formattingString: [{channel.name}] {sender.color}[{sender.tag}] {channel.color}{sender.name}: {text}
-    radius: 30
