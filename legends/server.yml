@@ -1,29 +1,45 @@
 prestigeChar: ★
 
+rankPrefixes:
+  - name: Wood
+    color: DARK_GREEN
+  - name: Stone
+    color: GRAY
+  - name: Iron
+    color: DARK_GRAY
+  - name: Gold
+    color: GOLD
+  - name: Emerald
+    color: GREEN
+  - name: Diamond
+    color: AQUA
+  - name: Obsidian
+    color: DARK_PURPLE
+
+humanRankSuffixes:
+  - Squire
+  - Footman
+  - Knight
+  - Captain
+  - Champion
+  - Hero
+  - Legend
+
+orcRankSuffixes:
+  - Tuskling
+  - Grunt
+  - Raider
+  - Marauder
+  - Overseer
+  - Warlord
+  - Legend
+
 rankFavorTable: [
-  0 , 1000, 2000, 3000, 4000, 5000, 6000,                     # +1000 (Wood)
-  8000, 10000, 12000, 14000, 16000, 18000, 20000,             # +2000 (Stone)
-  24000, 28000, 32000, 36000, 40000, 44000, 48000,            # +4000 (Iron)
-  56000, 64000, 72000, 80000, 88000, 96000, 104000,           # +8000 (Gold)
-  120000, 136000, 152000, 168000, 184000, 200000, 216000,     # +16000 (Emerald)
-  248000, 280000, 312000, 344000, 376000, 408000, 440000,     # +32000 (Diamond)
-  504000, 568000, 632000, 696000, 760000, 824000, 888000,     # +64000 (Obsidian)
-  1016000]                                                    # +128000 (Prestige rank-up)
-
-humanRanks: [
-  Wood Squire,     Wood Footman,     Wood Knight,     Wood Captain,     Wood Champion,     Wood Hero,     Wood Legend,
-  Stone Squire,    Stone Footman,    Stone Knight,    Stone Captain,    Stone Champion,    Stone Hero,    Stone Legend,
-  Iron Squire,     Iron Footman,     Iron Knight,     Iron Captain,     Iron Champion,     Iron Hero,     Iron Legend,
-  Gold Squire,     Gold Footman,     Gold Knight,     Gold Captain,     Gold Champion,     Gold Hero,     Gold Legend,
-  Emerald Squire,  Emerald Footman,  Emerald Knight,  Emerald Captain,  Emerald Champion,  Emerald Hero,  Emerald Legend,
-  Diamond Squire,  Diamond Footman,  Diamond Knight,  Diamond Captain,  Diamond Champion,  Diamond Hero,  Diamond Legend,
-  Obsidian Squire, Obsidian Footman, Obsidian Knight, Obsidian Captain, Obsidian Champion, Obsidian Hero, Obsidian Legend]
-
-orcRanks: [
-  Wood Tuskling,     Wood Grunt,     Wood Raider,     Wood Marauder,     Wood Overseer,     Wood Warlord,     Wood Legend,
-  Stone Tuskling,    Stone Grunt,    Stone Raider,    Stone Marauder,    Stone Overseer,    Stone Warlord,    Stone Legend,
-  Iron Tuskling,     Iron Grunt,     Iron Raider,     Iron Marauder,     Iron Overseer,     Iron Warlord,     Iron Legend,
-  Gold Tuskling,     Gold Grunt,     Gold Raider,     Gold Marauder,     Gold Overseer,     Gold Warlord,     Gold Legend,
-  Emerald Tuskling,  Emerald Grunt,  Emerald Raider,  Emerald Marauder,  Emerald Overseer,  Emerald Warlord,  Emerald Legend,
-  Diamond Tuskling,  Diamond Grunt,  Diamond Raider,  Diamond Marauder,  Diamond Overseer,  Diamond Warlord,  Diamond Legend,
-  Obsidian Tuskling, Obsidian Grunt, Obsidian Raider, Obsidian Marauder, Obsidian Overseer, Obsidian Warlord, Obsidian Legend]
+  0 , 1000, 2000, 3000, 4000, 5000, 6000,                         # +1000 (Wood)
+  8000, 10000, 12000, 14000, 16000, 18000, 20000,                 # +2000 (Stone)
+  24000, 28000, 32000, 36000, 40000, 44000, 48000,                # +4000 (Iron)
+  56000, 64000, 72000, 80000, 88000, 96000, 104000,               # +8000 (Gold)
+  120000, 136000, 152000, 168000, 184000, 200000, 216000,         # +16000 (Emerald)
+  248000, 280000, 312000, 344000, 376000, 408000, 440000,         # +32000 (Diamond)
+  504000, 568000, 632000, 696000, 760000, 824000, 888000,         # +64000 (Obsidian)
+  1016000]                                                        # +128000 (Prestige rank-up)
