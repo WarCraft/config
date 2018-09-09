@@ -190,14 +190,14 @@ pets:
     rarity: EPIC
     name: Chick
     icon: MHF_Chicken
-    lore: [Why did the chicken, cross the road?]
+    lore: ["Why did the chicken", "cross the road?"]
     entityType: CHICKEN
   - id: COW_MINI_PET
     type: MINI_PET
     rarity: EPIC
     name: Calf
     icon: MHF_Cow
-    lore: [Show bubs!]
+    lore: ["Show bubs!"]
     entityType: COW
   - id: LLAMA_MINI_PET
     type: MINI_PET
@@ -218,7 +218,7 @@ pets:
     rarity: EPIC
     name: Piglet
     icon: MHF_Pig
-    lore: [Bacon is good for me!]
+    lore: ["Bacon is good for me!"]
     entityType: PIG
   - id: RABBIT_MINI_PET
     type: MINI_PET
