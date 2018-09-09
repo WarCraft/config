@@ -177,7 +177,7 @@ decorationPacks:
       - DECORATION_WOOD_TRAPDOOR
 
 
-pets:
+miniPets:
   - id: BAT_MINI_PET
     type: MINI_PET
     rarity: EPIC
