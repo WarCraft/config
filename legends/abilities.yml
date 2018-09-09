@@ -1,0 +1,130 @@
+# Warrior
+warrior.berserker.Maul:
+  damage: 3
+  absorption-level: 1
+  absorption-duration: 2
+  cooldown: 5
+warrior.berserker.Grudge:
+  heal: 1
+  duration: 5
+  cooldown: 15
+warrior.berserker.Shatter:
+  distance: 10
+  launch: 6
+  radius: 4
+  damage: 3
+  nausea-level: 3
+  nausea-duration: 7
+  cooldown: 15
+
+warrior.armsmaster.Hamstring:
+  damage: 3
+  slow-level: 3
+  slow-duration: 5
+  cooldown: 5
+warrior.armsmaster.Slam:
+  damage: 3
+  knockback: 10
+  nausea-level: 3
+  nausea-duration: 7
+  cooldown: 10
+warrior.armsmaster.StandYourGround:
+  resistance-level: 2
+  resistance-duration: 5
+  fire-resistance-level: 2
+  fire-resistance-duration: 5
+  slow-level: 1
+  slow-duration: 5
+  cooldown: 20
+
+
+# Ranger
+ranger.marksman.PowerShot:
+  damage: 3
+  knockback: 8
+  cooldown: 9
+ranger.marksman.Focus:
+  damage-modifier: 1.25
+  cooldown: 3
+ranger.marksman.Sneak:
+  speed-level: 2
+  speed-duration: 7
+  duration: 7
+  cooldown: 45
+
+ranger.hunter.ToxicArrow:
+  damage: 3
+  poison-level: 2
+  poison-duration: 3
+  cooldown: 9
+ranger.hunter.Trap:
+  radius: 1
+  poison-level: 1
+  poison-duration: 5
+  root-duration: 3
+  duration: 15
+  cooldown: 15
+ranger.hunter.Disengage:
+  distance: 10
+  cooldown: 25
+
+
+# Mage
+mage.Fireball:
+  velocity: 0.75
+  gravity: 0
+  radius: 2
+  damage: 2
+  burn-duration: 2
+  range: 30
+  cooldown: 2
+
+mage.orc.TotemFireball:
+  velocity: 0.75
+  gravity: 0
+  radius: 1.5
+  damage: 1
+  burn-duration: 1
+  range: 30
+
+mage.tempest.Bolt:
+  radius: 2
+  damage: 3
+  range: 30
+  cooldown: 10
+mage.tempest.HailBlast:
+  damage: 5
+  cone: 5
+  slow-level: 3
+  slow-duration: 3
+  cooldown: 15
+mage.tempest.MoltenStorm:
+  spawnRadius: 7.5
+  damage: 1
+  radius: 2
+  burn-level: 1
+  burn-duration: 3
+  duration: 10
+  range: 30
+  cooldown: 35
+
+mage.wizard.ArcaneMissile:
+  damage: 3
+  radius: 2
+  range: 30
+  cooldown: 6
+mage.wizard.Teleport:
+  damage: 5
+  radius: 3
+  slow-level: 1
+  slow-duration: 1
+  range: 15
+  cooldown: 25
+mage.wizard.MassPiggify:
+  countdown: 2.0
+  radius: 5
+  duration: 8
+  nausea-level: 1
+  nausea-duration: 8
+  range: 30
+  cooldown: 35
