@@ -1,31 +1,108 @@
+areas:
+  # Human capital
+  - minimumCorner:
+      world: OVERWORLD
+      x: -1570
+      y: 50
+      z: 141
+    maximumCorner:
+      world: OVERWORLD
+      x: -1262
+      y: 155
+      z: 436
+  # Orc capital
+  - minimumCorner:
+      world: OVERWORLD
+      x: 186
+      y: 42
+      z: 112
+    maximumCorner:
+      world: OVERWORLD
+      x: 550
+      y: 118
+      z: 541
+
 prices:
-  human.c.1: 950
-  human.c.2: 2050
-  human.c.3: 1600
-  human.c.4: 2100
-  human.c.5: 2350
-  human.c.6: 150
-  human.c.7: 300
-  human.c.8: 450
-  human.c.9: 600
-  human.c.10: 500
-  human.c.11: 800
-  
-  human.j.1a: 3500
-  human.j.1b: 2700
-  human.j.2: 2250
-  human.j.3: 3900
-  human.j.4: 3600
-  human.j.5: 1700
-  
-  orc.c.1: 50
-  orc.c.2: 550
-  orc.c.3: 1050
-  orc.c.4: 1650
-  orc.c.5: 1700
-  orc.c.6: 2400
-  orc.c.7: 3450
-  orc.c.8: 4250
+  # Human C houses
+  human_c_1:
+    purchasePrice: 2850
+    rent: 950
+  human_c_2:
+    purchasePrice: 6150
+    rent: 2050
+  human_c_3:
+    purchasePrice: 4800
+    rent: 1600
+  human_c_4:
+    purchasePrice: 6300
+    rent: 2100
+  human_c_5:
+    purchasePrice: 7050
+    rent: 2350
+  human_c_6:
+    purchasePrice: 450
+    rent: 150
+  human_c_7:
+    purchasePrice: 900
+    rent: 300
+  human_c_8:
+    purchasePrice: 1350
+    rent: 450
+  human_c_9:
+    purchasePrice: 1800
+    rent: 600
+  human_c_10:
+    purchasePrice: 1500
+    rent: 500
+  human_c_11:
+    purchasePrice: 2400
+    rent: 800
+
+  # Human J houses
+  human_j_1a:
+    purchasePrice: 10500
+    rent: 3500
+  human_j_1b:
+    purchasePrice: 8100
+    rent: 2700
+  human_j_2:
+    purchasePrice: 6750
+    rent: 2250
+  human_j_3:
+    purchasePrice: 11700
+    rent: 3900
+  human_j_4:
+    purchasePrice: 10800
+    rent: 3600
+  human_j_5:
+    purchasePrice: 5100
+    rent: 1700
+
+  # Orc houses
+  orc_c_1:
+    purchasePrice: 150
+    rent: 50
+  orc_c_2:
+    purchasePrice: 1650
+    rent: 550
+  orc_c_3:
+    purchasePrice: 3150
+    rent: 1050
+  orc_c_4:
+    purchasePrice: 4950
+    rent: 1650
+  orc_c_5:
+    purchasePrice: 5100
+    rent: 1700
+  orc_c_6:
+    purchasePrice: 7200
+    rent: 2400
+  orc_c_7:
+    purchasePrice: 10350
+    rent: 3450
+  orc_c_8:
+    purchasePrice: 12750
+    rent: 4250
 
 addresses:
   # Human capital
