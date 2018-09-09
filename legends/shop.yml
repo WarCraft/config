@@ -92,27 +92,27 @@ decorations:
     icon: OAK_FENCE_GATE
     lore: []
     itemType: OAK_FENCE_GATE
-  - id: DECORATION_OAK_PLANKS
+  - id: DECORATION_OAK_WOOD_PLANKS
     type: DECORATION
     rarity: RARE
     name: Oak Planks
-    icon: OAK_PLANKS
+    icon: OAK_WOOD_PLANKS
     lore: []
-    itemType: OAK_PLANKS
-  - id: DECORATION_OAK_SLAB
+    itemType: OAK_WOOD_PLANKS
+  - id: DECORATION_OAK_WOOD_SLAB
     type: DECORATION
     rarity: RARE
     name: Oak Slab
-    icon: OAK_SLAB
+    icon: OAK_WOOD_SLAB
     lore: []
-    itemType: OAK_SLAB
-  - id: DECORATION_OAK_STAIRS
+    itemType: OAK_WOOD_SLAB
+  - id: DECORATION_OAK_WOOD_STAIRS
     type: DECORATION
     rarity: RARE
     name: Oak Stairs
-    icon: OAK_STAIRS
+    icon: OAK_WOOD_STAIRS
     lore: []
-    itemType: OAK_STAIRS
+    itemType: OAK_WOOD_STAIRS
   - id: DECORATION_SIGN
     type: DECORATION
     rarity: RARE
