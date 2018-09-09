@@ -127,13 +127,13 @@ decorations:
     icon: TORCH
     lore: []
     itemType: TORCH
-  - id: DECORATION_BUTTON
+  - id: DECORATION_WOOD_BUTTON
     type: DECORATION
     rarity: RARE
     name: Button
-    icon: BUTTON
+    icon: WOOD_BUTTON
     lore: []
-    itemType: BUTTON
+    itemType: WOOD_BUTTON
   - id: DECORATION_WOOD_PRESSURE_PLATE
     type: DECORATION
     rarity: RARE
