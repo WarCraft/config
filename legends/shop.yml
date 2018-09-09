@@ -1,0 +1,317 @@
+prices:
+  WAR_PASS: 4500
+  MYSTIC_CHEST: 2250
+  BUNDLE:
+    RARE: 2450
+  CLASS:
+    EPIC: 4750
+    LEGENDARY: 11500
+  DECORATION:
+    RARE: 2450
+    EPIC: 4750
+    LEGENDARY: 7450
+    ANCIENT: 9750
+  EMOTE:
+    RARE: 250
+    EPIC: 750
+  MINI_PET:
+    EPIC: 4750
+    LEGENDARY: 9750
+    ANCIENT: 14500
+  PROMOTION:
+    EPIC:
+  TOOL:
+    RARE: 950
+    EPIC: 3750
+  UTILITY:
+    RARE: 1450
+    EPIC: 2450
+
+
+decorations:
+  - id: DECORATION_BED
+    type: DECORATION
+    rarity: RARE
+    name: Bed
+    icon: RED_BED
+    lore: []
+    itemType: RED_BED
+  - id: DECORATION_BOOKSHELF
+    type: DECORATION
+    rarity: RARE
+    name: Bookshelf
+    icon: BOOKSHELF
+    lore: []
+    itemType: BOOKSHELF
+  - id: DECORATION_CHEST
+    type: DECORATION
+    rarity: RARE
+    name: Chest
+    icon: CHEST
+    lore: []
+    itemType: CHEST
+  - id: DECORATION_GLASS
+    type: DECORATION
+    rarity: RARE
+    name: Glass
+    icon: GLASS
+    lore: []
+    itemType: GLASS
+  - id: DECORATION_GLASS_PANE
+    type: DECORATION
+    rarity: RARE
+    name: Glass Pane
+    icon: GLASS_PANE
+    lore: []
+    itemType: GLASS_PANE
+  - id: DECORATION_LADDER
+    type: DECORATION
+    rarity: RARE
+    name: Ladder
+    icon: LADDER
+    lore: []
+    itemType: LADDER
+  - id: DECORATION_OAK_DOOR
+    type: DECORATION
+    rarity: RARE
+    name: Oak Door
+    icon: OAK_DOOR
+    lore: []
+    itemType: OAK_DOOR
+  - id: DECORATION_OAK_FENCE
+    type: DECORATION
+    rarity: RARE
+    name: Oak Fence
+    icon: OAK_FENCE
+    lore: []
+    itemType: OAK_FENCE
+  - id: DECORATION_OAK_FENCE_GATE
+    type: DECORATION
+    rarity: RARE
+    name: Oak Fence Gate
+    icon: OAK_FENCE_GATE
+    lore: []
+    itemType: OAK_FENCE_GATE
+  - id: DECORATION_OAK_PLANKS
+    type: DECORATION
+    rarity: RARE
+    name: Oak Planks
+    icon: OAK_PLANKS
+    lore: []
+    itemType: OAK_PLANKS
+  - id: DECORATION_OAK_SLAB
+    type: DECORATION
+    rarity: RARE
+    name: Oak Slab
+    icon: OAK_SLAB
+    lore: []
+    itemType: OAK_SLAB
+  - id: DECORATION_OAK_STAIRS
+    type: DECORATION
+    rarity: RARE
+    name: Oak Stairs
+    icon: OAK_STAIRS
+    lore: []
+    itemType: OAK_STAIRS
+  - id: DECORATION_SIGN
+    type: DECORATION
+    rarity: RARE
+    name: Sign
+    icon: SIGN
+    lore: []
+    itemType: SIGN
+  - id: DECORATION_TORCH
+    type: DECORATION
+    rarity: RARE
+    name: Torch
+    icon: TORCH
+    lore: []
+    itemType: TORCH
+  - id: DECORATION_BUTTON
+    type: DECORATION
+    rarity: RARE
+    name: Button
+    icon: BUTTON
+    lore: []
+    itemType: BUTTON
+  - id: DECORATION_WOOD_PRESSURE_PLATE
+    type: DECORATION
+    rarity: RARE
+    name: Pressure Plate
+    icon: WOOD_PRESSURE_PLATE
+    lore: []
+    itemType: WOOD_PRESSURE_PLATE
+  - id: DECORATION_WOOD_TRAPDOOR
+    type: DECORATION
+    rarity: RARE
+    name: Trapdoor
+    icon: WOOD_TRAPDOOR
+    lore: []
+    itemType: WOOD_TRAPDOOR
+
+
+decorationPacks:
+  - id: BASIC
+    type: DECORATION_PACK
+    rarity: RARE
+    name: BASIC
+    icon: OAK_PLANKS
+    lore: []
+    decorations:
+      - DECORATION_BED
+      - DECORATION_BOOKSHELF
+      - DECORATION_CHEST
+      - DECORATION_GLASS
+      - DECORATION_GLASS_PANE
+      - DECORATION_LADDER
+      - DECORATION_OAK_DOOR
+      - DECORATION_OAK_FENCE
+      - DECORATION_OAK_FENCE_GATE
+      - DECORATION_OAK_PLANKS
+      - DECORATION_OAK_SLAB
+      - DECORATION_OAK_STAIRS
+      - DECORATION_SIGN
+      - DECORATION_TORCH
+      - DECORATION_BUTTON
+      - DECORATION_WOOD_PRESSURE_PLATE
+      - DECORATION_WOOD_TRAPDOOR
+
+
+pets:
+  - id: BAT_MINI_PET
+    type: MINI_PET
+    rarity: EPIC
+    name: Bat Pup
+    icon: MHF_Bat
+    lore: []
+    entityType: BAT
+  - id: CHICKEN_MINI_PET
+    type: MINI_PET
+    rarity: EPIC
+    name: Chick
+    icon: MHF_Chicken
+    lore: [Why did the chicken, cross the road?]
+    entityType: CHICKEN
+  - id: COW_MINI_PET
+    type: MINI_PET
+    rarity: EPIC
+    name: Calf
+    icon: MHF_Cow
+    lore: [Show bubs!]
+    entityType: COW
+  - id: LLAMA_MINI_PET
+    type: MINI_PET
+    rarity: EPIC
+    name: Cria
+    icon: MHF_Llama
+    lore: []
+    entityType: LLAMA
+  - id: OCELOT_MINI_PET
+    type: MINI_PET
+    rarity: EPIC
+    name: Kitten
+    icon: MHF_Ocelot
+    lore: []
+    entityType: OCELOT
+  - id: PIG_MINI_PET
+    type: MINI_PET
+    rarity: EPIC
+    name: Piglet
+    icon: MHF_Pig
+    lore: [Bacon is good for me!]
+    entityType: PIG
+  - id: RABBIT_MINI_PET
+    type: MINI_PET
+    rarity: EPIC
+    name: Bunny
+    icon: MHF_Rabbit
+    lore: []
+    entityType: RABBIT
+  - id: SHEEP_MINI_PET
+    type: MINI_PET
+    rarity: EPIC
+    name: Lamb
+    icon: MHF_Sheep
+    lore: []
+    entityType: SHEEP
+  - id: SILVERFISH_MINI_PET
+    type: MINI_PET
+    rarity: EPIC
+    name: Nymph
+    icon: MHF_Silverfish
+    lore: []
+    entityType: SILVERFISH
+  - id: WOLF_MINI_PET
+    type: MINI_PET
+    rarity: EPIC
+    name: Wolf pup
+    icon: MHF_Wolf
+    lore: []
+    entityType: WOLF
+
+#  - id: ENDERMITE_MINI_PET
+#    type: MINI_PET
+#    rarity: LEGENDARY
+#    name: Mite
+#    icon: MHF_Endermite
+#    lore: []
+#    entityType: ENDERMITE
+#  - id: MAGMA_CUBE_MINI_PET
+#    type: MINI_PET
+#    rarity: LEGENDARY
+#    name:
+#    icon: MHF_Magma_Cube
+#    lore: []
+#    entityType: MAGMA_CUBE
+#  - id: MOOSHROOM_MINI_PET
+#    type: MINI_PET
+#    rarity: LEGENDARY
+#    name:
+#    icon: MHF_Mooshroom
+#    lore: []
+#    entityType: MOOSHROOM
+#  - id: PARROT_MINI_PET
+#    type: MINI_PET
+#    rarity: LEGENDARY
+#    name:
+#    icon: MHF_Parrot
+#    lore: []
+#    entityType: PARROT
+#  - id: POLAR_BEAR_MINI_PET
+#    type: MINI_PET
+#    rarity: LEGENDARY
+#    name:
+#    icon: MHF_Polar_Bear
+#    lore: []
+#    entityType: POLAR_BEAR
+#  - id: SLIME_MINI_PET
+#    type: MINI_PET
+#    rarity: LEGENDARY
+#    name:
+#    icon: MHF_Slime
+#    lore: []
+#    entityType: SLIME
+#  - id: SQUID_MINI_PET
+#    type: MINI_PET
+#    rarity: LEGENDARY
+#    name:
+#    icon: MHF_Squid
+#    lore: []
+#    entityType: SQUID
+
+  - id: RAINBOW_BUNCHIE_MINI_PET
+    type: MINI_PET
+    rarity: ANCIENT
+    name: Rainbow Bunchie
+    icon: MHF_Llama
+    lore: []
+    entityType: LLAMA
+    rainbow: yes
+  - id: PARTY_PARROT_MINI_PET
+    type: MINI_PET
+    rarity: ANCIENT
+    name: Party Parrot
+    icon: MHF_Parrot
+    lore: []
+    entityType: PARROT
+    rainbow: yes
