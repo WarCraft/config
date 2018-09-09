@@ -92,13 +92,13 @@ decorations:
     icon: OAK_FENCE_GATE
     lore: []
     itemType: OAK_FENCE_GATE
-  - id: DECORATION_OAK_WOOD_PLANKS
+  - id: DECORATION_OAK_WOOD_PLANK
     type: DECORATION
     rarity: RARE
     name: Oak Planks
-    icon: OAK_WOOD_PLANKS
+    icon: OAK_WOOD_PLANK
     lore: []
-    itemType: OAK_WOOD_PLANKS
+    itemType: OAK_WOOD_PLANK
   - id: DECORATION_OAK_WOOD_SLAB
     type: DECORATION
     rarity: RARE
@@ -155,7 +155,7 @@ decorationPacks:
     type: DECORATION_PACK
     rarity: RARE
     name: BASIC
-    icon: OAK_PLANKS
+    icon: OAK_WOOD_PLANK
     lore: []
     decorations:
       - DECORATION_BED
@@ -167,9 +167,9 @@ decorationPacks:
       - DECORATION_OAK_DOOR
       - DECORATION_OAK_FENCE
       - DECORATION_OAK_FENCE_GATE
-      - DECORATION_OAK_PLANKS
-      - DECORATION_OAK_SLAB
-      - DECORATION_OAK_STAIRS
+      - DECORATION_OAK_WOOD_PLANK
+      - DECORATION_OAK_WOOD_SLAB
+      - DECORATION_OAK_WOOD_STAIRS
       - DECORATION_SIGN
       - DECORATION_TORCH
       - DECORATION_BUTTON
