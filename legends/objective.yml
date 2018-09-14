@@ -8,221 +8,377 @@ requiredProgress:
 
 objectives:
   # Human objectives
-  - humanKeepEast:
-      id: "HUMAN_KEEP_EAST"
-      type: "KEEP"
-      name: "Human Fort East"
-      outerPortal:
-        entryLocation:
-          x: -1047.5
-          y: 45
-          z: 52.5
-        exitLocation:
-          x: -1035.5
-          y: 45
-          z: 52.5
-      innerPortal:
-        entryLocation:
-          x: -1035.5
-          y: 45
-          z: 56.5
-        exitLocation:
-          x: -1047.5
-          y: 45
-          z: 56.5
-      captureLocation:
+  - id: HUMAN_KEEP_EAST
+    model: human_k_e
+    type: KEEP
+    name: Human Keep East
+    capturePoint:
+      location:
+        world: OVERWORLD
         x: -1020
         y: 45
         z: 54.5
-      captureRadius: 6
-  - humanKeepWest:
-      id: "HUMAN_KEEP_WEST"
-      type: "KEEP"
-      name: "Human Fort West"
-      outerPortal:
-        entryLocation:
-          x: -1532.5
-          y: 33
-          z: -249.5
-        exitLocation:
-          x: -1532.5
-          y: 33
-          z: -259.5
-      innerPortal:
-        entryLocation:
-          x: -1529.5
-          y: 33
-          z: -257.5
-        exitLocation:
-          x: -1528.5
-          y: 33
-          z: -249.5
-      captureLocation:
+      radius: 6
+    outerPortal:
+      entryLocation:
+        x: -1047.5
+        y: 45
+        z: 52.5
+      exitLocation:
+        x: -1035.5
+        y: 45
+        z: 52.5
+    innerPortal:
+      entryLocation:
+        x: -1035.5
+        y: 45
+        z: 56.5
+      exitLocation:
+        x: -1047.5
+        y: 45
+        z: 56.5
+    boundingBox:
+      world: OVERWORLD
+      minimumCorner:
+        x: -1049
+        y: 45
+        z: 30
+      maximumCorner:
+        x: -974
+        y: 127
+        z: 85
+    orientation: EAST
+  - id: HUMAN_KEEP_WEST
+    model: human_k_w
+    type: KEEP
+    name: Human Keep West
+    capturePoint:
+      location:
+        world: OVERWORLD
         x: -1541
         y: 33
         z: -277
-      captureRadius: 6
-  - humanFarm:
-      id: "HUMAN_FARM"
-      type: "RESOURCE"
-      name: "Human Farm"
-      captureLocation:
-        x: -1539
+      radius: 6
+    outerPortal:
+      entryLocation:
+        x: -1532.5
         y: 33
-        z: -23
-      captureRadius: 6
-  - humanLumberMill:
-      id: "HUMAN_LUMBER_MILL"
-      type: "RESOURCE"
-      name: "Human Lumber Mill"
-      captureLocation:
-        x: -792
+        z: -249.5
+      exitLocation:
+        x: -1532.5
         y: 33
-        z: 411
-      captureRadius: 6
-  - humanMine:
-      id: "HUMAN_MINE"
-      type: "RESOURCE"
-      name: "Human Mine"
-      captureLocation:
-        x: -1135
-        y: 30
-        z: 501
-      captureRadius: 6
-  - humanOutpostOrc:
-      id: "HUMAN_OUTPOST_ORC"
-      type: "OUTPOST"
-      name: "Human Outpost Orc"
-      outerPortal:
-        entryLocation:
-          x: -660.5
-          y: 31
-          z: -136.5
-        exitLocation:
-          x: -660.5
-          y: 31
-          z: -146.5
-      innerPortal:
-        entryLocation:
-          x: -652.5
-          y: 31
-          z: -146.5
-        exitLocation:
-          x: -652.5
-          y: 31
-          z: -136.5
-      captureLocation:
+        z: -259.5
+    innerPortal:
+      entryLocation:
+        x: -1529.5
+        y: 33
+        z: -257.5
+      exitLocation:
+        x: -1528.5
+        y: 33
+        z: -249.5
+    boundingBox:
+      world: OVERWORLD
+      minimumCorner:
+        x: -1587
+        y: 33
+        z: -293
+      maximumCorner:
+        x: -1521
+        y: 122
+        z: -221
+    orientation: NORTH
+  - id: HUMAN_OUTPOST_ORC
+    model: human_o_o
+    type: OUTPOST
+    name: Human Outpost Orc
+    capturePoint:
+      location:
+        world: OVERWORLD
         x: -656
         y: 31
         z: -153
-      captureRadius: 6
+      radius: 6
+    outerPortal:
+      entryLocation:
+        x: -660.5
+        y: 31
+        z: -136.5
+      exitLocation:
+        x: -660.5
+        y: 31
+        z: -146.5
+    innerPortal:
+      entryLocation:
+        x: -652.5
+        y: 31
+        z: -146.5
+      exitLocation:
+        x: -652.5
+        y: 31
+        z: -136.5
+    boundingBox:
+      world: OVERWORLD
+      minimumCorner:
+        x: -685
+        y: 31
+        z: -175
+      maximumCorner:
+        x: -624
+        y: 72
+        z: -137
+    orientation: NORTH
+  - id: HUMAN_FARM
+    model: human_f
+    type: RESOURCE
+    name: Human Farm
+    capturePoint:
+      location:
+        world: OVERWORLD
+        x: -1539
+        y: 33
+        z: -23
+      radius: 6
+    boundingBox:
+      world: OVERWORLD
+      minimumCorner:
+        x: -1594
+        y: 33
+        z: -28
+      maximumCorner:
+        x: -1511
+        y: 70
+        z: 8
+    orientation: SOUTH
+  - id: HUMAN_LUMBER_MILL
+    model: human_l
+    type: RESOURCE
+    name: Human Lumber Mill
+    capturePoint:
+      location:
+        world: OVERWORLD
+        x: -792
+        y: 33
+        z: 411
+      radius: 6
+    boundingBox:
+      world: OVERWORLD
+      minimumCorner:
+        x: -809
+        y: 33
+        z: 395
+      maximumCorner:
+        x: -784
+        y: 60
+        z: 431
+    orientation: SOUTH
+  - id: HUMAN_MINE
+    model: human_m
+    type: RESOURCE
+    name: Human Mine
+    capturePoint:
+      location:
+        world: OVERWORLD
+        x: -1135
+        y: 30
+        z: 501
+      radius: 6
+    boundingBox:
+      world: OVERWORLD
+      minimumCorner:
+        x: -1134
+        y: 33
+        z: 485
+      maximumCorner:
+        x: -1146
+        y: 45
+        z: 493
+    orientation: SOUTH
 
-    # Orc objectives
-  - orcKeepEast:
-      id: "ORC_KEEP_EAST"
-      type: "KEEP"
-      name: "Orc Fort East"
-      outerPortal:
-        entryLocation:
-          x: 387.5
-          y: 36
-          z: -292.5
-        exitLocation:
-          x: 392.5
-          y: 38
-          z: -298.5
-      innerPortal:
-        entryLocation:
-          x: 400.5
-          y: 38
-          z: -289.5
-        exitLocation:
-          x: 395.5
-          y: 38
-          z: -285.5
-      captureLocation:
+  # Orc objectives
+  - id: ORC_KEEP_EAST
+    model: orc_k_e
+    type: KEEP
+    name: Orc Keep East
+    capturePoint:
+      location:
+        world: OVERWORLD
         x: 448
         y: 40
         z: -310.5
-      captureRadius: 6
-  - orcKeepWest:
-      id: "ORC_KEEP_WEST"
-      type: "KEEP"
-      name: "Orc Fort West"
-      outerPortal:
-        entryLocation:
-          x: -287.5
-          y: 33
-          z: 392.5
-        exitLocation:
-          x: -298.5
-          y: 33
-          z: 392.5
-      innerPortal:
-        entryLocation:
-          x: -298.5
-          y: 33
-          z: 388.5
-        exitLocation:
-          x: -287.5
-          y: 33
-          z: 388.5
-      captureLocation:
+      radius: 6
+    outerPortal:
+      entryLocation:
+        x: 387.5
+        y: 36
+        z: -292.5
+      exitLocation:
+        x: 392.5
+        y: 38
+        z: -298.5
+    innerPortal:
+      entryLocation:
+        x: 400.5
+        y: 38
+        z: -289.5
+      exitLocation:
+        x: 395.5
+        y: 38
+        z: -285.5
+    boundingBox:
+      world: OVERWORLD
+      minimumCorner:
+        x: 326
+        y: 33
+        z: -341
+      maximumCorner:
+        x: 482
+        y: 88
+        z: -229
+    orientation: NORTH
+  - id: ORC_KEEP_WEST
+    model: orc_k_w
+    type: KEEP
+    name: Orc Keep West
+    capturePoint:
+      location:
+        world: OVERWORLD
         x: -311
         y: 33
         z: 391
-      captureRadius: 6
-  - orcFarm:
-      id: "ORC_FARM"
-      type: "RESOURCE"
-      name: "Orc Farm"
-      captureLocation:
-        x: 75
-        y: 43
-        z: 425
-      captureRadius: 6
-  - orcLumberMill:
-      id: "ORC_LUMBER_MILL"
-      type: "RESOURCE"
-      name: "Orc Lumber Mill"
-      captureLocation:
-        x: 497
+      radius: 6
+    outerPortal:
+      entryLocation:
+        x: -287.5
         y: 33
-        z: 20
-      captureRadius: 6
-  - orcMine:
-      id: "ORC_MINE"
-      type: "RESOURCE"
-      name: "Orc Mine"
-      captureLocation:
-        x: -116
-        y: 35
-        z: 490
-      captureRadius: 6
-  - orcOutpostHuman:
-      id: "ORC_OUTPOST_HUMAN"
-      type: "OUTPOST"
-      name: "Orc Outpost Human"
-      outerPortal:
-        entryLocation:
-          x: -410.5
-          y: 31
-          z: -122.5
-        exitLocation:
-          x: -410.5
-          y: 31
-          z: -128.5
-      innerPortal:
-        entryLocation:
-          x: -404.5
-          y: 31
-          z: -128.5
-        exitLocation:
-          x: -404.5
-          y: 31
-          z: -122.5
-      captureLocation:
+        z: 392.5
+      exitLocation:
+        x: -298.5
+        y: 33
+        z: 392.5
+    innerPortal:
+      entryLocation:
+        x: -298.5
+        y: 33
+        z: 388.5
+      exitLocation:
+        x: -287.5
+        y: 33
+        z: 388.5
+    boundingBox:
+      world: OVERWORLD
+      minimumCorner:
+        x: -358
+        y: 33
+        z: 343
+      maximumCorner:
+        x: -287
+        y: 66
+        z: 437
+    orientation: WEST
+  - id: ORC_OUTPOST_HUMAN
+    model: orc_o_o
+    type: OUTPOST
+    name: Orc Outpost Human
+    capturePoint:
+      location:
+        world: OVERWORLD
         x: -407.5
         y: 31
         z: -135.5
-      captureRadius: 6
+      radius: 6
+    outerPortal:
+      entryLocation:
+        x: -410.5
+        y: 31
+        z: -122.5
+      exitLocation:
+        x: -410.5
+        y: 31
+        z: -128.5
+    innerPortal:
+      entryLocation:
+        x: -404.5
+        y: 31
+        z: -128.5
+      exitLocation:
+        x: -404.5
+        y: 31
+        z: -122.5
+    boundingBox:
+      world: OVERWORLD
+      minimumCorner:
+        x: -436
+        y: 31
+        z: -179
+      maximumCorner:
+        x: -380
+        y: 69
+        z: -123
+    orientation: NORTH
+  - id: ORC_FARM
+    model: orc_f
+    type: RESOURCE
+    name: Orc Farm
+    capturePoint:
+      location:
+        world: OVERWORLD
+        x: 75
+        y: 43
+        z: 425
+      radius: 6
+    boundingBox:
+      world: OVERWORLD
+      minimumCorner:
+        x: 55
+        y: 43
+        z: 449
+      maximumCorner:
+        x: 96
+        y: 69
+        z: 410
+    orientation: SOUTH
+  - id: ORC_LUMBER_MILL
+    model: orc_l
+    type: RESOURCE
+    name: Orc Lumber Mill
+    capturePoint:
+      location:
+        world: OVERWORLD
+        x: 497
+        y: 33
+        z: 20
+      radius: 6
+    boundingBox:
+      world: OVERWORLD
+      minimumCorner:
+        x: 477
+        y: 34
+        z: 5
+      maximumCorner:
+        x: 489
+        y: 66
+        z: 24
+    orientation: EAST
+  - id: ORC_MINE
+    model: orc_m
+    type: RESOURCE
+    name: Orc Mine
+    capturePoint:
+      location:
+        world: OVERWORLD
+        x: -116
+        y: 35
+        z: 490
+      radius: 6
+    boundingBox:
+      world: OVERWORLD
+      minimumCorner:
+        x: -128
+        y: 34
+        z: 470
+      maximumCorner:
+        x: -114
+        y: 52
+        z: 477
+    orientation: SOUTH
