@@ -182,70 +182,70 @@ miniPets:
     type: MINI_PET
     rarity: EPIC
     name: Bat Pup
-    icon: MHF_Bat
+    skull: MHF_Bat
     lore: []
     entityType: BAT
   - id: CHICKEN_MINI_PET
     type: MINI_PET
     rarity: EPIC
     name: Chick
-    icon: MHF_Chicken
+    skull: MHF_Chicken
     lore: ["Why did the chicken", "cross the road?"]
     entityType: CHICKEN
   - id: COW_MINI_PET
     type: MINI_PET
     rarity: EPIC
     name: Calf
-    icon: MHF_Cow
+    skull: MHF_Cow
     lore: ["Show bubs!"]
     entityType: COW
   - id: LLAMA_MINI_PET
     type: MINI_PET
     rarity: EPIC
     name: Cria
-    icon: MHF_Llama
+    skull: MHF_Llama
     lore: []
     entityType: LLAMA
   - id: OCELOT_MINI_PET
     type: MINI_PET
     rarity: EPIC
     name: Kitten
-    icon: MHF_Ocelot
+    skull: MHF_Ocelot
     lore: []
     entityType: OCELOT
   - id: PIG_MINI_PET
     type: MINI_PET
     rarity: EPIC
     name: Piglet
-    icon: MHF_Pig
+    skull: MHF_Pig
     lore: ["Bacon is good for me!"]
     entityType: PIG
   - id: RABBIT_MINI_PET
     type: MINI_PET
     rarity: EPIC
     name: Bunny
-    icon: MHF_Rabbit
+    skull: MHF_Rabbit
     lore: []
     entityType: RABBIT
   - id: SHEEP_MINI_PET
     type: MINI_PET
     rarity: EPIC
     name: Lamb
-    icon: MHF_Sheep
-    lore: []
+    skull: MHF_Sheep
+    lore: ["Ur beeeed!"]
     entityType: SHEEP
   - id: SILVERFISH_MINI_PET
     type: MINI_PET
     rarity: EPIC
     name: Nymph
-    icon: MHF_Silverfish
+    skull: MHF_Silverfish
     lore: []
     entityType: SILVERFISH
   - id: WOLF_MINI_PET
     type: MINI_PET
     rarity: EPIC
     name: Wolf pup
-    icon: MHF_Wolf
+    skull: MHF_Wolf
     lore: []
     entityType: WOLF
 
@@ -253,49 +253,49 @@ miniPets:
 #    type: MINI_PET
 #    rarity: LEGENDARY
 #    name: Mite
-#    icon: MHF_Endermite
+#    skull: MHF_Endermite
 #    lore: []
 #    entityType: ENDERMITE
 #  - id: MAGMA_CUBE_MINI_PET
 #    type: MINI_PET
 #    rarity: LEGENDARY
 #    name:
-#    icon: MHF_Magma_Cube
+#    skull: MHF_Magma_Cube
 #    lore: []
 #    entityType: MAGMA_CUBE
 #  - id: MOOSHROOM_MINI_PET
 #    type: MINI_PET
 #    rarity: LEGENDARY
 #    name:
-#    icon: MHF_Mooshroom
+#    skull: MHF_Mooshroom
 #    lore: []
 #    entityType: MOOSHROOM
 #  - id: PARROT_MINI_PET
 #    type: MINI_PET
 #    rarity: LEGENDARY
 #    name:
-#    icon: MHF_Parrot
+#    skull: MHF_Parrot
 #    lore: []
 #    entityType: PARROT
 #  - id: POLAR_BEAR_MINI_PET
 #    type: MINI_PET
 #    rarity: LEGENDARY
 #    name:
-#    icon: MHF_Polar_Bear
+#    skull: MHF_Polar_Bear
 #    lore: []
 #    entityType: POLAR_BEAR
 #  - id: SLIME_MINI_PET
 #    type: MINI_PET
 #    rarity: LEGENDARY
 #    name:
-#    icon: MHF_Slime
+#    skull: MHF_Slime
 #    lore: []
 #    entityType: SLIME
 #  - id: SQUID_MINI_PET
 #    type: MINI_PET
 #    rarity: LEGENDARY
 #    name:
-#    icon: MHF_Squid
+#    skull: MHF_Squid
 #    lore: []
 #    entityType: SQUID
 
@@ -303,7 +303,7 @@ miniPets:
     type: MINI_PET
     rarity: ANCIENT
     name: Rainbow Bunchie
-    icon: MHF_Llama
+    skull: MHF_Llama
     lore: []
     entityType: LLAMA
     rainbow: yes
@@ -311,7 +311,7 @@ miniPets:
     type: MINI_PET
     rarity: ANCIENT
     name: Party Parrot
-    icon: MHF_Parrot
+    skull: MHF_Parrot
     lore: []
     entityType: PARROT
     rainbow: yes
