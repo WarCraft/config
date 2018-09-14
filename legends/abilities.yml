@@ -120,7 +120,7 @@ mage.wizard.Teleport:
   slow-duration: 1
   range: 15
   cooldown: 25
-mage.wizard.MassPiggify:
+mage.wizard.MassBamboozle:
   countdown: 2.0
   radius: 5
   duration: 8
