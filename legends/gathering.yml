@@ -115,7 +115,7 @@ entityGatheringSpots:
 #        z: 416
 #        radius: 5
     drop:
-      type: PORKCHOP
+      type: RAW_PORKCHOP
       name: Meat
     cooldownInSeconds: 10
     cooldownDeviationPercentage: 20
