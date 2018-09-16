@@ -12,10 +12,9 @@ blockGatheringSpots:
         z: 24
     blockType: RIPE_WHEAT_CROPS
     cooldownType: MEDIUM_WHEAT_CROPS
-    drops:
-      - type: WHEAT_CROPS
-        name: Wheat
-        chance: 100
+    drop:
+      type: WHEAT_CROPS
+      name: Wheat
     cooldownInSeconds: 60
     cooldownDeviationPercentage: 20
 
@@ -32,10 +31,9 @@ blockGatheringSpots:
         z: 421
     blockType: OAK_WOOD
     cooldownType: BEDROCK
-    drops:
-      - type: OAK_WOOD
-        name: Lumber
-        chance: 100
+    drop:
+      type: OAK_WOOD
+      name: Lumber
     cooldownInSeconds: 60
     cooldownDeviationPercentage: 20
 
@@ -52,10 +50,9 @@ blockGatheringSpots:
         z: 519
     blockType: STONE
     cooldownType: BEDROCK
-    drops:
-      - type: STONE
-        name: Stone
-        chance: 100
+    drop:
+      type: STONE
+      name: Stone
     cooldownInSeconds: 60
     cooldownDeviationPercentage: 20
 
@@ -72,10 +69,9 @@ blockGatheringSpots:
         z: 18
     blockType: OAK_WOOD
     cooldownType: BEDROCK
-    drops:
-      - type: OAK_WOOD
-        name: Lumber
-        chance: 100
+    drop:
+      type: OAK_WOOD
+      name: Lumber
     cooldownInSeconds: 60
     cooldownDeviationPercentage: 20
 
@@ -92,10 +88,9 @@ blockGatheringSpots:
         z: 508
     blockType: STONE
     cooldownType: BEDROCK
-    drops:
-      - type: STONE
-        name: Stone
-        chance: 100
+    drop:
+      type: STONE
+      name: Stone
     cooldownInSeconds: 60
     cooldownDeviationPercentage: 20
 
@@ -120,8 +115,7 @@ entityGatheringSpots:
 #        z: 416
 #        radius: 5
     drop:
-      - type: PORKCHOP
-        name: Meat
-        chance: 100
+      type: PORKCHOP
+      name: Meat
     cooldownInSeconds: 10
     cooldownDeviationPercentage: 20
