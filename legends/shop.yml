@@ -315,3 +315,11 @@ miniPets:
     lore: []
     entityType: PARROT
     rainbow: yes
+
+promotions:
+  - id: FOUR_YEAR_OLD_CAKE
+    type: PROMOTION
+    rarity: EPIC
+    name: Four Year Old Cake
+    icon: CAKE
+    lore: ["It doesn't look that tasty after all this time,", "but its still worth celebrating! Right..?"]
