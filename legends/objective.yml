@@ -1,10 +1,11 @@
-updateFrequency: 20
-maxProgressPerUpdate: 20
-decayProgressPerUpdate: 5
+captureProgressUpdateFrequency: 20
+captureProgressMaxPerUpdate: 5
+captureProgressDecayPercentPerUpdate: 1
+
 requiredProgress:
-  KEEP: 1000
-  OUTPOST: 400
-  RESOURCE: 100
+  KEEP: 240
+  OUTPOST: 120
+  RESOURCE: 60
 
 objectives:
   # Human objectives
@@ -21,19 +22,23 @@ objectives:
       radius: 6
     outerPortal:
       entryLocation:
+        world: OVERWORLD
         x: -1047.5
         y: 45
         z: 52.5
       exitLocation:
+        world: OVERWORLD
         x: -1035.5
         y: 45
         z: 52.5
     innerPortal:
       entryLocation:
+        world: OVERWORLD
         x: -1035.5
         y: 45
         z: 56.5
       exitLocation:
+        world: OVERWORLD
         x: -1047.5
         y: 45
         z: 56.5
@@ -61,19 +66,23 @@ objectives:
       radius: 6
     outerPortal:
       entryLocation:
+        world: OVERWORLD
         x: -1532.5
         y: 33
         z: -249.5
       exitLocation:
+        world: OVERWORLD
         x: -1532.5
         y: 33
         z: -259.5
     innerPortal:
       entryLocation:
+        world: OVERWORLD
         x: -1529.5
         y: 33
         z: -257.5
       exitLocation:
+        world: OVERWORLD
         x: -1528.5
         y: 33
         z: -249.5
@@ -101,19 +110,23 @@ objectives:
       radius: 6
     outerPortal:
       entryLocation:
+        world: OVERWORLD
         x: -660.5
         y: 31
         z: -136.5
       exitLocation:
+        world: OVERWORLD
         x: -660.5
         y: 31
         z: -146.5
     innerPortal:
       entryLocation:
+        world: OVERWORLD
         x: -652.5
         y: 31
         z: -146.5
       exitLocation:
+        world: OVERWORLD
         x: -652.5
         y: 31
         z: -136.5
@@ -144,7 +157,7 @@ objectives:
       minimumCorner:
         x: -1594
         y: 33
-        z: -28
+        z: -27
       maximumCorner:
         x: -1511
         y: 70
@@ -209,19 +222,23 @@ objectives:
       radius: 6
     outerPortal:
       entryLocation:
+        world: OVERWORLD
         x: 387.5
         y: 36
         z: -292.5
       exitLocation:
+        world: OVERWORLD
         x: 392.5
         y: 38
         z: -298.5
     innerPortal:
       entryLocation:
+        world: OVERWORLD
         x: 400.5
         y: 38
         z: -289.5
       exitLocation:
+        world: OVERWORLD
         x: 395.5
         y: 38
         z: -285.5
@@ -249,19 +266,23 @@ objectives:
       radius: 6
     outerPortal:
       entryLocation:
+        world: OVERWORLD
         x: -287.5
         y: 33
         z: 392.5
       exitLocation:
+        world: OVERWORLD
         x: -298.5
         y: 33
         z: 392.5
     innerPortal:
       entryLocation:
+        world: OVERWORLD
         x: -298.5
         y: 33
         z: 388.5
       exitLocation:
+        world: OVERWORLD
         x: -287.5
         y: 33
         z: 388.5
@@ -277,7 +298,7 @@ objectives:
         z: 437
     orientation: WEST
   - id: ORC_OUTPOST_HUMAN
-    model: orc_o_o
+    model: orc_o_h
     type: OUTPOST
     name: Orc Outpost Human
     capturePoint:
@@ -289,19 +310,23 @@ objectives:
       radius: 6
     outerPortal:
       entryLocation:
+        world: OVERWORLD
         x: -410.5
         y: 31
         z: -122.5
       exitLocation:
+        world: OVERWORLD
         x: -410.5
         y: 31
         z: -128.5
     innerPortal:
       entryLocation:
+        world: OVERWORLD
         x: -404.5
         y: 31
         z: -128.5
       exitLocation:
+        world: OVERWORLD
         x: -404.5
         y: 31
         z: -122.5
@@ -382,3 +407,25 @@ objectives:
         y: 52
         z: 477
     orientation: SOUTH
+
+blacklistedAreas:
+  # Human capital
+  - world: OVERWORLD
+    minimumCorner:
+      x: -1570
+      y: 50
+      z: 141
+    maximumCorner:
+      x: 308
+      y: 105
+      z: 295
+  # Orc capital
+  - world: OVERWORLD
+    minimumCorner:
+      x: 186
+      y: 42
+      z: 112
+    maximumCorner:
+      x: 364
+      y: 76
+      z: 429
