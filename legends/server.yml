@@ -1,3 +1,13 @@
+# Game configuration
+objectivePoints:
+  KEEP: 50
+  OUTPOST: 25
+  RESOURCE: 10
+
+favorPerKill: 1
+
+
+# Rank configuration
 rankPrefixes:
   - name: Wood
     color: DARK_GREEN
@@ -44,7 +54,113 @@ rankFavorTable: [
 
 prestigeChar: ★
 
-objectivePoints:
-  KEEP: 50
-  OUTPOST: 25
-  RESOURCE: 10
+
+# Loot crate configuration
+lootCrates:
+  - name: War Crate
+    type: WAR_CRATE
+    rarity: COMMON
+    itemType: CHEST
+    dropTable:
+      - type: CONSUMABLE
+        chance: 30
+        distribution:
+          COMMON: 60
+          RARE: 30
+          EPIC: 7
+          LEGENDARY: 3
+      - type: EQUIPMENT
+        chance: 50
+        distribution:
+          COMMON: 50
+          RARE: 40
+          EPIC: 7
+          LEGENDARY: 3
+      - type: EQUIPMENT_UPGRADE
+        chance: 20
+        distribution:
+          COMMON: 50
+          RARE: 40
+          EPIC: 7
+          LEGENDARY: 3
+
+  - name: Legend Crate
+    type: LEGEND_CRATE
+    rarity: EPIC
+    itemType: CHEST
+    dropTable:
+      - type: CONSUMABLE
+        chance: 30
+        distribution:
+          COMMON: 60
+          RARE: 30
+          EPIC: 7
+          LEGENDARY: 3
+      - type: EQUIPMENT
+        chance: 50
+        distribution:
+          COMMON: 50
+          RARE: 40
+          EPIC: 7
+          LEGENDARY: 3
+      - type: EQUIPMENT_UPGRADE
+        chance: 20
+        distribution:
+          COMMON: 50
+          RARE: 40
+          EPIC: 7
+          LEGENDARY: 3
+
+  - name: Titan Crate
+    type: TITAN_CRATE
+    rarity: LEGENDARY
+    itemType: ENDER_CHEST
+    dropTable:
+      - type: CONSUMABLE
+        chance: 30
+        distribution:
+          COMMON: 60
+          RARE: 30
+          EPIC: 7
+          LEGENDARY: 3
+      - type: EQUIPMENT
+        chance: 50
+        distribution:
+          COMMON: 50
+          RARE: 40
+          EPIC: 7
+          LEGENDARY: 3
+      - type: EQUIPMENT_UPGRADE
+        chance: 20
+        distribution:
+          COMMON: 50
+          RARE: 40
+          EPIC: 7
+          LEGENDARY: 3
+
+  - name: Vote Crate
+    type: VOTE_CRATE
+    rarity: COMMON
+    itemType: CHEST
+    dropTable:
+      - type: CONSUMABLE
+        chance: 30
+        distribution:
+          COMMON: 60
+          RARE: 30
+          EPIC: 7
+          LEGENDARY: 3
+      - type: EQUIPMENT
+        chance: 50
+        distribution:
+          COMMON: 50
+          RARE: 40
+          EPIC: 7
+          LEGENDARY: 3
+      - type: EQUIPMENT_UPGRADE
+        chance: 20
+        distribution:
+          COMMON: 50
+          RARE: 40
+          EPIC: 7
+          LEGENDARY: 3
