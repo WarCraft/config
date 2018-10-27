@@ -45,11 +45,11 @@ itemTypes:
     LEGENDARY: SHIELD
     ANCIENT: SHIELD
   SKULL:
-    COMMON: SKULL
-    RARE: SKULL
-    EPIC: SKULL
-    LEGENDARY: SKULL
-    ANCIENT: SKULL
+    COMMON: MOB_HEAD_SKELETON
+    RARE: MOB_HEAD_SKELETON
+    EPIC: MOB_HEAD_SKELETON
+    LEGENDARY: MOB_HEAD_SKELETON
+    ANCIENT: MOB_HEAD_SKELETON
   BOOK:
     COMMON: BOOK
     RARE: BOOK
@@ -57,25 +57,25 @@ itemTypes:
     LEGENDARY: BOOK
     ANCIENT: BOOK
   HEAD:
-    COMMON: WOOD_HELMET
+    COMMON: LEATHER_HELMET
     RARE: CHAINMAIL_HELMET
     EPIC: IRON_HELMET
     LEGENDARY: DIAMOND_HELMET
     ANCIENT: GOLD_HELMET
   CHEST:
-    COMMON: WOOD_CHESTPLATE
+    COMMON: LEATHER_CHESTPLATE
     RARE: CHAINMAIL_CHESTPLATE
     EPIC: IRON_CHESTPLATE
     LEGENDARY: DIAMOND_CHESTPLATE
     ANCIENT: GOLD_CHESTPLATE
   LEGS:
-    COMMON: WOOD_LEGGINGS
+    COMMON: LEATHER_LEGGINGS
     RARE: CHAINMAIL_LEGGINGS
     EPIC: IRON_LEGGINGS
     LEGENDARY: DIAMOND_LEGGINGS
     ANCIENT: GOLD_LEGGINGS
   FEET:
-    COMMON: WOOD_BOOTS
+    COMMON: LEATHER_BOOTS
     RARE: CHAINMAIL_BOOTS
     EPIC: IRON_BOOTS
     LEGENDARY: DIAMOND_BOOTS
@@ -107,11 +107,11 @@ attributeRolls:
       - - attribute: STRENGTH
           low: 3
           high: 7
-        - attribute: VIT
+        - attribute: VITALITY
           low: 3
           high: 7
     DEFENSE:
-      - - attribute: VIT
+      - - attribute: VITALITY
           low: 5
           high: 10
         - attribute: STRENGTH
@@ -120,7 +120,7 @@ attributeRolls:
       - - attribute: STRENGTH
           low: 5
           high: 10
-        - attribute: VIT
+        - attribute: VITALITY
           low: 1
           high: 5
   RANGER:
@@ -147,11 +147,11 @@ attributeRolls:
       - - attribute: DEXTERITY
           low: 3
           high: 7
-        - attribute: VIT
+        - attribute: VITALITY
           low: 3
           high: 7
     DEFENSE:
-      - - attribute: VIT
+      - - attribute: VITALITY
           low: 5
           high: 10
         - attribute: DEXTERITY
@@ -160,12 +160,12 @@ attributeRolls:
       - - attribute: DEXTERITY
           low: 5
           high: 10
-        - attribute: VIT
+        - attribute: VITALITY
           low: 1
           high: 5
   MAGE:
     OFFENSE:
-      - - attribute: INTELLECT
+      - - attribute: INTELLIGENCE
           low: 5
           high: 10
         - attribute: CRIT
@@ -174,33 +174,33 @@ attributeRolls:
       - - attribute: CRIT
           low: 5
           high: 10
-        - attribute: INTELLECT
+        - attribute: INTELLIGENCE
           low: 1
           high: 5
     BALANCE:
-      - - attribute: INTELLECT
+      - - attribute: INTELLIGENCE
           low: 3
           high: 7
         - attribute: CRIT
           low: 3
           high: 7
-      - - attribute: INTELLECT
+      - - attribute: INTELLIGENCE
           low: 3
           high: 7
-        - attribute: VIT
+        - attribute: VITALITY
           low: 3
           high: 7
     DEFENSE:
-      - - attribute: VIT
+      - - attribute: VITALITY
           low: 5
           high: 10
-        - attribute: INTELLECT
+        - attribute: INTELLIGENCE
           low: 1
           high: 5
-      - - attribute: INTELLECT
+      - - attribute: INTELLIGENCE
           low: 5
           high: 10
-        - attribute: VIT
+        - attribute: VITALITY
           low: 1
           high: 5
 
@@ -229,11 +229,11 @@ legendaryRolls:
       - - attribute: STRENGTH
           low: 9
           high: 9
-        - attribute: VIT
+        - attribute: VITALITY
           low: 9
           high: 9
     DEFENSE:
-      - - attribute: VIT
+      - - attribute: VITALITY
           low: 12
           high: 12
         - attribute: STRENGTH
@@ -242,7 +242,7 @@ legendaryRolls:
       - - attribute: STRENGTH
           low: 12
           high: 12
-        - attribute: VIT
+        - attribute: VITALITY
           low: 7
           high: 7 
   RANGER:
@@ -269,11 +269,11 @@ legendaryRolls:
       - - attribute: DEXTERITY
           low: 9
           high: 9
-        - attribute: VIT
+        - attribute: VITALITY
           low: 9
           high: 9
     DEFENSE:
-      - - attribute: VIT
+      - - attribute: VITALITY
           low: 12
           high: 12
         - attribute: DEXTERITY
@@ -282,12 +282,12 @@ legendaryRolls:
       - - attribute: DEXTERITY
           low: 12
           high: 12
-        - attribute: VIT
+        - attribute: VITALITY
           low: 7
           high: 7 
   MAGE:
     OFFENSE:
-      - - attribute: INTELLECT
+      - - attribute: INTELLIGENCE
           low: 12
           high: 12
         - attribute: CRIT
@@ -296,33 +296,33 @@ legendaryRolls:
       - - attribute: CRIT
           low: 12
           high: 12
-        - attribute: INTELLECT
+        - attribute: INTELLIGENCE
           low: 7
           high: 7
     BALANCE:
-      - - attribute: INTELLECT
+      - - attribute: INTELLIGENCE
           low: 9
           high: 9
         - attribute: CRIT
           low: 9
           high: 9
-      - - attribute: INTELLECT
+      - - attribute: INTELLIGENCE
           low: 9
           high: 9
-        - attribute: VIT
+        - attribute: VITALITY
           low: 9
           high: 9
     DEFENSE:
-      - - attribute: VIT
+      - - attribute: VITALITY
           low: 12
           high: 12
-        - attribute: INTELLECT
+        - attribute: INTELLIGENCE
           low: 7
           high: 7
-      - - attribute: INTELLECT
+      - - attribute: INTELLIGENCE
           low: 12
           high: 12
-        - attribute: VIT
+        - attribute: VITALITY
           low: 7
           high: 7
 
@@ -351,11 +351,11 @@ ancientRolls:
       - - attribute: STRENGTH
           low: 12
           high: 12
-        - attribute: VIT
+        - attribute: VITALITY
           low: 12
           high: 12
     DEFENSE:
-      - - attribute: VIT
+      - - attribute: VITALITY
           low: 15
           high: 15
         - attribute: STRENGTH
@@ -364,7 +364,7 @@ ancientRolls:
       - - attribute: STRENGTH
           low: 15
           high: 15
-        - attribute: VIT
+        - attribute: VITALITY
           low: 10
           high: 10
   RANGER:
@@ -391,11 +391,11 @@ ancientRolls:
       - - attribute: DEXTERITY
           low: 12
           high: 12
-        - attribute: VIT
+        - attribute: VITALITY
           low: 12
           high: 12
     DEFENSE:
-      - - attribute: VIT
+      - - attribute: VITALITY
           low: 15
           high: 15
         - attribute: DEXTERITY
@@ -404,12 +404,12 @@ ancientRolls:
       - - attribute: DEXTERITY
           low: 15
           high: 15
-        - attribute: VIT
+        - attribute: VITALITY
           low: 10
           high: 10
   MAGE:
     OFFENSE:
-      - - attribute: INTELLECT
+      - - attribute: INTELLIGENCE
           low: 15
           high: 15
         - attribute: CRIT
@@ -418,33 +418,33 @@ ancientRolls:
       - - attribute: CRIT
           low: 15
           high: 15
-        - attribute: INTELLECT
+        - attribute: INTELLIGENCE
           low: 10
           high: 10
     BALANCE:
-      - - attribute: INTELLECT
+      - - attribute: INTELLIGENCE
           low: 12
           high: 12
         - attribute: CRIT
           low: 12
           high: 12
-      - - attribute: INTELLECT
+      - - attribute: INTELLIGENCE
           low: 12
           high: 12
-        - attribute: VIT
+        - attribute: VITALITY
           low: 12
           high: 12
     DEFENSE:
-      - - attribute: VIT
+      - - attribute: VITALITY
           low: 15
           high: 15
-        - attribute: INTELLECT
+        - attribute: INTELLIGENCE
           low: 10
           high: 10
-      - - attribute: INTELLECT
+      - - attribute: INTELLIGENCE
           low: 15
           high: 15
-        - attribute: VIT
+        - attribute: VITALITY
           low: 10
           high: 10
 
