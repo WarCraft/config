@@ -7,6 +7,32 @@ itemRarities:
   99.90234375: ANCIENT
 
 
+validTypes:
+  WARRIOR:
+    - SWORD
+    - AXE
+    - SHIELD
+    - SKULL
+    - HEAD
+    - CHEST
+    - LEGS
+    - FEET
+  RANGER:
+    - BOW
+    - HEAD
+    - CHEST
+    - LEGS
+    - FEET
+  MAGE:
+    - WAND
+    - STAFF
+    - BOOK
+    - HEAD
+    - CHEST
+    - LEGS
+    - FEET
+
+
 itemTypes:
   SWORD:
     COMMON: WOOD_SWORD
@@ -449,7 +475,7 @@ ancientRolls:
           high: 10
 
 
-itemNames:
+itemLores:
   WARRIOR:
     HUMAN:
       OFFENSE:
