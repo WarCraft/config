@@ -99,11 +99,11 @@ hubPortals:
 
 # Game configuration
 objectivePoints:
-  KEEP: 50
-  OUTPOST: 25
-  RESOURCE: 10
+  KEEP: 150
+  OUTPOST: 75
+  RESOURCE: 25
 
-favorPerKill: 1
+favorPerKill: 3
 
 
 # Rank configuration
