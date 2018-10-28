@@ -94,6 +94,63 @@ blockGatheringSpots:
     cooldownInSeconds: 60
     cooldownDeviationPercentage: 20
 
+  # Tutorial farm
+  - boundingBox:
+      world: THE_END
+      minimumCorner:
+        x: 196
+        y: 178
+        z: -134
+      maximumCorner:
+        x: 199
+        y: 178
+        z: -131
+    blockType: RIPE_WHEAT_CROPS
+    cooldownType: MEDIUM_WHEAT_CROPS
+    drop:
+      type: WHEAT_CROPS
+      name: Wheat
+    cooldownInSeconds: 6
+    cooldownDeviationPercentage: 20
+
+  # Tutorial lumber mill
+  - boundingBox:
+      world: THE_END
+      minimumCorner:
+        x: 209
+        y: 179
+        z: -133
+      maximumCorner:
+        x: 209
+        y: 179
+        z: -131
+    blockType: OAK_WOOD
+    cooldownType: BEDROCK
+    drop:
+      type: OAK_WOOD
+      name: Lumber
+    cooldownInSeconds: 6
+    cooldownDeviationPercentage: 20
+
+  # Tutorial mine
+  - boundingBox:
+      world: OVERWORLD
+      minimumCorner:
+        x: 201
+        y: 176
+        z: -129
+      maximumCorner:
+        x: 205
+        y: 180
+        z: -123
+    blockType: STONE
+    cooldownType: BEDROCK
+    drop:
+      type: STONE
+      name: Stone
+    cooldownInSeconds: 6
+    cooldownDeviationPercentage: 20
+
 entityGatheringSpots:
   # Orc farm
   - entityType: PIG
