@@ -36,119 +36,119 @@ prices:
 
 
 decorations:
-  - id: DECORATION_BED
+  - id: BED
     type: DECORATION
     rarity: RARE
     name: Bed
     icon: RED_BED
     lore: []
     itemType: RED_BED
-  - id: DECORATION_BOOKSHELF
+  - id: BOOKSHELF
     type: DECORATION
     rarity: RARE
     name: Bookshelf
     icon: BOOKSHELF
     lore: []
     itemType: BOOKSHELF
-  - id: DECORATION_CHEST
+  - id: CHEST
     type: DECORATION
     rarity: RARE
     name: Chest
     icon: CHEST
     lore: []
     itemType: CHEST
-  - id: DECORATION_GLASS
+  - id: GLASS
     type: DECORATION
     rarity: RARE
     name: Glass
     icon: GLASS
     lore: []
     itemType: GLASS
-  - id: DECORATION_GLASS_PANE
+  - id: GLASS_PANE
     type: DECORATION
     rarity: RARE
     name: Glass Pane
     icon: GLASS_PANE
     lore: []
     itemType: GLASS_PANE
-  - id: DECORATION_LADDER
+  - id: LADDER
     type: DECORATION
     rarity: RARE
     name: Ladder
     icon: LADDER
     lore: []
     itemType: LADDER
-  - id: DECORATION_OAK_DOOR
+  - id: OAK_DOOR
     type: DECORATION
     rarity: RARE
     name: Oak Door
     icon: OAK_DOOR
     lore: []
     itemType: OAK_DOOR
-  - id: DECORATION_OAK_FENCE
+  - id: OAK_FENCE
     type: DECORATION
     rarity: RARE
     name: Oak Fence
     icon: OAK_FENCE
     lore: []
     itemType: OAK_FENCE
-  - id: DECORATION_OAK_FENCE_GATE
+  - id: OAK_FENCE_GATE
     type: DECORATION
     rarity: RARE
     name: Oak Fence Gate
     icon: OAK_FENCE_GATE
     lore: []
     itemType: OAK_FENCE_GATE
-  - id: DECORATION_OAK_WOOD_PLANK
+  - id: OAK_WOOD_PLANK
     type: DECORATION
     rarity: RARE
     name: Oak Planks
     icon: OAK_WOOD_PLANK
     lore: []
     itemType: OAK_WOOD_PLANK
-  - id: DECORATION_OAK_WOOD_SLAB
+  - id: OAK_WOOD_SLAB
     type: DECORATION
     rarity: RARE
     name: Oak Slab
     icon: OAK_WOOD_SLAB
     lore: []
     itemType: OAK_WOOD_SLAB
-  - id: DECORATION_OAK_WOOD_STAIRS
+  - id: OAK_WOOD_STAIRS
     type: DECORATION
     rarity: RARE
     name: Oak Stairs
     icon: OAK_WOOD_STAIRS
     lore: []
     itemType: OAK_WOOD_STAIRS
-  - id: DECORATION_SIGN
+  - id: SIGN
     type: DECORATION
     rarity: RARE
     name: Sign
     icon: SIGN
     lore: []
     itemType: SIGN
-  - id: DECORATION_TORCH
+  - id: TORCH
     type: DECORATION
     rarity: RARE
     name: Torch
     icon: TORCH
     lore: []
     itemType: TORCH
-  - id: DECORATION_WOOD_BUTTON
+  - id: WOOD_BUTTON
     type: DECORATION
     rarity: RARE
     name: Button
     icon: WOOD_BUTTON
     lore: []
     itemType: WOOD_BUTTON
-  - id: DECORATION_WOOD_PRESSURE_PLATE
+  - id: WOOD_PRESSURE_PLATE
     type: DECORATION
     rarity: RARE
     name: Pressure Plate
     icon: WOOD_PRESSURE_PLATE
     lore: []
     itemType: WOOD_PRESSURE_PLATE
-  - id: DECORATION_WOOD_TRAPDOOR
+  - id: WOOD_TRAPDOOR
     type: DECORATION
     rarity: RARE
     name: Trapdoor
@@ -165,90 +165,90 @@ decorationPacks:
     icon: OAK_WOOD_PLANK
     lore: []
     decorations:
-      - DECORATION_BED
-      - DECORATION_BOOKSHELF
-      - DECORATION_CHEST
-      - DECORATION_GLASS
-      - DECORATION_GLASS_PANE
-      - DECORATION_LADDER
-      - DECORATION_OAK_DOOR
-      - DECORATION_OAK_FENCE
-      - DECORATION_OAK_FENCE_GATE
-      - DECORATION_OAK_WOOD_PLANK
-      - DECORATION_OAK_WOOD_SLAB
-      - DECORATION_OAK_WOOD_STAIRS
-      - DECORATION_SIGN
-      - DECORATION_TORCH
-      - DECORATION_BUTTON
-      - DECORATION_WOOD_PRESSURE_PLATE
-      - DECORATION_WOOD_TRAPDOOR
+      - BED
+      - BOOKSHELF
+      - CHEST
+      - GLASS
+      - GLASS_PANE
+      - LADDER
+      - OAK_DOOR
+      - OAK_FENCE
+      - OAK_FENCE_GATE
+      - OAK_WOOD_PLANK
+      - OAK_WOOD_SLAB
+      - OAK_WOOD_STAIRS
+      - SIGN
+      - TORCH
+      - BUTTON
+      - WOOD_PRESSURE_PLATE
+      - WOOD_TRAPDOOR
 
 
 miniPets:
-  - id: BAT_MINI_PET
+  - id: BAT
     type: MINI_PET
     rarity: EPIC
     name: Bat Pup
     skull: MHF_Bat
     lore: []
     entityType: BAT
-  - id: CHICKEN_MINI_PET
+  - id: CHICKEN
     type: MINI_PET
     rarity: EPIC
     name: Chick
     skull: MHF_Chicken
     lore: ["Why did the chicken", "cross the road?"]
     entityType: CHICKEN
-  - id: COW_MINI_PET
+  - id: COW
     type: MINI_PET
     rarity: EPIC
     name: Calf
     skull: MHF_Cow
     lore: ["Show bubs!"]
     entityType: COW
-  - id: LLAMA_MINI_PET
+  - id: LLAMA
     type: MINI_PET
     rarity: EPIC
     name: Cria
     skull: MHF_Llama
     lore: []
     entityType: LLAMA
-  - id: OCELOT_MINI_PET
+  - id: OCELOT
     type: MINI_PET
     rarity: EPIC
     name: Kitten
     skull: MHF_Ocelot
     lore: []
     entityType: OCELOT
-  - id: PIG_MINI_PET
+  - id: PIG
     type: MINI_PET
     rarity: EPIC
     name: Piglet
     skull: MHF_Pig
     lore: ["Bacon is good for me!"]
     entityType: PIG
-  - id: RABBIT_MINI_PET
+  - id: RABBIT
     type: MINI_PET
     rarity: EPIC
     name: Bunny
     skull: MHF_Rabbit
     lore: []
     entityType: RABBIT
-  - id: SHEEP_MINI_PET
+  - id: SHEEP
     type: MINI_PET
     rarity: EPIC
     name: Lamb
     skull: MHF_Sheep
     lore: ["Ur beeeed!"]
     entityType: SHEEP
-  - id: SILVERFISH_MINI_PET
+  - id: SILVERFISH
     type: MINI_PET
     rarity: EPIC
     name: Nymph
     skull: MHF_Silverfish
     lore: []
     entityType: SILVERFISH
-  - id: WOLF_MINI_PET
+  - id: WOLF
     type: MINI_PET
     rarity: EPIC
     name: Wolf pup
