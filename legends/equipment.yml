@@ -1801,7 +1801,7 @@ itemLores:
             - name: Shaman Book
           LEGENDARY:
             - name: Bibsqeek’s Scribbles
-              flavorText: The rantings of a lost goblin druid.
+              flavorText: [The rantings of a lost goblin druid.]
           ANCIENT:
             - name: Ancient Book
         HEAD:
