@@ -329,7 +329,9 @@ promotions:
     rarity: EPIC
     name: Four Year Old Cake
     icon: CAKE
-    lore: ["It doesn't look that tasty after all this time,", "but its still worth celebrating! Right..?"]
+    lore:
+      - "It doesn't look that tasty after all this time,"
+      - "but its still worth celebrating! Right..?"
     itemType: CAKE
     equipmentSlot: HEAD
     attributes:
