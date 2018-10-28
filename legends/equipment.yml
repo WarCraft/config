@@ -1,12 +1,3 @@
-# f(x) = 100 * (0.5)^x
-itemRarities:
-  75.0: COMMON
-  93.75: RARE
-  98.4375: EPIC
-  99.609375: LEGENDARY
-  99.90234375: ANCIENT
-
-
 validTypes:
   WARRIOR:
     - SWORD
@@ -31,6 +22,15 @@ validTypes:
     - CHEST
     - LEGS
     - FEET
+
+
+# f(x) = 100 * (0.5)^x
+itemRarities:
+  75.0: COMMON
+  93.75: RARE
+  98.4375: EPIC
+  99.609375: LEGENDARY
+  99.90234375: ANCIENT
 
 
 itemTypes:
@@ -117,12 +117,12 @@ attributeRolls:
         - attribute: CRIT
           low: 1
           high: 5
-      - - attribute: CRIT
-          low: 5
-          high: 10
-        - attribute: STRENGTH
+      - - attribute: STRENGTH
           low: 1
           high: 5
+        - attribute: CRIT
+          low: 5
+          high: 10
     BALANCE:
       - - attribute: STRENGTH
           low: 3
@@ -137,12 +137,12 @@ attributeRolls:
           low: 3
           high: 7
     DEFENSE:
-      - - attribute: VITALITY
-          low: 5
-          high: 10
-        - attribute: STRENGTH
+      - - attribute: STRENGTH
           low: 1
           high: 5
+        - attribute: VITALITY
+          low: 5
+          high: 10
       - - attribute: STRENGTH
           low: 5
           high: 10
@@ -157,12 +157,12 @@ attributeRolls:
         - attribute: CRIT
           low: 1
           high: 5
-      - - attribute: CRIT
-          low: 5
-          high: 10
-        - attribute: DEXTERITY
+      - - attribute: DEXTERITY
           low: 1
           high: 5
+        - attribute: CRIT
+          low: 5
+          high: 10
     BALANCE:
       - - attribute: DEXTERITY
           low: 3
@@ -177,12 +177,12 @@ attributeRolls:
           low: 3
           high: 7
     DEFENSE:
-      - - attribute: VITALITY
-          low: 5
-          high: 10
-        - attribute: DEXTERITY
+      - - attribute: DEXTERITY
           low: 1
           high: 5
+        - attribute: VITALITY
+          low: 5
+          high: 10
       - - attribute: DEXTERITY
           low: 5
           high: 10
@@ -197,12 +197,12 @@ attributeRolls:
         - attribute: CRIT
           low: 1
           high: 5
-      - - attribute: CRIT
-          low: 5
-          high: 10
-        - attribute: INTELLIGENCE
+      - - attribute: INTELLIGENCE
           low: 1
           high: 5
+        - attribute: CRIT
+          low: 5
+          high: 10
     BALANCE:
       - - attribute: INTELLIGENCE
           low: 3
@@ -217,12 +217,12 @@ attributeRolls:
           low: 3
           high: 7
     DEFENSE:
-      - - attribute: VITALITY
-          low: 5
-          high: 10
-        - attribute: INTELLIGENCE
+      - - attribute: INTELLIGENCE
           low: 1
           high: 5
+        - attribute: VITALITY
+          low: 5
+          high: 10
       - - attribute: INTELLIGENCE
           low: 5
           high: 10
@@ -239,12 +239,12 @@ legendaryRolls:
         - attribute: CRIT
           low: 7
           high: 7
-      - - attribute: CRIT
-          low: 12
-          high: 12
-        - attribute: STRENGTH
+      - - attribute: STRENGTH
           low: 7
           high: 7
+        - attribute: CRIT
+          low: 12
+          high: 12
     BALANCE:
       - - attribute: STRENGTH
           low: 9
@@ -259,12 +259,12 @@ legendaryRolls:
           low: 9
           high: 9
     DEFENSE:
-      - - attribute: VITALITY
-          low: 12
-          high: 12
-        - attribute: STRENGTH
+      - - attribute: STRENGTH
           low: 7
           high: 7
+        - attribute: VITALITY
+          low: 12
+          high: 12
       - - attribute: STRENGTH
           low: 12
           high: 12
@@ -279,12 +279,12 @@ legendaryRolls:
         - attribute: CRIT
           low: 7
           high: 7
-      - - attribute: CRIT
-          low: 12
-          high: 12
-        - attribute: DEXTERITY
+      - - attribute: DEXTERITY
           low: 7
           high: 7
+        - attribute: CRIT
+          low: 12
+          high: 12
     BALANCE:
       - - attribute: DEXTERITY
           low: 9
@@ -299,12 +299,12 @@ legendaryRolls:
           low: 9
           high: 9
     DEFENSE:
-      - - attribute: VITALITY
-          low: 12
-          high: 12
-        - attribute: DEXTERITY
+      - - attribute: DEXTERITY
           low: 7
           high: 7
+        - attribute: VITALITY
+          low: 12
+          high: 12
       - - attribute: DEXTERITY
           low: 12
           high: 12
@@ -319,12 +319,12 @@ legendaryRolls:
         - attribute: CRIT
           low: 7
           high: 7
-      - - attribute: CRIT
-          low: 12
-          high: 12
-        - attribute: INTELLIGENCE
+      - - attribute: INTELLIGENCE
           low: 7
           high: 7
+        - attribute: CRIT
+          low: 12
+          high: 12
     BALANCE:
       - - attribute: INTELLIGENCE
           low: 9
@@ -339,12 +339,12 @@ legendaryRolls:
           low: 9
           high: 9
     DEFENSE:
-      - - attribute: VITALITY
-          low: 12
-          high: 12
-        - attribute: INTELLIGENCE
+      - - attribute: INTELLIGENCE
           low: 7
           high: 7
+        - attribute: VITALITY
+          low: 12
+          high: 12
       - - attribute: INTELLIGENCE
           low: 12
           high: 12
@@ -361,12 +361,12 @@ ancientRolls:
         - attribute: CRIT
           low: 10
           high: 10
-      - - attribute: CRIT
-          low: 15
-          high: 15
-        - attribute: STRENGTH
+      - - attribute: STRENGTH
           low: 10
           high: 10
+        - attribute: CRIT
+          low: 15
+          high: 15
     BALANCE:
       - - attribute: STRENGTH
           low: 12
@@ -381,12 +381,12 @@ ancientRolls:
           low: 12
           high: 12
     DEFENSE:
-      - - attribute: VITALITY
-          low: 15
-          high: 15
-        - attribute: STRENGTH
+      - - attribute: STRENGTH
           low: 10
           high: 10
+        - attribute: VITALITY
+          low: 15
+          high: 15
       - - attribute: STRENGTH
           low: 15
           high: 15
@@ -401,12 +401,12 @@ ancientRolls:
         - attribute: CRIT
           low: 10
           high: 10
-      - - attribute: CRIT
-          low: 15
-          high: 15
-        - attribute: DEXTERITY
+      - - attribute: DEXTERITY
           low: 10
           high: 10
+        - attribute: CRIT
+          low: 15
+          high: 15
     BALANCE:
       - - attribute: DEXTERITY
           low: 12
@@ -421,12 +421,12 @@ ancientRolls:
           low: 12
           high: 12
     DEFENSE:
-      - - attribute: VITALITY
-          low: 15
-          high: 15
-        - attribute: DEXTERITY
+      - - attribute: DEXTERITY
           low: 10
           high: 10
+        - attribute: VITALITY
+          low: 15
+          high: 15
       - - attribute: DEXTERITY
           low: 15
           high: 15
@@ -441,12 +441,12 @@ ancientRolls:
         - attribute: CRIT
           low: 10
           high: 10
-      - - attribute: CRIT
-          low: 15
-          high: 15
-        - attribute: INTELLIGENCE
+      - - attribute: INTELLIGENCE
           low: 10
           high: 10
+        - attribute: CRIT
+          low: 15
+          high: 15
     BALANCE:
       - - attribute: INTELLIGENCE
           low: 12
@@ -461,12 +461,12 @@ ancientRolls:
           low: 12
           high: 12
     DEFENSE:
-      - - attribute: VITALITY
-          low: 15
-          high: 15
-        - attribute: INTELLIGENCE
+      - - attribute: INTELLIGENCE
           low: 10
           high: 10
+        - attribute: VITALITY
+          low: 15
+          high: 15
       - - attribute: INTELLIGENCE
           low: 15
           high: 15
