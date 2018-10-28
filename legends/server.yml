@@ -287,33 +287,33 @@ lootCrates:
       - type: EQUIPMENT
         chance: 18
         distribution:
-          EPIC: 75
-          LEGENDARY: 25
+          EPIC: 50
+          LEGENDARY: 50
       - type: EQUIPMENT_UPGRADE
         chance: 17.5
         distribution:
-          EPIC: 75
-          LEGENDARY: 25
+          EPIC: 50
+          LEGENDARY: 50
       - type: DECORATION
         chance: 52.5
         distribution:
-          RARE: 75
-          EPIC: 20
-          LEGENDARY: 5
+          RARE: 40
+          EPIC: 35
+          LEGENDARY: 25
       - type: DECORATION_PACK
         chance: 6
         distribution:
-          RARE: 65
-          EPIC: 25
-          LEGENDARY: 10
+          RARE: 50
+          EPIC: 35
+          LEGENDARY: 15
       - type: MINI_PET
         chance: 3
         distribution:
-          RARE: 60
-          EPIC: 30
-          LEGENDARY: 10
+          RARE: 40
+          EPIC: 40
+          LEGENDARY: 20
       - type: SPECIALIZATION
         chance: 3
         distribution:
-          RARE: 70
-          EPIC: 30
+          RARE: 50
+          EPIC: 50
