@@ -161,105 +161,159 @@ lootCrates:
     rarity: COMMON
     itemType: CHEST
     dropTable:
+      - type: EQUIPMENT
+        chance: 49.3
+        distribution:
+          COMMON: 50
+          RARE: 40
+          EPIC: 8
+          LEGENDARY: 2
+      - type: EQUIPMENT_UPGRADE
+        chance: 25
+        distribution:
+          COMMON: 50
+          RARE: 40
+          EPIC: 8
+          LEGENDARY: 2
       - type: CONSUMABLE
-        chance: 30
+        chance: 25
         distribution:
           COMMON: 60
           RARE: 30
-          EPIC: 7
-          LEGENDARY: 3
-      - type: EQUIPMENT
-        chance: 50
+          EPIC: 8
+          LEGENDARY: 2
+      - type: DECORATION
+        chance: 0.5
         distribution:
-          COMMON: 50
-          RARE: 40
-          EPIC: 7
-          LEGENDARY: 3
-      - type: EQUIPMENT_UPGRADE
-        chance: 20
+          RARE: 80
+          EPIC: 20
+      - type: DECORATION_PACK
+        chance: 0.1
         distribution:
-          COMMON: 50
-          RARE: 40
-          EPIC: 7
-          LEGENDARY: 3
-
-  - name: Legend Crate
-    type: LEGEND_CRATE
-    rarity: EPIC
-    itemType: CHEST
-    dropTable:
-      - type: CONSUMABLE
-        chance: 30
+          RARE: 80
+          EPIC: 20
+      - type: MINI_PET
+        chance: 0.1
         distribution:
-          COMMON: 60
-          RARE: 30
-          EPIC: 7
-          LEGENDARY: 3
-      - type: EQUIPMENT
-        chance: 50
-        distribution:
-          COMMON: 50
-          RARE: 40
-          EPIC: 7
-          LEGENDARY: 3
-      - type: EQUIPMENT_UPGRADE
-        chance: 20
-        distribution:
-          COMMON: 50
-          RARE: 40
-          EPIC: 7
-          LEGENDARY: 3
-
-  - name: Titan Crate
-    type: TITAN_CRATE
-    rarity: LEGENDARY
-    itemType: ENDER_CHEST
-    dropTable:
-      - type: CONSUMABLE
-        chance: 30
-        distribution:
-          COMMON: 60
-          RARE: 30
-          EPIC: 7
-          LEGENDARY: 3
-      - type: EQUIPMENT
-        chance: 50
-        distribution:
-          COMMON: 50
-          RARE: 40
-          EPIC: 7
-          LEGENDARY: 3
-      - type: EQUIPMENT_UPGRADE
-        chance: 20
-        distribution:
-          COMMON: 50
-          RARE: 40
-          EPIC: 7
-          LEGENDARY: 3
+          RARE: 80
+          EPIC: 20
 
   - name: Vote Crate
     type: VOTE_CRATE
     rarity: COMMON
     itemType: CHEST
     dropTable:
+      - type: EQUIPMENT
+        chance: 49.3
+        distribution:
+          COMMON: 50
+          RARE: 40
+          EPIC: 8
+          LEGENDARY: 2
+      - type: EQUIPMENT_UPGRADE
+        chance: 25
+        distribution:
+          COMMON: 50
+          RARE: 40
+          EPIC: 8
+          LEGENDARY: 2
       - type: CONSUMABLE
-        chance: 30
+        chance: 25
         distribution:
           COMMON: 60
           RARE: 30
-          EPIC: 7
-          LEGENDARY: 3
+          EPIC: 8
+          LEGENDARY: 2
+      - type: DECORATION
+        chance: 0.5
+        distribution:
+          RARE: 80
+          EPIC: 20
+      - type: DECORATION_PACK
+        chance: 0.1
+        distribution:
+          RARE: 80
+          EPIC: 20
+      - type: MINI_PET
+        chance: 0.1
+        distribution:
+          RARE: 80
+          EPIC: 20
+
+  - name: Legend Crate
+    type: LEGEND_CRATE
+    rarity: EPIC
+    itemType: CHEST
+    dropTable:
       - type: EQUIPMENT
-        chance: 50
+        chance: 40
         distribution:
-          COMMON: 50
-          RARE: 40
-          EPIC: 7
-          LEGENDARY: 3
+          EPIC: 75
+          LEGENDARY: 25
       - type: EQUIPMENT_UPGRADE
-        chance: 20
+        chance: 25
         distribution:
-          COMMON: 50
-          RARE: 40
-          EPIC: 7
-          LEGENDARY: 3
+          EPIC: 75
+          LEGENDARY: 25
+      - type: DECORATION
+        chance: 30
+        distribution:
+          RARE: 75
+          EPIC: 20
+          LEGENDARY: 5
+      - type: DECORATION_PACK
+        chance: 3
+        distribution:
+          RARE: 65
+          EPIC: 25
+          LEGENDARY: 10
+      - type: MINI_PET
+        chance: 1
+        distribution:
+          RARE: 60
+          EPIC: 30
+          LEGENDARY: 10
+      - type: SPECIALIZATION
+        chance: 1
+        distribution:
+          RARE: 70
+          EPIC: 30
+
+  - name: Titan Crate
+    type: TITAN_CRATE
+    rarity: LEGENDARY
+    itemType: ENDER_CHEST
+    dropTable:
+      - type: EQUIPMENT
+        chance: 18
+        distribution:
+          EPIC: 75
+          LEGENDARY: 25
+      - type: EQUIPMENT_UPGRADE
+        chance: 17.5
+        distribution:
+          EPIC: 75
+          LEGENDARY: 25
+      - type: DECORATION
+        chance: 52.5
+        distribution:
+          RARE: 75
+          EPIC: 20
+          LEGENDARY: 5
+      - type: DECORATION_PACK
+        chance: 6
+        distribution:
+          RARE: 65
+          EPIC: 25
+          LEGENDARY: 10
+      - type: MINI_PET
+        chance: 3
+        distribution:
+          RARE: 60
+          EPIC: 30
+          LEGENDARY: 10
+      - type: SPECIALIZATION
+        chance: 3
+        distribution:
+          RARE: 70
+          EPIC: 30
