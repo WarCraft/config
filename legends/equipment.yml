@@ -761,7 +761,7 @@ itemLores:
           EPIC:
             - name: Warmonger Sword
           LEGENDARY:
-            - name: Executioner’s Blade
+            - name: Executioner's Blade
           ANCIENT:
             - name: Ancient Sword
         AXE:
@@ -943,7 +943,7 @@ itemLores:
           EPIC:
             - name: Rampart Sword
           LEGENDARY:
-            - name: Bull’s Horn
+            - name: Bull's Horn
           ANCIENT:
             - name: Ancient Sword
         AXE:
@@ -954,7 +954,7 @@ itemLores:
           EPIC:
             - name: Rampart Axe
           LEGENDARY:
-            - name: Warlord’s Cleaver
+            - name: Warlord's Cleaver
           ANCIENT:
             - name: Ancient Axe
         SHIELD:
@@ -1628,7 +1628,7 @@ itemLores:
           EPIC:
             - name: Warlock Staff
           LEGENDARY:
-            - name: K’took the Serpent
+            - name: K'took the Serpent
           ANCIENT:
             - name: Ancient Staff
         BOOK:
@@ -1700,7 +1700,7 @@ itemLores:
           EPIC:
             - name: Seer Wand
           LEGENDARY:
-            - name: Baba’s Fetish
+            - name: Baba's Fetish
           ANCIENT:
             - name: Ancient Wand
         STAFF:
@@ -1711,7 +1711,7 @@ itemLores:
           EPIC:
             - name: Seer Staff
           LEGENDARY:
-            - name: Tuskling’s Prodder
+            - name: Tuskling's Prodder
           ANCIENT:
             - name: Ancient Staff
         BOOK:
@@ -1722,7 +1722,7 @@ itemLores:
           EPIC:
             - name: Seer Book
           LEGENDARY:
-            - name: Late Seer’s Last Message
+            - name: Late Seer's Last Message
           ANCIENT:
             - name: Ancient Book
         HEAD:
@@ -1800,7 +1800,7 @@ itemLores:
           EPIC:
             - name: Shaman Book
           LEGENDARY:
-            - name: Bibsqeek’s Scribbles
+            - name: Bibsqeek's Scribbles
               flavorText: [The rantings of a lost goblin druid.]
           ANCIENT:
             - name: Ancient Book
