@@ -161,7 +161,7 @@ decorationPacks:
   - id: BASIC
     type: DECORATION_PACK
     rarity: RARE
-    name: BASIC
+    name: Basic
     icon: OAK_WOOD_PLANK
     lore: []
     decorations:

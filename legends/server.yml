@@ -195,8 +195,7 @@ lootCrates:
       - type: MINI_PET
         chance: 0.1
         distribution:
-          RARE: 80
-          EPIC: 20
+          EPIC: 100
 
   - name: Vote Crate
     type: VOTE_CRATE
@@ -237,8 +236,7 @@ lootCrates:
       - type: MINI_PET
         chance: 0.1
         distribution:
-          RARE: 80
-          EPIC: 20
+          EPIC: 100
 
   - name: Legend Crate
     type: LEGEND_CRATE
@@ -270,8 +268,7 @@ lootCrates:
       - type: MINI_PET
         chance: 1
         distribution:
-          RARE: 60
-          EPIC: 30
+          EPIC: 90
           LEGENDARY: 10
       - type: SPECIALIZATION
         chance: 1
@@ -309,9 +306,8 @@ lootCrates:
       - type: MINI_PET
         chance: 3
         distribution:
-          RARE: 40
-          EPIC: 40
-          LEGENDARY: 20
+          EPIC: 70
+          LEGENDARY: 30
       - type: SPECIALIZATION
         chance: 3
         distribution:
