@@ -503,6 +503,28 @@ itemLores:
             - name: Jagerax
           ANCIENT:
             - name: Ancient Axe
+        SHIELD:
+          COMMON:
+            - name: Hero Shield
+          RARE:
+            - name: Hero Shield
+          EPIC:
+            - name: Hero Shield
+          LEGENDARY:
+            - name: Guardian of the West
+          ANCIENT:
+            - name: Ancient Shield
+        SKULL:
+          COMMON:
+            - name: Hero Skull
+          RARE:
+            - name: Hero Skull
+          EPIC:
+            - name: Hero Skull
+          LEGENDARY:
+            - name: Legendary Skull
+          ANCIENT:
+            - name: Ancient Skull
         HEAD:
           COMMON:
             - name: Hero Helmet
@@ -571,6 +593,28 @@ itemLores:
             - name: Great Estoc
           ANCIENT:
             - name: Ancient Axe
+        SHIELD:
+          COMMON:
+            - name: Champion Shield
+          RARE:
+            - name: Champion Shield
+          EPIC:
+            - name: Champion Shield
+          LEGENDARY:
+            - name: Battered Bastion
+          ANCIENT:
+            - name: Ancient Shield
+        SKULL:
+          COMMON:
+            - name: Champion Skull
+          RARE:
+            - name: Champion Skull
+          EPIC:
+            - name: Champion Skull
+          LEGENDARY:
+            - name: Legendary Skull
+          ANCIENT:
+            - name: Ancient Skull
         HEAD:
           COMMON:
             - name: Champion Helmet
@@ -640,6 +684,28 @@ itemLores:
             - name: The Cleanser
           ANCIENT:
             - name: Ancient Axe
+        SHIELD:
+          COMMON:
+            - name: Guardian Shield
+          RARE:
+            - name: Guardian Shield
+          EPIC:
+            - name: Guardian Shield
+          LEGENDARY:
+            - name: Blinding Redoubt
+          ANCIENT:
+            - name: Ancient Shield
+        SKULL:
+          COMMON:
+            - name: Guardian Skull
+          RARE:
+            - name: Guardian Skull
+          EPIC:
+            - name: Guardian Skull
+          LEGENDARY:
+            - name: Legendary Skull
+          ANCIENT:
+            - name: Ancient Skull
         HEAD:
           COMMON:
             - name: Guardian Helmet
@@ -710,6 +776,29 @@ itemLores:
             - name: Gutripper
           ANCIENT:
             - name: Ancient Axe
+        SHIELD:
+          COMMON:
+            - name: Warmonger Shield
+          RARE:
+            - name: Warmonger Shield
+          EPIC:
+            - name: Warmonger Shield
+          LEGENDARY:
+            - name: Corpsegrinder
+            - name: Bulwark of the South
+          ANCIENT:
+            - name: Ancient Shield
+        SKULL:
+          COMMON:
+            - name: Warmonger Skull
+          RARE:
+            - name: Warmonger Skull
+          EPIC:
+            - name: Warmonger Skull
+          LEGENDARY:
+            - name: Legendary Skull
+          ANCIENT:
+            - name: Ancient Skull
         HEAD:
           COMMON:
             - name: Warmonger Helmet
@@ -778,6 +867,28 @@ itemLores:
             - name: Skullsplitter
           ANCIENT:
             - name: Ancient Axe
+        SHIELD:
+          COMMON:
+            - name: Chieftain Shield
+          RARE:
+            - name: Chieftain Shield
+          EPIC:
+            - name: Chieftain Shield
+          LEGENDARY:
+            - name: Steel Rooftop
+          ANCIENT:
+            - name: Ancient Shield
+        SKULL:
+          COMMON:
+            - name: Chieftain Skull
+          RARE:
+            - name: Chieftain Skull
+          EPIC:
+            - name: Chieftain Skull
+          LEGENDARY:
+            - name: Legendary Skull
+          ANCIENT:
+            - name: Ancient Skull
         HEAD:
           COMMON:
             - name: Chieftain Helmet
@@ -846,6 +957,28 @@ itemLores:
             - name: Warlord’s Cleaver
           ANCIENT:
             - name: Ancient Axe
+        SHIELD:
+          COMMON:
+            - name: Rampart Shield
+          RARE:
+            - name: Rampart Shield
+          EPIC:
+            - name: Rampart Shield
+          LEGENDARY:
+            - name: Pavise of Hate
+          ANCIENT:
+            - name: Ancient Shield
+        SKULL:
+          COMMON:
+            - name: Rampart Skull
+          RARE:
+            - name: Rampart Skull
+          EPIC:
+            - name: Rampart Skull
+          LEGENDARY:
+            - name: Legendary Skull
+          ANCIENT:
+            - name: Ancient Skull
         HEAD:
           COMMON:
             - name: Rampart Helmet
@@ -1567,7 +1700,7 @@ itemLores:
           EPIC:
             - name: Seer Wand
           LEGENDARY:
-            - name: Bright
+            - name: Baba’s Fetish
           ANCIENT:
             - name: Ancient Wand
         STAFF:
@@ -1578,7 +1711,7 @@ itemLores:
           EPIC:
             - name: Seer Staff
           LEGENDARY:
-            - name: Talking Turtle Taff
+            - name: Tuskling’s Prodder
           ANCIENT:
             - name: Ancient Staff
         BOOK:
@@ -1589,7 +1722,7 @@ itemLores:
           EPIC:
             - name: Seer Book
           LEGENDARY:
-            - name: Great Mage Journal
+            - name: Late Seer’s Last Message
           ANCIENT:
             - name: Ancient Book
         HEAD:
@@ -1645,7 +1778,7 @@ itemLores:
           EPIC:
             - name: Shaman Wand
           LEGENDARY:
-            - name: Deflector
+            - name: Totemcarver
           ANCIENT:
             - name: Ancient Wand
         STAFF:
@@ -1656,7 +1789,7 @@ itemLores:
           EPIC:
             - name: Shaman Staff
           LEGENDARY:
-            - name: Warpwood Cane
+            - name: Bursting Volcano
           ANCIENT:
             - name: Ancient Staff
         BOOK:
@@ -1667,7 +1800,8 @@ itemLores:
           EPIC:
             - name: Shaman Book
           LEGENDARY:
-            - name: Withered Lexicon
+            - name: Bibsqeek’s Scribbles
+              flavorText: The rantings of a lost goblin druid.
           ANCIENT:
             - name: Ancient Book
         HEAD:
