@@ -7,24 +7,24 @@ globalChannels:
     aliases: []
     shortcut:
     color: GRAY
-    formattingString: [{channel.name}] {sender.color}[{sender.tag}] {channel.color}{sender.name}: {text}
+    formattingString: [<channel.name>] <sender.color>[<sender.tag>] <channel.color><sender.name>: <text>
   - name: Staff
     aliases: []
     shortcut:
     color: LIGHT_PURPLE
-    formattingString: [{channel.name}] {sender.name}: {text}
+    formattingString: [<channel.name>] <sender.name>: <text>
     requiredPermission: monolith.staff
   - name: Human
     aliases: []
     shortcut:
     color: GRAY
-    formattingString: [{channel.name}] {sender.color}[{sender.tag}] {channel.color}{sender.name}: {text}
+    formattingString: [<channel.name>] <sender.color>[<sender.tag>] <channel.color><sender.name>: <text>
     requiredPermission: legends.human
   - name: Orc
     aliases: []
     shortcut:
     color: GRAY
-    formattingString: [{channel.name}] {sender.color}[{sender.tag}] {channel.color}{sender.name}: {text}
+    formattingString: [<channel.name>] <sender.color>[<sender.tag>] <channel.color><sender.name>: <text>
     requiredPermission: legends.orc
 
 localChannels:
@@ -32,23 +32,23 @@ localChannels:
     aliases: [say, s, rp]
     shortcut: ((
     color: WHITE
-    formattingString: {sender.color}[{sender.tag}] {channel.color}{sender.name}: {text}
+    formattingString: <sender.color>[<sender.tag>] <channel.color><sender.name>: <text>
     radius: 30
   - name: Emote
     aliases: [e, pose]
     shortcut: *
     color: GOLD
-    formattingString: {sender.color}[{sender.tag}] {channel.color}{sender.name} {text}
+    formattingString: <sender.color>[<sender.tag>] <channel.color><sender.name> <text>
     radius: 30
   - name: Yell
     aliases: [y, shout]
     shortcut:
     color: RED
-    formattingString: {sender.color}[{sender.tag}] {channel.color}{sender.name}: {text}
+    formattingString: <sender.color>[<sender.tag>] <channel.color><sender.name>: <text>
     radius: 60
   - name: Whisper
     aliases: [w]
     shortcut:
     color: AQUA
-    formattingString: {sender.color}[{sender.tag}] {channel.color}{sender.name}: {text}
+    formattingString: <sender.color>[<sender.tag>] <channel.color><sender.name>: <text>
     radius: 5
