@@ -33,19 +33,19 @@ localChannels:
     shortcut: ((
     color: WHITE
     formattingString: <sender.color>[<sender.tag>] <channel.color><sender.name>: <text>
-    radius: 30
+    radius: 25
   - name: Emote
     aliases: [e, pose]
     shortcut: *
     color: GOLD
     formattingString: <sender.color>[<sender.tag>] <channel.color><sender.name> <text>
-    radius: 30
+    radius: 25
   - name: Yell
     aliases: [y, shout]
     shortcut:
     color: RED
     formattingString: <sender.color>[<sender.tag>] <channel.color><sender.name>: <text>
-    radius: 60
+    radius: 50
   - name: Whisper
     aliases: [w]
     shortcut:
