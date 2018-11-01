@@ -1,7 +1,5 @@
 defaultChannel: Global
 
-messageLogger: CONSOLE
-
 globalChannels:
   - name: Global
     aliases: []
