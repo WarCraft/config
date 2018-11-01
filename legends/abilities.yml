@@ -1,130 +1,244 @@
-# Warrior
-warrior.berserker.Maul:
-  damage: 3
-  absorption-level: 1
-  absorption-duration: 2
-  cooldown: 5
-warrior.berserker.Grudge:
-  heal: 1
-  duration: 5
-  cooldown: 15
-warrior.berserker.Shatter:
-  distance: 10
-  launch: 6
-  radius: 4
-  damage: 3
-  nausea-level: 3
-  nausea-duration: 7
-  cooldown: 15
+specializations:
+  # Warrior
+  - name: Berserker
+    permission: warcraft.berserker
+    validMainhands:
+      - WOOD_AXE
+      - STONE_AXE
+      - IRON_AXE
+      - GOLD_AXE
+      - DIAMOND_AXE
+    validOffhands:
+      - MOB_HEAD_SKELETON
+    offhandRequired: no
+    invalidWeaponsMessage: As a Berserker you can only fight using an Axe and optionally a Skull.
+    leftClickAbility:
+    rightClickAbility: Maul
+    shiftLeftClickAbility: Grudge
+    shiftRightClickAbility: Shatter
 
-warrior.armsmaster.Hamstring:
-  damage: 3
-  slow-level: 3
-  slow-duration: 5
-  cooldown: 5
-warrior.armsmaster.Slam:
-  damage: 3
-  knockback: 10
-  nausea-level: 3
-  nausea-duration: 7
-  cooldown: 10
-warrior.armsmaster.StandYourGround:
-  resistance-level: 2
-  resistance-duration: 5
-  fire-resistance-level: 2
-  fire-resistance-duration: 5
-  slow-level: 1
-  slow-duration: 5
-  cooldown: 20
+  - name: Armsmaster
+    permission: warcraft.armsmaster
+    validMainhands:
+      - WOOD_SWORD
+      - STONE_SWORD
+      - IRON_SWORD
+      - GOLD_SWORD
+      - DIAMOND_SWORD
+    validOffhands:
+      - SHIELD
+    offhandRequired: no
+    invalidWeaponsMessage: As an Armsmaster you can only fight using a Sword and optionally a Shield.
+    leftClickAbility:
+    rightClickAbility: Hamstring
+    shiftLeftClickAbility: Slam
+    shiftRightClickAbility: Stand Your Ground
+
+  # Ranger
+  - name: Marksman
+    permission: warcraft.marksman
+    validMainhands:
+      - BOW
+    validOffhands:
+      - AIR
+    offhandRequired: yes
+    invalidWeaponsMessage: As a Marksman you can only fight using a Bow.
+    leftClickAbility: Power Shot
+    rightClickAbility:
+    shiftLeftClickAbility: Focus
+    shiftRightClickAbility: Sneak
+
+  - name: Hunter
+    permission: warcraft.hunter
+    validMainhands:
+      - BOW
+    validOffhands:
+      - AIR
+    offhandRequired: yes
+    invalidWeaponsMessage: As a Hunter you can only fight using a Bow.
+    leftClickAbility: Toxic Arrow
+    rightClickAbility:
+    shiftLeftClickAbility: Trap
+    shiftRightClickAbility: Disengage
+
+  # Mage
+  - name: Tempest
+    permission: warcraft.tempest
+    validMainhands:
+      - WOOD_HOE
+      - STONE_HOE
+      - IRON_HOE
+      - GOLD_HOE
+      - DIAMOND_HOE
+    validOffhands:
+      - AIR
+    offhandRequired: yes
+    invalidWeaponsMessage: As a Tempest you can only fight using a Staff (Hoe).
+    leftClickAbility: Fireball
+    rightClickAbility: Bolt
+    shiftLeftClickAbility: Hail Blast
+    shiftRightClickAbility: Molten Storm
+
+  - name: Wizard
+    permission: warcraft.wizard
+    validMainhands:
+      - STICK
+      - BLAZE_ROD
+    validOffhands:
+      - BOOK
+    offhandRequired: no
+    invalidWeaponsMessage: As a Wizard you can only fight using a Wand (Sticks) and optionally a Book.
+    leftClickAbility: Fireball
+    rightClickAbility: Arcane Missile
+    shiftLeftClickAbility: Teleport
+    shiftRightClickAbility: Mass Bamboozle
 
 
-# Ranger
-ranger.marksman.PowerShot:
-  damage: 3
-  knockback: 8
-  cooldown: 9
-ranger.marksman.Focus:
-  damage-modifier: 1.25
-  cooldown: 3
-ranger.marksman.Sneak:
-  speed-level: 2
-  speed-duration: 7
-  duration: 7
-  cooldown: 45
+abilities:
+  # Berserker
+  - name: Maul
+    damage: 3
+    absorption-level: 1
+    absorption-duration: 2
+    cooldown: 5
+  - name: Grudge
+    heal: 1
+    duration: 5
+    cooldown: 15
+  - name: Shatter
+    distance: 10
+    launch: 6
+    radius: 4
+    damage: 3
+    nausea-level: 3
+    nausea-duration: 7
+    cooldown: 15
 
-ranger.hunter.ToxicArrow:
-  damage: 3
-  poison-level: 2
-  poison-duration: 3
-  cooldown: 9
-ranger.hunter.Trap:
-  radius: 1
-  poison-level: 1
-  poison-duration: 5
-  root-duration: 3
-  duration: 15
-  cooldown: 15
-ranger.hunter.Disengage:
-  distance: 10
-  cooldown: 25
+  # Armsmaster
+  - name: Hamstring
+    damage: 3
+    slow-level: 3
+    slow-duration: 5
+    cooldown: 5
+  - name: Slam
+    damage: 3
+    knockback: 10
+    nausea-level: 3
+    nausea-duration: 7
+    cooldown: 10
+  - name: Stand Your Ground
+    resistance-level: 2
+    resistance-duration: 5
+    fire-resistance-level: 2
+    fire-resistance-duration: 5
+    slow-level: 1
+    slow-duration: 5
+    cooldown: 20
 
+  # Marksman
+  - name: Power Shot
+    damage: 3
+    knockback: 8
+    cooldown: 9
+  - name: Focus
+    damage-modifier: 1.25
+    cooldown: 3
+  - name: Sneak
+    speed-level: 2
+    speed-duration: 7
+    duration: 7
+    cooldown: 45
 
-# Mage
-mage.Fireball:
-  velocity: 0.75
-  gravity: 0
-  radius: 2
-  damage: 2
-  burn-duration: 2
-  range: 30
-  cooldown: 2
+  # Hunter
+  - name: Toxic Arrow
+    damage: 3
+    poison-level: 2
+    poison-duration: 3
+    cooldown: 9
+  - name: Trap
+    radius: 1
+    poison-level: 1
+    poison-duration: 5
+    root-duration: 3
+    duration: 15
+    cooldown: 15
+  - name: Disengage
+    distance: 10
+    cooldown: 25
 
-mage.orc.TotemFireball:
-  velocity: 0.75
-  gravity: 0
-  radius: 1.5
-  damage: 1
-  burn-duration: 1
-  range: 30
+  # Mage
+  - name: Fireball
+    speed: 0.75
+    gravity: 0
+    radius: 2
+    damage: 2
+    burn-duration: 2
+    range: 30
+    cooldown: 2
 
-mage.tempest.Bolt:
-  radius: 2
-  damage: 3
-  range: 30
-  cooldown: 10
-mage.tempest.HailBlast:
-  damage: 5
-  cone: 5
-  slow-level: 3
-  slow-duration: 3
-  cooldown: 15
-mage.tempest.MoltenStorm:
-  spawnRadius: 7.5
-  damage: 1
-  radius: 2
-  burn-level: 1
-  burn-duration: 3
-  duration: 10
-  range: 30
-  cooldown: 35
+  # Tempest
+  - name: Bolt
+    radius: 2
+    damage: 3
+    range: 30
+    cooldown: 10
+  - name: Hail Blast
+    speed: 0.75
+    damage: 5
+    radius: 5
+    slow-level: 3
+    slow-duration: 3
+    range: 10
+    cooldown: 15
+  - name: Molten Storm
+    spawnRadius: 7.5
+    fireballsPerSecond: 3
+    speed: 0.75
+    damage: 1
+    radius: 2
+    burn-level: 1
+    burn-duration: 3
+    duration: 10
+    range: 30
+    cooldown: 35
 
-mage.wizard.ArcaneMissile:
-  damage: 3
-  radius: 2
-  range: 30
-  cooldown: 6
-mage.wizard.Teleport:
-  damage: 5
-  radius: 3
-  slow-level: 1
-  slow-duration: 1
-  range: 15
-  cooldown: 25
-mage.wizard.MassBamboozle:
-  countdown: 2.0
-  radius: 5
-  duration: 8
-  nausea-level: 1
-  nausea-duration: 8
-  range: 30
-  cooldown: 35
+  # Wizard
+  - name: Arcane Missile
+    speed: 0.75
+    damage: 3
+    radius: 2
+    range: 30
+    cooldown: 6
+  - name: Teleport
+    damage: 5
+    radius: 3
+    slow-level: 1
+    slow-duration: 1
+    range: 15
+    cooldown: 25
+  - name: Mass Bamboozle
+    countdown: 2.0
+    radius: 5
+    duration: 8
+    nausea-level: 1
+    nausea-duration: 8
+    range: 30
+    cooldown: 35
+
+  # Orc
+  - name: Flame Totem
+    speed: 0.75
+    gravity: 0
+    radius: 1.5
+    damage: 1
+    burn-duration: 1
+    range: 30
+    cooldown: 0
+
+  # Siege
+  - name: Trebuchet Projectile
+    speed: 1.5
+    radius: 2
+    damage: 50
+    range: 500
+    cooldown: 0
