@@ -1,23 +1,21 @@
 areas:
   # Human capital
-  - minimumCorner:
-      world: OVERWORLD
+  - world: OVERWORLD
+    minimumCorner:
       x: -1570
       y: 50
       z: 141
     maximumCorner:
-      world: OVERWORLD
       x: -1262
       y: 155
       z: 436
   # Orc capital
-  - minimumCorner:
-      world: OVERWORLD
+  - world: OVERWORLD
+    minimumCorner:
       x: 186
       y: 42
       z: 112
     maximumCorner:
-      world: OVERWORLD
       x: 550
       y: 118
       z: 541
