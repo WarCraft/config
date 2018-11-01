@@ -1,24 +1,26 @@
 areas:
   # Human capital
-  - world: OVERWORLD
-    minimumCorner:
-      x: -1570
-      y: 50
-      z: 141
-    maximumCorner:
-      x: -1262
-      y: 155
-      z: 436
+  - boundingBox:
+      world: OVERWORLD
+      minimumCorner:
+        x: -1570
+        y: 50
+        z: 141
+      maximumCorner:
+        x: -1262
+        y: 155
+        z: 436
   # Orc capital
-  - world: OVERWORLD
-    minimumCorner:
-      x: 186
-      y: 42
-      z: 112
-    maximumCorner:
-      x: 550
-      y: 118
-      z: 541
+  - boundingBox:
+      world: OVERWORLD
+      minimumCorner:
+        x: 186
+        y: 42
+        z: 112
+      maximumCorner:
+        x: 550
+        y: 118
+        z: 541
 
 prices:
   # Human C houses
