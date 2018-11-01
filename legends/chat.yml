@@ -5,24 +5,20 @@ messageLogger: CONSOLE
 globalChannels:
   - name: Global
     aliases: []
-    shortcut:
     color: GRAY
     formattingString: "[<channel.name>] <sender.color>[<sender.tag>] <channel.color><sender.name>: <text>"
   - name: Staff
     aliases: []
-    shortcut:
     color: LIGHT_PURPLE
     formattingString: "[<channel.name>] <sender.name>: <text>"
     requiredPermission: monolith.staff
   - name: Human
     aliases: []
-    shortcut:
     color: GRAY
     formattingString: "[<channel.name>] <sender.color>[<sender.tag>] <channel.color><sender.name>: <text>"
     requiredPermission: legends.human
   - name: Orc
     aliases: []
-    shortcut:
     color: GRAY
     formattingString: "[<channel.name>] <sender.color>[<sender.tag>] <channel.color><sender.name>: <text>"
     requiredPermission: legends.orc
@@ -42,13 +38,11 @@ localChannels:
     radius: 25
   - name: Yell
     aliases: [y, shout]
-    shortcut:
     color: RED
     formattingString: "<sender.color>[<sender.tag>] <channel.color><sender.name>: <text>"
     radius: 50
   - name: Whisper
     aliases: [w]
-    shortcut:
     color: AQUA
     formattingString: "<sender.color>[<sender.tag>] <channel.color><sender.name>: <text>"
     radius: 5
