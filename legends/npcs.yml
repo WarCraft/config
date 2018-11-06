@@ -1,0 +1,19 @@
+npcs:
+  # Human npcs
+  - name: Blueprint Placeholder
+    type: BLUEPRINT_VENDOR
+    entityType: VILLAGER
+    location:
+      world: OVERWORLD
+      x: -1512
+      y: 54
+      z: 336
+  # Orc npcs
+  - name: Blueprint Placeholder
+    type: BLUEPRINT_VENDOR
+    entityType: VILLAGER
+    location:
+      world: OVERWORLD
+      x: 405
+      y: 43
+      z: 412
