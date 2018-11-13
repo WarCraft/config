@@ -21,26 +21,26 @@ objectives:
         z: 54.5
       radius: 6
     portals:
-    - entryLocation:
-        world: OVERWORLD
-        x: -1047.5
-        y: 45
-        z: 52.5
-      exitLocation:
-        world: OVERWORLD
-        x: -1035.5
-        y: 45
-        z: 52.5
-    - entryLocation:
-        world: OVERWORLD
-        x: -1035.5
-        y: 45
-        z: 56.5
-      exitLocation:
-        world: OVERWORLD
-        x: -1047.5
-        y: 45
-        z: 56.5
+      - entryLocation:
+          world: OVERWORLD
+          x: -1047.5
+          y: 45
+          z: 52.5
+        exitLocation:
+          world: OVERWORLD
+          x: -1035.5
+          y: 45
+          z: 52.5
+      - entryLocation:
+          world: OVERWORLD
+          x: -1035.5
+          y: 45
+          z: 56.5
+        exitLocation:
+          world: OVERWORLD
+          x: -1047.5
+          y: 45
+          z: 56.5
     boundingBox:
       world: OVERWORLD
       minimumCorner:
@@ -64,26 +64,26 @@ objectives:
         z: -277
       radius: 6
     portals:
-    - entryLocation:
-        world: OVERWORLD
-        x: -1532.5
-        y: 33
-        z: -249.5
-      exitLocation:
-        world: OVERWORLD
-        x: -1532.5
-        y: 33
-        z: -259.5
-    - entryLocation:
-        world: OVERWORLD
-        x: -1529.5
-        y: 33
-        z: -257.5
-      exitLocation:
-        world: OVERWORLD
-        x: -1528.5
-        y: 33
-        z: -249.5
+      - entryLocation:
+          world: OVERWORLD
+          x: -1532.5
+          y: 33
+          z: -249.5
+        exitLocation:
+          world: OVERWORLD
+          x: -1532.5
+          y: 33
+          z: -259.5
+      - entryLocation:
+          world: OVERWORLD
+          x: -1529.5
+          y: 33
+          z: -257.5
+        exitLocation:
+          world: OVERWORLD
+          x: -1528.5
+          y: 33
+          z: -249.5
     boundingBox:
       world: OVERWORLD
       minimumCorner:
@@ -107,26 +107,26 @@ objectives:
         z: -153
       radius: 6
     portals:
-    - entryLocation:
-        world: OVERWORLD
-        x: -660.5
-        y: 31
-        z: -136.5
-      exitLocation:
-        world: OVERWORLD
-        x: -660.5
-        y: 31
-        z: -146.5
-    - entryLocation:
-        world: OVERWORLD
-        x: -652.5
-        y: 31
-        z: -146.5
-      exitLocation:
-        world: OVERWORLD
-        x: -652.5
-        y: 31
-        z: -136.5
+      - entryLocation:
+          world: OVERWORLD
+          x: -660.5
+          y: 31
+          z: -136.5
+        exitLocation:
+          world: OVERWORLD
+          x: -660.5
+          y: 31
+          z: -146.5
+      - entryLocation:
+          world: OVERWORLD
+          x: -652.5
+          y: 31
+          z: -146.5
+        exitLocation:
+          world: OVERWORLD
+          x: -652.5
+          y: 31
+          z: -136.5
     boundingBox:
       world: OVERWORLD
       minimumCorner:
@@ -218,26 +218,26 @@ objectives:
         z: -310.5
       radius: 6
     portals:
-    - entryLocation:
-        world: OVERWORLD
-        x: 387.5
-        y: 36
-        z: -292.5
-      exitLocation:
-        world: OVERWORLD
-        x: 392.5
-        y: 38
-        z: -298.5
-    - entryLocation:
-        world: OVERWORLD
-        x: 400.5
-        y: 38
-        z: -289.5
-      exitLocation:
-        world: OVERWORLD
-        x: 395.5
-        y: 38
-        z: -285.5
+      - entryLocation:
+          world: OVERWORLD
+          x: 387.5
+          y: 36
+          z: -292.5
+        exitLocation:
+          world: OVERWORLD
+          x: 392.5
+          y: 38
+          z: -298.5
+      - entryLocation:
+          world: OVERWORLD
+          x: 400.5
+          y: 38
+          z: -289.5
+        exitLocation:
+          world: OVERWORLD
+          x: 395.5
+          y: 38
+          z: -285.5
     boundingBox:
       world: OVERWORLD
       minimumCorner:
@@ -261,26 +261,26 @@ objectives:
         z: 391
       radius: 6
     portals:
-    - entryLocation:
-        world: OVERWORLD
-        x: -287.5
-        y: 33
-        z: 392.5
-      exitLocation:
-        world: OVERWORLD
-        x: -298.5
-        y: 33
-        z: 392.5
-    - entryLocation:
-        world: OVERWORLD
-        x: -298.5
-        y: 33
-        z: 388.5
-      exitLocation:
-        world: OVERWORLD
-        x: -287.5
-        y: 33
-        z: 388.5
+      - entryLocation:
+          world: OVERWORLD
+          x: -287.5
+          y: 33
+          z: 392.5
+        exitLocation:
+          world: OVERWORLD
+          x: -298.5
+          y: 33
+          z: 392.5
+      - entryLocation:
+          world: OVERWORLD
+          x: -298.5
+          y: 33
+          z: 388.5
+        exitLocation:
+          world: OVERWORLD
+          x: -287.5
+          y: 33
+          z: 388.5
     boundingBox:
       world: OVERWORLD
       minimumCorner:
@@ -304,26 +304,26 @@ objectives:
         z: -135.5
       radius: 6
     portals:
-    - entryLocation:
-        world: OVERWORLD
-        x: -410.5
-        y: 31
-        z: -122.5
-      exitLocation:
-        world: OVERWORLD
-        x: -410.5
-        y: 31
-        z: -128.5
-    - entryLocation:
-        world: OVERWORLD
-        x: -404.5
-        y: 31
-        z: -128.5
-      exitLocation:
-        world: OVERWORLD
-        x: -404.5
-        y: 31
-        z: -122.5
+      - entryLocation:
+          world: OVERWORLD
+          x: -410.5
+          y: 31
+          z: -122.5
+        exitLocation:
+          world: OVERWORLD
+          x: -410.5
+          y: 31
+          z: -128.5
+      - entryLocation:
+          world: OVERWORLD
+          x: -404.5
+          y: 31
+          z: -128.5
+        exitLocation:
+          world: OVERWORLD
+          x: -404.5
+          y: 31
+          z: -122.5
     boundingBox:
       world: OVERWORLD
       minimumCorner:
