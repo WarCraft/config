@@ -25,6 +25,49 @@ hubPortals:
       z: 416.5
 
 
+spawnLocations:
+  WAYFARER:
+    location:
+      world: OVERWORLD
+      x: -587.5
+      y: 90
+      z: -634.5
+    pitch: 0
+    yaw: 90
+  HUMAN:
+    location:
+      world: OVERWORLD
+      x: -1554.5
+      y: 54
+      z: 357.5
+    pitch: 0
+    yaw: -90
+  ORC:
+    location:
+      world: OVERWORLD
+      x: 444.5
+      y: 45
+      z: 414.5
+    pitch: 0
+    yaw: 90
+#  ?d?:
+#    location:
+#      world: OVERWORLD
+#      x: -1534.5
+#      y: 81
+#      z: -1524.5
+#    pitch: 0
+#    yaw: -45
+#  ?e?:
+#    location:
+#      world: OVERWORLD
+#      x: 385.5
+#      y: 62
+#      z: -1517.5
+#    pitch: 0
+#    yaw: 45
+
+
 # Game configuration
 objectivePoints:
   KEEP: 150
