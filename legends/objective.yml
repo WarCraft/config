@@ -191,6 +191,7 @@ objectives:
         y: 33
         z: -23
       radius: 6
+    portals: []
     boundingBox:
       world: OVERWORLD
       minimumCorner:
@@ -213,6 +214,7 @@ objectives:
         y: 33
         z: 411
       radius: 6
+    portals: []
     boundingBox:
       world: OVERWORLD
       minimumCorner:
@@ -235,6 +237,7 @@ objectives:
         y: 30
         z: 501
       radius: 6
+    portals: []
     boundingBox:
       world: OVERWORLD
       minimumCorner:
@@ -430,6 +433,7 @@ objectives:
         y: 43
         z: 425
       radius: 6
+    portals: []
     boundingBox:
       world: OVERWORLD
       minimumCorner:
@@ -452,6 +456,7 @@ objectives:
         y: 33
         z: 20
       radius: 6
+    portals: []
     boundingBox:
       world: OVERWORLD
       minimumCorner:
@@ -474,6 +479,7 @@ objectives:
         y: 35
         z: 490
       radius: 6
+    portals: []
     boundingBox:
       world: OVERWORLD
       minimumCorner:
