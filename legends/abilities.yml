@@ -95,6 +95,10 @@ specializations:
 
 
 abilities:
+  - name: Vanilla
+    damage: 0
+    cooldown: 0
+
   # Berserker
   - name: Maul
     damage: 3
