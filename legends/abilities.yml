@@ -12,7 +12,7 @@ specializations:
       - MOB_HEAD_SKELETON
     offhandRequired: no
     invalidWeaponsMessage: As a Berserker you can only fight using an Axe and optionally a Skull.
-    leftClickAbility:
+    leftClickAbility: Vanilla
     rightClickAbility: Maul
     shiftLeftClickAbility: Grudge
     shiftRightClickAbility: Shatter
@@ -29,7 +29,7 @@ specializations:
       - SHIELD
     offhandRequired: no
     invalidWeaponsMessage: As an Armsmaster you can only fight using a Sword and optionally a Shield.
-    leftClickAbility:
+    leftClickAbility: Vanilla
     rightClickAbility: Hamstring
     shiftLeftClickAbility: Slam
     shiftRightClickAbility: Stand Your Ground
