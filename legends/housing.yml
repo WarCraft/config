@@ -141,10 +141,10 @@ addresses:
   -1463,55,343: "Castle Road 6"
   -1468,55,366: "Castle Road 7"
 
-  -1417,55,349: "Lirianne Plaza 1"
-  -1435,55,349: "Lirianne Plaza 2"
-  -1443,56,360: "Lirianne Plaza 3"
-  -1426,55,369: "Lirianne Plaza 4"
+  -1414,55,349: "Lirianne Plaza 1"
+  -1434,55,349: "Lirianne Plaza 2"
+  -1445,56,359: "Lirianne Plaza 3"
+  -1424,55,369: "Lirianne Plaza 4"
   -1420,56,390: "Lirianne Plaza 5"
   -1438,55,379: "Lirianne Plaza 6"
 
@@ -152,9 +152,9 @@ addresses:
   -1412,55,405: "Redbrick Alley 2"
   -1396,55,404: "Redbrick Alley 3"
   -1395,56,396: "Redbrick Alley 4"
-  -1377,56,406: "Redbrick Alley 5"
+  -1380,56,406: "Redbrick Alley 5"
   -1377,55,396: "Redbrick Alley 6"
-  -1367,56,406: "Redbrick Alley 7"
+  -1367,56,408: "Redbrick Alley 7"
   -1359,56,396: "Redbrick Alley 8"
 
   # Human farms
