@@ -239,7 +239,7 @@ miniPets:
     rarity: EPIC
     name: Lamb
     skull: MHF_Sheep
-    lore: ["Ur beeeed!"]
+    lore: ["Ur baaaad!"]
     entityType: SHEEP
   - id: SILVERFISH
     type: MINI_PET
@@ -251,7 +251,7 @@ miniPets:
   - id: WOLF
     type: MINI_PET
     rarity: EPIC
-    name: Wolf pup
+    name: Wolf Pup
     skull: MHF_Wolf
     lore: []
     entityType: WOLF
