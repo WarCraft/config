@@ -174,7 +174,7 @@ abilities:
   - name: Fireball
     speed: 0.75
     gravity: 0
-    radius: 2
+    radius: 0.5
     damage: 2
     burn-duration: 2
     range: 30
@@ -199,7 +199,7 @@ abilities:
     fireballsPerSecond: 3
     speed: 0.75
     damage: 1
-    radius: 2
+    radius: 0.5
     burn-level: 1
     burn-duration: 3
     duration: 10
