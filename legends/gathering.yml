@@ -98,13 +98,13 @@ blockGatheringSpots:
   - boundingBox:
       world: THE_END
       minimumCorner:
-        x: 196
-        y: 178
-        z: -134
+        x: 195
+        y: 179
+        z: -135
       maximumCorner:
-        x: 199
-        y: 178
-        z: -131
+        x: 200
+        y: 179
+        z: -130
     blockType: RIPE_WHEAT_CROPS
     cooldownType: MEDIUM_WHEAT_CROPS
     drop:
@@ -137,12 +137,12 @@ blockGatheringSpots:
       world: OVERWORLD
       minimumCorner:
         x: 201
-        y: 176
+        y: 175
         z: -129
       maximumCorner:
-        x: 205
-        y: 180
-        z: -123
+        x: 206
+        y: 181
+        z: -125
     blockType: STONE
     cooldownType: BEDROCK
     drop:
