@@ -13,7 +13,7 @@ blockGatheringSpots:
     blockType: RIPE_WHEAT_CROPS
     cooldownType: MEDIUM_WHEAT_CROPS
     drop:
-      type: WHEAT_CROPS
+      type: WHEAT
       name: Wheat
     cooldownInSeconds: 60
     cooldownDeviationPercentage: 20
@@ -108,7 +108,7 @@ blockGatheringSpots:
     blockType: RIPE_WHEAT_CROPS
     cooldownType: MEDIUM_WHEAT_CROPS
     drop:
-      type: WHEAT_CROPS
+      type: WHEAT
       name: Wheat
     cooldownInSeconds: 6
     cooldownDeviationPercentage: 20
@@ -134,7 +134,7 @@ blockGatheringSpots:
 
   # Tutorial mine
   - boundingBox:
-      world: OVERWORLD
+      world: THE_END
       minimumCorner:
         x: 201
         y: 175
@@ -142,8 +142,25 @@ blockGatheringSpots:
       maximumCorner:
         x: 206
         y: 181
-        z: -125
+        z: -123
     blockType: STONE
+    cooldownType: BEDROCK
+    drop:
+      type: STONE
+      name: Stone
+    cooldownInSeconds: 6
+    cooldownDeviationPercentage: 20
+  - boundingBox:
+      world: THE_END
+      minimumCorner:
+        x: 201
+        y: 175
+        z: -129
+      maximumCorner:
+        x: 206
+        y: 181
+        z: -123
+    blockType: COBBLESTONE
     cooldownType: BEDROCK
     drop:
       type: STONE
