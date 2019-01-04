@@ -46,7 +46,7 @@ objectives:
       # hub portal
       - entryLocation:
           world: OVERWORLD
-          x: -1517.5
+          x: -1516.5
           y: 55
           z: 326.5
         exitLocation:
@@ -103,7 +103,7 @@ objectives:
       # hub portal
       - entryLocation:
           world: OVERWORLD
-          x: -1523.5
+          x: -1522.5
           y: 55
           z: 326.5
         exitLocation:
@@ -160,7 +160,7 @@ objectives:
       # hub portal
       - entryLocation:
           world: OVERWORLD
-          x: -1515.5
+          x: -1514.5
           y: 55
           z: 330.5
         exitLocation:
