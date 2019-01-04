@@ -11,7 +11,7 @@ blockGatheringSpots:
         y: 43
         z: 17
     blockType: RIPE_WHEAT_CROPS
-    cooldownType: MEDIUM_WHEAT_CROPS
+    cooldownType: SMALL_WHEAT_CROPS
     drop:
       type: WHEAT
       name: Wheat
@@ -106,7 +106,7 @@ blockGatheringSpots:
         y: 179
         z: -130
     blockType: RIPE_WHEAT_CROPS
-    cooldownType: MEDIUM_WHEAT_CROPS
+    cooldownType: SMALL_WHEAT_CROPS
     drop:
       type: WHEAT
       name: Wheat
