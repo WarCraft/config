@@ -1043,7 +1043,7 @@ itemLores:
             - name: Guardian Sword
           LEGENDARY:
             - name: Excalibur
-              flavorText: [...whose power was meant to unite all men...]
+              flavorText: [...whose power was meant, to unite all men...]
           ANCIENT:
             - name: Ancient Sword
         AXE:
