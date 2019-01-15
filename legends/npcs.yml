@@ -1,5 +1,5 @@
 npcs:
-  # Human npcs
+  # Human capital
   - name: Blueprint Placeholder
     type: BLUEPRINT_VENDOR
     entityType: VILLAGER
@@ -8,7 +8,8 @@ npcs:
       x: -1512
       y: 54
       z: 336
-  # Orc npcs
+
+  # Orc capital
   - name: Blueprint Placeholder
     type: BLUEPRINT_VENDOR
     entityType: VILLAGER
@@ -17,3 +18,13 @@ npcs:
       x: 405
       y: 43
       z: 412
+
+  # Tutorial
+  - name:
+    type: TARGET_DUMMY
+    entityType: ZOMBIE
+    location:
+      world: THE_END
+      x:
+      y:
+      z:
