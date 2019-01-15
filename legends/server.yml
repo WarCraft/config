@@ -68,8 +68,9 @@ objectivePoints:
   KEEP: 150
   OUTPOST: 75
   RESOURCE: 25
+  TUTORIAL: 0
 
-favorPerKill: 3
+favorPerKill: 2
 
 
 # Rank configuration

@@ -6,6 +6,7 @@ requiredProgress:
   KEEP: 240
   OUTPOST: 120
   RESOURCE: 60
+  TUTORIAL: 30
 
 objectives:
   # Human objectives
@@ -491,6 +492,42 @@ objectives:
         y: 52
         z: 477
     orientation: SOUTH
+
+  # Tutorial objectives
+  - id: TUTORIAL_OBJECTIVE
+    model:
+    type: TUTORIAL
+    name: Tutorial Objective
+    capturePoint:
+      location:
+        world: THE_END
+        x: 448
+        y: 40
+        z: -310.5
+      radius: 6
+    portals:
+    # outer portal
+    - entryLocation:
+        world: THE_END
+        x: 387.5
+        y: 36
+        z: -292.5
+      exitLocation:
+        world: THE_END
+        x: 392.5
+        y: 38
+        z: -298.5
+    # inner portal
+    - entryLocation:
+        world: THE_END
+        x: 400.5
+        y: 38
+        z: -289.5
+      exitLocation:
+        world: THE_END
+        x: 395.5
+        y: 38
+        z: -285.5
 
 blacklistedAreas:
   # Human capital
