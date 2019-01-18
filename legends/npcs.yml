@@ -20,7 +20,7 @@ npcs:
       z: 412.5
 
   # Tutorial
-  - name: ""
+  - name: Training Dummy
     type: TARGET_DUMMY
     entityType: ZOMBIE
     location:
