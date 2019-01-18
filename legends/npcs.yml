@@ -5,9 +5,9 @@ npcs:
     entityType: VILLAGER
     location:
       world: OVERWORLD
-      x: -1512
+      x: -1511.5
       y: 54
-      z: 336
+      z: 336.5
 
   # Orc capital
   - name: Blueprint Placeholder
@@ -15,9 +15,9 @@ npcs:
     entityType: VILLAGER
     location:
       world: OVERWORLD
-      x: 405
+      x: 405.5
       y: 43
-      z: 412
+      z: 412.5
 
   # Tutorial
   - name:
@@ -25,6 +25,6 @@ npcs:
     entityType: ZOMBIE
     location:
       world: THE_END
-      x:
-      y:
-      z:
+      x: 359.5
+      y: 188
+      z: 50.5
