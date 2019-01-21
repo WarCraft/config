@@ -95,7 +95,8 @@ specializations:
 
 
 abilities:
-  - name: Vanilla
+  # Vanilla hits
+  - name: "Melee/Arrow"
     damage: 0
     cooldown: 0
 
