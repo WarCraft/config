@@ -12,10 +12,11 @@ specializations:
       - MOB_HEAD_SKELETON
     offhandRequired: no
     invalidWeaponsMessage: As a Berserker you can only fight using an Axe and optionally a Skull.
-    leftClickAbility: Vanilla
+    leftClickAbility:
     rightClickAbility: Maul
     shiftLeftClickAbility: Grudge
     shiftRightClickAbility: Shatter
+    hasVanillaAbilities: yes
 
   - name: Armsmaster
     permission: warcraft.armsmaster
@@ -29,10 +30,11 @@ specializations:
       - SHIELD
     offhandRequired: no
     invalidWeaponsMessage: As an Armsmaster you can only fight using a Sword and optionally a Shield.
-    leftClickAbility: Vanilla
+    leftClickAbility:
     rightClickAbility: Hamstring
     shiftLeftClickAbility: Slam
     shiftRightClickAbility: Stand Your Ground
+    hasVanillaAbilities: yes
 
   # Ranger
   - name: Marksman
@@ -47,6 +49,7 @@ specializations:
     rightClickAbility:
     shiftLeftClickAbility: Focus
     shiftRightClickAbility: Sneak
+    hasVanillaAbilities: yes
 
   - name: Hunter
     permission: warcraft.hunter
@@ -60,6 +63,7 @@ specializations:
     rightClickAbility:
     shiftLeftClickAbility: Trap
     shiftRightClickAbility: Disengage
+    hasVanillaAbilities: yes
 
   # Mage
   - name: Tempest
@@ -78,6 +82,7 @@ specializations:
     rightClickAbility: Bolt
     shiftLeftClickAbility: Hail Blast
     shiftRightClickAbility: Molten Storm
+    hasVanillaAbilities: no
 
   - name: Wizard
     permission: warcraft.wizard
@@ -92,6 +97,7 @@ specializations:
     rightClickAbility: Arcane Missile
     shiftLeftClickAbility: Teleport
     shiftRightClickAbility: Mass Bamboozle
+    hasVanillaAbilities: no
 
 
 abilities:
