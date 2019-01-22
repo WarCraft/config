@@ -102,8 +102,8 @@ specializations:
 
 abilities:
   # Vanilla hits
-  - name: "Melee/Arrow"
-    damage: 0
+  - name: "Basic Attack"
+    damage: 1
     cooldown: 0
 
   # Berserker
