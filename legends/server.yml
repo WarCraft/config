@@ -118,8 +118,6 @@ rankFavorTable: [
   504000, 568000, 632000, 696000, 760000, 824000, 888000,      # +64000 (Obsidian)
   1016000]                                                     # +128000 (Prestige rank-up)
 
-prestigeChar: ✯
-
 
 # Loot crate configuration
 lootCrates:
