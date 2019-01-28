@@ -283,27 +283,27 @@ lootCrates:
 # Rank-Up rewards
 rankUpRewards:
   1:
-  2: WAR_CRATE: 3
-  3: WAR_CRATE: 3
-  4: WAR_CRATE: 3
-  5: WAR_CRATE: 3
-  6: WAR_CRATE: 3
+  2: {WAR_CRATE: 3}
+  3: {WAR_CRATE: 3}
+  4: {WAR_CRATE: 3}
+  5: {WAR_CRATE: 3}
+  6: {WAR_CRATE: 3}
   7: {WAR_CRATE: 3, LEGEND_CRATE: 1}
 
   8:
-  9: WAR_CRATE: 4
-  10: WAR_CRATE: 4
+  9: {WAR_CRATE: 4}
+  10: {WAR_CRATE: 4}
   11: {WAR_CRATE: 4, LEGEND_CRATE: 1}
-  12: WAR_CRATE: 4
-  13: WAR_CRATE: 4
+  12: {WAR_CRATE: 4}
+  13: {WAR_CRATE: 4}
   14: {WAR_CRATE: 4, LEGEND_CRATE: 1}
 
   15:
-  16: WAR_CRATE: 5
+  16: {WAR_CRATE: 5}
   17: {WAR_CRATE: 5, LEGEND_CRATE: 1}
-  18: WAR_CRATE: 5
+  18: {WAR_CRATE: 5}
   19: {WAR_CRATE: 5, LEGEND_CRATE: 1}
-  20: WAR_CRATE: 5
+  20: {WAR_CRATE: 5}
   21: {WAR_CRATE: 5, LEGEND_CRATE: 1}
 
   22:
