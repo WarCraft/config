@@ -37,108 +37,91 @@ prices:
 
 decorations:
   # Basic pack
-  - id: BED
+  - id: RED_BED
     type: DECORATION
     rarity: RARE
     name: Bed
     lore: []
-    itemType: RED_BED
   - id: BOOKSHELF
     type: DECORATION
     rarity: RARE
     name: Bookshelf
     lore: []
-    itemType: BOOKSHELF
   - id: CHEST
     type: DECORATION
     rarity: RARE
     name: Chest
     lore: []
-    itemType: CHEST
   - id: GLASS
     type: DECORATION
     rarity: RARE
     name: Glass
     lore: []
-    itemType: GLASS
   - id: GLASS_PANE
     type: DECORATION
     rarity: RARE
     name: Glass Pane
     lore: []
-    itemType: GLASS_PANE
   - id: LADDER
     type: DECORATION
     rarity: RARE
     name: Ladder
     lore: []
-    itemType: LADDER
   - id: OAK_DOOR
     type: DECORATION
     rarity: RARE
     name: Oak Door
     lore: []
-    itemType: OAK_DOOR
   - id: OAK_FENCE
     type: DECORATION
     rarity: RARE
     name: Oak Fence
     lore: []
-    itemType: OAK_FENCE
   - id: OAK_FENCE_GATE
     type: DECORATION
     rarity: RARE
     name: Oak Fence Gate
     lore: []
-    itemType: OAK_FENCE_GATE
   - id: OAK_WOOD_PLANK
     type: DECORATION
     rarity: RARE
     name: Oak Planks
     lore: []
-    itemType: OAK_WOOD_PLANK
   - id: OAK_WOOD_SLAB
     type: DECORATION
     rarity: RARE
     name: Oak Slab
     lore: []
-    itemType: OAK_WOOD_SLAB
   - id: OAK_WOOD_STAIRS
     type: DECORATION
     rarity: RARE
     name: Oak Stairs
     lore: []
-    itemType: OAK_WOOD_STAIRS
   - id: SIGN
     type: DECORATION
     rarity: RARE
     name: Sign
     lore: []
-    itemType: SIGN
   - id: TORCH
     type: DECORATION
     rarity: RARE
     name: Torch
     lore: []
-    itemType: TORCH
   - id: WOOD_BUTTON
     type: DECORATION
     rarity: RARE
     name: Button
     lore: []
-    itemType: WOOD_BUTTON
   - id: WOOD_PRESSURE_PLATE
     type: DECORATION
     rarity: RARE
     name: Pressure Plate
     lore: []
-    itemType: WOOD_PRESSURE_PLATE
   - id: WOOD_TRAPDOOR
     type: DECORATION
     rarity: RARE
     name: Trapdoor
     lore: []
-    itemType: WOOD_TRAPDOOR
 
   # Fabrics pack
 
