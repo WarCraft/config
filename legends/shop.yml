@@ -507,8 +507,273 @@ decorations:
     lore: []
 
   # Gardening pack
+  - id: BROWN_MUSHROOM
+    type: DECORATION
+    rarity: RARE
+    name: Brown mushroom
+    lore: []
+  - id: BROWN_MUSHROOM_BLOCK
+    type: DECORATION
+    rarity: RARE
+    name: Brown mushroom block
+    lore: []
+  - id: CARROTS
+    type: DECORATION
+    rarity: RARE
+    name: Carrots
+    lore: []
+  - id: COCOA
+    type: DECORATION
+    rarity: RARE
+    name: Cocoa
+    lore: []
+  - id: DIRT
+    type: DECORATION
+    rarity: RARE
+    name: Dirt
+    lore: []
+  - id: GRASS
+    type: DECORATION
+    rarity: RARE
+    name: Grass
+    lore: []
+  - id: JACK_OLANTERN
+    type: DECORATION
+    rarity: RARE
+    name: Jack o'lantern
+    lore: []
+  - id: LARGE_FERN
+    type: DECORATION
+    rarity: RARE
+    name: Large fern
+    lore: []
+  - id: LILAC
+    type: DECORATION
+    rarity: RARE
+    name: Lilac
+    lore: []
+  - id: LILY_PAD
+    type: DECORATION
+    rarity: RARE
+    name: Lily pad
+    lore: []
+  - id: MELON_BLOCK
+    type: DECORATION
+    rarity: RARE
+    name: Melon block
+    lore: []
+  - id: MELON_STEM
+    type: DECORATION
+    rarity: RARE
+    name: Melon stem
+    lore: []
+  - id: PEONY
+    type: DECORATION
+    rarity: RARE
+    name: Peony
+    lore: []
+  - id: POTATOES
+    type: DECORATION
+    rarity: RARE
+    name: Potatoes
+    lore: []
+  - id: PUMPKIN
+    type: DECORATION
+    rarity: RARE
+    name: Pumpkin
+    lore: []
+  - id: PUMPKIN_STEM
+    type: DECORATION
+    rarity: RARE
+    name: Pumpkin stem
+    lore: []
+  - id: SUNFLOWER
+    type: DECORATION
+    rarity: RARE
+    name: Sunflower
+    lore: []
+  - id: RED_MUSHROOM
+    type: DECORATION
+    rarity: RARE
+    name: Red mushroom
+    lore: []
+  - id: RED_MUSHROOM_BLOCK
+    type: DECORATION
+    rarity: RARE
+    name: Red mushroom block
+    lore: []
+  - id: ROSE_BUSH
+    type: DECORATION
+    rarity: RARE
+    name: Rose bush
+    lore: []
+  - id: VINES
+    type: DECORATION
+    rarity: RARE
+    name: Vines
+    lore: []
 
   # Stone pack
+  - id: ANDESITE
+    type: DECORATION
+    rarity: RARE
+    name: Andesite
+    lore: []
+  - id: BRICK_SLAB
+    type: DECORATION
+    rarity: RARE
+    name: Brick slab
+    lore: []
+  - id: BRICK_STAIRS
+    type: DECORATION
+    rarity: RARE
+    name: Brick stairs
+    lore: []
+  - id: BRICKS
+    type: DECORATION
+    rarity: RARE
+    name: Bricks
+    lore: []
+  - id: CHISELED_QUARTZ_BLOCK
+    type: DECORATION
+    rarity: RARE
+    name: Chiseled quartz block
+    lore: []
+  - id: CHISELED_STONE_BRICKS
+    type: DECORATION
+    rarity: RARE
+    name: Chiseled stone bricks
+    lore: []
+  - id: COBBLESTONE
+    type: DECORATION
+    rarity: RARE
+    name: Cobblestone
+    lore: []
+  - id: COBBLESTONE_SLAB
+    type: DECORATION
+    rarity: RARE
+    name: Cobblestone slab
+    lore: []
+  - id: COBBLESTONE_STAIRS
+    type: DECORATION
+    rarity: RARE
+    name: Cobblestone stairs
+    lore: []
+  - id: COBBLESTONE_WALL
+    type: DECORATION
+    rarity: RARE
+    name: Cobblestone wall
+    lore: []
+  - id: CRACKED_STONE_BRICKS
+    type: DECORATION
+    rarity: RARE
+    name: Cracked stone bricks
+    lore: []
+  - id: DRIORITE
+    type: DECORATION
+    rarity: RARE
+    name: Driorite
+    lore: []
+  - id: GRANITE
+    type: DECORATION
+    rarity: RARE
+    name: Granite
+    lore: []
+  - id: GRAVEL
+    type: DECORATION
+    rarity: RARE
+    name: Gravel
+    lore: []
+  - id: MOSS_STONE
+    type: DECORATION
+    rarity: RARE
+    name: Moss stone
+    lore: []
+  - id: MOSSY_COBBLESTONE_WALL
+    type: DECORATION
+    rarity: RARE
+    name: Mossy cobblestone wall
+    lore: []
+  - id: MOSSY_STONE_BRICKS
+    type: DECORATION
+    rarity: RARE
+    name: Mossy stone bricks
+    lore: []
+  - id: MOSSY_STONE_STAIRS
+    type: DECORATION
+    rarity: RARE
+    name: Mossy stone stairs
+    lore: []
+  - id: PILLAR_QUARTZ_BLOCK
+    type: DECORATION
+    rarity: RARE
+    name: Pillar quartz block
+    lore: []
+  - id: POLISHED_ANDESITE
+    type: DECORATION
+    rarity: RARE
+    name: Polished andesite
+    lore: []
+  - id: POLISHED_DRIORITE
+    type: DECORATION
+    rarity: RARE
+    name: Polished driorite
+    lore: []
+  - id: POLISHED_GRANITE
+    type: DECORATION
+    rarity: RARE
+    name: Polished granite
+    lore: []
+  - id: QUARTZ_BLOCK
+    type: DECORATION
+    rarity: RARE
+    name: Quartz block
+    lore: []
+  - id: QUARTZ_SLAB
+    type: DECORATION
+    rarity: RARE
+    name: Quartz slab
+    lore: []
+  - id: QUARTZ_STAIRS
+    type: DECORATION
+    rarity: RARE
+    name: Quartz stairs
+    lore: []
+  - id: STONE
+    type: DECORATION
+    rarity: RARE
+    name: Stone
+    lore: []
+  - id: STONE_BRICK_SLAB
+    type: DECORATION
+    rarity: RARE
+    name: Stone brick slab
+    lore: []
+  - id: STONE_BRICK_STAIRS
+    type: DECORATION
+    rarity: RARE
+    name: Stone brick stairs
+    lore: []
+  - id: STONE_BRICKS
+    type: DECORATION
+    rarity: RARE
+    name: Stone bricks
+    lore: []
+  - id: STONE_BUTTON
+    type: DECORATION
+    rarity: RARE
+    name: Stone button
+    lore: []
+  - id: STONE_PRESSURE_PLATE
+    type: DECORATION
+    rarity: RARE
+    name: Stone pressure plate
+    lore: []
+  - id: STONE_SLAB
+    type: DECORATION
+    rarity: RARE
+    name: Stone slab
+    lore: []
 
   # Ores pack
   - id: COAL_ORE
@@ -555,32 +820,32 @@ decorations:
   # Gemstones pack
   - id: DIAMOND_BLOCK
     type: DECORATION
-    rarity: RARE
+    rarity: EPIC
     name: Diamond block
     lore: []
   - id: EMERALD_BLOCK
     type: DECORATION
-    rarity: RARE
+    rarity: EPIC
     name: Emerald block
     lore: []
   - id: GOLD_BLOCK
     type: DECORATION
-    rarity: RARE
+    rarity: EPIC
     name: Gold block
     lore: []
   - id: IRON_BLOCK
     type: DECORATION
-    rarity: RARE
+    rarity: EPIC
     name: Iron block
     lore: []
   - id: LAPIS_LAZULI_BLOCK
     type: DECORATION
-    rarity: RARE
+    rarity: EPIC
     name: Lapis lazuli block
     lore: []
   - id: REDSTONE_BLOCK
     type: DECORATION
-    rarity: RARE
+    rarity: EPIC
     name: Redstone block
     lore: []
 
@@ -808,130 +1073,226 @@ decorations:
     lore: []
 
   # Nature pack
+  - id: COARSE_DIRT
+    type: DECORATION
+    rarity: RARE
+    name: Coarse dirt
+    lore: []
+  - id: PODZOL
+    type: DECORATION
+    rarity: RARE
+    name: Podzol
+    lore: []
+  - id: SHRUB
+    type: DECORATION
+    rarity: RARE
+    name: Shrub
+    lore: []
+  - id: DOUBLE_TALLGRASS
+    type: DECORATION
+    rarity: RARE
+    name: Double tallgrass
+    lore: []
+  - id: FERN
+    type: DECORATION
+    rarity: RARE
+    name: Fern
+    lore: []
+  - id: DEAD_BUSH
+    type: DECORATION
+    rarity: RARE
+    name: Dead bush
+    lore: []
+
+  - id: ACACIA_LEAVES
+    type: DECORATION
+    rarity: RARE
+    name: Acacia leaves
+    lore: []
+  - id: ACACIA_WOOD
+    type: DECORATION
+    rarity: RARE
+    name: Acacia wood
+    lore: []
+
+  - id: BIRCH_LEAVES
+    type: DECORATION
+    rarity: RARE
+    name: Birch leaves
+    lore: []
+  - id: BIRCH_WOOD
+    type: DECORATION
+    rarity: RARE
+    name: Birch wood
+    lore: []
+
+  - id: DARK_OAK_LEAVES
+    type: DECORATION
+    rarity: RARE
+    name: Dark oak leaves
+    lore: []
+  - id: DARK_OAK_WOOD
+    type: DECORATION
+    rarity: RARE
+    name: Dark oak wood
+    lore: []
+
+  - id: JUNGLE_LEAVES
+    type: DECORATION
+    rarity: RARE
+    name: Jungle leaves
+    lore: []
+  - id: JUNGLE_WOOD
+    type: DECORATION
+    rarity: RARE
+    name: Jungle wood
+    lore: []
+
+  - id: OAK_LEAVES
+    type: DECORATION
+    rarity: RARE
+    name: Oak leaves
+    lore: []
+  - id: OAK_WOOD
+    type: DECORATION
+    rarity: RARE
+    name: Oak wood
+    lore: []
+
+  - id: SPRUCE_LEAVES
+    type: DECORATION
+    rarity: RARE
+    name: Spruce leaves
+    lore: []
+  - id: SPRUCE_WOOD
+    type: DECORATION
+    rarity: RARE
+    name: Spruce wood
+    lore: []
 
   # Art pack
   - id: ARMOR_STAND
     type: DECORATION
-    rarity: RARE
+    rarity: EPIC
     name: Armor stand
     lore: []
   - id: BANNER
     type: DECORATION
-    rarity: RARE
+    rarity: EPIC
     name: Banner
     lore: []
   - id: ITEM_FRAME
     type: DECORATION
-    rarity: RARE
+    rarity: EPIC
     name: Item frame
     lore: []
   - id: PAINTING
     type: DECORATION
-    rarity: RARE
+    rarity: EPIC
     name: Painting
     lore: []
 
   # Music pack
   - id: NOTE_BLOCK
     type: DECORATION
-    rarity: RARE
+    rarity: ANCIENT
     name: Note block
     lore: []
   - id: JUKEBOX
     type: DECORATION
-    rarity: RARE
+    rarity: ANCIENT
     name: Jukebox
     lore: []
   - id: ELEVEN_DISC
     type: DECORATION
-    rarity: RARE
+    rarity: ANCIENT
     name: 11
     lore: []
   - id: THIRTEEN_DISC
     type: DECORATION
-    rarity: RARE
+    rarity: ANCIENT
     name: 13
     lore: []
   - id: BLOCKS_DISC
     type: DECORATION
-    rarity: RARE
+    rarity: ANCIENT
     name: Blocks
     lore: []
   - id: CAT_DISC
     type: DECORATION
-    rarity: RARE
+    rarity: ANCIENT
     name: Cat
     lore: []
   - id: CHIRP_DISC
     type: DECORATION
-    rarity: RARE
+    rarity: ANCIENT
     name: Chirp
     lore: []
   - id: FAR_DISC
     type: DECORATION
-    rarity: RARE
+    rarity: ANCIENT
     name: Far
     lore: []
   - id: MALL_DISC
     type: DECORATION
-    rarity: RARE
+    rarity: ANCIENT
     name: Mall
     lore: []
   - id: MELLOHI_DISC
     type: DECORATION
-    rarity: RARE
+    rarity: ANCIENT
     name: Mellohi
     lore: []
   - id: STAL_DISC
     type: DECORATION
-    rarity: RARE
+    rarity: ANCIENT
     name: Stal
     lore: []
   - id: STRAD_DISC
     type: DECORATION
-    rarity: RARE
+    rarity: ANCIENT
     name: Strad
     lore: []
   - id: WAIT_DISC
     type: DECORATION
-    rarity: RARE
+    rarity: ANCIENT
     name: Wait
     lore: []
   - id: WARD_DISC
     type: DECORATION
-    rarity: RARE
+    rarity: ANCIENT
     name: Ward
     lore: []
 
   # Ice and fire pack
   - id: FROSTED_ICE
     type: DECORATION
-    rarity: RARE
+    rarity: LEGENDARY
     name: Frosted ice
     lore: []
   - id: ICE
     type: DECORATION
-    rarity: RARE
+    rarity: LEGENDARY
     name: Ice
     lore: []
   - id: MAGMA_BLOCK
     type: DECORATION
-    rarity: RARE
+    rarity: LEGENDARY
     name: Magma block
     lore: []
   - id: PACKED_ICE
     type: DECORATION
-    rarity: RARE
+    rarity: LEGENDARY
     name: Packed ice
     lore: []
   - id: SNOW
     type: DECORATION
-    rarity: RARE
+    rarity: LEGENDARY
     name: Snow
     lore: []
   - id: SNOW_BLOCK
     type: DECORATION
-    rarity: RARE
+    rarity: LEGENDARY
     name: Snow block
     lore: []
 
@@ -1323,68 +1684,100 @@ decorations:
   # Nether pack
   - id: BONE_BLOCK
     type: DECORATION
-    rarity: RARE
+    rarity: EPIC
     name: Bone block
     lore: []
   - id: GLOWSTONE
     type: DECORATION
-    rarity: RARE
+    rarity: EPIC
     name: Glowstone
     lore: []
   - id: NETHER_BRICK
     type: DECORATION
-    rarity: RARE
+    rarity: EPIC
     name: Nether brick
     lore: []
   - id: NETHER_BRICK_FENCE
     type: DECORATION
-    rarity: RARE
+    rarity: EPIC
     name: Nether brick fence
     lore: []
   - id: NETHER_BRICK_SLAB
     type: DECORATION
-    rarity: RARE
+    rarity: EPIC
     name: Nether brick slab
     lore: []
   - id: NETHER_BRICK_STAIRS
     type: DECORATION
-    rarity: RARE
+    rarity: EPIC
     name: Nether brick stairs
     lore: []
   - id: NETHER_QUARTZ_ORE
     type: DECORATION
-    rarity: RARE
+    rarity: EPIC
     name: Nether quartz ore
     lore: []
   - id: NETHER_WART
     type: DECORATION
-    rarity: RARE
+    rarity: EPIC
     name: Nether wart
     lore: []
   - id: NETHER_WART_BLOCK
     type: DECORATION
-    rarity: RARE
+    rarity: EPIC
     name: Nether wart block
     lore: []
   - id: NETHERRACK
     type: DECORATION
-    rarity: RARE
+    rarity: EPIC
     name: Netherrack
     lore: []
   - id: OBSIDIAN
     type: DECORATION
-    rarity: RARE
+    rarity: EPIC
     name: Obsidian
     lore: []
   - id: RED_NETHER_BRICK
     type: DECORATION
-    rarity: RARE
+    rarity: EPIC
     name: Red nether brick
     lore: []
   - id: SOUL_SAND
     type: DECORATION
-    rarity: RARE
+    rarity: EPIC
     name: Soul sand
+    lore: []
+
+  # Mob pack
+  - id: MOB_HEAD_SKELETON
+    type: DECORATION
+    rarity: LEGENDARY
+    name: Skeleton head
+    lore: []
+  - id: MOB_HEAD_WITHER_SKELETON
+    type: DECORATION
+    rarity: LEGENDARY
+    name: Wither skeleton head
+    lore: []
+  - id: MOB_HEAD_ZOMBIE
+    type: DECORATION
+    rarity: LEGENDARY
+    name: Zombie head
+    lore: []
+  - id: MOB_HEAD_HUMAN
+    type: DECORATION
+    rarity: LEGENDARY
+    name: Human head
+    lore: []
+  - id: MOB_HEAD_CREEPER
+    type: DECORATION
+    rarity: LEGENDARY
+    name: Creeper head
+    lore: []
+  - id: MOB_HEAD_DRAGON
+    type: DECORATION
+    rarity: LEGENDARY
+    name: Dragon head
     lore: []
 
 
