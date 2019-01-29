@@ -40,119 +40,102 @@ decorations:
     type: DECORATION
     rarity: RARE
     name: Bed
-    icon: RED_BED
     lore: []
     itemType: RED_BED
   - id: BOOKSHELF
     type: DECORATION
     rarity: RARE
     name: Bookshelf
-    icon: BOOKSHELF
     lore: []
     itemType: BOOKSHELF
   - id: CHEST
     type: DECORATION
     rarity: RARE
     name: Chest
-    icon: CHEST
     lore: []
     itemType: CHEST
   - id: GLASS
     type: DECORATION
     rarity: RARE
     name: Glass
-    icon: GLASS
     lore: []
     itemType: GLASS
   - id: GLASS_PANE
     type: DECORATION
     rarity: RARE
     name: Glass Pane
-    icon: GLASS_PANE
     lore: []
     itemType: GLASS_PANE
   - id: LADDER
     type: DECORATION
     rarity: RARE
     name: Ladder
-    icon: LADDER
     lore: []
     itemType: LADDER
   - id: OAK_DOOR
     type: DECORATION
     rarity: RARE
     name: Oak Door
-    icon: OAK_DOOR
     lore: []
     itemType: OAK_DOOR
   - id: OAK_FENCE
     type: DECORATION
     rarity: RARE
     name: Oak Fence
-    icon: OAK_FENCE
     lore: []
     itemType: OAK_FENCE
   - id: OAK_FENCE_GATE
     type: DECORATION
     rarity: RARE
     name: Oak Fence Gate
-    icon: OAK_FENCE_GATE
     lore: []
     itemType: OAK_FENCE_GATE
   - id: OAK_WOOD_PLANK
     type: DECORATION
     rarity: RARE
     name: Oak Planks
-    icon: OAK_WOOD_PLANK
     lore: []
     itemType: OAK_WOOD_PLANK
   - id: OAK_WOOD_SLAB
     type: DECORATION
     rarity: RARE
     name: Oak Slab
-    icon: OAK_WOOD_SLAB
     lore: []
     itemType: OAK_WOOD_SLAB
   - id: OAK_WOOD_STAIRS
     type: DECORATION
     rarity: RARE
     name: Oak Stairs
-    icon: OAK_WOOD_STAIRS
     lore: []
     itemType: OAK_WOOD_STAIRS
   - id: SIGN
     type: DECORATION
     rarity: RARE
     name: Sign
-    icon: SIGN
     lore: []
     itemType: SIGN
   - id: TORCH
     type: DECORATION
     rarity: RARE
     name: Torch
-    icon: TORCH
     lore: []
     itemType: TORCH
   - id: WOOD_BUTTON
     type: DECORATION
     rarity: RARE
     name: Button
-    icon: WOOD_BUTTON
     lore: []
     itemType: WOOD_BUTTON
   - id: WOOD_PRESSURE_PLATE
     type: DECORATION
     rarity: RARE
     name: Pressure Plate
-    icon: WOOD_PRESSURE_PLATE
     lore: []
     itemType: WOOD_PRESSURE_PLATE
   - id: WOOD_TRAPDOOR
     type: DECORATION
     rarity: RARE
     name: Trapdoor
-    icon: WOOD_TRAPDOOR
     lore: []
     itemType: WOOD_TRAPDOOR
 
