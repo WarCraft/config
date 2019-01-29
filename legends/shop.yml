@@ -1,10 +1,10 @@
 prices:
-#  WAR_PASS:
-#    LEGENDARY: 4500
-#  TITAN_CRATE:
-#    LEGENDARY: 2250
-#  BUNDLE:
-#    RARE: 2450
+  #  WAR_PASS:
+  #    LEGENDARY: 4500
+  #  TITAN_CRATE:
+  #    LEGENDARY: 2250
+  #  BUNDLE:
+  #    RARE: 2450
   SPECIALIZATION:
     EPIC: 4750
     LEGENDARY: 11500
@@ -18,9 +18,9 @@ prices:
     EPIC: 4750
     LEGENDARY: 7450
     ANCIENT: 9750
-#  EMOTE:
-#    RARE: 250
-#    EPIC: 750
+  #  EMOTE:
+  #    RARE: 250
+  #    EPIC: 750
   MINI_PET:
     EPIC: 4750
     LEGENDARY: 9750
@@ -36,6 +36,7 @@ prices:
 
 
 decorations:
+  # Basic pack
   - id: BED
     type: DECORATION
     rarity: RARE
@@ -139,6 +140,43 @@ decorations:
     lore: []
     itemType: WOOD_TRAPDOOR
 
+  # Fabrics pack
+
+  # Flowers pack
+
+  # Glass pack
+
+  # Gardening pack
+
+  # Stone pack
+
+  # Ores pack
+
+  # Gemstones pack
+
+  # Desert pack
+
+  # Wood pack
+
+  # Nature pack
+
+  # Art pack
+
+  # Music pack
+
+  # Ice and fire pack
+
+  # Clay pack
+
+  # Terracotta pack
+
+  # Concrete pack
+
+  # Blurple pack
+
+  # Nether pack
+
+
 
 decorationPacks:
   - id: BASIC
@@ -165,6 +203,167 @@ decorationPacks:
       - BUTTON
       - WOOD_PRESSURE_PLATE
       - WOOD_TRAPDOOR
+
+  - id: FABRICS
+    type: DECORATION_PACK
+    rarity: ?
+    name: Fabrics
+    icon: ?
+    lore: []
+    decorations:
+      - ?
+
+  - id: FLOWERS
+    type: DECORATION_PACK
+    rarity: ?
+    name: Flowers
+    icon: ?
+    lore: []
+    decorations:
+      - ?
+
+  - id: GLASS
+    type: DECORATION_PACK
+    rarity: ?
+    name: Glass
+    icon: ?
+    lore: []
+    decorations:
+      - ?
+  - id: GARDENING
+    type: DECORATION_PACK
+    rarity: ?
+    name: Gardening
+    icon: ?
+    lore: []
+    decorations:
+      - ?
+
+  - id: STONE
+    type: DECORATION_PACK
+    rarity: ?
+    name: Stone
+    icon: ?
+    lore: []
+    decorations:
+      - ?
+
+  - id: ORES
+    type: DECORATION_PACK
+    rarity: ?
+    name: Ores
+    icon: ?
+    lore: []
+    decorations:
+      - ?
+
+  - id: GEMSTONES
+    type: DECORATION_PACK
+    rarity: ?
+    name: Gemstones
+    icon: ?
+    lore: []
+    decorations:
+      - ?
+
+  - id: DESERT
+    type: DECORATION_PACK
+    rarity: ?
+    name: Desert
+    icon: ?
+    lore: []
+    decorations:
+      - ?
+
+  - id: WOOD
+    type: DECORATION_PACK
+    rarity: ?
+    name: Wood
+    icon: ?
+    lore: []
+    decorations:
+      - ?
+
+  - id: NATURE
+    type: DECORATION_PACK
+    rarity: ?
+    name: Nature
+    icon: ?
+    lore: []
+    decorations:
+      - ?
+
+  - id: ART
+    type: DECORATION_PACK
+    rarity: ?
+    name: Art
+    icon: ?
+    lore: []
+    decorations:
+      - ?
+
+  - id: MUSIC
+    type: DECORATION_PACK
+    rarity: ?
+    name: Music
+    icon: ?
+    lore: []
+    decorations:
+      - ?
+
+  - id: ICE_AND_FIRE
+    type: DECORATION_PACK
+    rarity: ?
+    name: Ice and fire
+    icon: ?
+    lore: []
+    decorations:
+      - ?
+
+  - id: CLAY
+    type: DECORATION_PACK
+    rarity: ?
+    name: Clay
+    icon: ?
+    lore: []
+    decorations:
+      - ?
+
+  - id: TERRACOTTA
+    type: DECORATION_PACK
+    rarity: ?
+    name: Terracotta
+    icon: ?
+    lore: []
+    decorations:
+      - ?
+
+  - id: CONCRETE
+    type: DECORATION_PACK
+    rarity: ?
+    name: Concrete
+    icon: ?
+    lore: []
+    decorations:
+      - ?
+
+  - id: BLURPLE
+    type: DECORATION_PACK
+    rarity: ?
+    name: Blurple
+    icon: ?
+    lore: []
+    decorations:
+      - ?
+
+  - id: NETHER
+    type: DECORATION_PACK
+    rarity: ?
+    name: Nether
+    icon: ?
+    lore: []
+    decorations:
+      - ?
 
 
 miniPets:
@@ -239,55 +438,55 @@ miniPets:
     lore: []
     entityType: WOLF
 
-#  - id: ENDERMITE_MINI_PET
-#    type: MINI_PET
-#    rarity: LEGENDARY
-#    name: Mite
-#    skull: MHF_Endermite
-#    lore: []
-#    entityType: ENDERMITE
-#  - id: MAGMA_CUBE_MINI_PET
-#    type: MINI_PET
-#    rarity: LEGENDARY
-#    name:
-#    skull: MHF_Magma_Cube
-#    lore: []
-#    entityType: MAGMA_CUBE
-#  - id: MOOSHROOM_MINI_PET
-#    type: MINI_PET
-#    rarity: LEGENDARY
-#    name:
-#    skull: MHF_Mooshroom
-#    lore: []
-#    entityType: MOOSHROOM
-#  - id: PARROT_MINI_PET
-#    type: MINI_PET
-#    rarity: LEGENDARY
-#    name:
-#    skull: MHF_Parrot
-#    lore: []
-#    entityType: PARROT
-#  - id: POLAR_BEAR_MINI_PET
-#    type: MINI_PET
-#    rarity: LEGENDARY
-#    name:
-#    skull: MHF_Polar_Bear
-#    lore: []
-#    entityType: POLAR_BEAR
-#  - id: SLIME_MINI_PET
-#    type: MINI_PET
-#    rarity: LEGENDARY
-#    name:
-#    skull: MHF_Slime
-#    lore: []
-#    entityType: SLIME
-#  - id: SQUID_MINI_PET
-#    type: MINI_PET
-#    rarity: LEGENDARY
-#    name:
-#    skull: MHF_Squid
-#    lore: []
-#    entityType: SQUID
+  #  - id: ENDERMITE_MINI_PET
+  #    type: MINI_PET
+  #    rarity: LEGENDARY
+  #    name: Mite
+  #    skull: MHF_Endermite
+  #    lore: []
+  #    entityType: ENDERMITE
+  #  - id: MAGMA_CUBE_MINI_PET
+  #    type: MINI_PET
+  #    rarity: LEGENDARY
+  #    name:
+  #    skull: MHF_Magma_Cube
+  #    lore: []
+  #    entityType: MAGMA_CUBE
+  #  - id: MOOSHROOM_MINI_PET
+  #    type: MINI_PET
+  #    rarity: LEGENDARY
+  #    name:
+  #    skull: MHF_Mooshroom
+  #    lore: []
+  #    entityType: MOOSHROOM
+  #  - id: PARROT_MINI_PET
+  #    type: MINI_PET
+  #    rarity: LEGENDARY
+  #    name:
+  #    skull: MHF_Parrot
+  #    lore: []
+  #    entityType: PARROT
+  #  - id: POLAR_BEAR_MINI_PET
+  #    type: MINI_PET
+  #    rarity: LEGENDARY
+  #    name:
+  #    skull: MHF_Polar_Bear
+  #    lore: []
+  #    entityType: POLAR_BEAR
+  #  - id: SLIME_MINI_PET
+  #    type: MINI_PET
+  #    rarity: LEGENDARY
+  #    name:
+  #    skull: MHF_Slime
+  #    lore: []
+  #    entityType: SLIME
+  #  - id: SQUID_MINI_PET
+  #    type: MINI_PET
+  #    rarity: LEGENDARY
+  #    name:
+  #    skull: MHF_Squid
+  #    lore: []
+  #    entityType: SQUID
 
   - id: RAINBOW_BUNCHIE_MINI_PET
     type: MINI_PET
