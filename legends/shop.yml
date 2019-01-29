@@ -124,41 +124,1268 @@ decorations:
     lore: []
 
   # Fabrics pack
+  - id: WHITE_WOOL
+    type: DECORATION
+    rarity: RARE
+    name: White wool
+    lore: []
+  - id: ORANGE_WOOL
+    type: DECORATION
+    rarity: RARE
+    name: Orange wool
+    lore: []
+  - id: MAGENTA_WOOL
+    type: DECORATION
+    rarity: RARE
+    name: Magenta wool
+    lore: []
+  - id: LIGHT_BLUE_WOOL
+    type: DECORATION
+    rarity: RARE
+    name: Light blue wool
+    lore: []
+  - id: YELLOW_WOOL
+    type: DECORATION
+    rarity: RARE
+    name: Yellow wool
+    lore: []
+  - id: LIME_WOOL
+    type: DECORATION
+    rarity: RARE
+    name: Lime wool
+    lore: []
+  - id: PINK_WOOL
+    type: DECORATION
+    rarity: RARE
+    name: Pink wool
+    lore: []
+  - id: GRAY_WOOL
+    type: DECORATION
+    rarity: RARE
+    name: Gray wool
+    lore: []
+  - id: LIGHT_GRAY_WOOL
+    type: DECORATION
+    rarity: RARE
+    name: Light gray wool
+    lore: []
+  - id: CYAN_WOOL
+    type: DECORATION
+    rarity: RARE
+    name: Cyan wool
+    lore: []
+  - id: PURPLE_WOOL
+    type: DECORATION
+    rarity: RARE
+    name: Purple wool
+    lore: []
+  - id: BLUE_WOOL
+    type: DECORATION
+    rarity: RARE
+    name: Blue wool
+    lore: []
+  - id: BROWN_WOOL
+    type: DECORATION
+    rarity: RARE
+    name: Brown wool
+    lore: []
+  - id: GREEN_WOOL
+    type: DECORATION
+    rarity: RARE
+    name: Green wool
+    lore: []
+  - id: RED_WOOL
+    type: DECORATION
+    rarity: RARE
+    name: Red wool
+    lore: []
+  - id: BLACK_WOOL
+    type: DECORATION
+    rarity: RARE
+    name: Black wool
+    lore: []
+
+  - id: WHITE_CARPET
+    type: DECORATION
+    rarity: RARE
+    name: White carpet
+    lore: []
+  - id: ORANGE_CARPET
+    type: DECORATION
+    rarity: RARE
+    name: Orange carpet
+    lore: []
+  - id: MAGENTA_CARPET
+    type: DECORATION
+    rarity: RARE
+    name: Magenta carpet
+    lore: []
+  - id: LIGHT_BLUE_CARPET
+    type: DECORATION
+    rarity: RARE
+    name: Light blue carpet
+    lore: []
+  - id: YELLOW_CARPET
+    type: DECORATION
+    rarity: RARE
+    name: Yellow carpet
+    lore: []
+  - id: LIME_CARPET
+    type: DECORATION
+    rarity: RARE
+    name: Lime carpet
+    lore: []
+  - id: PINK_CARPET
+    type: DECORATION
+    rarity: RARE
+    name: Pink carpet
+    lore: []
+  - id: GRAY_CARPET
+    type: DECORATION
+    rarity: RARE
+    name: Gray carpet
+    lore: []
+  - id: LIGHT_GRAY_CARPET
+    type: DECORATION
+    rarity: RARE
+    name: Light gray carpet
+    lore: []
+  - id: CYAN_CARPET
+    type: DECORATION
+    rarity: RARE
+    name: Cyan carpet
+    lore: []
+  - id: PURPLE_CARPET
+    type: DECORATION
+    rarity: RARE
+    name: Purple carpet
+    lore: []
+  - id: BLUE_CARPET
+    type: DECORATION
+    rarity: RARE
+    name: Blue carpet
+    lore: []
+  - id: BROWN_CARPET
+    type: DECORATION
+    rarity: RARE
+    name: Brown carpet
+    lore: []
+  - id: GREEN_CARPET
+    type: DECORATION
+    rarity: RARE
+    name: Green carpet
+    lore: []
+  - id: RED_CARPET
+    type: DECORATION
+    rarity: RARE
+    name: Red carpet
+    lore: []
+  - id: BLACK_CARPET
+    type: DECORATION
+    rarity: RARE
+    name: Black carpet
+    lore: []
 
   # Flowers pack
+  - id: ALLIUM
+    type: DECORATION
+    rarity: RARE
+    name: Allium
+    lore: []
+  - id: AZURE_BLUET
+    type: DECORATION
+    rarity: RARE
+    name: Azure bluet
+    lore: []
+  - id: BLUE_ORCHID
+    type: DECORATION
+    rarity: RARE
+    name: Blue orchid
+    lore: []
+  - id: DANDELION
+    type: DECORATION
+    rarity: RARE
+    name: Dandelion
+    lore: []
+  - id: ORANGE_TULIP
+    type: DECORATION
+    rarity: RARE
+    name: Orange tulip
+    lore: []
+  - id: OXEYE_DAISY
+    type: DECORATION
+    rarity: RARE
+    name: Oxeye daisy
+    lore: []
+  - id: PINK_TULIP
+    type: DECORATION
+    rarity: RARE
+    name: Pink tulip
+    lore: []
+  - id: POPPY
+    type: DECORATION
+    rarity: RARE
+    name: Poppy
+    lore: []
+  - id: RED_TULIP
+    type: DECORATION
+    rarity: RARE
+    name: Red tulip
+    lore: []
+  - id: WHITE_TULIP
+    type: DECORATION
+    rarity: RARE
+    name: White tulip
+    lore: []
+  - id: FLOWER_POT
+    type: DECORATION
+    rarity: RARE
+    name: Flower pot
+    lore: []
 
   # Glass pack
+  - id: WHITE_STAINED_GLASS
+    type: DECORATION
+    rarity: RARE
+    name: White stained glass
+    lore: []
+  - id: ORANGE_STAINED_GLASS
+    type: DECORATION
+    rarity: RARE
+    name: Orange stained glass
+    lore: []
+  - id: MAGENTA_STAINED_GLASS
+    type: DECORATION
+    rarity: RARE
+    name: Magenta stained glass
+    lore: []
+  - id: LIGHT_BLUE_STAINED_GLASS
+    type: DECORATION
+    rarity: RARE
+    name: Light blue stained glass
+    lore: []
+  - id: YELLOW_STAINED_GLASS
+    type: DECORATION
+    rarity: RARE
+    name: Yellow stained glass
+    lore: []
+  - id: LIME_STAINED_GLASS
+    type: DECORATION
+    rarity: RARE
+    name: Lime stained glass
+    lore: []
+  - id: PINK_STAINED_GLASS
+    type: DECORATION
+    rarity: RARE
+    name: Pink stained glass
+    lore: []
+  - id: GRAY_STAINED_GLASS
+    type: DECORATION
+    rarity: RARE
+    name: Gray stained glass
+    lore: []
+  - id: LIGHT_GRAY_STAINED_GLASS
+    type: DECORATION
+    rarity: RARE
+    name: Light gray stained glass
+    lore: []
+  - id: CYAN_STAINED_GLASS
+    type: DECORATION
+    rarity: RARE
+    name: Cyan stained glass
+    lore: []
+  - id: PURPLE_STAINED_GLASS
+    type: DECORATION
+    rarity: RARE
+    name: Purple stained glass
+    lore: []
+  - id: BLUE_STAINED_GLASS
+    type: DECORATION
+    rarity: RARE
+    name: Blue stained glass
+    lore: []
+  - id: BROWN_STAINED_GLASS
+    type: DECORATION
+    rarity: RARE
+    name: Brown stained glass
+    lore: []
+  - id: GREEN_STAINED_GLASS
+    type: DECORATION
+    rarity: RARE
+    name: Green stained glass
+    lore: []
+  - id: RED_STAINED_GLASS
+    type: DECORATION
+    rarity: RARE
+    name: Red stained glass
+    lore: []
+  - id: BLACK_STAINED_GLASS
+    type: DECORATION
+    rarity: RARE
+    name: Black stained glass
+    lore: []
+
+  - id: WHITE_STAINED_GLASS_PANE
+    type: DECORATION
+    rarity: RARE
+    name: White stained glass pane
+    lore: []
+  - id: ORANGE_STAINED_GLASS_PANE
+    type: DECORATION
+    rarity: RARE
+    name: Orange stained glass pane
+    lore: []
+  - id: MAGENTA_STAINED_GLASS_PANE
+    type: DECORATION
+    rarity: RARE
+    name: Magenta stained glass pane
+    lore: []
+  - id: LIGHT_BLUE_STAINED_GLASS_PANE
+    type: DECORATION
+    rarity: RARE
+    name: Light blue stained glass pane
+    lore: []
+  - id: YELLOW_STAINED_GLASS_PANE
+    type: DECORATION
+    rarity: RARE
+    name: Yellow stained glass pane
+    lore: []
+  - id: LIME_STAINED_GLASS_PANE
+    type: DECORATION
+    rarity: RARE
+    name: Lime stained glass pane
+    lore: []
+  - id: PINK_STAINED_GLASS_PANE
+    type: DECORATION
+    rarity: RARE
+    name: Pink stained glass pane
+    lore: []
+  - id: GRAY_STAINED_GLASS_PANE
+    type: DECORATION
+    rarity: RARE
+    name: Gray stained glass pane
+    lore: []
+  - id: LIGHT_GRAY_STAINED_GLASS_PANE
+    type: DECORATION
+    rarity: RARE
+    name: Light gray stained glass pane
+    lore: []
+  - id: CYAN_STAINED_GLASS_PANE
+    type: DECORATION
+    rarity: RARE
+    name: Cyan stained glass pane
+    lore: []
+  - id: PURPLE_STAINED_GLASS_PANE
+    type: DECORATION
+    rarity: RARE
+    name: Purple stained glass pane
+    lore: []
+  - id: BLUE_STAINED_GLASS_PANE
+    type: DECORATION
+    rarity: RARE
+    name: Blue stained glass pane
+    lore: []
+  - id: BROWN_STAINED_GLASS_PANE
+    type: DECORATION
+    rarity: RARE
+    name: Brown stained glass pane
+    lore: []
+  - id: GREEN_STAINED_GLASS_PANE
+    type: DECORATION
+    rarity: RARE
+    name: Green stained glass pane
+    lore: []
+  - id: RED_STAINED_GLASS_PANE
+    type: DECORATION
+    rarity: RARE
+    name: Red stained glass pane
+    lore: []
+  - id: BLACK_STAINED_GLASS_PANE
+    type: DECORATION
+    rarity: RARE
+    name: Black stained glass pane
+    lore: []
 
   # Gardening pack
 
   # Stone pack
 
   # Ores pack
+  - id: COAL_ORE
+    type: DECORATION
+    rarity: RARE
+    name: Coal ore
+    lore: []
+  - id: DIAMOND_ORE
+    type: DECORATION
+    rarity: RARE
+    name: Diamond ore
+    lore: []
+  - id: EMERALD_ORE
+    type: DECORATION
+    rarity: RARE
+    name: Emerald ore
+    lore: []
+  - id: GOLD_ORE
+    type: DECORATION
+    rarity: RARE
+    name: Gold ore
+    lore: []
+  - id: IRON_ORE
+    type: DECORATION
+    rarity: RARE
+    name: Iron ore
+    lore: []
+  - id: LAPIS_LAZULI_ORE
+    type: DECORATION
+    rarity: RARE
+    name: Lapis lazuli ore
+    lore: []
+  - id: REDSTONE_ORE
+    type: DECORATION
+    rarity: RARE
+    name: Redstone ore
+    lore: []
+  - id: GLOWING_REDSTONE_ORE
+    type: DECORATION
+    rarity: RARE
+    name: Glowing redstone ore
+    lore: []
 
   # Gemstones pack
+  - id: DIAMOND_BLOCK
+    type: DECORATION
+    rarity: RARE
+    name: Diamond block
+    lore: []
+  - id: EMERALD_BLOCK
+    type: DECORATION
+    rarity: RARE
+    name: Emerald block
+    lore: []
+  - id: GOLD_BLOCK
+    type: DECORATION
+    rarity: RARE
+    name: Gold block
+    lore: []
+  - id: IRON_BLOCK
+    type: DECORATION
+    rarity: RARE
+    name: Iron block
+    lore: []
+  - id: LAPIS_LAZULI_BLOCK
+    type: DECORATION
+    rarity: RARE
+    name: Lapis lazuli block
+    lore: []
+  - id: REDSTONE_BLOCK
+    type: DECORATION
+    rarity: RARE
+    name: Redstone block
+    lore: []
 
   # Desert pack
+  - id: CACTUS
+    type: DECORATION
+    rarity: RARE
+    name: Cactus
+    lore: []
+  - id: RED_SAND
+    type: DECORATION
+    rarity: RARE
+    name: Red sand
+    lore: []
+  - id: RED_SANDSTONE
+    type: DECORATION
+    rarity: RARE
+    name: Red sandstone
+    lore: []
+  - id: SMOOTH_SANDSTONE
+    type: DECORATION
+    rarity: RARE
+    name: Smooth sandstone
+    lore: []
+  - id: CHISELED_SANDSTONE
+    type: DECORATION
+    rarity: RARE
+    name: Chiseled sandstone
+    lore: []
+  - id: RED_SANDSTONE_SLAB
+    type: DECORATION
+    rarity: RARE
+    name: Red sandstone slab
+    lore: []
+  - id: RED_SANDSTONE_STAIRS
+    type: DECORATION
+    rarity: RARE
+    name: Red sandstone stairs
+    lore: []
+  - id: SAND
+    type: DECORATION
+    rarity: RARE
+    name: Sand
+    lore: []
+  - id: SANDSTONE
+    type: DECORATION
+    rarity: RARE
+    name: Sandstone
+    lore: []
+  - id: SMOOTH_RED_SANDSTONE
+    type: DECORATION
+    rarity: RARE
+    name: Smooth red sandstone
+    lore: []
+  - id: CHISELED_RED_SANDSTONE
+    type: DECORATION
+    rarity: RARE
+    name: Chiseled red sandstone
+    lore: []
+  - id: SANDSTONE_SLAB
+    type: DECORATION
+    rarity: RARE
+    name: Sandstone slab
+    lore: []
+  - id: SANDSTONE_STAIRS
+    type: DECORATION
+    rarity: RARE
+    name: Sandstone stairs
+    lore: []
 
   # Wood pack
+  - id: ACACIA_DOOR_BLOCK
+    type: DECORATION
+    rarity: RARE
+    name: Acacia door block
+    lore: []
+  - id: ACACIA_FENCE
+    type: DECORATION
+    rarity: RARE
+    name: Acacia fence
+    lore: []
+  - id: ACACIA_FENCE_GATE
+    type: DECORATION
+    rarity: RARE
+    name: Acacia fence gate
+    lore: []
+  - id: ACACIA_WOOD_PLANK
+    type: DECORATION
+    rarity: RARE
+    name: Acacia wood plank
+    lore: []
+  - id: ACACIA_WOOD_SLAB
+    type: DECORATION
+    rarity: RARE
+    name: Acacia wood slab
+    lore: []
+  - id: ACACIA_WOOD_STAIRS
+    type: DECORATION
+    rarity: RARE
+    name: Acacia wood stairs
+    lore: []
+
+  - id: BIRCH_DOOR_BLOCK
+    type: DECORATION
+    rarity: RARE
+    name: Birch door block
+    lore: []
+  - id: BIRCH_FENCE
+    type: DECORATION
+    rarity: RARE
+    name: Birch fence
+    lore: []
+  - id: BIRCH_FENCE_GATE
+    type: DECORATION
+    rarity: RARE
+    name: Birch fence gate
+    lore: []
+  - id: BIRCH_WOOD_PLANK
+    type: DECORATION
+    rarity: RARE
+    name: Birch wood plank
+    lore: []
+  - id: BIRCH_WOOD_SLAB
+    type: DECORATION
+    rarity: RARE
+    name: Birch wood slab
+    lore: []
+  - id: BIRCH_WOOD_STAIRS
+    type: DECORATION
+    rarity: RARE
+    name: Birch wood stairs
+    lore: []
+
+  - id: DARK_OAK_DOOR_BLOCK
+    type: DECORATION
+    rarity: RARE
+    name: Dark oak door block
+    lore: []
+  - id: DARK_OAK_FENCE
+    type: DECORATION
+    rarity: RARE
+    name: Dark oak fence
+    lore: []
+  - id: DARK_OAK_FENCE_GATE
+    type: DECORATION
+    rarity: RARE
+    name: Dark oak fence gate
+    lore: []
+  - id: DARK_OAK_WOOD_PLANK
+    type: DECORATION
+    rarity: RARE
+    name: Dark oak wood plank
+    lore: []
+  - id: DARK_OAK_WOOD_SLAB
+    type: DECORATION
+    rarity: RARE
+    name: Dark oak wood slab
+    lore: []
+  - id: DARK_OAK_WOOD_STAIRS
+    type: DECORATION
+    rarity: RARE
+    name: Dark oak wood stairs
+    lore: []
+
+  - id: JUNGLE_DOOR_BLOCK
+    type: DECORATION
+    rarity: RARE
+    name: Jungle door block
+    lore: []
+  - id: JUNGLE_FENCE
+    type: DECORATION
+    rarity: RARE
+    name: Jungle fence
+    lore: []
+  - id: JUNGLE_FENCE_GATE
+    type: DECORATION
+    rarity: RARE
+    name: Jungle fence gate
+    lore: []
+  - id: JUNGLE_WOOD_PLANK
+    type: DECORATION
+    rarity: RARE
+    name: Jungle wood plank
+    lore: []
+  - id: JUNGLE_WOOD_SLAB
+    type: DECORATION
+    rarity: RARE
+    name: Jungle wood slab
+    lore: []
+  - id: JUNGLE_WOOD_STAIRS
+    type: DECORATION
+    rarity: RARE
+    name: Jungle wood stairs
+    lore: []
+
+  - id: SPRUCE_DOOR_BLOCK
+    type: DECORATION
+    rarity: RARE
+    name: Spruce door block
+    lore: []
+  - id: SPRUCE_FENCE
+    type: DECORATION
+    rarity: RARE
+    name: Spruce fence
+    lore: []
+  - id: SPRUCE_FENCE_GATE
+    type: DECORATION
+    rarity: RARE
+    name: Spruce fence gate
+    lore: []
+  - id: SPRUCE_WOOD_PLANK
+    type: DECORATION
+    rarity: RARE
+    name: Spruce wood plank
+    lore: []
+  - id: SPRUCE_WOOD_SLAB
+    type: DECORATION
+    rarity: RARE
+    name: Spruce wood slab
+    lore: []
+  - id: SPRUCE_WOOD_STAIRS
+    type: DECORATION
+    rarity: RARE
+    name: Spruce wood stairs
+    lore: []
 
   # Nature pack
 
   # Art pack
+  - id: ARMOR_STAND
+    type: DECORATION
+    rarity: RARE
+    name: Armor stand
+    lore: []
+  - id: BANNER
+    type: DECORATION
+    rarity: RARE
+    name: Banner
+    lore: []
+  - id: ITEM_FRAME
+    type: DECORATION
+    rarity: RARE
+    name: Item frame
+    lore: []
+  - id: PAINTING
+    type: DECORATION
+    rarity: RARE
+    name: Painting
+    lore: []
 
   # Music pack
+  - id: NOTE_BLOCK
+    type: DECORATION
+    rarity: RARE
+    name: Note block
+    lore: []
+  - id: JUKEBOX
+    type: DECORATION
+    rarity: RARE
+    name: Jukebox
+    lore: []
+  - id: ELEVEN_DISC
+    type: DECORATION
+    rarity: RARE
+    name: 11
+    lore: []
+  - id: THIRTEEN_DISC
+    type: DECORATION
+    rarity: RARE
+    name: 13
+    lore: []
+  - id: BLOCKS_DISC
+    type: DECORATION
+    rarity: RARE
+    name: Blocks
+    lore: []
+  - id: CAT_DISC
+    type: DECORATION
+    rarity: RARE
+    name: Cat
+    lore: []
+  - id: CHIRP_DISC
+    type: DECORATION
+    rarity: RARE
+    name: Chirp
+    lore: []
+  - id: FAR_DISC
+    type: DECORATION
+    rarity: RARE
+    name: Far
+    lore: []
+  - id: MALL_DISC
+    type: DECORATION
+    rarity: RARE
+    name: Mall
+    lore: []
+  - id: MELLOHI_DISC
+    type: DECORATION
+    rarity: RARE
+    name: Mellohi
+    lore: []
+  - id: STAL_DISC
+    type: DECORATION
+    rarity: RARE
+    name: Stal
+    lore: []
+  - id: STRAD_DISC
+    type: DECORATION
+    rarity: RARE
+    name: Strad
+    lore: []
+  - id: WAIT_DISC
+    type: DECORATION
+    rarity: RARE
+    name: Wait
+    lore: []
+  - id: WARD_DISC
+    type: DECORATION
+    rarity: RARE
+    name: Ward
+    lore: []
 
   # Ice and fire pack
+  - id: FROSTED_ICE
+    type: DECORATION
+    rarity: RARE
+    name: Frosted ice
+    lore: []
+  - id: ICE
+    type: DECORATION
+    rarity: RARE
+    name: Ice
+    lore: []
+  - id: MAGMA_BLOCK
+    type: DECORATION
+    rarity: RARE
+    name: Magma block
+    lore: []
+  - id: PACKED_ICE
+    type: DECORATION
+    rarity: RARE
+    name: Packed ice
+    lore: []
+  - id: SNOW
+    type: DECORATION
+    rarity: RARE
+    name: Snow
+    lore: []
+  - id: SNOW_BLOCK
+    type: DECORATION
+    rarity: RARE
+    name: Snow block
+    lore: []
 
   # Clay pack
+  - id: CLAY
+    type: DECORATION
+    rarity: RARE
+    name: Clay
+    lore: []
+  - id: HARDENED_CLAY
+    type: DECORATION
+    rarity: RARE
+    name: Hardened clay
+    lore: []
+
+  - id: WHITE_HARDENED_CLAY
+    type: DECORATION
+    rarity: RARE
+    name: White hardened clay
+    lore: []
+  - id: ORANGE_HARDENED_CLAY
+    type: DECORATION
+    rarity: RARE
+    name: Orange hardened clay
+    lore: []
+  - id: MAGENTA_HARDENED_CLAY
+    type: DECORATION
+    rarity: RARE
+    name: Magenta hardened clay
+    lore: []
+  - id: LIGHT_BLUE_HARDENED_CLAY
+    type: DECORATION
+    rarity: RARE
+    name: Light blue hardened clay
+    lore: []
+  - id: YELLOW_HARDENED_CLAY
+    type: DECORATION
+    rarity: RARE
+    name: Yellow hardened clay
+    lore: []
+  - id: LIME_HARDENED_CLAY
+    type: DECORATION
+    rarity: RARE
+    name: Lime hardened clay
+    lore: []
+  - id: PINK_HARDENED_CLAY
+    type: DECORATION
+    rarity: RARE
+    name: Pink hardened clay
+    lore: []
+  - id: GRAY_HARDENED_CLAY
+    type: DECORATION
+    rarity: RARE
+    name: Gray hardened clay
+    lore: []
+  - id: LIGHT_GRAY_HARDENED_CLAY
+    type: DECORATION
+    rarity: RARE
+    name: Light gray hardened clay
+    lore: []
+  - id: CYAN_HARDENED_CLAY
+    type: DECORATION
+    rarity: RARE
+    name: Cyan hardened clay
+    lore: []
+  - id: PURPLE_HARDENED_CLAY
+    type: DECORATION
+    rarity: RARE
+    name: Purple hardened clay
+    lore: []
+  - id: BLUE_HARDENED_CLAY
+    type: DECORATION
+    rarity: RARE
+    name: Blue hardened clay
+    lore: []
+  - id: BROWN_HARDENED_CLAY
+    type: DECORATION
+    rarity: RARE
+    name: Brown hardened clay
+    lore: []
+  - id: GREEN_HARDENED_CLAY
+    type: DECORATION
+    rarity: RARE
+    name: Green hardened clay
+    lore: []
+  - id: RED_HARDENED_CLAY
+    type: DECORATION
+    rarity: RARE
+    name: Red hardened clay
+    lore: []
+  - id: BLACK_HARDENED_CLAY
+    type: DECORATION
+    rarity: RARE
+    name: Black hardened clay
+    lore: []
 
   # Terracotta pack
+  - id: WHITE_GLAZED_TERRACOTTA
+    type: DECORATION
+    rarity: RARE
+    name: White glazed terracotta
+    lore: []
+  - id: ORANGE_GLAZED_TERRACOTTA
+    type: DECORATION
+    rarity: RARE
+    name: Orange glazed terracotta
+    lore: []
+  - id: MAGENTA_GLAZED_TERRACOTTA
+    type: DECORATION
+    rarity: RARE
+    name: Magenta glazed terracotta
+    lore: []
+  - id: LIGHT_BLUE_GLAZED_TERRACOTTA
+    type: DECORATION
+    rarity: RARE
+    name: Light blue glazed terracotta
+    lore: []
+  - id: YELLOW_GLAZED_TERRACOTTA
+    type: DECORATION
+    rarity: RARE
+    name: Yellow glazed terracotta
+    lore: []
+  - id: LIME_GLAZED_TERRACOTTA
+    type: DECORATION
+    rarity: RARE
+    name: Lime glazed terracotta
+    lore: []
+  - id: PINK_GLAZED_TERRACOTTA
+    type: DECORATION
+    rarity: RARE
+    name: Pink glazed terracotta
+    lore: []
+  - id: GRAY_GLAZED_TERRACOTTA
+    type: DECORATION
+    rarity: RARE
+    name: Gray glazed terracotta
+    lore: []
+  - id: LIGHT_GRAY_GLAZED_TERRACOTTA
+    type: DECORATION
+    rarity: RARE
+    name: Light gray glazed terracotta
+    lore: []
+  - id: CYAN_GLAZED_TERRACOTTA
+    type: DECORATION
+    rarity: RARE
+    name: Cyan glazed terracotta
+    lore: []
+  - id: PURPLE_GLAZED_TERRACOTTA
+    type: DECORATION
+    rarity: RARE
+    name: Purple glazed terracotta
+    lore: []
+  - id: BLUE_GLAZED_TERRACOTTA
+    type: DECORATION
+    rarity: RARE
+    name: Blue glazed terracotta
+    lore: []
+  - id: BROWN_GLAZED_TERRACOTTA
+    type: DECORATION
+    rarity: RARE
+    name: Brown glazed terracotta
+    lore: []
+  - id: GREEN_GLAZED_TERRACOTTA
+    type: DECORATION
+    rarity: RARE
+    name: Green glazed terracotta
+    lore: []
+  - id: RED_GLAZED_TERRACOTTA
+    type: DECORATION
+    rarity: RARE
+    name: Red glazed terracotta
+    lore: []
+  - id: BLACK_GLAZED_TERRACOTTA
+    type: DECORATION
+    rarity: RARE
+    name: Black glazed terracotta
+    lore: []
 
   # Concrete pack
+  - id: WHITE_CONCRETE
+    type: DECORATION
+    rarity: RARE
+    name: White concrete
+    lore: []
+  - id: ORANGE_CONCRETE
+    type: DECORATION
+    rarity: RARE
+    name: Orange concrete
+    lore: []
+  - id: MAGENTA_CONCRETE
+    type: DECORATION
+    rarity: RARE
+    name: Magenta concrete
+    lore: []
+  - id: LIGHT_BLUE_CONCRETE
+    type: DECORATION
+    rarity: RARE
+    name: Light blue concrete
+    lore: []
+  - id: YELLOW_CONCRETE
+    type: DECORATION
+    rarity: RARE
+    name: Yellow concrete
+    lore: []
+  - id: LIME_CONCRETE
+    type: DECORATION
+    rarity: RARE
+    name: Lime concrete
+    lore: []
+  - id: PINK_CONCRETE
+    type: DECORATION
+    rarity: RARE
+    name: Pink concrete
+    lore: []
+  - id: GRAY_CONCRETE
+    type: DECORATION
+    rarity: RARE
+    name: Gray concrete
+    lore: []
+  - id: LIGHT_GRAY_CONCRETE
+    type: DECORATION
+    rarity: RARE
+    name: Light gray concrete
+    lore: []
+  - id: CYAN_CONCRETE
+    type: DECORATION
+    rarity: RARE
+    name: Cyan concrete
+    lore: []
+  - id: PURPLE_CONCRETE
+    type: DECORATION
+    rarity: RARE
+    name: Purple concrete
+    lore: []
+  - id: BLUE_CONCRETE
+    type: DECORATION
+    rarity: RARE
+    name: Blue concrete
+    lore: []
+  - id: BROWN_CONCRETE
+    type: DECORATION
+    rarity: RARE
+    name: Brown concrete
+    lore: []
+  - id: GREEN_CONCRETE
+    type: DECORATION
+    rarity: RARE
+    name: Green concrete
+    lore: []
+  - id: RED_CONCRETE
+    type: DECORATION
+    rarity: RARE
+    name: Red concrete
+    lore: []
+  - id: BLACK_CONCRETE
+    type: DECORATION
+    rarity: RARE
+    name: Black concrete
+    lore: []
+
+  - id: WHITE_CONCRETE_POWDER
+    type: DECORATION
+    rarity: RARE
+    name: White concrete powder
+    lore: []
+  - id: ORANGE_CONCRETE_POWDER
+    type: DECORATION
+    rarity: RARE
+    name: Orange concrete powder
+    lore: []
+  - id: MAGENTA_CONCRETE_POWDER
+    type: DECORATION
+    rarity: RARE
+    name: Magenta concrete powder
+    lore: []
+  - id: LIGHT_BLUE_CONCRETE_POWDER
+    type: DECORATION
+    rarity: RARE
+    name: Light blue concrete powder
+    lore: []
+  - id: YELLOW_CONCRETE_POWDER
+    type: DECORATION
+    rarity: RARE
+    name: Yellow concrete powder
+    lore: []
+  - id: LIME_CONCRETE_POWDER
+    type: DECORATION
+    rarity: RARE
+    name: Lime concrete powder
+    lore: []
+  - id: PINK_CONCRETE_POWDER
+    type: DECORATION
+    rarity: RARE
+    name: Pink concrete powder
+    lore: []
+  - id: GRAY_CONCRETE_POWDER
+    type: DECORATION
+    rarity: RARE
+    name: Gray concrete powder
+    lore: []
+  - id: LIGHT_GRAY_CONCRETE_POWDER
+    type: DECORATION
+    rarity: RARE
+    name: Light gray concrete powder
+    lore: []
+  - id: CYAN_CONCRETE_POWDER
+    type: DECORATION
+    rarity: RARE
+    name: Cyan concrete powder
+    lore: []
+  - id: PURPLE_CONCRETE_POWDER
+    type: DECORATION
+    rarity: RARE
+    name: Purple concrete powder
+    lore: []
+  - id: BLUE_CONCRETE_POWDER
+    type: DECORATION
+    rarity: RARE
+    name: Blue concrete powder
+    lore: []
+  - id: BROWN_CONCRETE_POWDER
+    type: DECORATION
+    rarity: RARE
+    name: Brown concrete powder
+    lore: []
+  - id: GREEN_CONCRETE_POWDER
+    type: DECORATION
+    rarity: RARE
+    name: Green concrete powder
+    lore: []
+  - id: RED_CONCRETE_POWDER
+    type: DECORATION
+    rarity: RARE
+    name: Red concrete powder
+    lore: []
+  - id: BLACK_CONCRETE_POWDER
+    type: DECORATION
+    rarity: RARE
+    name: Black concrete powder
+    lore: []
 
   # Blurple pack
+  - id: CHORUS_PLANT
+    type: DECORATION
+    rarity: RARE
+    name: Chorus plant
+    lore: []
+  - id: CHORUS_FLOWER
+    type: DECORATION
+    rarity: RARE
+    name: Chorus flower
+    lore: []
+  - id: PURPUR_BLOCK
+    type: DECORATION
+    rarity: RARE
+    name: Purpur block
+    lore: []
+  - id: PURPUR_PILLAR
+    type: DECORATION
+    rarity: RARE
+    name: Purpur pillar
+    lore: []
+  - id: PURPUR_STAIRS
+    type: DECORATION
+    rarity: RARE
+    name: Purpur stairs
+    lore: []
+  - id: PURPUR_SLAB
+    type: DECORATION
+    rarity: RARE
+    name: Purpur slab
+    lore: []
+  - id: PRISMARINE
+    type: DECORATION
+    rarity: RARE
+    name: Prismarine
+    lore: []
+  - id: PRISMARINE_BRICKS
+    type: DECORATION
+    rarity: RARE
+    name: Prismarine bricks
+    lore: []
+  - id: DARK_PRISMARINE
+    type: DECORATION
+    rarity: RARE
+    name: Dark prismarine
+    lore: []
 
   # Nether pack
-
+  - id: BONE_BLOCK
+    type: DECORATION
+    rarity: RARE
+    name: Bone block
+    lore: []
+  - id: GLOWSTONE
+    type: DECORATION
+    rarity: RARE
+    name: Glowstone
+    lore: []
+  - id: NETHER_BRICK
+    type: DECORATION
+    rarity: RARE
+    name: Nether brick
+    lore: []
+  - id: NETHER_BRICK_FENCE
+    type: DECORATION
+    rarity: RARE
+    name: Nether brick fence
+    lore: []
+  - id: NETHER_BRICK_SLAB
+    type: DECORATION
+    rarity: RARE
+    name: Nether brick slab
+    lore: []
+  - id: NETHER_BRICK_STAIRS
+    type: DECORATION
+    rarity: RARE
+    name: Nether brick stairs
+    lore: []
+  - id: NETHER_QUARTZ_ORE
+    type: DECORATION
+    rarity: RARE
+    name: Nether quartz ore
+    lore: []
+  - id: NETHER_WART
+    type: DECORATION
+    rarity: RARE
+    name: Nether wart
+    lore: []
+  - id: NETHER_WART_BLOCK
+    type: DECORATION
+    rarity: RARE
+    name: Nether wart block
+    lore: []
+  - id: NETHERRACK
+    type: DECORATION
+    rarity: RARE
+    name: Netherrack
+    lore: []
+  - id: OBSIDIAN
+    type: DECORATION
+    rarity: RARE
+    name: Obsidian
+    lore: []
+  - id: RED_NETHER_BRICK
+    type: DECORATION
+    rarity: RARE
+    name: Red nether brick
+    lore: []
+  - id: SOUL_SAND
+    type: DECORATION
+    rarity: RARE
+    name: Soul sand
+    lore: []
 
 
 decorationPacks:
