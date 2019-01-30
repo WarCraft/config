@@ -1866,7 +1866,7 @@ decorationPacks:
     type: DECORATION_PACK
     rarity: RARE
     name: Glass
-    icon: WHITE_GLASS_PANE
+    icon: GLASS
     lore: []
     decorations:
       - WHITE_STAINED_GLASS
