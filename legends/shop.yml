@@ -669,10 +669,10 @@ decorations:
     rarity: RARE
     name: Cracked stone bricks
     lore: []
-  - id: DRIORITE
+  - id: DIORITE
     type: DECORATION
     rarity: RARE
-    name: Driorite
+    name: Diorite
     lore: []
   - id: GRANITE
     type: DECORATION
@@ -714,10 +714,10 @@ decorations:
     rarity: RARE
     name: Polished andesite
     lore: []
-  - id: POLISHED_DRIORITE
+  - id: POLISHED_DIORITE
     type: DECORATION
     rarity: RARE
-    name: Polished driorite
+    name: Polished diorite
     lore: []
   - id: POLISHED_GRANITE
     type: DECORATION
@@ -1955,7 +1955,7 @@ decorationPacks:
       - COBBLESTONE_STAIRS
       - COBBLESTONE_WALL
       - CRACKED_STONE_BRICKS
-      - DRIORITE
+      - DIORITE
       - GRANITE
       - GRAVEL
       - MOSS_STONE
@@ -1964,7 +1964,7 @@ decorationPacks:
       - MOSSY_STONE_STAIRS
       - PILLAR_QUARTZ_BLOCK
       - POLISHED_ANDESITE
-      - POLISHED_DRIORITE
+      - POLISHED_DIORITE
       - POLISHED_GRANITE
       - QUARTZ_BLOCK
       - QUARTZ_SLAB
