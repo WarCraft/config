@@ -119,7 +119,7 @@ abilities:
   - name: Shatter
     distance: 10
     launch: 6
-    radius: 4
+    radius: 3
     damage: 3
     nausea-level: 3
     nausea-duration: 7
