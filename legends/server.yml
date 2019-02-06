@@ -127,21 +127,21 @@ lootCrates:
     itemType: CHEST
     dropTable:
       - type: EQUIPMENT
-        chance: 49.3
+        chance: 44.3
         distribution:
           COMMON: 50
           RARE: 40
           EPIC: 8
           LEGENDARY: 2
       - type: EQUIPMENT_UPGRADE
-        chance: 25
+        chance: 20
         distribution:
           COMMON: 50
           RARE: 40
           EPIC: 8
           LEGENDARY: 2
       - type: CONSUMABLE
-        chance: 25
+        chance: 20
         distribution:
           COMMON: 60
           RARE: 30
@@ -161,6 +161,13 @@ lootCrates:
         chance: 0.1
         distribution:
           EPIC: 100
+      - type: GOLD
+        chance: 15
+        distribution:
+          COMMON: 50
+          RARE: 35
+          EPIC: 14
+          LEGENDARY: 1
 
   - name: Vote Crate
     type: VOTE_CRATE
@@ -168,14 +175,14 @@ lootCrates:
     itemType: CHEST
     dropTable:
       - type: EQUIPMENT
-        chance: 49.3
+        chance: 34.3
         distribution:
           COMMON: 50
           RARE: 40
           EPIC: 8
           LEGENDARY: 2
       - type: EQUIPMENT_UPGRADE
-        chance: 25
+        chance: 15
         distribution:
           COMMON: 50
           RARE: 40
@@ -202,6 +209,13 @@ lootCrates:
         chance: 0.1
         distribution:
           EPIC: 100
+      - type: GOLD
+        chance: 25
+        distribution:
+          COMMON: 50
+          RARE: 35
+          EPIC: 14
+          LEGENDARY: 1
 
   - name: Legend Crate
     type: LEGEND_CRATE
@@ -209,17 +223,17 @@ lootCrates:
     itemType: CHEST
     dropTable:
       - type: EQUIPMENT
-        chance: 40
+        chance: 35
         distribution:
           EPIC: 75
           LEGENDARY: 25
       - type: EQUIPMENT_UPGRADE
-        chance: 25
+        chance: 20
         distribution:
           EPIC: 75
           LEGENDARY: 25
       - type: DECORATION
-        chance: 30
+        chance: 25
         distribution:
           RARE: 75
           EPIC: 20
@@ -240,6 +254,12 @@ lootCrates:
         distribution:
           RARE: 70
           EPIC: 30
+      - type: GOLD
+        chance: 15
+        distribution:
+          RARE: 50
+          EPIC: 35
+          LEGENDARY: 15
 
   - name: Titan Crate
     type: TITAN_CRATE
@@ -252,12 +272,12 @@ lootCrates:
           EPIC: 50
           LEGENDARY: 50
       - type: EQUIPMENT_UPGRADE
-        chance: 17.5
+        chance: 15
         distribution:
           EPIC: 50
           LEGENDARY: 50
       - type: DECORATION
-        chance: 52.5
+        chance: 50
         distribution:
           RARE: 40
           EPIC: 35
@@ -278,6 +298,12 @@ lootCrates:
         distribution:
           RARE: 50
           EPIC: 50
+      - type: GOLD
+        chance: 5
+        distribution:
+          EPIC: 50
+          LEGENDARY: 35
+          ANCIENT: 15
 
 
 # Rank-Up rewards
