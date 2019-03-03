@@ -35,6 +35,45 @@ prices:
 #    EPIC: 2450
 
 
+specializations:
+  - id: ARMSMASTER
+    type: SPECIALIZATION
+    rarity: EPIC
+    name: Armsmaster
+    icon: SHIELD
+    lore: []
+  - id: BERSERKER
+    type: SPECIALIZATION
+    rarity: EPIC
+    name: Berserker
+    icon: IRON_AXE
+    lore: []
+  - id: HUNTER
+    type: SPECIALIZATION
+    rarity: EPIC
+    name: Hunter
+    icon: WOOD_TRAPDOOR
+    lore: []
+  - id: MARKSMAN
+    type: SPECIALIZATION
+    rarity: EPIC
+    name: Marksman
+    icon: ARROW
+    lore: []
+  - id: TEMPEST
+    type: SPECIALIZATION
+    rarity: EPIC
+    name: Tempest
+    icon: WOOD_HOE
+    lore: []
+  - id: WIZARD
+    type: SPECIALIZATION
+    rarity: EPIC
+    name: Wizard
+    icon: STICK
+    lore: []
+
+
 decorations:
   # Basic pack
   - id: RED_BED
@@ -2281,6 +2320,7 @@ decorationPacks:
       - MOB_HEAD_CREEPER
       - MOB_HEAD_DRAGON
 
+
 miniPets:
   - id: BAT
     type: MINI_PET
@@ -2419,6 +2459,7 @@ miniPets:
     lore: []
     entityType: PARROT
     rainbow: yes
+
 
 promotions:
   - id: FOUR_YEAR_OLD_CAKE
