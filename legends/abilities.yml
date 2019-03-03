@@ -217,7 +217,7 @@ abilities:
   - name: Arcane Missile
     speed: 0.75
     damage: 3
-    radius: 2
+    radius: 0.5
     range: 30
     cooldown: 6
   - name: Teleport
