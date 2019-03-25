@@ -31,12 +31,17 @@ offhandTypes:
 
 
 # f(x) = 100 * (0.5)^x
+# for COMMON x = 0
+# for RARE x = 2
+# for EPIC x = 4
+# for LEGENDARY x = 8
+# for ANCIENT x = 12
 itemRarities:
-  75.0: COMMON
-  93.75: RARE
-  98.4375: EPIC
-  99.609375: LEGENDARY
-  99.90234375: ANCIENT
+  0.0: COMMON
+  75.0: RARE
+  93.75: EPIC
+  99.609: LEGENDARY
+  99.976: ANCIENT
 
 
 itemTypes:
