@@ -244,6 +244,8 @@ abilities:
     damage: 1
     burn-duration: 1
     range: 30
+    period: 1
+    duration: 6
     cooldown: 0
 
   # Siege
