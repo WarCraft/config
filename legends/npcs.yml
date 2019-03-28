@@ -13,7 +13,7 @@ npcs:
     entityType: VILLAGER
     location:
       world: OVERWORLD
-      x: -1493.5
+      x: -1494.5
       y: 54
       z: 367.5
   - name: Ranger Trainer
@@ -21,7 +21,7 @@ npcs:
     entityType: VILLAGER
     location:
       world: OVERWORLD
-      x: -1522.5
+      x: -1523.5
       y: 54
       z: 388.5
   - name: Mage Trainer
@@ -50,7 +50,7 @@ npcs:
       x: 433.5
       y: 46
       z: 424.5
-  - name: Hunter Trainer
+  - name: Ranger Trainer
     type: CLASS_TRAINER
     entityType: VILLAGER
     location:
