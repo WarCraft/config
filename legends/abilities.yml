@@ -236,6 +236,15 @@ abilities:
     range: 30
     cooldown: 35
 
+  # Human
+  - name: Last Stand
+    duration: 4
+    cooldown: 300
+  - name: Barrier
+    absorption-level: 2
+    absorption-duration: 5
+    cooldown: 300
+
   # Orc
   - name: Flame Totem
     speed: 0.75
