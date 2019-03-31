@@ -71,9 +71,9 @@ objectivePoints:
   TUTORIAL: 0
 
 objectiveCrates:
-  KEEP: 3
-  OUTPOST: 2
-  RESOURCE: 1
+  KEEP: 5
+  OUTPOST: 3
+  RESOURCE: 2
   TUTORIAL: 0
 
 favorPlayerKill: 5
