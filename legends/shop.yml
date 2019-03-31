@@ -2326,7 +2326,7 @@ miniPets:
     type: MINI_PET
     rarity: EPIC
     name: Bat Pup
-    skull: MHF_Bat
+    skull: MHF_Enderman
     lore: []
     entityType: BAT
   - id: CHICKEN
@@ -2347,7 +2347,7 @@ miniPets:
     type: MINI_PET
     rarity: EPIC
     name: Cria
-    skull: MHF_Llama
+    skull: MHF_Sheep
     lore: []
     entityType: LLAMA
   - id: OCELOT
@@ -2382,7 +2382,7 @@ miniPets:
     type: MINI_PET
     rarity: EPIC
     name: Nymph
-    skull: MHF_Silverfish
+    skull: MHF_Squid
     lore: []
     entityType: SILVERFISH
   - id: WOLF
