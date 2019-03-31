@@ -70,6 +70,12 @@ objectivePoints:
   RESOURCE: 25
   TUTORIAL: 0
 
+objectiveCrates:
+  KEEP: 3
+  OUTPOST: 2
+  RESOURCE: 1
+  TUTORIAL: 0
+
 favorPlayerKill: 5
 favorEliteMobKill: 2
 favorMobKill: 1
