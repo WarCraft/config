@@ -70,7 +70,9 @@ objectivePoints:
   RESOURCE: 25
   TUTORIAL: 0
 
-favorPerKill: 2
+favorPlayerKill: 5
+favorEliteMobKill: 2
+favorMobKill: 1
 
 
 # Rank configuration
