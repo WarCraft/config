@@ -2462,10 +2462,10 @@ miniPets:
 
 
 promotions:
-  - id: FOUR_YEAR_OLD_CAKE
+  - id: FIVE_YEAR_OLD_CAKE
     type: PROMOTION
     rarity: EPIC
-    name: Four Year Old Cake
+    name: Five Year Old Cake
     icon: CAKE
     lore:
       - "It doesn't look that tasty after all this time,"
@@ -2473,8 +2473,8 @@ promotions:
     itemType: CAKE
     equipmentSlot: HEAD
     attributes:
-      STRENGTH: 4
-      DEXTERITY: 4
-      INTELLIGENCE: 4
-      VITALITY: 4
-      CRIT: 4
+      STRENGTH: 5
+      DEXTERITY: 5
+      INTELLIGENCE: 5
+      VITALITY: 5
+      CRIT: 5
