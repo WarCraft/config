@@ -56,6 +56,25 @@ blockGatheringSpots:
     cooldownInSeconds: 60
     cooldownDeviationPercentage: 20
 
+  # Human coal mine
+  - boundingBox:
+      world: OVERWORLD
+      minimumCorner:
+        x: 106
+        y: 46
+        z: 313
+      maximumCorner:
+        x: 123
+        y: 57
+        z: 325
+    blockType: COAL_ORE
+    cooldownType: BEDROCK
+    drop:
+      type: COAL
+      name: Coal
+    cooldownInSeconds: 60
+    cooldownDeviationPercentage: 20
+
   # Orc lumber mill
   - boundingBox:
       world: OVERWORLD
