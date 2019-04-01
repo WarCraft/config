@@ -24,57 +24,57 @@ areas:
 
 prices:
   # Human C houses
-  human_c_1:
+  hum_c_1:
     purchasePrice: 2850
     rent: 950
-  human_c_2:
+  hum_c_2:
     purchasePrice: 6150
     rent: 2050
-  human_c_3:
+  hum_c_3:
     purchasePrice: 4800
     rent: 1600
-  human_c_4:
+  hum_c_4:
     purchasePrice: 6300
     rent: 2100
-  human_c_5:
+  hum_c_5:
     purchasePrice: 7050
     rent: 2350
-  human_c_6:
+  hum_c_6:
     purchasePrice: 450
     rent: 150
-  human_c_7:
+  hum_c_7:
     purchasePrice: 900
     rent: 300
-  human_c_8:
+  hum_c_8:
     purchasePrice: 1350
     rent: 450
-  human_c_9:
+  hum_c_9:
     purchasePrice: 1800
     rent: 600
-  human_c_10:
+  hum_c_10:
     purchasePrice: 1500
     rent: 500
-  human_c_11:
+  hum_c_11:
     purchasePrice: 2400
     rent: 800
 
   # Human J houses
-  human_j_1: # 1a
+  hum_j_1a:
     purchasePrice: 10500
     rent: 3500
-  human_j_6: # 1b
+  hum_j_1b:
     purchasePrice: 8100
     rent: 2700
-  human_j_2:
+  hum_j_2:
     purchasePrice: 6750
     rent: 2250
-  human_j_3:
+  hum_j_3:
     purchasePrice: 11700
     rent: 3900
-  human_j_4:
+  hum_j_4:
     purchasePrice: 10800
     rent: 3600
-  human_j_5:
+  hum_j_5:
     purchasePrice: 5100
     rent: 1700
 
