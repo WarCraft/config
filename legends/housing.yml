@@ -59,10 +59,10 @@ prices:
     rent: 800
 
   # Human J houses
-  human_j_1a:
+  human_j_1: # 1a
     purchasePrice: 10500
     rent: 3500
-  human_j_1b:
+  human_j_6: # 1b
     purchasePrice: 8100
     rent: 2700
   human_j_2:
