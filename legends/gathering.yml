@@ -1,6 +1,6 @@
 blockGatheringSpots:
-  # Human farm
-  - boundingBox:
+  - id: HUMAN_FARM
+    boundingBox:
       world: OVERWORLD
       minimumCorner:
         x: -1616
@@ -18,8 +18,8 @@ blockGatheringSpots:
     cooldownInSeconds: 60
     cooldownDeviationPercentage: 20
 
-  # Human lumber mill
-  - boundingBox:
+  - id: HUMAN_LUMBER_MILL
+    boundingBox:
       world: OVERWORLD
       minimumCorner:
         x: -780
@@ -37,8 +37,8 @@ blockGatheringSpots:
     cooldownInSeconds: 60
     cooldownDeviationPercentage: 20
 
-  # Human mine
-  - boundingBox:
+  - id: HUMAN_MINE
+    boundingBox:
       world: OVERWORLD
       minimumCorner:
         x: -1156
@@ -56,8 +56,8 @@ blockGatheringSpots:
     cooldownInSeconds: 60
     cooldownDeviationPercentage: 20
 
-  # Human coal mine
-  - boundingBox:
+  - id: HUMAN_COAL_MINE
+    boundingBox:
       world: OVERWORLD
       minimumCorner:
         x: 106
@@ -75,8 +75,8 @@ blockGatheringSpots:
     cooldownInSeconds: 60
     cooldownDeviationPercentage: 20
 
-  # Orc lumber mill
-  - boundingBox:
+  - id: ORC_LUMBER_MILL
+    boundingBox:
       world: OVERWORLD
       minimumCorner:
         x: 445
@@ -94,8 +94,8 @@ blockGatheringSpots:
     cooldownInSeconds: 60
     cooldownDeviationPercentage: 20
 
-  # Orc mine
-  - boundingBox:
+  - id: ORC_MINE
+    boundingBox:
       world: OVERWORLD
       minimumCorner:
         x: -138
@@ -113,8 +113,8 @@ blockGatheringSpots:
     cooldownInSeconds: 60
     cooldownDeviationPercentage: 20
 
-  # Tutorial farm
-  - boundingBox:
+  - id: TUTORIAL_FARM
+    boundingBox:
       world: THE_END
       minimumCorner:
         x: 195
@@ -132,8 +132,8 @@ blockGatheringSpots:
     cooldownInSeconds: 6
     cooldownDeviationPercentage: 20
 
-  # Tutorial lumber mill
-  - boundingBox:
+  - id: TUTORIAL_LUMBER_MILL
+    boundingBox:
       world: THE_END
       minimumCorner:
         x: 209
@@ -151,8 +151,8 @@ blockGatheringSpots:
     cooldownInSeconds: 6
     cooldownDeviationPercentage: 20
 
-  # Tutorial mine
-  - boundingBox:
+  - id: TUTORIAL_MINE
+    boundingBox:
       world: THE_END
       minimumCorner:
         x: 201
@@ -169,7 +169,8 @@ blockGatheringSpots:
       name: Stone
     cooldownInSeconds: 6
     cooldownDeviationPercentage: 20
-  - boundingBox:
+  - id: TUTORIAL_MINE_2
+    boundingBox:
       world: THE_END
       minimumCorner:
         x: 201
@@ -188,8 +189,8 @@ blockGatheringSpots:
     cooldownDeviationPercentage: 20
 
 entityGatheringSpots:
-  # Orc farm
-  - entityType: PIG
+  - id: ORC_FARM
+    entityType: PIG
     entityCount: 10
     spawnLocation:
       world: OVERWORLD
