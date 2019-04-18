@@ -1,0 +1,59 @@
+OrcTier1Camp1Spawner:
+  MobName: Dunewalker
+  World: Ouros
+  SpawnerGroup: OrcTier1Camp1
+  X: -145
+  Y: 41
+  Z: 235
+  Radius: 6
+  MaxMobs: 10
+  MobsPerSpawn: 2
+  Cooldown: 10
+  HealOnLeash: true
+  ResetThreatOnLeash: true
+  ShowFlames: true
+
+OrcTier1Camp2Spawner:
+  MobName: Dunewalker
+  World: Ouros
+  SpawnerGroup: OrcTier1Camp2
+  X: 137
+  Y: 33
+  Z: -155
+  Radius: 8
+  MaxMobs: 10
+  MobsPerSpawn: 2
+  Cooldown: 10
+  HealOnLeash: true
+  ResetThreatOnLeash: true
+  ShowFlames: true
+
+OrcTier2Camp1Spawner:
+  MobName: Elemental
+  World: Ouros
+  SpawnerGroup: OrcTier2Camp1
+  X: -70
+  Y: 43
+  Z: 78
+  Radius: 6
+  MaxMobs: 5
+  MobsPerSpawn: 1
+  Cooldown: 10
+  HealOnLeash: true
+  ResetThreatOnLeash: true
+  ShowFlames: true
+
+OrcTier2Camp2Spawner:
+  MobName: Elemental
+  World: Ouros
+  SpawnerGroup: OrcTier2Camp2
+  X: 151
+  Y: 43
+  Z: -38
+  Radius: 8
+  MaxMobs: 5
+  MobsPerSpawn: 1
+  Cooldown: 10
+  HealOnLeash: true
+  ResetThreatOnLeash: true
+  ShowFlames: true

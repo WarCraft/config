@@ -1,0 +1,25 @@
+OrcTier2Camp2Spawner:
+  SpawnerGroup: OrcTier2Camp2
+  MobName: Elemental
+  World: Ouros
+  X: 151
+  Y: 43
+  Z: -38
+  Radius: 8
+  UseTimer: true
+  MaxMobs: 5
+  MobLevel: '1'
+  MobsPerSpawn: 1
+  Cooldown: 120
+  CooldownTimer: 0
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 40
+  LeashRange: 0
+  HealOnLeash: true
+  ResetThreatOnLeash: true
+  ShowFlames: true
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0

@@ -1,0 +1,37 @@
+HumanPet:
+  Type: WOLF
+  Health: 15
+  Damage: 1
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.35
+    FollowRange: 30
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 ownertarget
+  - 2 ownerhurttarget
+  - 3 attacker
+
+OrcPet:
+  Type: WOLF
+  Health: 15
+  Damage: 1
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.35
+    FollowRange: 30
+  AIGoalSelectors:
+  - 0 clear
+  - 1 movetowardstarget
+  - 2 meleeattack
+  - 3 gotoowner   
+  AITargetSelectors:
+  - 0 clear
+  - 1 ownertarget
+  - 2 ownerhurttarget
+  - 3 attacker
+  Disguise:
+    Type: spider

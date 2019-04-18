@@ -1,0 +1,25 @@
+HumanTier1Camp2Spawner:
+  SpawnerGroup: HumanTier1Camp2
+  MobName: Charred
+  World: Ouros
+  X: -1136
+  Y: 26
+  Z: 436
+  Radius: 10
+  UseTimer: true
+  MaxMobs: 10
+  MobLevel: '1'
+  MobsPerSpawn: 5
+  Cooldown: 120
+  CooldownTimer: 0
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 40
+  LeashRange: 0
+  HealOnLeash: true
+  ResetThreatOnLeash: true
+  ShowFlames: true
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 5

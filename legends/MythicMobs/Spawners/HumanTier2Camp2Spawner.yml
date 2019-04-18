@@ -1,0 +1,25 @@
+HumanTier2Camp2Spawner:
+  SpawnerGroup: HumanTier2Camp2
+  MobName: Rider
+  World: Ouros
+  X: -1142
+  Y: 49
+  Z: 96
+  Radius: 8
+  UseTimer: true
+  MaxMobs: 5
+  MobLevel: '1'
+  MobsPerSpawn: 1
+  Cooldown: 120
+  CooldownTimer: 0
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 40
+  LeashRange: 0
+  HealOnLeash: true
+  ResetThreatOnLeash: true
+  ShowFlames: true
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0
