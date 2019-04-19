@@ -951,10 +951,10 @@ decorations:
     lore: []
 
   # Wood pack
-  - id: ACACIA_DOOR_BLOCK
+  - id: ACACIA_DOOR
     type: DECORATION
     rarity: RARE
-    name: Acacia door block
+    name: Acacia door
     lore: []
   - id: ACACIA_FENCE
     type: DECORATION
@@ -982,10 +982,10 @@ decorations:
     name: Acacia wood stairs
     lore: []
 
-  - id: BIRCH_DOOR_BLOCK
+  - id: BIRCH_DOOR
     type: DECORATION
     rarity: RARE
-    name: Birch door block
+    name: Birch door
     lore: []
   - id: BIRCH_FENCE
     type: DECORATION
@@ -1013,10 +1013,10 @@ decorations:
     name: Birch wood stairs
     lore: []
 
-  - id: DARK_OAK_DOOR_BLOCK
+  - id: DARK_OAK_DOOR
     type: DECORATION
     rarity: RARE
-    name: Dark oak door block
+    name: Dark oak door
     lore: []
   - id: DARK_OAK_FENCE
     type: DECORATION
@@ -1044,10 +1044,10 @@ decorations:
     name: Dark oak wood stairs
     lore: []
 
-  - id: JUNGLE_DOOR_BLOCK
+  - id: JUNGLE_DOOR
     type: DECORATION
     rarity: RARE
-    name: Jungle door block
+    name: Jungle door
     lore: []
   - id: JUNGLE_FENCE
     type: DECORATION
@@ -1075,10 +1075,10 @@ decorations:
     name: Jungle wood stairs
     lore: []
 
-  - id: SPRUCE_DOOR_BLOCK
+  - id: SPRUCE_DOOR
     type: DECORATION
     rarity: RARE
-    name: Spruce door block
+    name: Spruce door
     lore: []
   - id: SPRUCE_FENCE
     type: DECORATION
@@ -2294,7 +2294,7 @@ decorationPacks:
     decorations:
       - BONE_BLOCK
       - GLOWSTONE
-      - NETHER_BRICK
+      - NETHER_BRICK_BLOCK
       - NETHER_BRICK_FENCE
       - NETHER_BRICK_SLAB
       - NETHER_BRICK_STAIRS
