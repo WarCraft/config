@@ -3,13 +3,9 @@ specializations:
   - name: Berserker
     permission: warcraft.berserker
     validMainhands:
-      - WOOD_AXE
-      - STONE_AXE
-      - IRON_AXE
-      - GOLD_AXE
-      - DIAMOND_AXE
+      - AXE
     validOffhands:
-      - MOB_HEAD_SKELETON
+      - MOB_HEAD
     offhandRequired: no
     invalidWeaponsMessage: As a Berserker you can only fight using an Axe and optionally a Skull.
     leftClickAbility:
@@ -21,11 +17,7 @@ specializations:
   - name: Armsmaster
     permission: warcraft.armsmaster
     validMainhands:
-      - WOOD_SWORD
-      - STONE_SWORD
-      - IRON_SWORD
-      - GOLD_SWORD
-      - DIAMOND_SWORD
+      - SWORD
     validOffhands:
       - SHIELD
     offhandRequired: no
@@ -41,9 +33,8 @@ specializations:
     permission: warcraft.marksman
     validMainhands:
       - BOW
-    validOffhands:
-      - AIR
-    offhandRequired: yes
+    validOffhands: []
+    offhandRequired: no
     invalidWeaponsMessage: As a Marksman you can only fight using a Bow.
     leftClickAbility: Power Shot
     rightClickAbility:
@@ -55,9 +46,8 @@ specializations:
     permission: warcraft.hunter
     validMainhands:
       - BOW
-    validOffhands:
-      - AIR
-    offhandRequired: yes
+    validOffhands: []
+    offhandRequired: no
     invalidWeaponsMessage: As a Hunter you can only fight using a Bow.
     leftClickAbility: Toxic Arrow
     rightClickAbility:
@@ -69,14 +59,9 @@ specializations:
   - name: Tempest
     permission: warcraft.tempest
     validMainhands:
-      - WOOD_HOE
-      - STONE_HOE
-      - IRON_HOE
-      - GOLD_HOE
-      - DIAMOND_HOE
-    validOffhands:
-      - AIR
-    offhandRequired: yes
+      - HOE
+    validOffhands: []
+    offhandRequired: no
     invalidWeaponsMessage: As a Tempest you can only fight using a Staff (Hoe).
     leftClickAbility: Fireball
     rightClickAbility: Bolt
