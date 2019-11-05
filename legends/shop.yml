@@ -631,6 +631,11 @@ decorations:
     rarity: RARE
     name: Rose bush
     lore: []
+  - id: VINES
+    type: DECORATION
+    rarity: RARE
+    name: Vines
+    lore: []
 
   # Stone pack
   - id: ANDESITE
@@ -1111,11 +1116,6 @@ decorations:
     type: DECORATION
     rarity: RARE
     name: Red mushroom block
-    lore: []
-  - id: VINES
-    type: DECORATION
-    rarity: RARE
-    name: Vines
     lore: []
 
   - id: LeavesVariant:ACACIA
@@ -1930,7 +1930,6 @@ decorationPacks:
     lore: []
     decorations:
       - BROWN_MUSHROOM
-      - BROWN_MUSHROOM_BLOCK
       - CARROTS
       - COCOA
       - DIRT
@@ -1947,7 +1946,6 @@ decorationPacks:
       - PUMPKIN_STEM
       - SUNFLOWER
       - RED_MUSHROOM
-      - RED_MUSHROOM_BLOCK
       - ROSE_BUSH
       - VINES
 
@@ -2096,6 +2094,8 @@ decorationPacks:
       - DOUBLE_TALLGRASS
       - FERN
       - DEAD_BUSH
+      - BROWN_MUSHROOM_BLOCK
+      - RED_MUSHROOM_BLOCK
       - ACACIA_LEAVES
       - ACACIA_WOOD
       - BIRCH_LEAVES
