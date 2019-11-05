@@ -132,7 +132,7 @@ lootCrates:
   - name: War Crate
     type: WAR_CRATE
     rarity: COMMON
-    itemType: CHEST
+    itemType: ChestVariant:NORMAL
     dropTable:
       - type: EQUIPMENT
         chance: 44.3
@@ -180,7 +180,7 @@ lootCrates:
   - name: Vote Crate
     type: VOTE_CRATE
     rarity: COMMON
-    itemType: CHEST
+    itemType: ChestVariant:NORMAL
     dropTable:
       - type: EQUIPMENT
         chance: 34.3
@@ -228,7 +228,7 @@ lootCrates:
   - name: Legend Crate
     type: LEGEND_CRATE
     rarity: EPIC
-    itemType: CHEST
+    itemType: ChestVariant:NORMAL
     dropTable:
       - type: EQUIPMENT
         chance: 35
@@ -272,7 +272,7 @@ lootCrates:
   - name: Titan Crate
     type: TITAN_CRATE
     rarity: LEGENDARY
-    itemType: ENDER_CHEST
+    itemType: ChestVariant:ENDER
     dropTable:
       - type: EQUIPMENT
         chance: 18
