@@ -10,8 +10,8 @@ blockGatheringSpots:
         x: -1540
         y: 43
         z: 17
-    blockType: RIPE_WHEAT_CROPS
-    cooldownType: SMALL_WHEAT_CROPS
+    blockType: WheatState:AGE_7
+    cooldownType: WheatState:AGE_3
     drop:
       type: WHEAT
       name: Wheat
@@ -29,10 +29,10 @@ blockGatheringSpots:
         x: -756
         y: 34
         z: 417
-    blockType: OAK_WOOD
+    blockType: WoodVariant:OAK
     cooldownType: BEDROCK
     drop:
-      type: OAK_WOOD
+      type: WoodVariant:OAK
       name: Lumber
     cooldownInSeconds: 60
     cooldownDeviationPercentage: 20
@@ -86,10 +86,10 @@ blockGatheringSpots:
         x: 468
         y: 38
         z: 29
-    blockType: ACACIA_WOOD
+    blockType: WoodVariant:ACACIA
     cooldownType: BEDROCK
     drop:
-      type: OAK_WOOD
+      type: WoodVariant:OAK
       name: Lumber
     cooldownInSeconds: 60
     cooldownDeviationPercentage: 20
@@ -124,8 +124,8 @@ blockGatheringSpots:
         x: 200
         y: 179
         z: -130
-    blockType: RIPE_WHEAT_CROPS
-    cooldownType: SMALL_WHEAT_CROPS
+    blockType: WheatState:AGE_7
+    cooldownType: WheatState:AGE_3
     drop:
       type: WHEAT
       name: Wheat
@@ -143,10 +143,10 @@ blockGatheringSpots:
         x: 209
         y: 179
         z: -131
-    blockType: OAK_WOOD
+    blockType: WoodVariant:OAK
     cooldownType: BEDROCK
     drop:
-      type: OAK_WOOD
+      type: WoodVariant:OAK
       name: Lumber
     cooldownInSeconds: 6
     cooldownDeviationPercentage: 20
@@ -209,7 +209,7 @@ entityGatheringSpots:
 #        z: 416
 #        radius: 5
     drop:
-      type: RAW_PORKCHOP
+      type: PorkchopVariant:RAW
       name: Meat
     cooldownInSeconds: 10
     cooldownDeviationPercentage: 20
