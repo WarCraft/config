@@ -194,9 +194,7 @@ entityGatheringSpots:
     entityCount: 10
     spawnLocation:
       world: OVERWORLD
-      x: 89
-      y: 43
-      z: 420
+      translation: {x: 89, y: 43, z: 420}
     spawnRadius: 5
 #      - world: OVERWORLD
 #        x: 64

@@ -17,44 +17,30 @@ objectives:
     capturePoint:
       location:
         world: OVERWORLD
-        x: -1020
-        y: 45
-        z: 54.5
+        translation: {x: -1020, y: 45, z: 54.5}
       radius: 6
     portals:
       # outer portal
       - entryLocation:
           world: OVERWORLD
-          x: -1047.5
-          y: 45
-          z: 52.5
+          translation: {x: -1047.5, y: 45, z: 52.5}
         exitLocation:
           world: OVERWORLD
-          x: -1035.5
-          y: 45
-          z: 52.5
+          translation: {x: -1035.5, y: 45, z: 52.5}
       # inner portal
       - entryLocation:
           world: OVERWORLD
-          x: -1035.5
-          y: 45
-          z: 56.5
+          translation: {x: -1035.5, y: 45, z: 56.5}
         exitLocation:
           world: OVERWORLD
-          x: -1047.5
-          y: 45
-          z: 56.5
+          translation: {x: -1047.5, y: 45, z: 56.5}
       # hub portal
       - entryLocation:
           world: OVERWORLD
-          x: -1516.5
-          y: 55
-          z: 326.5
+          translation: {x: -1516.5, y: 55, z: 326.5}
         exitLocation:
           world: OVERWORLD
-          x: -993.5
-          y: 67
-          z: 72.5
+          translation: {x: -993.5, y: 67, z: 72.5}
         exitOrientation: WEST
     boundingBox:
       world: OVERWORLD
@@ -74,44 +60,30 @@ objectives:
     capturePoint:
       location:
         world: OVERWORLD
-        x: -1541
-        y: 33
-        z: -277
+        translation: {x: -1541, y: 33, z: -277}
       radius: 6
     portals:
       # outer portal
       - entryLocation:
           world: OVERWORLD
-          x: -1532.5
-          y: 33
-          z: -249.5
+          translation: {x: -1532.5, y: 33, z: -249.5}
         exitLocation:
           world: OVERWORLD
-          x: -1532.5
-          y: 33
-          z: -259.5
+          translation: {x: -1532.5, y: 33, z: -259.5}
       # inner portal
       - entryLocation:
           world: OVERWORLD
-          x: -1529.5
-          y: 33
-          z: -257.5
+          translation: {x: -1529.5, y: 33, z: -257.5}
         exitLocation:
           world: OVERWORLD
-          x: -1528.5
-          y: 33
-          z: -249.5
+          translation: {x: -1528.5, y: 33, z: -249.5}
       # hub portal
       - entryLocation:
           world: OVERWORLD
-          x: -1522.5
-          y: 55
-          z: 326.5
+          translation: {x: -1522.5, y: 55, z: 326.5}
         exitLocation:
           world: OVERWORLD
-          x: -1563.5
-          y: 47
-          z: -232.5
+          translation: {x: -1563.5, y: 47, z: -232.5}
         exitOrientation: NORTH
     boundingBox:
       world: OVERWORLD
@@ -131,44 +103,30 @@ objectives:
     capturePoint:
       location:
         world: OVERWORLD
-        x: -656
-        y: 31
-        z: -153
+        translation: {x: -656, y: 31, z: -153}
       radius: 6
     portals:
       # outer portal
       - entryLocation:
           world: OVERWORLD
-          x: -660.5
-          y: 31
-          z: -136.5
+          translation: {x: -660.5, y: 31, z: -136.5}
         exitLocation:
           world: OVERWORLD
-          x: -660.5
-          y: 31
-          z: -146.5
+          translation: {x: -660.5, y: 31, z: -146.5}
       # inner portal
       - entryLocation:
           world: OVERWORLD
-          x: -652.5
-          y: 31
-          z: -146.5
+          translation: {x: -652.5, y: 31, z: -146.5}
         exitLocation:
           world: OVERWORLD
-          x: -652.5
-          y: 31
-          z: -136.5
+          translation: {x: -652.5, y: 31, z: -136.5}
       # hub portal
       - entryLocation:
           world: OVERWORLD
-          x: -1514.5
-          y: 55
-          z: 330.5
+          translation: {x: -1514.5, y: 55, z: 330.5}
         exitLocation:
           world: OVERWORLD
-          x: -656.5
-          y: 39
-          z: -164.5
+          translation: {x: -656.5, y: 39, z: -164.5}
         exitOrientation: SOUTH
     boundingBox:
       world: OVERWORLD
@@ -188,9 +146,7 @@ objectives:
     capturePoint:
       location:
         world: OVERWORLD
-        x: -1539
-        y: 33
-        z: -23
+        translation: {x: -1539, y: 33, z: -23}
       radius: 6
     portals: []
     boundingBox:
@@ -211,9 +167,7 @@ objectives:
     capturePoint:
       location:
         world: OVERWORLD
-        x: -792
-        y: 33
-        z: 411
+        translation: {x: -792, y: 33, z: 411}
       radius: 6
     portals: []
     boundingBox:
@@ -234,9 +188,7 @@ objectives:
     capturePoint:
       location:
         world: OVERWORLD
-        x: -1135
-        y: 30
-        z: 501
+        translation: {x: -1135, y: 30, z: 501}
       radius: 6
     portals: []
     boundingBox:
@@ -259,44 +211,30 @@ objectives:
     capturePoint:
       location:
         world: OVERWORLD
-        x: 448
-        y: 40
-        z: -310.5
+        translation: {x: 448, y: 40, z: -310.5}
       radius: 6
     portals:
       # outer portal
       - entryLocation:
           world: OVERWORLD
-          x: 387.5
-          y: 36
-          z: -292.5
+          translation: {x: 387.5, y: 36, z: -292.5}
         exitLocation:
           world: OVERWORLD
-          x: 392.5
-          y: 38
-          z: -298.5
+          translation: {x: 392.5, y: 38, z: -298.5}
       # inner portal
       - entryLocation:
           world: OVERWORLD
-          x: 400.5
-          y: 38
-          z: -289.5
+          translation: {x: 400.5, y: 38, z: -289.5}
         exitLocation:
           world: OVERWORLD
-          x: 395.5
-          y: 38
-          z: -285.5
+          translation: {x: 395.5, y: 38, z: -285.5}
       # hub portal
       - entryLocation:
           world: OVERWORLD
-          x: 410.5
-          y: 44
-          z: 421.5
+          translation: {x: 410.5, y: 44, z: 421.5}
         exitLocation:
           world: OVERWORLD
-          x: -335.5
-          y: 35
-          z: 394.5
+          translation: {x: -335.5, y: 35, z: 394.5}
         exitOrientation: EAST
     boundingBox:
       world: OVERWORLD
@@ -316,44 +254,30 @@ objectives:
     capturePoint:
       location:
         world: OVERWORLD
-        x: -311
-        y: 33
-        z: 391
+        translation: {x: -311, y: 33, z: 391}
       radius: 6
     portals:
       # outer portal
       - entryLocation:
           world: OVERWORLD
-          x: -287.5
-          y: 33
-          z: 392.5
+          translation: {x: -287.5, y: 33, z: 392.5}
         exitLocation:
           world: OVERWORLD
-          x: -298.5
-          y: 33
-          z: 392.5
+          translation: {x: -298.5, y: 33, z: 392.5}
       # inner portal
       - entryLocation:
           world: OVERWORLD
-          x: -298.5
-          y: 33
-          z: 388.5
+          translation: {x: -298.5, y: 33, z: 388.5}
         exitLocation:
           world: OVERWORLD
-          x: -287.5
-          y: 33
-          z: 388.5
+          translation: {x: -287.5, y: 33, z: 388.5}
       # hub portal
       - entryLocation:
           world: OVERWORLD
-          x: 416.5
-          y: 44
-          z: 421.5
+          translation: {x: 416.5, y: 44, z: 421.5}
         exitLocation:
           world: OVERWORLD
-          x: 460.5
-          y: 42
-          z: -310.5
+          translation: {x: 460.5, y: 42, z: -310.5}
         exitOrientation: WEST
     boundingBox:
       world: OVERWORLD
@@ -373,44 +297,30 @@ objectives:
     capturePoint:
       location:
         world: OVERWORLD
-        x: -407.5
-        y: 31
-        z: -135.5
+        translation: {x: -407.5, y: 31, z: -135.5}
       radius: 6
     portals:
       # outer portal
       - entryLocation:
           world: OVERWORLD
-          x: -410.5
-          y: 31
-          z: -122.5
+          translation: {x: -410.5, y: 31, z: -122.5}
         exitLocation:
           world: OVERWORLD
-          x: -410.5
-          y: 31
-          z: -128.5
+          translation: {x: -410.5, y: 31, z: -128.5}
       # inner portal
       - entryLocation:
           world: OVERWORLD
-          x: -404.5
-          y: 31
-          z: -128.5
+          translation: {x: -404.5, y: 31, z: -128.5}
         exitLocation:
           world: OVERWORLD
-          x: -404.5
-          y: 31
-          z: -122.5
+          translation: {x: -404.5, y: 31, z: -122.5}
       # hub portal
       - entryLocation:
           world: OVERWORLD
-          x: 419.5
-          y: 44
-          z: 417.5
+          translation: {x: 419.5, y: 44, z: 417.5}
         exitLocation:
           world: OVERWORLD
-          x: -407.5
-          y: 36
-          z: -157.5
+          translation: {x: -407.5, y: 36, z: -157.5}
         exitOrientation: SOUTH
     boundingBox:
       world: OVERWORLD
@@ -430,9 +340,7 @@ objectives:
     capturePoint:
       location:
         world: OVERWORLD
-        x: 75
-        y: 43
-        z: 425
+        translation: {x: 75, y: 43, z: 425}
       radius: 6
     portals: []
     boundingBox:
@@ -453,9 +361,7 @@ objectives:
     capturePoint:
       location:
         world: OVERWORLD
-        x: 497
-        y: 33
-        z: 20
+        translation: {x: 497, y: 33, z: 20}
       radius: 6
     portals: []
     boundingBox:
@@ -476,9 +382,7 @@ objectives:
     capturePoint:
       location:
         world: OVERWORLD
-        x: -116
-        y: 35
-        z: 490
+        translation: {x: -116, y: 35, z: 490}
       radius: 6
     portals: []
     boundingBox:
@@ -501,33 +405,23 @@ objectives:
     capturePoint:
       location:
         world: THE_END
-        x: 294.5
-        y: 164
-        z: -247.5
+        translation: {x: 294.5, y: 164, z: -247.5}
       radius: 6
     portals:
     # outer portal
     - entryLocation:
         world: THE_END
-        x: 294.5
-        y: 164
-        z: -233.5
+        translation: {x: 294.5, y: 164, z: -233.5}
       exitLocation:
         world: THE_END
-        x: 294.5
-        y: 164
-        z: -239.5
+        translation: {x: 294.5, y: 164, z: -239.5}
     # inner portal
     - entryLocation:
         world: THE_END
-        x: 297.5
-        y: 164
-        z: -239.5
+        translation: {x: 297.5, y: 164, z: -239.5}
       exitLocation:
         world: THE_END
-        x: 297.5
-        y: 164
-        z: -233.5
+        translation: {x: 297.5, y: 164, z: -233.5}
 
 blacklistedAreas:
   # Human capital

@@ -5,33 +5,25 @@ npcs:
     entityType: VILLAGER
     location:
       world: OVERWORLD
-      x: -1511.5
-      y: 54
-      z: 336.5
+      translation: {x: -1511.5, y: 54, z: 336.5}
   - name: Warrior Trainer
     type: CLASS_TRAINER
     entityType: VILLAGER
     location:
       world: OVERWORLD
-      x: -1494.5
-      y: 54
-      z: 367.5
+      translation: {x: -1494.5, y: 54, z: 367.5}
   - name: Ranger Trainer
     type: CLASS_TRAINER
     entityType: VILLAGER
     location:
       world: OVERWORLD
-      x: -1523.5
-      y: 54
-      z: 388.5
+      translation: {x: -1523.5, y: 54, z: 388.5}
   - name: Mage Trainer
     type: CLASS_TRAINER
     entityType: VILLAGER
     location:
       world: OVERWORLD
-      x: -1490.5
-      y: 54
-      z: 330.5
+      translation: {x: -1490.5, y: 54, z: 330.5}
 
   # Orc capital
   - name: Blueprint Placeholder
@@ -39,33 +31,25 @@ npcs:
     entityType: VILLAGER
     location:
       world: OVERWORLD
-      x: 405.5
-      y: 43
-      z: 412.5
+      translation: {x: 405.5, y: 43, z: 412.5}
   - name: Warrior Trainer
     type: CLASS_TRAINER
     entityType: VILLAGER
     location:
       world: OVERWORLD
-      x: 433.5
-      y: 46
-      z: 424.5
+      translation: {x: 433.5, y: 46, z: 424.5}
   - name: Ranger Trainer
     type: CLASS_TRAINER
     entityType: VILLAGER
     location:
       world: OVERWORLD
-      x: 440.5
-      y: 52
-      z: 386.5
+      translation: {x: 440.5, y: 52, z: 386.5}
   - name: Mage Trainer
     type: CLASS_TRAINER
     entityType: VILLAGER
     location:
       world: OVERWORLD
-      x: 382.5
-      y: 47
-      z: 433.5
+      translation: {x: 382.5, y: 47, z: 433.5}
 
   # Tutorial
   - name: Training Dummy
@@ -73,6 +57,4 @@ npcs:
     entityType: ZOMBIE
     location:
       world: THE_END
-      x: 359.5
-      y: 188
-      z: 50.5
+      translation: {x: 359.5, y: 188, z: 50.5}

@@ -3,48 +3,34 @@ hubPortals:
   # Human unknown
   - entryLocation:
       world: OVERWORLD
-      x: -1525.5
-      y: 55
-      z: 330.5
+      translation: {x: -1525.5, y: 55, z: 330.5}
     exitLocation:
       world: OVERWORLD
-      x: -1520.5
-      y: 54
-      z: 331.5
+      translation: {x: -1520.5, y: 54, z: 331.5}
 
   # Orc unknown
   - entryLocation:
       world: OVERWORLD
-      x: 407.5
-      y: 44
-      z: 417.5
+      translation: {x: 407.5, y: 44, z: 417.5}
     exitLocation:
       world: OVERWORLD
-      x: 413.5
-      y: 43
-      z: 416.5
+      translation: {x: 413.5, y: 43, z: 416.5}
 
 
 spawnLocations:
   WAYFARER:
     world: OVERWORLD
-    x: -587.5
-    y: 90
-    z: -634.5
+    translation: {x: -587.5, y: 90, z: -634.5}
     pitch: 0
     yaw: 90
   HUMAN:
     world: OVERWORLD
-    x: -1554.5
-    y: 54
-    z: 357.5
+    translation: {x: -1554.5, y: 54, z: 357.5}
     pitch: 0
     yaw: -90
   ORC:
     world: OVERWORLD
-    x: 444.5
-    y: 45
-    z: 414.5
+    translation: {x: 444.5, y: 45, z: 414.5}
     pitch: 0
     yaw: 90
 #  ?d?:
