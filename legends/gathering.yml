@@ -29,10 +29,10 @@ blockGatheringSpots:
         x: -756
         y: 34
         z: 417
-    blockType: WoodVariant:OAK
+    blockType: LogVariant:OAK
     cooldownType: BEDROCK
     drop:
-      type: WoodVariant:OAK
+      type: LogVariant:OAK
       name: Lumber
     cooldownInSeconds: 60
     cooldownDeviationPercentage: 20
@@ -86,10 +86,10 @@ blockGatheringSpots:
         x: 468
         y: 38
         z: 29
-    blockType: WoodVariant:ACACIA
+    blockType: LogVariant:ACACIA
     cooldownType: BEDROCK
     drop:
-      type: WoodVariant:OAK
+      type: LogVariant:OAK
       name: Lumber
     cooldownInSeconds: 60
     cooldownDeviationPercentage: 20
@@ -143,10 +143,10 @@ blockGatheringSpots:
         x: 209
         y: 179
         z: -131
-    blockType: WoodVariant:OAK
+    blockType: LogVariant:OAK
     cooldownType: BEDROCK
     drop:
-      type: WoodVariant:OAK
+      type: LogVariant:OAK
       name: Lumber
     cooldownInSeconds: 6
     cooldownDeviationPercentage: 20
