@@ -376,7 +376,7 @@ decorations:
     rarity: RARE
     name: White tulip
     lore: []
-  - id: FlowerPotVariant:EMPTY
+  - id: FLOWER_POT
     type: DECORATION
     rarity: RARE
     name: Flower pot
