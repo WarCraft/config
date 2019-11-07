@@ -64,7 +64,7 @@ specializations:
     type: SPECIALIZATION
     rarity: EPIC
     name: Tempest
-    icon: HoeVariant:OAK
+    icon: HoeVariant:WOOD
     lore: []
   - id: WIZARD
     type: SPECIALIZATION
