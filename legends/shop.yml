@@ -2527,10 +2527,10 @@ decorationPacks:
       - RED_TERRACOTTA
       - BLACK_TERRACOTTA
 
-  - id: TERRACOTTA
+  - id: GLAZED_TERRACOTTA
     type: DECORATION_PACK
     rarity: EPIC
-    name: Terracotta Pack
+    name: Glazed Terracotta Pack
     icon: GlazedTerracottaVariant:WHITE
     lore: []
     decorations:
