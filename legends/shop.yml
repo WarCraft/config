@@ -722,19 +722,25 @@ decorations:
     rarity: RARE
     name: Pumpkin
     lore: []
-  - id: PlantVariant:SUNFLOWER
+  - id: PUMPKIN_SEEDS
+    itemType: SeedsVariant:PUMPKIN
+    type: DECORATION
+    rarity: RARE
+    name: Pumpkin seeds
+    lore: []
+  - id: SUNFLOWER
     itemType: PlantVariant:SUNFLOWER
     type: DECORATION
     rarity: RARE
     name: Sunflower
     lore: []
-  - id: MushroomVariant:RED
+  - id: RED_MUSHROOM
     itemType: MushroomVariant:RED
     type: DECORATION
     rarity: RARE
     name: Red mushroom
     lore: []
-  - id: PlantVariant:ROSE_BUSH
+  - id: ROSE_BUSH
     itemType: PlantVariant:ROSE_BUSH
     type: DECORATION
     rarity: RARE
@@ -2278,9 +2284,11 @@ decorationPacks:
       - LILAC
       - LILY_PAD
       - MELON
+      - MELON_SEEDS
       - PEONY
       - POTATO
       - PUMPKIN
+      - PUMPKIN_SEEDS
       - SUNFLOWER
       - RED_MUSHROOM
       - ROSE_BUSH
