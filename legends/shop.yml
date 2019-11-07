@@ -758,7 +758,7 @@ decorations:
     rarity: RARE
     name: Quartz stairs
     lore: []
-  - id: STONE
+  - id: StoneVariant:NORMAL
     type: DECORATION
     rarity: RARE
     name: Stone
@@ -773,7 +773,7 @@ decorations:
     rarity: RARE
     name: Stone brick stairs
     lore: []
-  - id: STONE_BRICK
+  - id: StoneBrickVariant:NORMAL
     type: DECORATION
     rarity: RARE
     name: Stone brick
@@ -899,12 +899,12 @@ decorations:
     rarity: RARE
     name: Red sandstone stairs
     lore: []
-  - id: SAND
+  - id: SandVariant:NORMAL
     type: DECORATION
     rarity: RARE
     name: Sand
     lore: []
-  - id: SANDSTONE
+  - id: SandstoneVariant:NORMAL
     type: DECORATION
     rarity: RARE
     name: Sandstone
