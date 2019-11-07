@@ -1711,7 +1711,7 @@ decorations:
     rarity: EPIC
     name: Glowstone
     lore: []
-  - id: BrickVariant:NETHER
+  - id: BrickBlockVariant:NETHER
     type: DECORATION
     rarity: EPIC
     name: Nether brick
@@ -1756,7 +1756,7 @@ decorations:
     rarity: EPIC
     name: Obsidian
     lore: []
-  - id: BrickVariant:RED_NETHER
+  - id: BrickBlockVariant:RED_NETHER
     type: DECORATION
     rarity: EPIC
     name: Red nether brick
@@ -2276,7 +2276,7 @@ decorationPacks:
     decorations:
       - BONE_BLOCK
       - GLOWSTONE
-      - BrickVariant:NETHER
+      - BrickBlockVariant:NETHER
       - FenceVariant:NETHER_BRICK
       - SlabVariant:NETHER_BRICK
       - StairsVariant:NETHER_BRICK
@@ -2285,7 +2285,7 @@ decorationPacks:
       - NETHER_WART_BLOCK
       - NETHERRACK
       - OBSIDIAN
-      - BrickVariant:RED_NETHER
+      - BrickBlockVariant:RED_NETHER
       - SOUL_SAND
 
   - id: MOB_HEADS
