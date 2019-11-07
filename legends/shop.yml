@@ -1871,7 +1871,7 @@ decorationPacks:
     type: DECORATION_PACK
     rarity: RARE
     name: Flower Pack
-    icon: POPPY
+    icon: FlowerVariant:POPPY
     lore: []
     decorations:
       - FlowerVariant:ALLIUM
@@ -2087,7 +2087,7 @@ decorationPacks:
     type: DECORATION_PACK
     rarity: EPIC
     name: Nature Pack
-    icon: OAK_WOOD
+    icon: WoodVariant:OAK
     lore: []
     decorations:
       - DirtVariant:COARSE
