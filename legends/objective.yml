@@ -8,7 +8,7 @@ requiredProgress:
   RESOURCE: 60
   TUTORIAL: 30
 
-objectives:
+tempDisable:
   # Human objectives
   - id: HUMAN_KEEP_EAST
     model: human_k_e
@@ -53,6 +53,8 @@ objectives:
         y: 127
         z: 85
     orientation: EAST
+
+objectives:
   - id: HUMAN_KEEP_WEST
     model: human_k_w
     type: KEEP
