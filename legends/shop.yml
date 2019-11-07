@@ -601,7 +601,7 @@ decorations:
     rarity: RARE
     name: Melon seeds
     lore: []
-  - id: PEONY
+  - id: PlantVariant:PEONY
     type: DECORATION
     rarity: RARE
     name: Peony
@@ -616,7 +616,7 @@ decorations:
     rarity: RARE
     name: Pumpkin
     lore: []
-  - id: SUNFLOWER
+  - id: PlantVariant:SUNFLOWER
     type: DECORATION
     rarity: RARE
     name: Sunflower
@@ -626,7 +626,7 @@ decorations:
     rarity: RARE
     name: Red mushroom
     lore: []
-  - id: ROSE_BUSH
+  - id: PlantVariant:ROSE_BUSH
     type: DECORATION
     rarity: RARE
     name: Rose bush
@@ -1941,15 +1941,15 @@ decorationPacks:
       - GRASS
       - JACK_OF_THE_LANTERN
       - FERN
-      - LILAC
+      - PlantVariant:LILAC
       - LILY_PAD
       - MELON
-      - PEONY
+      - PlantVariant:PEONY
       - POTATO
       - PUMPKIN
-      - SUNFLOWER
+      - PlantVariant:SUNFLOWER
       - MushroomVariant:RED
-      - ROSE_BUSH
+      - PlantVariant:ROSE_BUSH
       - VINES
 
   - id: STONE
