@@ -556,10 +556,10 @@ decorations:
     rarity: RARE
     name: Carrot
     lore: []
-  - id: COCOA_POD
+  - id: COCOA_BEANS
     type: DECORATION
     rarity: RARE
-    name: Cocoa pod
+    name: Cocoa beans
     lore: []
   - id: DirtVariant:NORMAL
     type: DECORATION
