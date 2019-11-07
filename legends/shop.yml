@@ -1936,7 +1936,7 @@ decorationPacks:
     decorations:
       - MushroomVariant:BROWN
       - CARROT
-      - COCOA_POD
+      - COCOA_BEANS
       - DirtVariant:NORMAL
       - GRASS
       - JACK_OF_THE_LANTERN
