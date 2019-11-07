@@ -383,163 +383,163 @@ decorations:
     lore: []
 
   # Glass pack
-  - id: StainedGlassVariant:WHITE
+  - id: GlassVariant:WHITE
     type: DECORATION
     rarity: RARE
     name: White stained glass
     lore: []
-  - id: StainedGlassVariant:ORANGE
+  - id: GlassVariant:ORANGE
     type: DECORATION
     rarity: RARE
     name: Orange stained glass
     lore: []
-  - id: StainedGlassVariant:MAGENTA
+  - id: GlassVariant:MAGENTA
     type: DECORATION
     rarity: RARE
     name: Magenta stained glass
     lore: []
-  - id: StainedGlassVariant:LIGHT_BLUE
+  - id: GlassVariant:LIGHT_BLUE
     type: DECORATION
     rarity: RARE
     name: Light blue stained glass
     lore: []
-  - id: StainedGlassVariant:YELLOW
+  - id: GlassVariant:YELLOW
     type: DECORATION
     rarity: RARE
     name: Yellow stained glass
     lore: []
-  - id: StainedGlassVariant:LIME
+  - id: GlassVariant:LIME
     type: DECORATION
     rarity: RARE
     name: Lime stained glass
     lore: []
-  - id: StainedGlassVariant:PINK
+  - id: GlassVariant:PINK
     type: DECORATION
     rarity: RARE
     name: Pink stained glass
     lore: []
-  - id: StainedGlassVariant:GRAY
+  - id: GlassVariant:GRAY
     type: DECORATION
     rarity: RARE
     name: Gray stained glass
     lore: []
-  - id: StainedGlassVariant:LIGHT_GRAY
+  - id: GlassVariant:LIGHT_GRAY
     type: DECORATION
     rarity: RARE
     name: Light gray stained glass
     lore: []
-  - id: StainedGlassVariant:CYAN
+  - id: GlassVariant:CYAN
     type: DECORATION
     rarity: RARE
     name: Cyan stained glass
     lore: []
-  - id: StainedGlassVariant:PURPLE
+  - id: GlassVariant:PURPLE
     type: DECORATION
     rarity: RARE
     name: Purple stained glass
     lore: []
-  - id: StainedGlassVariant:BLUE
+  - id: GlassVariant:BLUE
     type: DECORATION
     rarity: RARE
     name: Blue stained glass
     lore: []
-  - id: StainedGlassVariant:BROWN
+  - id: GlassVariant:BROWN
     type: DECORATION
     rarity: RARE
     name: Brown stained glass
     lore: []
-  - id: StainedGlassVariant:GREEN
+  - id: GlassVariant:GREEN
     type: DECORATION
     rarity: RARE
     name: Green stained glass
     lore: []
-  - id: StainedGlassVariant:RED
+  - id: GlassVariant:RED
     type: DECORATION
     rarity: RARE
     name: Red stained glass
     lore: []
-  - id: StainedGlassVariant:BLACK
+  - id: GlassVariant:BLACK
     type: DECORATION
     rarity: RARE
     name: Black stained glass
     lore: []
 
-  - id: StainedGlassPaneVariant:WHITE
+  - id: GlassPaneVariant:WHITE
     type: DECORATION
     rarity: RARE
     name: White stained glass pane
     lore: []
-  - id: StainedGlassPaneVariant:ORANGE
+  - id: GlassPaneVariant:ORANGE
     type: DECORATION
     rarity: RARE
     name: Orange stained glass pane
     lore: []
-  - id: StainedGlassPaneVariant:MAGENTA
+  - id: GlassPaneVariant:MAGENTA
     type: DECORATION
     rarity: RARE
     name: Magenta stained glass pane
     lore: []
-  - id: StainedGlassPaneVariant:LIGHT_BLUE
+  - id: GlassPaneVariant:LIGHT_BLUE
     type: DECORATION
     rarity: RARE
     name: Light blue stained glass pane
     lore: []
-  - id: StainedGlassPaneVariant:YELLOW
+  - id: GlassPaneVariant:YELLOW
     type: DECORATION
     rarity: RARE
     name: Yellow stained glass pane
     lore: []
-  - id: StainedGlassPaneVariant:LIME
+  - id: GlassPaneVariant:LIME
     type: DECORATION
     rarity: RARE
     name: Lime stained glass pane
     lore: []
-  - id: StainedGlassPaneVariant:PINK
+  - id: GlassPaneVariant:PINK
     type: DECORATION
     rarity: RARE
     name: Pink stained glass pane
     lore: []
-  - id: StainedGlassPaneVariant:GRAY
+  - id: GlassPaneVariant:GRAY
     type: DECORATION
     rarity: RARE
     name: Gray stained glass pane
     lore: []
-  - id: StainedGlassPaneVariant:LIGHT_GRAY
+  - id: GlassPaneVariant:LIGHT_GRAY
     type: DECORATION
     rarity: RARE
     name: Light gray stained glass pane
     lore: []
-  - id: StainedGlassPaneVariant:CYAN
+  - id: GlassPaneVariant:CYAN
     type: DECORATION
     rarity: RARE
     name: Cyan stained glass pane
     lore: []
-  - id: StainedGlassPaneVariant:PURPLE
+  - id: GlassPaneVariant:PURPLE
     type: DECORATION
     rarity: RARE
     name: Purple stained glass pane
     lore: []
-  - id: StainedGlassPaneVariant:BLUE
+  - id: GlassPaneVariant:BLUE
     type: DECORATION
     rarity: RARE
     name: Blue stained glass pane
     lore: []
-  - id: StainedGlassPaneVariant:BROWN
+  - id: GlassPaneVariant:BROWN
     type: DECORATION
     rarity: RARE
     name: Brown stained glass pane
     lore: []
-  - id: StainedGlassPaneVariant:GREEN
+  - id: GlassPaneVariant:GREEN
     type: DECORATION
     rarity: RARE
     name: Green stained glass pane
     lore: []
-  - id: StainedGlassPaneVariant:RED
+  - id: GlassPaneVariant:RED
     type: DECORATION
     rarity: RARE
     name: Red stained glass pane
     lore: []
-  - id: StainedGlassPaneVariant:BLACK
+  - id: GlassPaneVariant:BLACK
     type: DECORATION
     rarity: RARE
     name: Black stained glass pane
@@ -1893,39 +1893,39 @@ decorationPacks:
     icon: GLASS
     lore: []
     decorations:
-      - StainedGlassVariant:WHITE
-      - StainedGlassVariant:ORANGE
-      - StainedGlassVariant:MAGENTA
-      - StainedGlassVariant:LIGHT_BLUE
-      - StainedGlassVariant:YELLOW
-      - StainedGlassVariant:LIME
-      - StainedGlassVariant:PINK
-      - StainedGlassVariant:GRAY
-      - StainedGlassVariant:LIGHT_GRAY
-      - StainedGlassVariant:CYAN
-      - StainedGlassVariant:PURPLE
-      - StainedGlassVariant:BLUE
-      - StainedGlassVariant:BROWN
-      - StainedGlassVariant:GREEN
-      - StainedGlassVariant:RED
-      - StainedGlassVariant:BLACK
+      - GlassVariant:WHITE
+      - GlassVariant:ORANGE
+      - GlassVariant:MAGENTA
+      - GlassVariant:LIGHT_BLUE
+      - GlassVariant:YELLOW
+      - GlassVariant:LIME
+      - GlassVariant:PINK
+      - GlassVariant:GRAY
+      - GlassVariant:LIGHT_GRAY
+      - GlassVariant:CYAN
+      - GlassVariant:PURPLE
+      - GlassVariant:BLUE
+      - GlassVariant:BROWN
+      - GlassVariant:GREEN
+      - GlassVariant:RED
+      - GlassVariant:BLACK
 
-      - StainedGlassPaneVariant:WHITE
-      - StainedGlassPaneVariant:ORANGE
-      - StainedGlassPaneVariant:MAGENTA
-      - StainedGlassPaneVariant:LIGHT_BLUE
-      - StainedGlassPaneVariant:YELLOW
-      - StainedGlassPaneVariant:LIME
-      - StainedGlassPaneVariant:PINK
-      - StainedGlassPaneVariant:GRAY
-      - StainedGlassPaneVariant:LIGHT_GRAY
-      - StainedGlassPaneVariant:CYAN
-      - StainedGlassPaneVariant:PURPLE
-      - StainedGlassPaneVariant:BLUE
-      - StainedGlassPaneVariant:BROWN
-      - StainedGlassPaneVariant:GREEN
-      - StainedGlassPaneVariant:RED
-      - StainedGlassPaneVariant:BLACK
+      - GlassPaneVariant:WHITE
+      - GlassPaneVariant:ORANGE
+      - GlassPaneVariant:MAGENTA
+      - GlassPaneVariant:LIGHT_BLUE
+      - GlassPaneVariant:YELLOW
+      - GlassPaneVariant:LIME
+      - GlassPaneVariant:PINK
+      - GlassPaneVariant:GRAY
+      - GlassPaneVariant:LIGHT_GRAY
+      - GlassPaneVariant:CYAN
+      - GlassPaneVariant:PURPLE
+      - GlassPaneVariant:BLUE
+      - GlassPaneVariant:BROWN
+      - GlassPaneVariant:GREEN
+      - GlassPaneVariant:RED
+      - GlassPaneVariant:BLACK
 
   - id: GARDENING
     type: DECORATION_PACK
