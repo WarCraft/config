@@ -8,9 +8,7 @@ requiredProgress:
   RESOURCE: 60
   TUTORIAL: 30
 
-objectives: []
-
-disabled:
+objectives:
   - id: HUMAN_KEEP_WEST
     model: human_k_w
     type: KEEP
