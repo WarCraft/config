@@ -8,9 +8,50 @@ requiredProgress:
   RESOURCE: 60
   TUTORIAL: 30
 
-objectives: []
-
-disabled:
+objectives:
+  - id: HUMAN_KEEP_EAST
+    model: human_k_e
+    type: KEEP
+    name: Human Keep East
+    capturePoint:
+      location:
+        world: OVERWORLD
+        translation: {x: -1020, y: 45, z: 54.5}
+      radius: 6
+    portals:
+      # outer portal
+      - entryLocation:
+          world: OVERWORLD
+          translation: {x: -1047.5, y: 45, z: 52.5}
+        exitLocation:
+          world: OVERWORLD
+          translation: {x: -1035.5, y: 45, z: 52.5}
+      # inner portal
+      - entryLocation:
+          world: OVERWORLD
+          translation: {x: -1035.5, y: 45, z: 56.5}
+        exitLocation:
+          world: OVERWORLD
+          translation: {x: -1047.5, y: 45, z: 56.5}
+      # hub portal
+      - entryLocation:
+          world: OVERWORLD
+          translation: {x: -1516.5, y: 55, z: 326.5}
+        exitLocation:
+          world: OVERWORLD
+          translation: {x: -993.5, y: 67, z: 72.5}
+        exitOrientation: WEST
+    boundingBox:
+      world: OVERWORLD
+      minimumCorner:
+        x: -1049
+        y: 45
+        z: 30
+      maximumCorner:
+        x: -974
+        y: 127
+        z: 85
+    orientation: EAST
   - id: HUMAN_KEEP_WEST
     model: human_k_w
     type: KEEP
