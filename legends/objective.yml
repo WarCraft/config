@@ -350,7 +350,7 @@ objectives:
         z: 449
       maximumCorner:
         x: 96
-        y: 69
+        y: 61
         z: 410
     orientation: SOUTH
   - id: ORC_LUMBER_MILL
