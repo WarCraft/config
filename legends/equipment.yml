@@ -106,11 +106,11 @@ itemTypes:
     LEGENDARY: ChestplateVariant:DIAMOND
     ANCIENT: ChestplateVariant:GOLD
   LEGS:
-    COMMON: LegginsVariant:LEATHER
-    RARE: LegginsVariant:CHAINMAIL
-    EPIC: LegginsVariant:IRON
-    LEGENDARY: LegginsVariant:DIAMOND
-    ANCIENT: LegginsVariant:GOLD
+    COMMON: LeggingsVariant:LEATHER
+    RARE: LeggingsVariant:CHAINMAIL
+    EPIC: LeggingsVariant:IRON
+    LEGENDARY: LeggingsVariant:DIAMOND
+    ANCIENT: LeggingsVariant:GOLD
   FEET:
     COMMON: BootsVariant:LEATHER
     RARE: BootsVariant:CHAINMAIL
