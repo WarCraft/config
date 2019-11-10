@@ -1,6 +1,4 @@
-npcs: []
-
-disabled:
+npcs:
   # Human capital
   - name: Blueprint Placeholder
     type: BLUEPRINT_VENDOR
