@@ -1,251 +1,246 @@
-specializations:
+combatClasses:
   # Warrior
   - name: Berserker
     permission: warcraft.berserker
-    validMainhands:
-      - AXE
-    validOffhands:
-      - MOB_HEAD
-    offhandRequired: no
+    aliases: [bs]
+    mainHands: [AXE]
+    offHands: [AXE]
+    offHandRequired: no
     invalidWeaponsMessage: As a Berserker you can only fight using an Axe and optionally a Skull.
-    leftClickAbility:
-    rightClickAbility: Maul
-    shiftLeftClickAbility: Grudge
-    shiftRightClickAbility: Shatter
+    leftClick: ~
+    rightClick: Maul
+    shiftLeftClick: Grudge
+    shiftRightClick: Shatter
     hasVanillaAbilities: yes
 
-  - name: Armsmaster
-    permission: warcraft.armsmaster
-    validMainhands:
-      - SWORD
-    validOffhands:
-      - SHIELD
-    offhandRequired: no
-    invalidWeaponsMessage: As an Armsmaster you can only fight using a Sword and optionally a Shield.
-    leftClickAbility:
-    rightClickAbility: Hamstring
-    shiftLeftClickAbility: Slam
-    shiftRightClickAbility: Stand Your Ground
+  - name: Guardian
+    permission: warcraft.guardian
+    aliases: [gd]
+    mainHands: [SWORD]
+    offHands: [SHIELD]
+    offHandRequired: no
+    invalidWeaponsMessage: As a Guardian you can only fight using a Sword and optionally a Shield.
+    leftClick: ~
+    rightClick: Hamstring
+    shiftLeftClick: Slam
+    shiftRightClick: Stand Your Ground
     hasVanillaAbilities: yes
 
   # Ranger
   - name: Marksman
     permission: warcraft.marksman
-    validMainhands:
-      - BOW
-    validOffhands: []
-    offhandRequired: no
-    invalidWeaponsMessage: As a Marksman you can only fight using a Bow.
-    leftClickAbility: Power Shot
-    rightClickAbility:
-    shiftLeftClickAbility: Focus
-    shiftRightClickAbility: Sneak
+    aliases: [mm]
+    mainHands: [CROSSBOW]
+    offHands: []
+    offHandRequired: yes
+    invalidWeaponsMessage: As a Marksman you can only fight using a Crossbow.
+    leftClick: Power Shot
+    rightClick: ~
+    shiftLeftClick: Focus
+    shiftRightClick: Sneak
     hasVanillaAbilities: yes
 
   - name: Hunter
     permission: warcraft.hunter
-    validMainhands:
-      - BOW
-    validOffhands: []
-    offhandRequired: no
+    aliases: [ht]
+    mainHands: [BOW]
+    offHands: []
+    offHandRequired: yes
     invalidWeaponsMessage: As a Hunter you can only fight using a Bow.
-    leftClickAbility: Toxic Arrow
-    rightClickAbility:
-    shiftLeftClickAbility: Trap
-    shiftRightClickAbility: Disengage
+    leftClick: Toxic Arrow
+    rightClick: ~
+    shiftLeftClick: Trap
+    shiftRightClick: Disengage
     hasVanillaAbilities: yes
 
   # Mage
-  - name: Tempest
-    permission: warcraft.tempest
-    validMainhands:
-      - HOE
-    validOffhands: []
-    offhandRequired: no
-    invalidWeaponsMessage: As a Tempest you can only fight using a Staff (Hoe).
-    leftClickAbility: Fireball
-    rightClickAbility: Bolt
-    shiftLeftClickAbility: Hail Blast
-    shiftRightClickAbility: Molten Storm
+  - name: Elementalist
+    permission: warcraft.elementalist
+    aliases: [et]
+    mainHands: [HOE]
+    offHands: []
+    offHandRequired: yes
+    invalidWeaponsMessage: As an Elementalist you can only fight using a Staff (Hoe).
+    leftClick: Fireball
+    rightClick: Bolt
+    shiftLeftClick: Hail Blast
+    shiftRightClick: Molten Storm
     hasVanillaAbilities: no
 
   - name: Wizard
     permission: warcraft.wizard
-    validMainhands:
-      - STICK
-      - BLAZE_ROD
-    validOffhands:
-      - BOOK
-    offhandRequired: no
+    aliases: [wz]
+    mainHands: [STICK, BLAZE_ROD]
+    offHands: [BOOK]
+    offHandRequired: no
     invalidWeaponsMessage: As a Wizard you can only fight using a Wand (Sticks) and optionally a Book.
-    leftClickAbility: Fireball
-    rightClickAbility: Arcane Missile
-    shiftLeftClickAbility: Teleport
-    shiftRightClickAbility: Mass Bamboozle
+    leftClick: Fireball
+    rightClick: Arcane Missile
+    shiftLeftClick: Teleport
+    shiftRightClick: Mass Bamboozle
     hasVanillaAbilities: no
 
-
 abilities:
-  # Vanilla hits
+  # Vanilla
   - name: "Basic Attack"
-    damage: 1
-    cooldown: 0
+    damage: "1"
+    cooldown: "0"
 
-  # Berserker
+ # Berserker
   - name: Maul
-    damage: 3
-    absorption-level: 1
-    absorption-duration: 2
-    cooldown: 5
+    damage: "3"
+    absorption-level: "1"
+    absorption-duration: "2"
+    cooldown: "5"
   - name: Grudge
-    heal: 1
-    duration: 5
-    cooldown: 15
+    heal: "1"
+    duration: "5"
+    cooldown: "15"
   - name: Shatter
-    distance: 10
-    launch: 6
-    radius: 3
-    damage: 3
-    nausea-level: 3
-    nausea-duration: 7
-    cooldown: 15
+    distance: "10"
+    launch: "6"
+    radius: "3"
+    damage: "3"
+    nausea-level: "3"
+    nausea-duration: "7"
+    cooldown: "15"
 
-  # Armsmaster
+  # Guardian
   - name: Hamstring
-    damage: 3
-    slow-level: 3
-    slow-duration: 5
-    cooldown: 5
+    damage: "3"
+    slow-level: "3"
+    slow-duration: "5"
+    cooldown: "5"
   - name: Slam
-    damage: 3
-    knockback: 10
-    nausea-level: 3
-    nausea-duration: 7
-    cooldown: 10
+    damage: "3"
+    knockback: "10"
+    nausea-level: "3"
+    nausea-duration: "7"
+    cooldown: "10"
   - name: Stand Your Ground
-    resistance-level: 2
-    resistance-duration: 5
-    fire-resistance-level: 2
-    fire-resistance-duration: 5
-    slow-level: 1
-    slow-duration: 5
-    cooldown: 20
+    resistance-level: "2"
+    resistance-duration: "5"
+    fire-resistance-level: "2"
+    fire-resistance-duration: "5"
+    slow-level: "1"
+    slow-duration: "5"
+    cooldown: "20"
 
   # Marksman
   - name: Power Shot
-    damage: 3
-    knockback: 8
-    cooldown: 9
+    damage: "3"
+    knockback: "8"
+    cooldown: "9"
   - name: Focus
-    damage-modifier: 1.25
-    cooldown: 3
+    damage-modifier: "1.25"
+    cooldown: "3"
   - name: Sneak
-    speed-level: 2
-    speed-duration: 7
-    duration: 7
-    cooldown: 45
+    speed-level: "2"
+    speed-duration: "7"
+    duration: "7"
+    cooldown: "45"
 
   # Hunter
   - name: Toxic Arrow
-    damage: 3
-    poison-level: 2
-    poison-duration: 3
-    cooldown: 9
+    damage: "3"
+    poison-level: "2"
+    poison-duration: "3"
+    cooldown: "9"
   - name: Trap
-    radius: 1
-    poison-level: 1
-    poison-duration: 5
-    root-duration: 3
-    duration: 15
-    cooldown: 15
+    radius: "1"
+    poison-level: "1"
+    poison-duration: "5"
+    root-duration: "3"
+    duration: "15"
+    cooldown: "15"
   - name: Disengage
-    distance: 10
-    cooldown: 25
+    distance: "10"
+    cooldown: "25"
 
   # Mage
   - name: Fireball
-    speed: 0.75
-    gravity: 0
-    radius: 0.5
-    damage: 2
-    burn-duration: 2
-    range: 30
-    cooldown: 2
+    velocity: "0.75"
+    gravity: "0"
+    radius: "0.5"
+    damage: "2"
+    burn-duration: "2"
+    range: "30"
+    cooldown: "2"
 
   # Tempest
   - name: Bolt
-    radius: 2
-    damage: 3
-    range: 30
-    cooldown: 10
+    radius: "2"
+    damage: "3"
+    range: "30"
+    cooldown: "10"
   - name: Hail Blast
-    speed: 0.75
-    damage: 5
-    radius: 5
-    slow-level: 3
-    slow-duration: 3
-    range: 10
-    cooldown: 15
+    velocity: "0.75"
+    damage: "5"
+    radius: "5"
+    slow-level: "3"
+    slow-duration: "3"
+    range: "10"
+    cooldown: "15"
   - name: Molten Storm
-    spawnRadius: 7.5
-    fireballsPerSecond: 3
-    speed: 0.75
-    damage: 1
-    radius: 0.5
-    burn-level: 1
-    burn-duration: 3
-    duration: 10
-    range: 30
-    cooldown: 35
+    spawnRadius: "7.5"
+    fireballsPerSecond: "3"
+    velocity: "0.75"
+    damage: "1"
+    radius: "0.5"
+    burn-level: "1"
+    burn-duration: "3"
+    duration: "10"
+    range: "30"
+    cooldown: "35"
 
   # Wizard
   - name: Arcane Missile
-    speed: 0.75
-    damage: 3
-    radius: 0.5
-    range: 30
-    cooldown: 6
+    velocity: "0.75"
+    damage: "3"
+    radius: "0.5"
+    range: "30"
+    cooldown: "6"
   - name: Teleport
-    damage: 5
-    radius: 3
-    slow-level: 1
-    slow-duration: 1
-    range: 15
-    cooldown: 25
+    damage: "5"
+    radius: "3"
+    slow-level: "1"
+    slow-duration: "1"
+    range: "15"
+    cooldown: "25"
   - name: Mass Bamboozle
-    countdown: 2.0
-    radius: 5
-    duration: 8
-    nausea-level: 1
-    nausea-duration: 8
-    range: 30
-    cooldown: 35
+    countdown: "2.0"
+    radius: "5"
+    duration: "8"
+    nausea-level: "1"
+    nausea-duration: "8"
+    range: "30"
+    cooldown: "35"
 
   # Human
   - name: Last Stand
-    duration: 4
-    cooldown: 300
+    duration: "4"
+    cooldown: "300"
   - name: Barrier
-    absorption-level: 2
-    absorption-duration: 5
-    cooldown: 300
+    absorption-level: "2"
+    absorption-duration: "5"
+    cooldown: "300"
 
   # Orc
   - name: Flame Totem
-    speed: 0.75
-    gravity: 0
-    radius: 1.5
-    damage: 1
-    burn-duration: 1
-    range: 30
-    period: 1
-    duration: 6
-    cooldown: 40
+    velocity: "0.75"
+    gravity: "0"
+    radius: "1.5"
+    damage: "1"
+    burn-duration: "1"
+    range: "30"
+    period: "1"
+    duration: "6"
+    cooldown: "40"
 
   # Siege
   - name: Trebuchet Projectile
-    speed: 1.5
-    radius: 2
-    damage: 50
-    range: 500
-    cooldown: 0
+    velocity: "1.5"
+    radius: "2"
+    damage: "50"
+    range: "500"
+    cooldown: "0"
