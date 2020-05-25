@@ -74,7 +74,7 @@ combatClasses:
     offHands: [BOOK]
     offHandRequired: no
     invalidWeaponsMessage: As a Wizard you can only fight using a Wand (Sticks) and optionally a Book.
-    leftClick: Fireball
+    leftClick: Arcane Fizzle
     rightClick: Arcane Missile
     shiftLeftClick: Teleport
     shiftRightClick: Mass Bamboozle
@@ -167,7 +167,7 @@ abilities:
     range: "30"
     cooldown: "2"
 
-  # Tempest
+  # Elementalist
   - name: Bolt
     radius: "2"
     damage: "3"
@@ -183,7 +183,7 @@ abilities:
     cooldown: "15"
   - name: Molten Storm
     spawnRadius: "7.5"
-    fireballsPerSecond: "3"
+    count: "30"
     velocity: "0.75"
     damage: "1"
     radius: "0.5"
@@ -194,6 +194,13 @@ abilities:
     cooldown: "35"
 
   # Wizard
+  - name: Arcane Fizzle
+    velocity: "0.75"
+    gravity: "0"
+    radius: "0.3"
+    damage: "2"
+    range: "30"
+    cooldown: "1.75"
   - name: Arcane Missile
     velocity: "0.75"
     damage: "3"
