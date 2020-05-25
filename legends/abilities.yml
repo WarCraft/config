@@ -132,7 +132,7 @@ abilities:
     knockback: "8"
     cooldown: "9"
   - name: Focus
-    damage-modifier: "1.25"
+    damage-modifier: "0.25"
     cooldown: "3"
   - name: Sneak
     speed-level: "2"
