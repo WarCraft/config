@@ -1,1 +1,39 @@
-
+Wolf:
+  Type: WOLF
+  Display: 'Wolf'
+  Health: 10
+  Damage: 2
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.3
+    FollowRange: 20
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - command{c="dropitems <mob.name> <mob.uuid> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
+  
+  Alpha Wolf:
+  Type: WOLF
+  Display: 'Alhpa Wolf'
+  Health: 20
+  Damage: 4
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.4
+    FollowRange: 20
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - command{c="dropitems <mob.name> <mob.uuid> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
