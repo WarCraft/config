@@ -37,3 +37,23 @@ Wolf:
   - 2 players
   Skills:
   - command{c="dropitems <mob.name> <mob.uuid> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
+
+  Bee:
+  Type: BEE
+  Display: 'Bee'
+  Health: 5
+  Damage: 1
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.5
+    FollowRange: 25
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - command{c="dropitems <mob.name> <mob.uuid> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
