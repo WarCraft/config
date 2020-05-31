@@ -1,1 +1,62 @@
+Charred:
+  Type: WITHER_SKELETON
+  Display: 'Charred'
+  Health: 15
+  Damage: 3
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.2
+    FollowRange: 20
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - command{c="dropitems <mob.name> <mob.uuid> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
 
+RiderHorse:
+  Type: SKELETON_HORSE
+  Display: 'Rider Horse'
+  Health: 20
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.3
+    FollowRange: 30
+  Equipment:
+  - umbrella_helmet:4
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+
+Rider:
+  Type: SKELETON
+  Display: 'Rider'
+  Health: 40
+  Damage: 7
+  Mount: RiderHorse
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.3
+    FollowRange: 30
+  Equipment:
+  - air:0
+  - umbrella_helmet:4
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - command{c="dropitems <mob.name> <mob.uuid> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
