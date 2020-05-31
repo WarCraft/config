@@ -25,7 +25,7 @@ Human_Wildlife_Spawner_1:
   ActiveMobs: 0
 
 Human_Wildlife_Spawner_2:
-  SpawnerGroup: Human_Wildlife_Spawner_1
+  SpawnerGroup: Human_Wildlife_Spawner_2
   MobName: Alpha Wolf
   World: world
   X: -163
