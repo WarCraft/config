@@ -1,7 +1,7 @@
 Human_Wildlife_Spawner_1:
   SpawnerGroup: Human_Wildlife_Spawner_1
   MobName: Wolf
-  World: World
+  World: world
   X: -163
   Y: 54
   Z: 129
