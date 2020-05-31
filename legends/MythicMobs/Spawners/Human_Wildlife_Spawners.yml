@@ -49,3 +49,29 @@ Human_Wildlife_Spawner_2:
   Breakable: false
   Conditions: []
   ActiveMobs: 0
+
+Human_Wildlife_Spawner_3:
+  SpawnerGroup: Human_Wildlife_Spawner_3
+  MobName: Bee
+  World: world
+  X: -116
+  Y: 58
+  Z: 248
+  Radius: 10
+  UseTimer: true
+  MaxMobs: 15
+  MobLevel: '1'
+  MobsPerSpawn: 3
+  Cooldown: 120
+  CooldownTimer: 0
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 40
+  LeashRange: 0
+  HealOnLeash: true
+  ResetThreatOnLeash: true
+  ShowFlames: true
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0
