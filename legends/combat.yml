@@ -222,6 +222,22 @@ abilities:
     nausea-duration: "8"
     range: "30"
     cooldown: "35"
+    
+  # Wizard Alternate
+  - name: Magic Scatter
+    velocity: "0.2"
+    count: "3"
+    radius: "0.5"
+    damage: "3"
+    range: "8"
+    cooldown: "4"
+    distance: "8"
+  - name: "Magic Scatter (Projectile)"
+    velocity: "0.75"
+    radius: "0.5"
+    damage: "3"
+    range: "10"
+    cooldown: "0"
 
   # Human
   - name: Last Stand
