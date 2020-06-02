@@ -90,7 +90,7 @@ combatClasses:
     leftClick: Magic Scatter
     rightClick: Arcane Missile
     shiftLeftClick: Teleport
-    shiftRightClick: Mass Bamboozle
+    shiftRightClick: Arcane Shield
     hasVanillaAbilities: no
 
 abilities:
@@ -251,6 +251,12 @@ abilities:
     damage: "3"
     range: "10"
     cooldown: "0"
+  - name: Arcane Shield
+    count: "3"
+    radius: "0.5"
+    damage: "3"
+    cooldown: "3"
+    range: "4"
 
   # Human
   - name: Last Stand
