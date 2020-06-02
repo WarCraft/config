@@ -89,7 +89,7 @@ combatClasses:
     invalidWeaponsMessage: As a Wizard you can only fight using a Wand (Sticks) and optionally a Book.
     leftClick: Magic Scatter
     rightClick: Arcane Missile
-    shiftLeftClick: Teleport
+    shiftLeftClick: Juke
     shiftRightClick: Arcane Shield
     hasVanillaAbilities: no
 
@@ -257,6 +257,14 @@ abilities:
     damage: "3"
     cooldown: "3"
     range: "4"
+  - name: Juke
+    damage: "2"
+    range: "15"
+    cooldown: "2"
+    blindness-duration: "1"
+    slowness-level: "2"
+    slowness-duration: "1"
+    nausea-duration: "1"
 
   # Human
   - name: Last Stand
