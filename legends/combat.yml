@@ -79,6 +79,19 @@ combatClasses:
     shiftLeftClick: Teleport
     shiftRightClick: Mass Bamboozle
     hasVanillaAbilities: no
+    
+  - name: WizardTwo
+    permission: warcraft.wizardtwo
+    aliases: [wz2]
+    mainHands: [STICK, BLAZE_ROD]
+    offHands: [BOOK]
+    offHandRequired: no
+    invalidWeaponsMessage: As a Wizard you can only fight using a Wand (Sticks) and optionally a Book.
+    leftClick: Magic Scatter
+    rightClick: Arcane Missile
+    shiftLeftClick: Teleport
+    shiftRightClick: Mass Bamboozle
+    hasVanillaAbilities: no
 
 abilities:
   # Vanilla
