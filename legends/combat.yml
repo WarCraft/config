@@ -26,7 +26,7 @@ combatClasses:
     shiftRightClick: Stand Your Ground
     hasVanillaAbilities: yes
 
-  # Ranger
+  # Hunter
   - name: Marksman
     permission: warcraft.marksman
     aliases: [mm]
@@ -40,13 +40,13 @@ combatClasses:
     shiftRightClick: Sneak
     hasVanillaAbilities: yes
 
-  - name: Hunter
-    permission: warcraft.hunter
+  - name: Ranger
+    permission: warcraft.ranger
     aliases: [ht]
     mainHands: [BOW]
     offHands: []
     offHandRequired: yes
-    invalidWeaponsMessage: As a Hunter you can only fight using a Bow.
+    invalidWeaponsMessage: As a Ranger you can only fight using a Bow.
     leftClick: Toxic Arrow
     rightClick: ~
     shiftLeftClick: Trap
