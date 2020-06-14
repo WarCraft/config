@@ -841,7 +841,7 @@ offhandLegendaryRolls:
 #           high: 5
 
 
-itemLores:
+tooltips:
   WARRIOR:
     HUMAN:
       OFFENSE:
