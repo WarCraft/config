@@ -190,39 +190,39 @@ attributeRolls:
           high: 5
   MAGE:
     OFFENSE:
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 5
           high: 10
         - attribute: CRIT
           low: 1
           high: 5
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 1
           high: 5
         - attribute: CRIT
           low: 5
           high: 10
     BALANCE:
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 3
           high: 7
         - attribute: CRIT
           low: 3
           high: 7
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 3
           high: 7
         - attribute: VITALITY
           low: 3
           high: 7
     DEFENSE:
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 1
           high: 5
         - attribute: VITALITY
           low: 5
           high: 10
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 5
           high: 10
         - attribute: VITALITY
@@ -312,39 +312,39 @@ legendaryRolls:
           high: 7 
   MAGE:
     OFFENSE:
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 12
           high: 12
         - attribute: CRIT
           low: 7
           high: 7
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 7
           high: 7
         - attribute: CRIT
           low: 12
           high: 12
     BALANCE:
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 9
           high: 9
         - attribute: CRIT
           low: 9
           high: 9
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 9
           high: 9
         - attribute: VITALITY
           low: 9
           high: 9
     DEFENSE:
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 7
           high: 7
         - attribute: VITALITY
           low: 12
           high: 12
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 12
           high: 12
         - attribute: VITALITY
@@ -434,39 +434,39 @@ legendaryRolls:
 #           high: 10
 #   MAGE:
 #     OFFENSE:
-#       - - attribute: INTELLIGENCE
+#       - - attribute: INTELLECT
 #           low: 15
 #           high: 15
 #         - attribute: CRIT
 #           low: 10
 #           high: 10
-#       - - attribute: INTELLIGENCE
+#       - - attribute: INTELLECT
 #           low: 10
 #           high: 10
 #         - attribute: CRIT
 #           low: 15
 #           high: 15
 #     BALANCE:
-#       - - attribute: INTELLIGENCE
+#       - - attribute: INTELLECT
 #           low: 12
 #           high: 12
 #         - attribute: CRIT
 #           low: 12
 #           high: 12
-#       - - attribute: INTELLIGENCE
+#       - - attribute: INTELLECT
 #           low: 12
 #           high: 12
 #         - attribute: VITALITY
 #           low: 12
 #           high: 12
 #     DEFENSE:
-#       - - attribute: INTELLIGENCE
+#       - - attribute: INTELLECT
 #           low: 10
 #           high: 10
 #         - attribute: VITALITY
 #           low: 15
 #           high: 15
-#       - - attribute: INTELLIGENCE
+#       - - attribute: INTELLECT
 #           low: 15
 #           high: 15
 #         - attribute: VITALITY
@@ -557,39 +557,39 @@ offhandAttributeRolls:
           high: 3
   MAGE:
     OFFENSE:
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 1
           high: 3
         - attribute: CRIT
           low: 1
           high: 1
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 1
           high: 1
         - attribute: CRIT
           low: 1
           high: 3
     BALANCE:
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 1
           high: 2
         - attribute: CRIT
           low: 1
           high: 2
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 1
           high: 2
         - attribute: VITALITY
           low: 1
           high: 2
     DEFENSE:
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 1
           high: 3
         - attribute: VITALITY
           low: 1
           high: 1
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 1
           high: 1
         - attribute: VITALITY
@@ -679,39 +679,39 @@ offhandLegendaryRolls:
           high: 4
   MAGE:
     OFFENSE:
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 4
           high: 4
         - attribute: CRIT
           low: 2
           high: 2
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 2
           high: 2
         - attribute: CRIT
           low: 4
           high: 4
     BALANCE:
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 3
           high: 3
         - attribute: CRIT
           low: 3
           high: 3
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 3
           high: 3
         - attribute: VITALITY
           low: 3
           high: 3
     DEFENSE:
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 4
           high: 4
         - attribute: VITALITY
           low: 2
           high: 2
-      - - attribute: INTELLIGENCE
+      - - attribute: INTELLECT
           low: 2
           high: 2
         - attribute: VITALITY
@@ -801,39 +801,39 @@ offhandLegendaryRolls:
 #           high: 5
 #   MAGE:
 #     OFFENSE:
-#       - - attribute: INTELLIGENCE
+#       - - attribute: INTELLECT
 #           low: 5
 #           high: 5
 #         - attribute: CRIT
 #           low: 3
 #           high: 3
-#       - - attribute: INTELLIGENCE
+#       - - attribute: INTELLECT
 #           low: 3
 #           high: 3
 #         - attribute: CRIT
 #           low: 5
 #           high: 5
 #     BALANCE:
-#       - - attribute: INTELLIGENCE
+#       - - attribute: INTELLECT
 #           low: 4
 #           high: 4
 #         - attribute: CRIT
 #           low: 4
 #           high: 4
-#       - - attribute: INTELLIGENCE
+#       - - attribute: INTELLECT
 #           low: 4
 #           high: 4
 #         - attribute: VITALITY
 #           low: 4
 #           high: 4
 #     DEFENSE:
-#       - - attribute: INTELLIGENCE
+#       - - attribute: INTELLECT
 #           low: 5
 #           high: 5
 #         - attribute: VITALITY
 #           low: 3
 #           high: 3
-#       - - attribute: INTELLIGENCE
+#       - - attribute: INTELLECT
 #           low: 3
 #           high: 3
 #         - attribute: VITALITY
