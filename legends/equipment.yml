@@ -8,7 +8,7 @@ validTypes:
     - CHEST
     - LEGS
     - FEET
-  RANGER:
+  HUNTER:
     - BOW
     - HEAD
     - CHEST
@@ -160,7 +160,7 @@ attributeRolls:
         - attribute: VITALITY
           low: 1
           high: 5
-  RANGER:
+  HUNTER:
     OFFENSE:
       - - attribute: DEXTERITY
           low: 5
@@ -282,7 +282,7 @@ legendaryRolls:
         - attribute: VITALITY
           low: 7
           high: 7 
-  RANGER:
+  HUNTER:
     OFFENSE:
       - - attribute: DEXTERITY
           low: 12
@@ -404,7 +404,7 @@ ancientRolls:
         - attribute: VITALITY
           low: 10
           high: 10
-  RANGER:
+  HUNTER:
     OFFENSE:
       - - attribute: DEXTERITY
           low: 15
@@ -527,7 +527,7 @@ offhandAttributeRolls:
         - attribute: VITALITY
           low: 1
           high: 3
-  RANGER:
+  HUNTER:
     OFFENSE:
       - - attribute: DEXTERITY
           low: 1
@@ -649,7 +649,7 @@ offhandLegendaryRolls:
         - attribute: VITALITY
           low: 4
           high: 4
-  RANGER:
+  HUNTER:
     OFFENSE:
       - - attribute: DEXTERITY
           low: 4
@@ -771,7 +771,7 @@ offhandAncientOffhandRolls:
         - attribute: VITALITY
           low: 5
           high: 5
-  RANGER:
+  HUNTER:
     OFFENSE:
       - - attribute: DEXTERITY
           low: 5
@@ -1402,7 +1402,7 @@ itemLores:
           ANCIENT:
             - name: Ancient Greaves
 
-  RANGER:
+  HUNTER:
     HUMAN:
       OFFENSE:
         BOW:
