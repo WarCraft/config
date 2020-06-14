@@ -843,6 +843,410 @@ offhandLegendaryRolls:
 
 tooltips:
   WARRIOR:
+    DWARF:
+      OFFENSE:
+        SWORD:
+          default: 
+            name: Hero Sword
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Orcbane
+                flavorText: ~
+              - name: The Bloody Baron
+                flavorText: [FUCK YOU!]
+        AXE:
+          default: 
+            name: Hero Axe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Jagerax
+                flavorText: ~
+        SHIELD:
+          default: 
+            name: Hero Shield
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Guardian of the West
+                flavorText: ~
+        SKULL:
+          default: 
+            name: Hero Skull
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Elarint's Empty Skull
+                flavorText: [Though there wasn't anything in here, in the first place]
+        HEAD:
+          default: 
+            name: Hero Helmet
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Conqueror Helmet
+                flavorText: ~
+        CHEST:
+          default: 
+            name: Hero Chestplate
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Conqueror Chestplate
+                flavorText: ~
+        LEGS:
+          default: 
+            name: Hero Legplates
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Conqueror Legplates
+                flavorText: ~
+        FEET:
+          default: 
+            name: Hero Greaves
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Conqueror Greaves
+                flavorText: ~
+
+      BALANCE:
+        SWORD:
+          default: 
+            name: Champion Sword
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Golden Rimmed Zweihander
+                flavorText: ~
+        AXE:
+          default: 
+            name: Champion Axe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Great Estoc
+                flavorText: ~
+        SHIELD:
+          default: 
+            name: Champion Shield
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Battered Bastion
+                flavorText: ~
+        SKULL:
+          default: 
+            name: Champion Skull
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Elarint's Empty Skull
+                flavorText: [Though there wasn't anything in here, in the first place]
+        HEAD:
+          default: 
+            name: Champion Helmet
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Greatplate Helmet
+                flavorText: ~
+        CHEST:
+          default: 
+            name: Champion Chestplate
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Greatplate Chestplate
+                flavorText: ~
+        LEGS:
+          default: 
+            name: Champion Legplates
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Greatplate Legplates
+                flavorText: ~
+        FEET:
+          default: 
+            name: Champion Greaves
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Greatplate Greaves
+                flavorText: ~
+
+      DEFENSE:
+        SWORD:
+          default: 
+            name: Guardian Sword
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Excalibur
+                flavorText: [...whose power was meant, to unite all men...]
+        AXE:
+          default: 
+            name: Guardian Axe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: The Cleanser
+                flavorText: ~
+        SHIELD:
+          default: 
+            name: Guardian Shield
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Blinding Redoubt
+                flavorText: ~
+        SKULL:
+          default: 
+            name: Guardian Skull
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Elarint's Empty Skull
+                flavorText: [Though there wasn't anything in here, in the first place]
+        HEAD:
+          default: 
+            name: Guardian Helmet
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Sovereign Helmet
+                flavorText: ~
+        CHEST:
+          default: 
+            name: Guardian Chestplate
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Sovereign Chestplate
+                flavorText: ~
+        LEGS:
+          default: 
+            name: Guardian Legplates
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Sovereign Legplates
+                flavorText: ~
+        FEET:
+          default: 
+            name: Guardian Greaves
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Sovereign Greaves
+                flavorText: ~
+
+
+    ELF:
+      OFFENSE:
+        SWORD:
+          default: 
+            name: Hero Sword
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Orcbane
+                flavorText: ~
+              - name: The Bloody Baron
+                flavorText: [FUCK YOU!]
+        AXE:
+          default: 
+            name: Hero Axe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Jagerax
+                flavorText: ~
+        SHIELD:
+          default: 
+            name: Hero Shield
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Guardian of the West
+                flavorText: ~
+        SKULL:
+          default: 
+            name: Hero Skull
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Elarint's Empty Skull
+                flavorText: [Though there wasn't anything in here, in the first place]
+        HEAD:
+          default: 
+            name: Hero Helmet
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Conqueror Helmet
+                flavorText: ~
+        CHEST:
+          default: 
+            name: Hero Chestplate
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Conqueror Chestplate
+                flavorText: ~
+        LEGS:
+          default: 
+            name: Hero Legplates
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Conqueror Legplates
+                flavorText: ~
+        FEET:
+          default: 
+            name: Hero Greaves
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Conqueror Greaves
+                flavorText: ~
+
+      BALANCE:
+        SWORD:
+          default: 
+            name: Champion Sword
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Golden Rimmed Zweihander
+                flavorText: ~
+        AXE:
+          default: 
+            name: Champion Axe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Great Estoc
+                flavorText: ~
+        SHIELD:
+          default: 
+            name: Champion Shield
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Battered Bastion
+                flavorText: ~
+        SKULL:
+          default: 
+            name: Champion Skull
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Elarint's Empty Skull
+                flavorText: [Though there wasn't anything in here, in the first place]
+        HEAD:
+          default: 
+            name: Champion Helmet
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Greatplate Helmet
+                flavorText: ~
+        CHEST:
+          default: 
+            name: Champion Chestplate
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Greatplate Chestplate
+                flavorText: ~
+        LEGS:
+          default: 
+            name: Champion Legplates
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Greatplate Legplates
+                flavorText: ~
+        FEET:
+          default: 
+            name: Champion Greaves
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Greatplate Greaves
+                flavorText: ~
+
+      DEFENSE:
+        SWORD:
+          default: 
+            name: Guardian Sword
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Excalibur
+                flavorText: [...whose power was meant, to unite all men...]
+        AXE:
+          default: 
+            name: Guardian Axe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: The Cleanser
+                flavorText: ~
+        SHIELD:
+          default: 
+            name: Guardian Shield
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Blinding Redoubt
+                flavorText: ~
+        SKULL:
+          default: 
+            name: Guardian Skull
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Elarint's Empty Skull
+                flavorText: [Though there wasn't anything in here, in the first place]
+        HEAD:
+          default: 
+            name: Guardian Helmet
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Sovereign Helmet
+                flavorText: ~
+        CHEST:
+          default: 
+            name: Guardian Chestplate
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Sovereign Chestplate
+                flavorText: ~
+        LEGS:
+          default: 
+            name: Guardian Legplates
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Sovereign Legplates
+                flavorText: ~
+        FEET:
+          default: 
+            name: Guardian Greaves
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Sovereign Greaves
+                flavorText: ~
+
+
     HUMAN:
       OFFENSE:
         SWORD:
@@ -1250,6 +1654,266 @@ tooltips:
 
 
   HUNTER:
+    DWARF:
+      OFFENSE:
+        BOW:
+          default: 
+            name: Cutthroat Bow
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Gaium Oak
+                flavorText: ~
+              - name: Elysium
+                flavorText: ~
+        HEAD:
+          default: 
+            name: Cutthroat Cap
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Von Kleft Cap
+                flavorText: ~
+        CHEST:
+          default: 
+            name: Cutthroat Coat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Von Kleft Coat
+                flavorText: ~
+        LEGS:
+          default: 
+            name: Cutthroat Leggings
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Von Kleft Leggings
+                flavorText: ~
+        FEET:
+          default: 
+            name: Cutthroat Boots
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Von Kleft Boots
+                flavorText: ~
+
+      BALANCE:
+        BOW:
+          default: 
+            name: Swindler Bow
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Truthseeker
+                flavorText: ~
+        HEAD:
+          default: 
+            name: Swindler Cap
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Gloomwood Cap
+                flavorText: ~
+        CHEST:
+          default: 
+            name: Swindler Coat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Gloomwood Coat
+                flavorText: ~
+        LEGS:
+          default: 
+            name: Swindler Leggings
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Gloomwood Leggings
+                flavorText: ~
+        FEET:
+          default: 
+            name: Swindler Boots
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Gloomwood Boots
+                flavorText: ~
+
+      DEFENSE:
+        BOW:
+          default: 
+            name: Envoy Bow
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Skytouched Recurve
+                flavorText: ~
+        HEAD:
+          default: 
+            name: Envoy Cap
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Bone Cap
+                flavorText: ~
+        CHEST:
+          default: 
+            name: Envoy Coat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Bone Coat
+                flavorText: ~
+        LEGS:
+          default: 
+            name: Envoy Leggings
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Bone Leggings
+                flavorText: ~
+        FEET:
+          default: 
+            name: Envoy Boots
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Bone Boots
+                flavorText: ~
+
+
+    ELF:
+      OFFENSE:
+        BOW:
+          default: 
+            name: Cutthroat Bow
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Gaium Oak
+                flavorText: ~
+              - name: Elysium
+                flavorText: ~
+        HEAD:
+          default: 
+            name: Cutthroat Cap
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Von Kleft Cap
+                flavorText: ~
+        CHEST:
+          default: 
+            name: Cutthroat Coat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Von Kleft Coat
+                flavorText: ~
+        LEGS:
+          default: 
+            name: Cutthroat Leggings
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Von Kleft Leggings
+                flavorText: ~
+        FEET:
+          default: 
+            name: Cutthroat Boots
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Von Kleft Boots
+                flavorText: ~
+
+      BALANCE:
+        BOW:
+          default: 
+            name: Swindler Bow
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Truthseeker
+                flavorText: ~
+        HEAD:
+          default: 
+            name: Swindler Cap
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Gloomwood Cap
+                flavorText: ~
+        CHEST:
+          default: 
+            name: Swindler Coat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Gloomwood Coat
+                flavorText: ~
+        LEGS:
+          default: 
+            name: Swindler Leggings
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Gloomwood Leggings
+                flavorText: ~
+        FEET:
+          default: 
+            name: Swindler Boots
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Gloomwood Boots
+                flavorText: ~
+
+      DEFENSE:
+        BOW:
+          default: 
+            name: Envoy Bow
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Skytouched Recurve
+                flavorText: ~
+        HEAD:
+          default: 
+            name: Envoy Cap
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Bone Cap
+                flavorText: ~
+        CHEST:
+          default: 
+            name: Envoy Coat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Bone Coat
+                flavorText: ~
+        LEGS:
+          default: 
+            name: Envoy Leggings
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Bone Leggings
+                flavorText: ~
+        FEET:
+          default: 
+            name: Envoy Boots
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Bone Boots
+                flavorText: ~
+
+
     HUMAN:
       OFFENSE:
         BOW:
@@ -1509,6 +2173,358 @@ tooltips:
 
 
   MAGE:
+    DWARF:
+      OFFENSE:
+        WAND:
+          default: 
+            name: Witch Wand
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Hand of the Haruspex
+                flavorText: ~
+        STAFF:
+          default: 
+            name: Witch Staff
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Grand Deceiver Rod
+                flavorText: ~
+        BOOK:
+          default: 
+            name: Witch Book
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Notes of the Crone
+                flavorText: ~
+        HEAD:
+          default: 
+            name: Witch Hat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Twisted Hat
+                flavorText: ~
+        CHEST:
+          default: 
+            name: Witch Robe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Twisted Robe
+                flavorText: ~
+        LEGS:
+          default: 
+            name: Witch Pants
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Twisted Pants
+                flavorText: ~
+        FEET:
+          default: 
+            name: Witch Shoes
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Twisted Shoes
+                flavorText: ~
+
+      BALANCE:
+        WAND:
+          default: 
+            name: Sorcerer Wand
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Bright
+                flavorText: ~
+        STAFF:
+          default: 
+            name: Sorcerer Staff
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Talking Turtle Taff
+                flavorText: ~
+        BOOK:
+          default: 
+            name: Sorcerer Book
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Great Mage Journal
+                flavorText: ~
+        HEAD:
+          default: 
+            name: Sorcerer Hat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Arcane Hat
+                flavorText: ~
+        CHEST:
+          default: 
+            name: Sorcerer Robe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Arcane Robe
+                flavorText: ~
+        LEGS:
+          default: 
+            name: Sorcerer Pants
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Arcane Pants
+                flavorText: ~
+        FEET:
+          default: 
+            name: Sorcerer Shoes
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Arcane Shoes
+                flavorText: ~
+
+      DEFENSE:
+        WAND:
+          default: 
+            name: Enchanter Wand
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Deflector
+                flavorText: ~
+        STAFF:
+          default: 
+            name: Enchanter Staff
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Warpwood Cane
+                flavorText: ~
+        BOOK:
+          default: 
+            name: Enchanter Book
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Withered Lexicon
+                flavorText: ~
+        HEAD:
+          default: 
+            name: Enchanter Hat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Luminous Velvet Hat
+                flavorText: ~
+        CHEST:
+          default: 
+            name: Enchanter Robe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Luminous Velvet Robe
+                flavorText: ~
+        LEGS:
+          default: 
+            name: Enchanter Pants
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Luminous Velvet Pants
+                flavorText: ~
+        FEET:
+          default: 
+            name: Enchanter Shoes
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Luminous Velvet Shoes
+                flavorText: ~
+
+
+    ELF:
+      OFFENSE:
+        WAND:
+          default: 
+            name: Witch Wand
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Hand of the Haruspex
+                flavorText: ~
+        STAFF:
+          default: 
+            name: Witch Staff
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Grand Deceiver Rod
+                flavorText: ~
+        BOOK:
+          default: 
+            name: Witch Book
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Notes of the Crone
+                flavorText: ~
+        HEAD:
+          default: 
+            name: Witch Hat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Twisted Hat
+                flavorText: ~
+        CHEST:
+          default: 
+            name: Witch Robe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Twisted Robe
+                flavorText: ~
+        LEGS:
+          default: 
+            name: Witch Pants
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Twisted Pants
+                flavorText: ~
+        FEET:
+          default: 
+            name: Witch Shoes
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Twisted Shoes
+                flavorText: ~
+
+      BALANCE:
+        WAND:
+          default: 
+            name: Sorcerer Wand
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Bright
+                flavorText: ~
+        STAFF:
+          default: 
+            name: Sorcerer Staff
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Talking Turtle Taff
+                flavorText: ~
+        BOOK:
+          default: 
+            name: Sorcerer Book
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Great Mage Journal
+                flavorText: ~
+        HEAD:
+          default: 
+            name: Sorcerer Hat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Arcane Hat
+                flavorText: ~
+        CHEST:
+          default: 
+            name: Sorcerer Robe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Arcane Robe
+                flavorText: ~
+        LEGS:
+          default: 
+            name: Sorcerer Pants
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Arcane Pants
+                flavorText: ~
+        FEET:
+          default: 
+            name: Sorcerer Shoes
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Arcane Shoes
+                flavorText: ~
+
+      DEFENSE:
+        WAND:
+          default: 
+            name: Enchanter Wand
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Deflector
+                flavorText: ~
+        STAFF:
+          default: 
+            name: Enchanter Staff
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Warpwood Cane
+                flavorText: ~
+        BOOK:
+          default: 
+            name: Enchanter Book
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Withered Lexicon
+                flavorText: ~
+        HEAD:
+          default: 
+            name: Enchanter Hat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Luminous Velvet Hat
+                flavorText: ~
+        CHEST:
+          default: 
+            name: Enchanter Robe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Luminous Velvet Robe
+                flavorText: ~
+        LEGS:
+          default: 
+            name: Enchanter Pants
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Luminous Velvet Pants
+                flavorText: ~
+        FEET:
+          default: 
+            name: Enchanter Shoes
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Luminous Velvet Shoes
+                flavorText: ~
+
+
     HUMAN:
       OFFENSE:
         WAND:
