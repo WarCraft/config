@@ -846,1131 +846,1020 @@ tooltips:
     HUMAN:
       OFFENSE:
         SWORD:
-          COMMON:
-            - name: Hero Sword
-          RARE:
-            - name: Hero Sword
-          EPIC:
-            - name: Hero Sword
-          LEGENDARY:
-            - name: Orcbane
-            - name: The Bloody Baron
-              flavorText: [FUCK YOU!]
+          default: 
+            name: Hero Sword
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Orcbane
+                flavorText: ~
+              - name: The Bloody Baron
+                flavorText: [FUCK YOU!]
         AXE:
-          COMMON:
-            - name: Hero Axe
-          RARE:
-            - name: Hero Axe
-          EPIC:
-            - name: Hero Axe
-          LEGENDARY:
-            - name: Jagerax
+          default: 
+            name: Hero Axe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Jagerax
+                flavorText: ~
         SHIELD:
-          COMMON:
-            - name: Hero Shield
-          RARE:
-            - name: Hero Shield
-          EPIC:
-            - name: Hero Shield
-          LEGENDARY:
-            - name: Guardian of the West
+          default: 
+            name: Hero Shield
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Guardian of the West
+                flavorText: ~
         SKULL:
-          COMMON:
-            - name: Hero Skull
-          RARE:
-            - name: Hero Skull
-          EPIC:
-            - name: Hero Skull
-          LEGENDARY:
-            - name: Legendary Skull
+          default: 
+            name: Hero Skull
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Elarint's Empty Skull
+                flavorText: [Though there wasn't anything in here, in the first place]
         HEAD:
-          COMMON:
-            - name: Hero Helmet
-          RARE:
-            - name: Hero Helmet
-          EPIC:
-            - name: Hero Helmet
-          LEGENDARY:
-            - name: Conqueror Helmet
+          default: 
+            name: Hero Helmet
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Conqueror Helmet
+                flavorText: ~
         CHEST:
-          COMMON:
-            - name: Hero Chestplate
-          RARE:
-            - name: Hero Chestplate
-          EPIC:
-            - name: Hero Chestplate
-          LEGENDARY:
-            - name: Conqueror Chestplate
+          default: 
+            name: Hero Chestplate
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Conqueror Chestplate
+                flavorText: ~
         LEGS:
-          COMMON:
-            - name: Hero Legplates
-          RARE:
-            - name: Hero Legplates
-          EPIC:
-            - name: Hero Legplates
-          LEGENDARY:
-            - name: Conqueror Legplates
+          default: 
+            name: Hero Legplates
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Conqueror Legplates
+                flavorText: ~
         FEET:
-          COMMON:
-            - name: Hero Greaves
-          RARE:
-            - name: Hero Greaves
-          EPIC:
-            - name: Hero Greaves
-          LEGENDARY:
-            - name: Conqueror Greaves
+          default: 
+            name: Hero Greaves
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Conqueror Greaves
+                flavorText: ~
 
       BALANCE:
         SWORD:
-          COMMON:
-            - name: Champion Sword
-          RARE:
-            - name: Champion Sword
-          EPIC:
-            - name: Champion Sword
-          LEGENDARY:
-            - name: Golden Rimmed Zweihander
+          default: 
+            name: Champion Sword
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Golden Rimmed Zweihander
+                flavorText: ~
         AXE:
-          COMMON:
-            - name: Champion Axe
-          RARE:
-            - name: Champion Axe
-          EPIC:
-            - name: Champion Axe
-          LEGENDARY:
-            - name: Great Estoc
+          default: 
+            name: Champion Axe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Great Estoc
+                flavorText: ~
         SHIELD:
-          COMMON:
-            - name: Champion Shield
-          RARE:
-            - name: Champion Shield
-          EPIC:
-            - name: Champion Shield
-          LEGENDARY:
-            - name: Battered Bastion
+          default: 
+            name: Champion Shield
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Battered Bastion
+                flavorText: ~
         SKULL:
-          COMMON:
-            - name: Champion Skull
-          RARE:
-            - name: Champion Skull
-          EPIC:
-            - name: Champion Skull
-          LEGENDARY:
-            - name: Legendary Skull
+          default: 
+            name: Champion Skull
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Elarint's Empty Skull
+                flavorText: [Though there wasn't anything in here, in the first place]
         HEAD:
-          COMMON:
-            - name: Champion Helmet
-          RARE:
-            - name: Champion Helmet
-          EPIC:
-            - name: Champion Helmet
-          LEGENDARY:
-            - name: Greatplate Helmet
+          default: 
+            name: Champion Helmet
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Greatplate Helmet
+                flavorText: ~
         CHEST:
-          COMMON:
-            - name: Champion Chestplate
-          RARE:
-            - name: Champion Chestplate
-          EPIC:
-            - name: Champion Chestplate
-          LEGENDARY:
-            - name: Greatplate Chestplate
+          default: 
+            name: Champion Chestplate
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Greatplate Chestplate
+                flavorText: ~
         LEGS:
-          COMMON:
-            - name: Champion Legplates
-          RARE:
-            - name: Champion Legplates
-          EPIC:
-            - name: Champion Legplates
-          LEGENDARY:
-            - name: Greatplate Legplates
+          default: 
+            name: Champion Legplates
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Greatplate Legplates
+                flavorText: ~
         FEET:
-          COMMON:
-            - name: Champion Greaves
-          RARE:
-            - name: Champion Greaves
-          EPIC:
-            - name: Champion Greaves
-          LEGENDARY:
-            - name: Greatplate Greaves
+          default: 
+            name: Champion Greaves
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Greatplate Greaves
+                flavorText: ~
 
       DEFENSE:
         SWORD:
-          COMMON:
-            - name: Guardian Sword
-          RARE:
-            - name: Guardian Sword
-          EPIC:
-            - name: Guardian Sword
-          LEGENDARY:
-            - name: Excalibur
-              flavorText: [...whose power was meant, to unite all men...]
+          default: 
+            name: Guardian Sword
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Excalibur
+                flavorText: [...whose power was meant, to unite all men...]
         AXE:
-          COMMON:
-            - name: Guardian Axe
-          RARE:
-            - name: Guardian Axe
-          EPIC:
-            - name: Guardian Axe
-          LEGENDARY:
-            - name: The Cleanser
+          default: 
+            name: Guardian Axe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: The Cleanser
+                flavorText: ~
         SHIELD:
-          COMMON:
-            - name: Guardian Shield
-          RARE:
-            - name: Guardian Shield
-          EPIC:
-            - name: Guardian Shield
-          LEGENDARY:
-            - name: Blinding Redoubt
+          default: 
+            name: Guardian Shield
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Blinding Redoubt
+                flavorText: ~
         SKULL:
-          COMMON:
-            - name: Guardian Skull
-          RARE:
-            - name: Guardian Skull
-          EPIC:
-            - name: Guardian Skull
-          LEGENDARY:
-            - name: Legendary Skull
+          default: 
+            name: Guardian Skull
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Elarint's Empty Skull
+                flavorText: [Though there wasn't anything in here, in the first place]
         HEAD:
-          COMMON:
-            - name: Guardian Helmet
-          RARE:
-            - name: Guardian Helmet
-          EPIC:
-            - name: Guardian Helmet
-          LEGENDARY:
-            - name: Sovereign Helmet
+          default: 
+            name: Guardian Helmet
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Sovereign Helmet
+                flavorText: ~
         CHEST:
-          COMMON:
-            - name: Guardian Chestplate
-          RARE:
-            - name: Guardian Chestplate
-          EPIC:
-            - name: Guardian Chestplate
-          LEGENDARY:
-            - name: Sovereign Chestplate
+          default: 
+            name: Guardian Chestplate
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Sovereign Chestplate
+                flavorText: ~
         LEGS:
-          COMMON:
-            - name: Guardian Legplates
-          RARE:
-            - name: Guardian Legplates
-          EPIC:
-            - name: Guardian Legplates
-          LEGENDARY:
-            - name: Sovereign Legplates
+          default: 
+            name: Guardian Legplates
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Sovereign Legplates
+                flavorText: ~
         FEET:
-          COMMON:
-            - name: Guardian Greaves
-          RARE:
-            - name: Guardian Greaves
-          EPIC:
-            - name: Guardian Greaves
-          LEGENDARY:
-            - name: Sovereign Greaves
+          default: 
+            name: Guardian Greaves
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Sovereign Greaves
+                flavorText: ~
+
 
     ORC:
       OFFENSE:
         SWORD:
-          COMMON:
-            - name: Warmonger Sword
-          RARE:
-            - name: Warmonger Sword
-          EPIC:
-            - name: Warmonger Sword
-          LEGENDARY:
-            - name: Executioner's Blade
+          default: 
+            name: Warmonger Sword
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Executioner's Blade
+                flavorText: ~
         AXE:
-          COMMON:
-            - name: Warmonger Axe
-          RARE:
-            - name: Warmonger Axe
-          EPIC:
-            - name: Warmonger Axe
-          LEGENDARY:
-            - name: Searing Cleaver
-            - name: Gutripper
+          default: 
+            name: Warmonger Axe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Searing Cleaver
+                flavorText: ~
+              - name: Gutripper
+                flavorText: ~
         SHIELD:
-          COMMON:
-            - name: Warmonger Shield
-          RARE:
-            - name: Warmonger Shield
-          EPIC:
-            - name: Warmonger Shield
-          LEGENDARY:
-            - name: Corpsegrinder
-            - name: Bulwark of the South
+          default: 
+            name: Warmonger Shield
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Corpsegrinder
+                flavorText: ~
+              - name: Bulwark of the South
+                flavorText: ~
         SKULL:
-          COMMON:
-            - name: Warmonger Skull
-          RARE:
-            - name: Warmonger Skull
-          EPIC:
-            - name: Warmonger Skull
-          LEGENDARY:
-            - name: Legendary Skull
+          default: 
+            name: Warmonger Skull
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Elarint's Empty Skull
+                flavorText: [Though there wasn't anything in here, in the first place]
         HEAD:
-          COMMON:
-            - name: Warmonger Helmet
-          RARE:
-            - name: Warmonger Helmet
-          EPIC:
-            - name: Warmonger Helmet
-          LEGENDARY:
-            - name: Spiked Helmet
+          default: 
+            name: Warmonger Helmet
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Spiked Helmet
+                flavorText: ~
         CHEST:
-          COMMON:
-            - name: Warmonger Chestplate
-          RARE:
-            - name: Warmonger Chestplate
-          EPIC:
-            - name: Warmonger Chestplate
-          LEGENDARY:
-            - name: Spiked Chestplate
+          default: 
+            name: Warmonger Chestplate
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Spiked Chestplate
+                flavorText: ~
         LEGS:
-          COMMON:
-            - name: Warmonger Legplates
-          RARE:
-            - name: Warmonger Legplates
-          EPIC:
-            - name: Warmonger Legplates
-          LEGENDARY:
-            - name: Spiked Legplates
+          default: 
+            name: Warmonger Legplates
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Spiked Legplates
+                flavorText: ~
         FEET:
-          COMMON:
-            - name: Warmonger Greaves
-          RARE:
-            - name: Warmonger Greaves
-          EPIC:
-            - name: Warmonger Greaves
-          LEGENDARY:
-            - name: Spiked Greaves
+          default: 
+            name: Warmonger Greaves
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Spiked Greaves
+                flavorText: ~
 
       BALANCE:
         SWORD:
-          COMMON:
-            - name: Chieftain Sword
-          RARE:
-            - name: Chieftain Sword
-          EPIC:
-            - name: Chieftain Sword
-          LEGENDARY:
-            - name: Armageddon
+          default: 
+            name: Chieftain Sword
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Armageddon
+                flavorText: ~
         AXE:
-          COMMON:
-            - name: Chieftain Axe
-          RARE:
-            - name: Chieftain Axe
-          EPIC:
-            - name: Chieftain Axe
-          LEGENDARY:
-            - name: Skullsplitter
+          default: 
+            name: Chieftain Axe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Skullsplitter
+                flavorText: ~
         SHIELD:
-          COMMON:
-            - name: Chieftain Shield
-          RARE:
-            - name: Chieftain Shield
-          EPIC:
-            - name: Chieftain Shield
-          LEGENDARY:
-            - name: Steel Rooftop
+          default: 
+            name: Chieftain Shield
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Steel Rooftop
+                flavorText: ~
         SKULL:
-          COMMON:
-            - name: Chieftain Skull
-          RARE:
-            - name: Chieftain Skull
-          EPIC:
-            - name: Chieftain Skull
-          LEGENDARY:
-            - name: Legendary Skull
+          default: 
+            name: Chieftain Skull
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Elarint's Empty Skull
+                flavorText: [Though there wasn't anything in here, in the first place]
         HEAD:
-          COMMON:
-            - name: Chieftain Helmet
-          RARE:
-            - name: Chieftain Helmet
-          EPIC:
-            - name: Chieftain Helmet
-          LEGENDARY:
-            - name: Warchief Helmet
+          default: 
+            name: Chieftain Helmet
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Warchief Helmet
+                flavorText: ~
         CHEST:
-          COMMON:
-            - name: Chieftain Chestplate
-          RARE:
-            - name: Chieftain Chestplate
-          EPIC:
-            - name: Chieftain Chestplate
-          LEGENDARY:
-            - name: Warchief Chestplate
+          default: 
+            name: Chieftain Chestplate
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Warchief Chestplate
+                flavorText: ~
         LEGS:
-          COMMON:
-            - name: Chieftain Legplates
-          RARE:
-            - name: Chieftain Legplates
-          EPIC:
-            - name: Chieftain Legplates
-          LEGENDARY:
-            - name: Warchief Legplates
+          default: 
+            name: Chieftain Legplates
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Warchief Legplates
+                flavorText: ~
         FEET:
-          COMMON:
-            - name: Chieftain Greaves
-          RARE:
-            - name: Chieftain Greaves
-          EPIC:
-            - name: Chieftain Greaves
-          LEGENDARY:
-            - name: Warchief Greaves
+          default: 
+            name: Chieftain Greaves
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Warchief Greaves
+                flavorText: ~
 
       DEFENSE:
         SWORD:
-          COMMON:
-            - name: Rampart Sword
-          RARE:
-            - name: Rampart Sword
-          EPIC:
-            - name: Rampart Sword
-          LEGENDARY:
-            - name: Bull's Horn
+          default: 
+            name: Rampart Sword
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Bull's Horn
+                flavorText: ~
         AXE:
-          COMMON:
-            - name: Rampart Axe
-          RARE:
-            - name: Rampart Axe
-          EPIC:
-            - name: Rampart Axe
-          LEGENDARY:
-            - name: Warlord's Cleaver
+          default: 
+            name: Rampart Axe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Warlord's Cleaver
+                flavorText: ~
         SHIELD:
-          COMMON:
-            - name: Rampart Shield
-          RARE:
-            - name: Rampart Shield
-          EPIC:
-            - name: Rampart Shield
-          LEGENDARY:
-            - name: Pavise of Hate
+          default: 
+            name: Rampart Shield
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Pavise of Hate
+                flavorText: ~
         SKULL:
-          COMMON:
-            - name: Rampart Skull
-          RARE:
-            - name: Rampart Skull
-          EPIC:
-            - name: Rampart Skull
-          LEGENDARY:
-            - name: Legendary Skull
+          default: 
+            name: Rampart Skull
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Elarint's Empty Skull
+                flavorText: [Though there wasn't anything in here, in the first place]
         HEAD:
-          COMMON:
-            - name: Rampart Helmet
-          RARE:
-            - name: Rampart Helmet
-          EPIC:
-            - name: Rampart Helmet
-          LEGENDARY:
-            - name: Ogre Helmet
+          default: 
+            name: Rampart Helmet
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Ogre Helmet
+                flavorText: ~
         CHEST:
-          COMMON:
-            - name: Rampart Chestplate
-          RARE:
-            - name: Rampart Chestplate
-          EPIC:
-            - name: Rampart Chestplate
-          LEGENDARY:
-            - name: Ogre Chestplate
+          default: 
+            name: Rampart Chestplate
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Ogre Chestplate
+                flavorText: ~
         LEGS:
-          COMMON:
-            - name: Rampart Legplates
-          RARE:
-            - name: Rampart Legplates
-          EPIC:
-            - name: Rampart Legplates
-          LEGENDARY:
-            - name: Ogre Legplates
+          default: 
+            name: Rampart Legplates
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Ogre Legplates
+                flavorText: ~
         FEET:
-          COMMON:
-            - name: Rampart Greaves
-          RARE:
-            - name: Rampart Greaves
-          EPIC:
-            - name: Rampart Greaves
-          LEGENDARY:
-            - name: Ogre Greaves
+          default: 
+            name: Rampart Greaves
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Ogre Greaves
+                flavorText: ~
+
 
   HUNTER:
     HUMAN:
       OFFENSE:
         BOW:
-          COMMON:
-            - name: Cutthroat Bow
-          RARE:
-            - name: Cutthroat Bow
-          EPIC:
-            - name: Cutthroat Bow
-          LEGENDARY:
-            - name: Gaium Oak
-            - name: Elysium
+          default: 
+            name: Cutthroat Bow
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Gaium Oak
+                flavorText: ~
+              - name: Elysium
+                flavorText: ~
         HEAD:
-          COMMON:
-            - name: Cutthroat Cap
-          RARE:
-            - name: Cutthroat Cap
-          EPIC:
-            - name: Cutthroat Cap
-          LEGENDARY:
-            - name: Von Kleft Cap
+          default: 
+            name: Cutthroat Cap
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Von Kleft Cap
+                flavorText: ~
         CHEST:
-          COMMON:
-            - name: Cutthroat Coat
-          RARE:
-            - name: Cutthroat Coat
-          EPIC:
-            - name: Cutthroat Coat
-          LEGENDARY:
-            - name: Von Kleft Coat
+          default: 
+            name: Cutthroat Coat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Von Kleft Coat
+                flavorText: ~
         LEGS:
-          COMMON:
-            - name: Cutthroat Leggings
-          RARE:
-            - name: Cutthroat Leggings
-          EPIC:
-            - name: Cutthroat Leggings
-          LEGENDARY:
-            - name: Von Kleft Leggings
+          default: 
+            name: Cutthroat Leggings
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Von Kleft Leggings
+                flavorText: ~
         FEET:
-          COMMON:
-            - name: Cutthroat Boots
-          RARE:
-            - name: Cutthroat Boots
-          EPIC:
-            - name: Cutthroat Boots
-          LEGENDARY:
-            - name: Von Kleft Boots
+          default: 
+            name: Cutthroat Boots
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Von Kleft Boots
+                flavorText: ~
 
       BALANCE:
         BOW:
-          COMMON:
-            - name: Swindler Bow
-          RARE:
-            - name: Swindler Bow
-          EPIC:
-            - name: Swindler Bow
-          LEGENDARY:
-            - name: Truthseeker
+          default: 
+            name: Swindler Bow
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Truthseeker
+                flavorText: ~
         HEAD:
-          COMMON:
-            - name: Swindler Cap
-          RARE:
-            - name: Swindler Cap
-          EPIC:
-            - name: Swindler Cap
-          LEGENDARY:
-            - name: Gloomwood Cap
+          default: 
+            name: Swindler Cap
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Gloomwood Cap
+                flavorText: ~
         CHEST:
-          COMMON:
-            - name: Swindler Coat
-          RARE:
-            - name: Swindler Coat
-          EPIC:
-            - name: Swindler Coat
-          LEGENDARY:
-            - name: Gloomwood Coat
+          default: 
+            name: Swindler Coat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Gloomwood Coat
+                flavorText: ~
         LEGS:
-          COMMON:
-            - name: Swindler Leggings
-          RARE:
-            - name: Swindler Leggings
-          EPIC:
-            - name: Swindler Leggings
-          LEGENDARY:
-            - name: Gloomwood Leggings
+          default: 
+            name: Swindler Leggings
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Gloomwood Leggings
+                flavorText: ~
         FEET:
-          COMMON:
-            - name: Swindler Boots
-          RARE:
-            - name: Swindler Boots
-          EPIC:
-            - name: Swindler Boots
-          LEGENDARY:
-            - name: Gloomwood Boots
+          default: 
+            name: Swindler Boots
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Gloomwood Boots
+                flavorText: ~
 
       DEFENSE:
         BOW:
-          COMMON:
-            - name: Envoy Bow
-          RARE:
-            - name: Envoy Bow
-          EPIC:
-            - name: Envoy Bow
-          LEGENDARY:
-            - name: Skytouched Recurve
+          default: 
+            name: Envoy Bow
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Skytouched Recurve
+                flavorText: ~
         HEAD:
-          COMMON:
-            - name: Envoy Cap
-          RARE:
-            - name: Envoy Cap
-          EPIC:
-            - name: Envoy Cap
-          LEGENDARY:
-            - name: Bone Cap
+          default: 
+            name: Envoy Cap
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Bone Cap
+                flavorText: ~
         CHEST:
-          COMMON:
-            - name: Envoy Coat
-          RARE:
-            - name: Envoy Coat
-          EPIC:
-            - name: Envoy Coat
-          LEGENDARY:
-            - name: Bone Coat
+          default: 
+            name: Envoy Coat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Bone Coat
+                flavorText: ~
         LEGS:
-          COMMON:
-            - name: Envoy Leggings
-          RARE:
-            - name: Envoy Leggings
-          EPIC:
-            - name: Envoy Leggings
-          LEGENDARY:
-            - name: Bone Leggings
+          default: 
+            name: Envoy Leggings
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Bone Leggings
+                flavorText: ~
         FEET:
-          COMMON:
-            - name: Envoy Boots
-          RARE:
-            - name: Envoy Boots
-          EPIC:
-            - name: Envoy Boots
-          LEGENDARY:
-            - name: Bone Boots
+          default: 
+            name: Envoy Boots
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Bone Boots
+                flavorText: ~
+
 
     ORC:
       OFFENSE:
         BOW:
-          COMMON:
-            - name: Huntmaster Bow
-          RARE:
-            - name: Huntmaster Bow
-          EPIC:
-            - name: Huntmaster Bow
-          LEGENDARY:
-            - name: Eyegouger
+          default: 
+            name: Huntmaster Bow
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Eyegouger
+                flavorText: ~
         HEAD:
-          COMMON:
-            - name: Huntmaster Cap
-          RARE:
-            - name: Huntmaster Cap
-          EPIC:
-            - name: Huntmaster Cap
-          LEGENDARY:
-            - name: Bull Cap
+          default: 
+            name: Huntmaster Cap
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Bull Cap
+                flavorText: ~
         CHEST:
-          COMMON:
-            - name: Huntmaster Coat
-          RARE:
-            - name: Huntmaster Coat
-          EPIC:
-            - name: Huntmaster Coat
-          LEGENDARY:
-            - name: Bull Coat
+          default: 
+            name: Huntmaster Coat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Bull Coat
+                flavorText: ~
         LEGS:
-          COMMON:
-            - name: Huntmaster Leggings
-          RARE:
-            - name: Huntmaster Leggings
-          EPIC:
-            - name: Huntmaster Leggings
-          LEGENDARY:
-            - name: Bull Leggings
+          default: 
+            name: Huntmaster Leggings
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Bull Leggings
+                flavorText: ~
         FEET:
-          COMMON:
-            - name: Huntmaster Boots
-          RARE:
-            - name: Huntmaster Boots
-          EPIC:
-            - name: Huntmaster Boots
-          LEGENDARY:
-            - name: Bull Boots
+          default: 
+            name: Huntmaster Boots
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Bull Boots
+                flavorText: ~
 
       BALANCE:
         BOW:
-          COMMON:
-            - name: Beastmaster Bow
-          RARE:
-            - name: Beastmaster Bow
-          EPIC:
-            - name: Beastmaster Bow
-          LEGENDARY:
-            - name: Gutgorger
+          default: 
+            name: Beastmaster Bow
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Gutgorger
+                flavorText: ~
         HEAD:
-          COMMON:
-            - name: Beastmaster Cap
-          RARE:
-            - name: Beastmaster Cap
-          EPIC:
-            - name: Beastmaster Cap
-          LEGENDARY:
-            - name: Barazaak Cap
+          default: 
+            name: Beastmaster Cap
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Barazaak Cap
+                flavorText: ~
         CHEST:
-          COMMON:
-            - name: Beastmaster Coat
-          RARE:
-            - name: Beastmaster Coat
-          EPIC:
-            - name: Beastmaster Coat
-          LEGENDARY:
-            - name: Barazaak Coat
+          default: 
+            name: Beastmaster Coat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Barazaak Coat
+                flavorText: ~
         LEGS:
-          COMMON:
-            - name: Beastmaster Leggings
-          RARE:
-            - name: Beastmaster Leggings
-          EPIC:
-            - name: Beastmaster Leggings
-          LEGENDARY:
-            - name: Barazaak Leggings
+          default: 
+            name: Beastmaster Leggings
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Barazaak Leggings
+                flavorText: ~
         FEET:
-          COMMON:
-            - name: Beastmaster Boots
-          RARE:
-            - name: Beastmaster Boots
-          EPIC:
-            - name: Beastmaster Boots
-          LEGENDARY:
-            - name: Barazaak Boots
+          default: 
+            name: Beastmaster Boots
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Barazaak Boots
+                flavorText: ~
 
       DEFENSE:
         BOW:
-          COMMON:
-            - name: Mudlurker Bow
-          RARE:
-            - name: Mudlurker Bow
-          EPIC:
-            - name: Mudlurker Bow
-          LEGENDARY:
-            - name: Kneesplitter
+          default: 
+            name: Mudlurker Bow
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Kneesplitter
+                flavorText: ~
         HEAD:
-          COMMON:
-            - name: Mudlurker Cap
-          RARE:
-            - name: Mudlurker Cap
-          EPIC:
-            - name: Mudlurker Cap
-          LEGENDARY:
-            - name: Preystalker Cap
+          default: 
+            name: Mudlurker Cap
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Preystalker Cap
+                flavorText: ~
         CHEST:
-          COMMON:
-            - name: Mudlurker Coat
-          RARE:
-            - name: Mudlurker Coat
-          EPIC:
-            - name: Mudlurker Coat
-          LEGENDARY:
-            - name: Preystalker Coat
+          default: 
+            name: Mudlurker Coat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Preystalker Coat
+                flavorText: ~
         LEGS:
-          COMMON:
-            - name: Mudlurker Leggings
-          RARE:
-            - name: Mudlurker Leggings
-          EPIC:
-            - name: Mudlurker Leggings
-          LEGENDARY:
-            - name: Preystalker Leggings
+          default: 
+            name: Mudlurker Leggings
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Preystalker Leggings
+                flavorText: ~
         FEET:
-          COMMON:
-            - name: Mudlurker Boots
-          RARE:
-            - name: Mudlurker Boots
-          EPIC:
-            - name: Mudlurker Boots
-          LEGENDARY:
-            - name: Preystalker Boots
+          default: 
+            name: Mudlurker Boots
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Preystalker Boots
+                flavorText: ~
+
 
   MAGE:
     HUMAN:
       OFFENSE:
         WAND:
-          COMMON:
-            - name: Witch Wand
-          RARE:
-            - name: Witch Wand
-          EPIC:
-            - name: Witch Wand
-          LEGENDARY:
-            - name: Hand of the Haruspex
+          default: 
+            name: Witch Wand
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Hand of the Haruspex
+                flavorText: ~
         STAFF:
-          COMMON:
-            - name: Witch Staff
-          RARE:
-            - name: Witch Staff
-          EPIC:
-            - name: Witch Staff
-          LEGENDARY:
-            - name: Grand Deceiver Rod
+          default: 
+            name: Witch Staff
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Grand Deceiver Rod
+                flavorText: ~
         BOOK:
-          COMMON:
-            - name: Witch Book
-          RARE:
-            - name: Witch Book
-          EPIC:
-            - name: Witch Book
-          LEGENDARY:
-            - name: Notes of the Crone
+          default: 
+            name: Witch Book
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Notes of the Crone
+                flavorText: ~
         HEAD:
-          COMMON:
-            - name: Witch Hat
-          RARE:
-            - name: Witch Hat
-          EPIC:
-            - name: Witch Hat
-          LEGENDARY:
-            - name: Twisted Hat
+          default: 
+            name: Witch Hat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Twisted Hat
+                flavorText: ~
         CHEST:
-          COMMON:
-            - name: Witch Robe
-          RARE:
-            - name: Witch Robe
-          EPIC:
-            - name: Witch Robe
-          LEGENDARY:
-            - name: Twisted Robe
+          default: 
+            name: Witch Robe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Twisted Robe
+                flavorText: ~
         LEGS:
-          COMMON:
-            - name: Witch Pants
-          RARE:
-            - name: Witch Pants
-          EPIC:
-            - name: Witch Pants
-          LEGENDARY:
-            - name: Twisted Pants
+          default: 
+            name: Witch Pants
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Twisted Pants
+                flavorText: ~
         FEET:
-          COMMON:
-            - name: Witch Shoes
-          RARE:
-            - name: Witch Shoes
-          EPIC:
-            - name: Witch Shoes
-          LEGENDARY:
-            - name: Twisted Shoes
+          default: 
+            name: Witch Shoes
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Twisted Shoes
+                flavorText: ~
+
       BALANCE:
         WAND:
-          COMMON:
-            - name: Sorcerer Wand
-          RARE:
-            - name: Sorcerer Wand
-          EPIC:
-            - name: Sorcerer Wand
-          LEGENDARY:
-            - name: Bright
+          default: 
+            name: Sorcerer Wand
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Bright
+                flavorText: ~
         STAFF:
-          COMMON:
-            - name: Sorcerer Staff
-          RARE:
-            - name: Sorcerer Staff
-          EPIC:
-            - name: Sorcerer Staff
-          LEGENDARY:
-            - name: Talking Turtle Taff
+          default: 
+            name: Sorcerer Staff
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Talking Turtle Taff
+                flavorText: ~
         BOOK:
-          COMMON:
-            - name: Sorcerer Book
-          RARE:
-            - name: Sorcerer Book
-          EPIC:
-            - name: Sorcerer Book
-          LEGENDARY:
-            - name: Great Mage Journal
+          default: 
+            name: Sorcerer Book
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Great Mage Journal
+                flavorText: ~
         HEAD:
-          COMMON:
-            - name: Sorcerer Hat
-          RARE:
-            - name: Sorcerer Hat
-          EPIC:
-            - name: Sorcerer Hat
-          LEGENDARY:
-            - name: Arcane Hat
+          default: 
+            name: Sorcerer Hat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Arcane Hat
+                flavorText: ~
         CHEST:
-          COMMON:
-            - name: Sorcerer Robe
-          RARE:
-            - name: Sorcerer Robe
-          EPIC:
-            - name: Sorcerer Robe
-          LEGENDARY:
-            - name: Arcane Robe
+          default: 
+            name: Sorcerer Robe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Arcane Robe
+                flavorText: ~
         LEGS:
-          COMMON:
-            - name: Sorcerer Pants
-          RARE:
-            - name: Sorcerer Pants
-          EPIC:
-            - name: Sorcerer Pants
-          LEGENDARY:
-            - name: Arcane Pants
+          default: 
+            name: Sorcerer Pants
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Arcane Pants
+                flavorText: ~
         FEET:
-          COMMON:
-            - name: Sorcerer Shoes
-          RARE:
-            - name: Sorcerer Shoes
-          EPIC:
-            - name: Sorcerer Shoes
-          LEGENDARY:
-            - name: Arcane Shoes
+          default: 
+            name: Sorcerer Shoes
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Arcane Shoes
+                flavorText: ~
+
       DEFENSE:
         WAND:
-          COMMON:
-            - name: Enchanter Wand
-          RARE:
-            - name: Enchanter Wand
-          EPIC:
-            - name: Enchanter Wand
-          LEGENDARY:
-            - name: Deflector
+          default: 
+            name: Enchanter Wand
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Deflector
+                flavorText: ~
         STAFF:
-          COMMON:
-            - name: Enchanter Staff
-          RARE:
-            - name: Enchanter Staff
-          EPIC:
-            - name: Enchanter Staff
-          LEGENDARY:
-            - name: Warpwood Cane
+          default: 
+            name: Enchanter Staff
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Warpwood Cane
+                flavorText: ~
         BOOK:
-          COMMON:
-            - name: Enchanter Book
-          RARE:
-            - name: Enchanter Book
-          EPIC:
-            - name: Enchanter Book
-          LEGENDARY:
-            - name: Withered Lexicon
+          default: 
+            name: Enchanter Book
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Withered Lexicon
+                flavorText: ~
         HEAD:
-          COMMON:
-            - name: Enchanter Hat
-          RARE:
-            - name: Enchanter Hat
-          EPIC:
-            - name: Enchanter Hat
-          LEGENDARY:
-            - name: Luminous Velvet Hat
+          default: 
+            name: Enchanter Hat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Luminous Velvet Hat
+                flavorText: ~
         CHEST:
-          COMMON:
-            - name: Enchanter Robe
-          RARE:
-            - name: Enchanter Robe
-          EPIC:
-            - name: Enchanter Robe
-          LEGENDARY:
-            - name: Luminous Velvet Robe
+          default: 
+            name: Enchanter Robe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Luminous Velvet Robe
+                flavorText: ~
         LEGS:
-          COMMON:
-            - name: Enchanter Pants
-          RARE:
-            - name: Enchanter Pants
-          EPIC:
-            - name: Enchanter Pants
-          LEGENDARY:
-            - name: Luminous Velvet Pants
+          default: 
+            name: Enchanter Pants
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Luminous Velvet Pants
+                flavorText: ~
         FEET:
-          COMMON:
-            - name: Enchanter Shoes
-          RARE:
-            - name: Enchanter Shoes
-          EPIC:
-            - name: Enchanter Shoes
-          LEGENDARY:
-            - name: Luminous Velvet Shoes
+          default: 
+            name: Enchanter Shoes
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Luminous Velvet Shoes
+                flavorText: ~
+
 
     ORC:
       OFFENSE:
         WAND:
-          COMMON:
-            - name: Warlock Wand
-          RARE:
-            - name: Warlock Wand
-          EPIC:
-            - name: Warlock Wand
-          LEGENDARY:
-            - name: Elder Spirit
+          default: 
+            name: Warlock Wand
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Elder Spirit
+                flavorText: ~
         STAFF:
-          COMMON:
-            - name: Warlock Staff
-          RARE:
-            - name: Warlock Staff
-          EPIC:
-            - name: Warlock Staff
-          LEGENDARY:
-            - name: K'took the Serpent
+          default: 
+            name: Warlock Staff
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: K'took the Serpent
+                flavorText: ~
         BOOK:
-          COMMON:
-            - name: Warlock Book
-          RARE:
-            - name: Warlock Book
-          EPIC:
-            - name: Warlock Book
-          LEGENDARY:
-            - name: Three Little Hogs
-              flavorText:
-                - "'Punch them in the nose"
-                - "Tie them in a knot"
-                - "Kick them in the chin"
-                - "Put them on the spot'"
+          default: 
+            name: Warlock Book
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Three Little Hogs
+                flavorText:
+                  - "'Punch them in the nose"
+                  - "Tie them in a knot"
+                  - "Kick them in the chin"
+                  - "Put them on the spot'"
         HEAD:
-          COMMON:
-            - name: Warlock Hat
-          RARE:
-            - name: Warlock Hat
-          EPIC:
-            - name: Warlock Hat
-          LEGENDARY:
-            - name: Pox Ridden Hat
+          default: 
+            name: Warlock Hat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Pox Ridden Hat
+                flavorText: ~
         CHEST:
-          COMMON:
-            - name: Warlock Robe
-          RARE:
-            - name: Warlock Robe
-          EPIC:
-            - name: Warlock Robe
-          LEGENDARY:
-            - name: Pox Ridden Robe
+          default: 
+            name: Warlock Robe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Pox Ridden Robe
+                flavorText: ~
         LEGS:
-          COMMON:
-            - name: Warlock Pants
-          RARE:
-            - name: Warlock Pants
-          EPIC:
-            - name: Warlock Pants
-          LEGENDARY:
-            - name: Pox Ridden Pants
+          default: 
+            name: Warlock Pants
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Pox Ridden Pants
+                flavorText: ~
         FEET:
-          COMMON:
-            - name: Warlock Shoes
-          RARE:
-            - name: Warlock Shoes
-          EPIC:
-            - name: Warlock Shoes
-          LEGENDARY:
-            - name: Pox Ridden Shoes
+          default: 
+            name: Warlock Shoes
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Pox Ridden Shoes
+                flavorText: ~
+
       BALANCE:
         WAND:
-          COMMON:
-            - name: Seer Wand
-          RARE:
-            - name: Seer Wand
-          EPIC:
-            - name: Seer Wand
-          LEGENDARY:
-            - name: Baba's Fetish
+          default: 
+            name: Seer Wand
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Baba's Fetish
+                flavorText: ~
         STAFF:
-          COMMON:
-            - name: Seer Staff
-          RARE:
-            - name: Seer Staff
-          EPIC:
-            - name: Seer Staff
-          LEGENDARY:
-            - name: Tuskling's Prodder
+          default: 
+            name: Seer Staff
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Tuskling's Prodder
+                flavorText: ~
         BOOK:
-          COMMON:
-            - name: Seer Book
-          RARE:
-            - name: Seer Book
-          EPIC:
-            - name: Seer Book
-          LEGENDARY:
-            - name: Late Seer's Last Message
+          default: 
+            name: Seer Book
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Late Seer's Last Message
+                flavorText: ~
         HEAD:
-          COMMON:
-            - name: Seer Hat
-          RARE:
-            - name: Seer Hat
-          EPIC:
-            - name: Seer Hat
-          LEGENDARY:
-            - name: Ceremonial Hat
+          default: 
+            name: Seer Hat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Ceremonial Hat
+                flavorText: ~
         CHEST:
-          COMMON:
-            - name: Seer Robe
-          RARE:
-            - name: Seer Robe
-          EPIC:
-            - name: Seer Robe
-          LEGENDARY:
-            - name: Ceremonial Robe
+          default: 
+            name: Seer Robe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Ceremonial Robe
+                flavorText: ~
         LEGS:
-          COMMON:
-            - name: Seer Pants
-          RARE:
-            - name: Seer Pants
-          EPIC:
-            - name: Seer Pants
-          LEGENDARY:
-            - name: Ceremonial Pants
+          default: 
+            name: Seer Pants
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Ceremonial Pants
+                flavorText: ~
         FEET:
-          COMMON:
-            - name: Seer Shoes
-          RARE:
-            - name: Seer Shoes
-          EPIC:
-            - name: Seer Shoes
-          LEGENDARY:
-            - name: Ceremonial Shoes
+          default: 
+            name: Seer Shoes
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Ceremonial Shoes
+                flavorText: ~
+
       DEFENSE:
         WAND:
-          COMMON:
-            - name: Shaman Wand
-          RARE:
-            - name: Shaman Wand
-          EPIC:
-            - name: Shaman Wand
-          LEGENDARY:
-            - name: Totemcarver
+          default: 
+            name: Shaman Wand
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Totemcarver
+                flavorText: ~
         STAFF:
-          COMMON:
-            - name: Shaman Staff
-          RARE:
-            - name: Shaman Staff
-          EPIC:
-            - name: Shaman Staff
-          LEGENDARY:
-            - name: Bursting Volcano
+          default: 
+            name: Shaman Staff
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Bursting Volcano
+                flavorText: ~
         BOOK:
-          COMMON:
-            - name: Shaman Book
-          RARE:
-            - name: Shaman Book
-          EPIC:
-            - name: Shaman Book
-          LEGENDARY:
-            - name: Bibsqeek's Scribbles
-              flavorText: [The rantings of a lost goblin druid.]
+          default: 
+            name: Shaman Book
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Bibsqeek's Scribbles
+                flavorText: [The rantings of a lost goblin druid]
         HEAD:
-          COMMON:
-            - name: Shaman Hat
-          RARE:
-            - name: Shaman Hat
-          EPIC:
-            - name: Shaman Hat
-          LEGENDARY:
-            - name: Earthen Hat
+          default: 
+            name: Shaman Hat
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Earthen Hat
+                flavorText: ~
         CHEST:
-          COMMON:
-            - name: Shaman Robe
-          RARE:
-            - name: Shaman Robe
-          EPIC:
-            - name: Shaman Robe
-          LEGENDARY:
-            - name: Earthen Robe
+          default: 
+            name: Shaman Robe
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Earthen Robe
+                flavorText: ~
         LEGS:
-          COMMON:
-            - name: Shaman Pants
-          RARE:
-            - name: Shaman Pants
-          EPIC:
-            - name: Shaman Pants
-          LEGENDARY:
-            - name: Earthen Pants
+          default: 
+            name: Shaman Pants
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Earthen Pants
+                flavorText: ~
         FEET:
-          COMMON:
-            - name: Shaman Shoes
-          RARE:
-            - name: Shaman Shoes
-          EPIC:
-            - name: Shaman Shoes
-          LEGENDARY:
-            - name: Earthen Shoes
+          default: 
+            name: Shaman Shoes
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Earthen Shoes
+                flavorText: ~
