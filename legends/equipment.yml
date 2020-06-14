@@ -41,7 +41,7 @@ itemRarities:
   75.0: RARE
   93.75: EPIC
   99.609: LEGENDARY
-  99.976: ANCIENT
+#  99.976: ANCIENT
 
 
 itemTypes:
