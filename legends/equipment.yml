@@ -36,12 +36,12 @@ offhandTypes:
 # for EPIC x = 4
 # for LEGENDARY x = 8
 # for ANCIENT x = 12
-itemRarities:
-  0.0: COMMON
-  75.0: RARE
-  93.75: EPIC
-  99.609: LEGENDARY
-#  99.976: ANCIENT
+dropRates:
+  COMMON: 0.0
+  RARE: 75.0
+  EPIC: 93.75
+  LEGENDARY: 99.609
+# ANCIENT: 99.976
 
 
 itemTypes:
