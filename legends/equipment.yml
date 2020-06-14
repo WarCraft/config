@@ -878,7 +878,7 @@ tooltips:
           special:
             LEGENDARY:
               - name: Elarint's Empty Skull
-                flavorText: [Though there wasn't anything in here, in the first place]
+                flavorText: [Though there wasn't anything, in here in the first place]
         HEAD:
           default: 
             name: Hero Helmet
