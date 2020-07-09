@@ -1,149 +1,149 @@
 objectiveBuildType: Obj
 siegeWeaponBuildType: Siege
 
-objectiveTickPeriod: "1"
-objectiveMaxTickProgress: "5"
-objectivePercentTickDecay: "1"
-siegeWeaponMaxIdleTime: "900"
+objectiveTickPeriod: 1
+objectiveMaxTickProgress: 5
+objectivePercentTickDecay: 1
+siegeWeaponMaxIdleTime: 900
 
 requiredProgress:
-  KEEP: "100"
+  KEEP: 100
 
 objectives:
   - id: DWARF_KEEP
     model: dwarf_keep
-    type: KEEP
+    typ: KEEP
     name: Dwarf Keep
     capturePoint:
       location:
         world: aldmore
-        translation: { x: "-146", y: "54", z: "-109" }
-      radius: "6"
+        translation: { x: -146, y: 54, z: -109 }
+      radius: 6
     portals:
       # outer
       - entry:
           world: aldmore
-          translation: { x: "-107.5", y: "56", z: "106.5" }
+          translation: { x: -107.5, y: 56, z: 106.5 }
         exit:
           world: aldmore
-          translation: { x: "-111.5", y: "56", z: "106.5" }
+          translation: { x: -111.5, y: 56, z: 106.5 }
       # inner
       - entry:
           world: aldmore
-          translation: { x: "-111.5", y: "56", z: "111.5" }
+          translation: { x: -111.5, y: 56, z: 111.5 }
         exit:
           world: aldmore
-          translation: { x: "-107.5", y: "56", z: "111.5" }
+          translation: { x: -107.5, y: 56, z: 111.5 }
     boundingBox:
       world: aldmore
-      minimumCorner: { x: "-103", y: "52", z: "158" }
-      maximumCorner: { x: "-10", y: "135", z: "238" }
+      minimumCorner: { x: -103, y: 52, z: 158 }
+      maximumCorner: { x: -10, y: 135, z: 238 }
     orientation: NORTH
 
   - id: ELF_KEEP
     model: elf_keep
-    type: KEEP
+    typ: KEEP
     name: Elf Keep
     capturePoint:
       location:
         world: aldmore
-        translation: { x: "115", y: "71", z: "-199.5" }
-      radius: "6"
+        translation: { x: 115, y: 71, z: -199.5 }
+      radius: 6
     portals:
       # outer
       - entry:
           world: aldmore
-          translation: { x: "169.5", y: "56", z: "173.5" }
+          translation: { x: 169.5, y: 56, z: 173.5 }
         exit:
           world: aldmore
-          translation: { x: "166.5", y: "55", z: "-175.5" }
+          translation: { x: 166.5, y: 55, z: -175.5 }
       # inner
       - entry:
           world: aldmore
-          translation: { x: "169.5", y: "55", z: "-182.5" }
+          translation: { x: 169.5, y: 55, z: -182.5 }
         exit:
           world: aldmore
-          translation: { x: "173.5", y: "56", z: "-181.5" }
+          translation: { x: 173.5, y: 56, z: -181.5 }
     boundingBox:
       world: aldmore
-      minimumCorner: { x: "71", y: "42", z: "-250" }
-      maximumCorner: { x: "183", y: "105", z: "-134" }
+      minimumCorner: { x: 71, y: 42, z: -250 }
+      maximumCorner: { x: 183, y: 105, z: -134 }
     orientation: NORTH
 
   - id: HUMAN_KEEP
     model: human_keep
-    type: KEEP
+    typ: KEEP
     name: Human Keep
     capturePoint:
       location:
         world: aldmore
-        translation: { x: "-67.5", y: "67", z: "190.5" }
-      radius: "6"
+        translation: { x: -67.5, y: 67, z: 190.5 }
+      radius: 6
     portals:
       # outer
       - entry:
           world: aldmore
-          translation: { x: "-92.5", y: "60", z: "162.5" }
+          translation: { x: -92.5, y: 60, z: 162.5 }
         exit:
           world: aldmore
-          translation: { x: "-88.5", y: "62", z: "167.5" }
+          translation: { x: -88.5, y: 62, z: 167.5 }
       # inner
       - entry:
           world: aldmore
-          translation: { x: "-92.5", y: "62", z: "171.5" }
+          translation: { x: -92.5, y: 62, z: 171.5 }
         exit:
           world: aldmore
-          translation: { x: "-96.5", y: "61", z: "168.5" }
+          translation: { x: -96.5, y: 61, z: 168.5 }
     boundingBox:
       world: aldmore
-      minimumCorner: { x: "-175", y: "32", z: "-149" }
-      maximumCorner: { x: "-102", y: "108", z: "-74" }
+      minimumCorner: { x: -175, y: 32, z: -149 }
+      maximumCorner: { x: -102, y: 108, z: -74 }
     orientation: NORTH
 
   - id: ORC_KEEP
     model: orc_keep
-    type: KEEP
+    typ: KEEP
     name: Orc Keep
     capturePoint:
       location:
         world: aldmore
-        translation: { x: "167", y: "69", z: "61" }
-      radius: "6"
+        translation: { x: 167, y: 69, z: 61 }
+      radius: 6
     portals:
       # outer
       - entry:
           world: aldmore
-          translation: { x: "159.5", y: "64", z: "111.5" }
+          translation: { x: 159.5, y: 64, z: 111.5 }
         exit:
           world: aldmore
-          translation: { x: "163.5", y: "65", z: "109.5" }
+          translation: { x: 163.5, y: 65, z: 109.5 }
       # inner
       - entry:
           world: aldmore
-          translation: { x: "167.5", y: "65", z: "113.5" }
+          translation: { x: 167.5, y: 65, z: 113.5 }
         exit:
           world: aldmore
-          translation: { x: "165.5", y: "63", z: "117.5" }
+          translation: { x: 165.5, y: 63, z: 117.5 }
     boundingBox:
       world: aldmore
-      minimumCorner: { x: "114", y: "47", z: "25" }
-      maximumCorner: { x: "209", y: "102", z: "126" }
+      minimumCorner: { x: 114, y: 47, z: 25 }
+      maximumCorner: { x: 209, y: 102, z: 126 }
     orientation: NORTH
 
 blacklistedAreas:
   # Dwarf capital
   - world: aldmore
-    minimumCorner: { x: "0", y: "0", z: "0" }
-    maximumCorner: { x: "0", y: "0", z: "0" }
+    minimumCorner: { x: 0, y: 0, z: 0 }
+    maximumCorner: { x: 0, y: 0, z: 0 }
   # Elf capital
   - world: aldmore
-    minimumCorner: { x: "0", y: "0", z: "0" }
-    maximumCorner: { x: "0", y: "0", z: "0" }
+    minimumCorner: { x: 0, y: 0, z: 0 }
+    maximumCorner: { x: 0, y: 0, z: 0 }
   # Human capital
   - world: aldmore
-    minimumCorner: { x: "0", y: "0", z: "0" }
-    maximumCorner: { x: "0", y: "0", z: "0" }
+    minimumCorner: { x: 0, y: 0, z: 0 }
+    maximumCorner: { x: 0, y: 0, z: 0 }
   # Orc capital
   - world: aldmore
-    minimumCorner: { x: "0", y: "0", z: "0" }
-    maximumCorner: { x: "0", y: "0", z: "0" }
+    minimumCorner: { x: 0, y: 0, z: 0 }
+    maximumCorner: { x: 0, y: 0, z: 0 }
