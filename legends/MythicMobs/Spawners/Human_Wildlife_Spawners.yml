@@ -1,6 +1,6 @@
 Human_Wildlife_Spawner_1:
   SpawnerGroup: Human_Wildlife_Spawner_1
-  MobName: Wolf
+  MobName: Wolf1
   World: world
   X: -163
   Y: 54
@@ -52,7 +52,7 @@ Human_Wildlife_Spawner_2:
 
 Human_Wildlife_Spawner_3:
   SpawnerGroup: Human_Wildlife_Spawner_3
-  MobName: Bee
+  MobName: Bee1
   World: world
   X: -116
   Y: 58
