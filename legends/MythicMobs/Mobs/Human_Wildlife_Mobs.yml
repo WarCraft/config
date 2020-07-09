@@ -1,4 +1,4 @@
-Wolf:
+Wolf1:
   Type: WOLF
   Display: 'Wolf'
   Health: 10
@@ -16,11 +16,10 @@ Wolf:
   - 1 attacker
   - 2 players
   Skills:
-  - command{c="dropitems <mob.name> <mob.uuid> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
   
-  Alpha Wolf:
+Alpha Wolf:
   Type: WOLF
-  Display: 'Alhpa Wolf'
+  Display: 'Alpha Wolf'
   Health: 20
   Damage: 4
   Options:
@@ -38,7 +37,7 @@ Wolf:
   Skills:
   - command{c="dropitems <mob.name> <mob.uuid> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
 
-  Bee:
+  Bee1:
   Type: BEE
   Display: 'Bee'
   Health: 5
