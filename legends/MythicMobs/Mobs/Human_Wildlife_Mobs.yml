@@ -37,7 +37,7 @@ Alpha Wolf:
   Skills:
   - command{c="dropitems <mob.name> <mob.uuid> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
 
-  Bee1:
+Bee1:
   Type: BEE
   Display: 'Bee'
   Health: 5
