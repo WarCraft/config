@@ -42,7 +42,7 @@ objectives:
     boundingBox:
       world: world
       min: { x: -175, y: 32, z: -149 }
-      max: { x: -103, y: 108, z: -74 }
+      max: { x: -102, y: 108, z: -74 }
     orientation: NORTH
 
   - id: ELF_KEEP
@@ -111,8 +111,8 @@ objectives:
           rotation: { x: 0, y: 0, z: 1 }
     boundingBox:
       world: world
-      min: { x: -103, y: 52, z: 158 }
-      max: { x: -10, y: 135, z: 238 }
+      min: { x: -103, y: 52, z: 157 }
+      max: { x: -10, y: 115, z: 238 }
     orientation: NORTH
 
   - id: ORC_KEEP
