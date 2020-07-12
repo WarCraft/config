@@ -3,13 +3,13 @@ validTypes:
     - SWORD
     - AXE
     - SHIELD
-    - SKULL
     - HEAD
     - CHEST
     - LEGS
     - FEET
   HUNTER:
     - BOW
+    - CROSSBOW
     - HEAD
     - CHEST
     - LEGS
@@ -26,7 +26,6 @@ validTypes:
 
 offhandTypes:
   - SHIELD
-  - SKULL
   - BOOK
 
 
@@ -60,6 +59,11 @@ itemTypes:
     RARE: BOW
     EPIC: BOW
     LEGENDARY: BOW
+  CROSSBOW:
+    COMMON: CROSSBOW
+    RARE: CROSSBOW
+    EPIC: CROSSBOW
+    LEGENDARY: CROSSBOW
   WAND:
     COMMON: STICK
     RARE: STICK
@@ -75,11 +79,6 @@ itemTypes:
     RARE: SHIELD
     EPIC: SHIELD
     LEGENDARY: SHIELD
-  SKULL:
-    COMMON: MobHeadVariant:SKELETON
-    RARE: MobHeadVariant:SKELETON
-    EPIC: MobHeadVariant:SKELETON
-    LEGENDARY: MobHeadVariant:SKELETON
   BOOK:
     COMMON: BOOK
     RARE: BOOK
@@ -871,14 +870,6 @@ tooltips:
             LEGENDARY:
               - name: Guardian of the West
                 flavorText: ~
-        SKULL:
-          default: 
-            name: Hero Skull
-            flavorText: ~
-          special:
-            LEGENDARY:
-              - name: Elarint's Empty Skull
-                flavorText: [Though there wasn't anything, in here in the first place]
         HEAD:
           default: 
             name: Hero Helmet
@@ -937,14 +928,6 @@ tooltips:
             LEGENDARY:
               - name: Battered Bastion
                 flavorText: ~
-        SKULL:
-          default: 
-            name: Champion Skull
-            flavorText: ~
-          special:
-            LEGENDARY:
-              - name: Elarint's Empty Skull
-                flavorText: [Though there wasn't anything in here, in the first place]
         HEAD:
           default: 
             name: Champion Helmet
@@ -1003,14 +986,6 @@ tooltips:
             LEGENDARY:
               - name: Blinding Redoubt
                 flavorText: ~
-        SKULL:
-          default: 
-            name: Guardian Skull
-            flavorText: ~
-          special:
-            LEGENDARY:
-              - name: Elarint's Empty Skull
-                flavorText: [Though there wasn't anything in here, in the first place]
         HEAD:
           default: 
             name: Guardian Helmet
@@ -1073,14 +1048,6 @@ tooltips:
             LEGENDARY:
               - name: Guardian of the West
                 flavorText: ~
-        SKULL:
-          default: 
-            name: Hero Skull
-            flavorText: ~
-          special:
-            LEGENDARY:
-              - name: Elarint's Empty Skull
-                flavorText: [Though there wasn't anything in here, in the first place]
         HEAD:
           default: 
             name: Hero Helmet
@@ -1139,14 +1106,6 @@ tooltips:
             LEGENDARY:
               - name: Battered Bastion
                 flavorText: ~
-        SKULL:
-          default: 
-            name: Champion Skull
-            flavorText: ~
-          special:
-            LEGENDARY:
-              - name: Elarint's Empty Skull
-                flavorText: [Though there wasn't anything in here, in the first place]
         HEAD:
           default: 
             name: Champion Helmet
@@ -1205,14 +1164,6 @@ tooltips:
             LEGENDARY:
               - name: Blinding Redoubt
                 flavorText: ~
-        SKULL:
-          default: 
-            name: Guardian Skull
-            flavorText: ~
-          special:
-            LEGENDARY:
-              - name: Elarint's Empty Skull
-                flavorText: [Though there wasn't anything in here, in the first place]
         HEAD:
           default: 
             name: Guardian Helmet
@@ -1275,14 +1226,6 @@ tooltips:
             LEGENDARY:
               - name: Guardian of the West
                 flavorText: ~
-        SKULL:
-          default: 
-            name: Hero Skull
-            flavorText: ~
-          special:
-            LEGENDARY:
-              - name: Elarint's Empty Skull
-                flavorText: [Though there wasn't anything in here, in the first place]
         HEAD:
           default: 
             name: Hero Helmet
@@ -1341,14 +1284,6 @@ tooltips:
             LEGENDARY:
               - name: Battered Bastion
                 flavorText: ~
-        SKULL:
-          default: 
-            name: Champion Skull
-            flavorText: ~
-          special:
-            LEGENDARY:
-              - name: Elarint's Empty Skull
-                flavorText: [Though there wasn't anything in here, in the first place]
         HEAD:
           default: 
             name: Champion Helmet
@@ -1407,14 +1342,6 @@ tooltips:
             LEGENDARY:
               - name: Blinding Redoubt
                 flavorText: ~
-        SKULL:
-          default: 
-            name: Guardian Skull
-            flavorText: ~
-          special:
-            LEGENDARY:
-              - name: Elarint's Empty Skull
-                flavorText: [Though there wasn't anything in here, in the first place]
         HEAD:
           default: 
             name: Guardian Helmet
@@ -1479,14 +1406,6 @@ tooltips:
                 flavorText: ~
               - name: Bulwark of the South
                 flavorText: ~
-        SKULL:
-          default: 
-            name: Warmonger Skull
-            flavorText: ~
-          special:
-            LEGENDARY:
-              - name: Elarint's Empty Skull
-                flavorText: [Though there wasn't anything in here, in the first place]
         HEAD:
           default: 
             name: Warmonger Helmet
@@ -1545,14 +1464,6 @@ tooltips:
             LEGENDARY:
               - name: Steel Rooftop
                 flavorText: ~
-        SKULL:
-          default: 
-            name: Chieftain Skull
-            flavorText: ~
-          special:
-            LEGENDARY:
-              - name: Elarint's Empty Skull
-                flavorText: [Though there wasn't anything in here, in the first place]
         HEAD:
           default: 
             name: Chieftain Helmet
@@ -1611,14 +1522,6 @@ tooltips:
             LEGENDARY:
               - name: Pavise of Hate
                 flavorText: ~
-        SKULL:
-          default: 
-            name: Rampart Skull
-            flavorText: ~
-          special:
-            LEGENDARY:
-              - name: Elarint's Empty Skull
-                flavorText: [Though there wasn't anything in here, in the first place]
         HEAD:
           default: 
             name: Rampart Helmet
