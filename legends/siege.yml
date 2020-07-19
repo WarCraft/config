@@ -44,6 +44,7 @@ objectives:
       min: { x: -175, y: 32, z: -149 }
       max: { x: -102, y: 108, z: -74 }
     orientation: NORTH
+    defaultOccupiers: Dwarves
 
   - id: ELF_KEEP
     model: elf_keep
@@ -79,6 +80,7 @@ objectives:
       min: { x: 71, y: 42, z: -250 }
       max: { x: 183, y: 105, z: -134 }
     orientation: NORTH
+    defaultOccupiers: Elves
 
   - id: HUMAN_KEEP
     model: human_keep
@@ -114,6 +116,7 @@ objectives:
       min: { x: -103, y: 52, z: 157 }
       max: { x: -10, y: 115, z: 238 }
     orientation: NORTH
+    defaultOccupiers: Humans
 
   - id: ORC_KEEP
     model: orc_keep
@@ -149,6 +152,7 @@ objectives:
       min: { x: 114, y: 47, z: 25 }
       max: { x: 209, y: 102, z: 126 }
     orientation: NORTH
+    defaultOccupiers: Orcs
 
 blacklistedAreas:
   # Dwarf capital
