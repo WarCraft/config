@@ -1,0 +1,30 @@
+# Staff Permissions
+staffPermission: monolith.staff
+modPermission: monolith.mod
+adminPermission: monolith.admin
+devPermission: monolith.dev
+
+# Staff Tools
+moderatingItem: FLINT
+debuggingItem: DEBUG_STICK
+
+# Build Repository
+buildRepository:
+  boundingBox:
+    world: world
+    min: { x: 0, y: 0, z: 0 }
+    max: { x: 0, y: 0, z: 0 }
+  orientation: NORTH
+
+# Maintenance Mode
+maintenanceMode: false
+maintenanceModePermission: monolith.staff
+
+# Miscellaneous
+baseHealth: 40
+serverTimeZoneUtcOffset: "Z"
+shutdownMessage: The server is going down for maintenance.
+
+tipsPeriodInMinutes: 10
+tips:
+  - Any feedback? Please let us know at discord.link.here!
