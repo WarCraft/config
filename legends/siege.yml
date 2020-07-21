@@ -127,7 +127,7 @@ objectives:
         world: world
         translation: { x: 167, y: 70, z: 61 }
         rotation: { x: 0, y: 0, z: 1 }
-      radius: 6
+      radius: 4
     portals:
       # outer
       - entry:
