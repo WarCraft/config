@@ -1872,7 +1872,7 @@ tooltips:
           special:
             LEGENDARY:
               - name: Blink
-                flavorText: Don't
+                flavorText: [Don't]
         HEAD:
           default: 
             name: Predator Cap
@@ -2164,101 +2164,101 @@ tooltips:
       OFFENSE:
         WAND:
           default: 
-            name: Witch Wand
+            name: Delver Wand
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Hand of the Haruspex
+              - name: Transmutator
                 flavorText: ~
         STAFF:
           default: 
-            name: Witch Staff
+            name: Delver Staff
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Grand Deceiver Rod
+              - name: Staff of Command
                 flavorText: ~
         BOOK:
           default: 
-            name: Witch Book
+            name: Delver Book
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Notes of the Crone
+              - name: End’s Prophecy
                 flavorText: ~
         HEAD:
           default: 
-            name: Witch Hat
+            name: Delver Hat
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Twisted Hat
+              - name: Fragmented Core Hat
                 flavorText: ~
         CHEST:
           default: 
-            name: Witch Robe
+            name: Delver Robe
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Twisted Robe
+              - name: Fragmented Core Robe
                 flavorText: ~
         LEGS:
           default: 
-            name: Witch Pants
+            name: Delver Pants
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Twisted Pants
+              - name: Fragmented Core Pants
                 flavorText: ~
         FEET:
           default: 
-            name: Witch Shoes
+            name: Delver Shoes
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Twisted Shoes
+              - name: Fragmented Core Shoes
                 flavorText: ~
 
       BALANCE:
         WAND:
           default: 
-            name: Sorcerer Wand
+            name: Runepriest Wand
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Bright
+              - name: Dorri’s Dizzle Dazzle
                 flavorText: ~
         STAFF:
           default: 
-            name: Sorcerer Staff
+            name: Runepriest Staff
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Talking Turtle Taff
+              - name: Ten Thunder
                 flavorText: ~
         BOOK:
           default: 
-            name: Sorcerer Book
+            name: Runepriest Book
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Great Mage Journal
+              - name: Secrets of Seduction
                 flavorText: ~
         HEAD:
           default: 
-            name: Sorcerer Hat
+            name: Runepriest Hat
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Arcane Hat
+              - name: Crimson Priest Hat
                 flavorText: ~
         CHEST:
           default: 
-            name: Sorcerer Robe
+            name: Runepriest Robe
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Arcane Robe
+              - name: Crimson Priest Robe
                 flavorText: ~
         LEGS:
           default: 
@@ -2266,73 +2266,73 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Arcane Pants
+              - name: Crimson Priest Pants
                 flavorText: ~
         FEET:
           default: 
-            name: Sorcerer Shoes
+            name: Runepriest Shoes
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Arcane Shoes
+              - name: Crimson Priest Shoes
                 flavorText: ~
 
       DEFENSE:
         WAND:
           default: 
-            name: Enchanter Wand
+            name: Earthen Wand
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Deflector
+              - name: Kabouter
                 flavorText: ~
         STAFF:
           default: 
-            name: Enchanter Staff
+            name: Earthen Staff
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Warpwood Cane
+              - name: Mountain’s Might
                 flavorText: ~
         BOOK:
           default: 
-            name: Enchanter Book
+            name: Earthen Book
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Withered Lexicon
+              - name: Encyclopedia of Grudges
                 flavorText: ~
         HEAD:
           default: 
-            name: Enchanter Hat
+            name: Earthen Hat
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Luminous Velvet Hat
+              - name: Burden of the Wise Hat
                 flavorText: ~
         CHEST:
           default: 
-            name: Enchanter Robe
+            name: Earthen Robe
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Luminous Velvet Robe
+              - name: Burden of the Wise Robe
                 flavorText: ~
         LEGS:
           default: 
-            name: Enchanter Pants
+            name: Earthen Pants
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Luminous Velvet Pants
+              - name: Burden of the Wise Pants
                 flavorText: ~
         FEET:
           default: 
-            name: Enchanter Shoes
+            name: Earthen Shoes
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Luminous Velvet Shoes
+              - name: Burden of the Wise Shoes
                 flavorText: ~
 
 
@@ -2340,175 +2340,175 @@ tooltips:
       OFFENSE:
         WAND:
           default: 
-            name: Witch Wand
+            name: Spellsinger Wand
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Hand of the Haruspex
+              - name: Siren’s Song
                 flavorText: ~
         STAFF:
           default: 
-            name: Witch Staff
+            name: Spellsinger Staff
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Grand Deceiver Rod
+              - name: The Nightmare
                 flavorText: ~
         BOOK:
           default: 
-            name: Witch Book
+            name: Spellsinger Book
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Notes of the Crone
+              - name: Lila’s Libretto
                 flavorText: ~
         HEAD:
           default: 
-            name: Witch Hat
+            name: Spellsinger Hat
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Twisted Hat
+              - name: Solya’s Serenade Hat
                 flavorText: ~
         CHEST:
           default: 
-            name: Witch Robe
+            name: Spellsinger Robe
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Twisted Robe
+              - name: Solya’s Serenade Robe
                 flavorText: ~
         LEGS:
           default: 
-            name: Witch Pants
+            name: Spellsinger Pants
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Twisted Pants
+              - name: Solya’s Serenade Pants
                 flavorText: ~
         FEET:
           default: 
-            name: Witch Shoes
+            name: Spellsinger Shoes
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Twisted Shoes
+              - name: Solya’s Serenade Shoes
                 flavorText: ~
 
       BALANCE:
         WAND:
           default: 
-            name: Sorcerer Wand
+            name: Druid Wand
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Bright
+              - name: Prophet’s Branch
                 flavorText: ~
         STAFF:
           default: 
-            name: Sorcerer Staff
+            name: Druid Staff
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Talking Turtle Taff
+              - name: Grovetender
                 flavorText: ~
         BOOK:
           default: 
-            name: Sorcerer Book
+            name: Druid Book
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Great Mage Journal
+              - name: Overgrown Octavo
                 flavorText: ~
         HEAD:
           default: 
-            name: Sorcerer Hat
+            name: Druid Hat
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Arcane Hat
+              - name: Nature’s Symbiosis Hat
                 flavorText: ~
         CHEST:
           default: 
-            name: Sorcerer Robe
+            name: Druid Robe
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Arcane Robe
+              - name: Nature’s Symbiosis Robe
                 flavorText: ~
         LEGS:
           default: 
-            name: Sorcerer Pants
+            name: Druid Pants
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Arcane Pants
+              - name: Nature’s Symbiosis Pants
                 flavorText: ~
         FEET:
           default: 
-            name: Sorcerer Shoes
+            name: Druid Shoes
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Arcane Shoes
+              - name: Nature’s Symbiosis Shoes
                 flavorText: ~
 
       DEFENSE:
         WAND:
           default: 
-            name: Enchanter Wand
+            name: Loremaster Wand
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Deflector
+              - name: Timetwister
                 flavorText: ~
         STAFF:
           default: 
-            name: Enchanter Staff
+            name: Loremaster Staff
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Warpwood Cane
+              - name: Soulshaper
                 flavorText: ~
         BOOK:
           default: 
-            name: Enchanter Book
+            name: Loremaster Book
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Withered Lexicon
-                flavorText: ~
+              - name: Secrets of the Realm’s Weave
+                flavorText: [If you try to read it you'll find the pages to be blank. You can only see unreadable text in your peripheral vision.]
         HEAD:
           default: 
-            name: Enchanter Hat
+            name: Loremaster Hat
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Luminous Velvet Hat
+              - name: Flavor of Time Hat
                 flavorText: ~
         CHEST:
           default: 
-            name: Enchanter Robe
+            name: Loremaster Robe
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Luminous Velvet Robe
+              - name: Flavor of Time Robe
                 flavorText: ~
         LEGS:
           default: 
-            name: Enchanter Pants
+            name: Loremaster Pants
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Luminous Velvet Pants
+              - name: Flavor of Time Pants
                 flavorText: ~
         FEET:
           default: 
-            name: Enchanter Shoes
+            name: Loremaster Shoes
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Luminous Velvet Shoes
+              - name: Flavor of Time Shoes
                 flavorText: ~
 
 
@@ -2516,7 +2516,7 @@ tooltips:
       OFFENSE:
         WAND:
           default: 
-            name: Witch Wand
+            name: Twisted Wand
             flavorText: ~
           special:
             LEGENDARY:
@@ -2524,7 +2524,7 @@ tooltips:
                 flavorText: ~
         STAFF:
           default: 
-            name: Witch Staff
+            name: Twisted Staff
             flavorText: ~
           special:
             LEGENDARY:
@@ -2532,7 +2532,7 @@ tooltips:
                 flavorText: ~
         BOOK:
           default: 
-            name: Witch Book
+            name: Twisted Book
             flavorText: ~
           special:
             LEGENDARY:
@@ -2540,35 +2540,35 @@ tooltips:
                 flavorText: ~
         HEAD:
           default: 
-            name: Witch Hat
+            name: Twisted Hat
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Twisted Hat
+              - name: Archmage’s Defiance Hat
                 flavorText: ~
         CHEST:
           default: 
-            name: Witch Robe
+            name: Twisted Robe
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Twisted Robe
+              - name: Archmage’s Defiance Robe
                 flavorText: ~
         LEGS:
           default: 
-            name: Witch Pants
+            name: Twisted Pants
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Twisted Pants
+              - name: Archmage’s Defiance Pants
                 flavorText: ~
         FEET:
           default: 
-            name: Witch Shoes
+            name: Twisted Shoes
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Twisted Shoes
+              - name: Archmage’s Defiance Shoes
                 flavorText: ~
 
       BALANCE:
@@ -2594,7 +2594,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Great Mage Journal
+              - name: High Mage’s Journal
                 flavorText: ~
         HEAD:
           default: 
@@ -2602,7 +2602,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Arcane Hat
+              - name: Fandal’s Finery Hat
                 flavorText: ~
         CHEST:
           default: 
@@ -2610,7 +2610,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Arcane Robe
+              - name: Fandal’s Finery Robe
                 flavorText: ~
         LEGS:
           default: 
@@ -2618,7 +2618,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Arcane Pants
+              - name: Fandal’s Finery Pants
                 flavorText: ~
         FEET:
           default: 
@@ -2626,7 +2626,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Arcane Shoes
+              - name: Fandal’s Finery Shoes
                 flavorText: ~
 
       DEFENSE:
@@ -2660,7 +2660,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Luminous Velvet Hat
+              - name: Shimmer of the Invoker Hat
                 flavorText: ~
         CHEST:
           default: 
@@ -2668,7 +2668,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Luminous Velvet Robe
+              - name: Shimmer of the Invoker Robe
                 flavorText: ~
         LEGS:
           default: 
@@ -2676,7 +2676,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Luminous Velvet Pants
+              - name: Shimmer of the Invoker Pants
                 flavorText: ~
         FEET:
           default: 
@@ -2684,7 +2684,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Luminous Velvet Shoes
+              - name: Shimmer of the Invoker Shoes
                 flavorText: ~
 
 
@@ -2782,7 +2782,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Ceremonial Hat
+              - name: Garga’s Wail Hat
                 flavorText: ~
         CHEST:
           default: 
@@ -2790,7 +2790,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Ceremonial Robe
+              - name: Garga’s Wail Robe
                 flavorText: ~
         LEGS:
           default: 
@@ -2798,7 +2798,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Ceremonial Pants
+              - name: Garga’s Wail Pants
                 flavorText: ~
         FEET:
           default: 
@@ -2806,7 +2806,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Ceremonial Shoes
+              - name: Garga’s Wail Shoes
                 flavorText: ~
 
       DEFENSE:
@@ -2840,7 +2840,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Earthen Hat
+              - name: Volcano’s Restraint Hat
                 flavorText: ~
         CHEST:
           default: 
@@ -2848,7 +2848,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Earthen Robe
+              - name: Volcano’s Restraint Robe
                 flavorText: ~
         LEGS:
           default: 
@@ -2856,7 +2856,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Earthen Pants
+              - name: Volcano’s Restraint Pants
                 flavorText: ~
         FEET:
           default: 
@@ -2864,5 +2864,5 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Earthen Shoes
+              - name: Volcano’s Restraint Shoes
                 flavorText: ~
