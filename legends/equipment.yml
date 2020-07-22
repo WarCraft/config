@@ -1555,129 +1555,151 @@ tooltips:
       OFFENSE:
         BOW:
           default: 
-            name: Cutthroat Bow
+            name: Thunderer Bow
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Gaium Oak
+              - name: Wintertooth
                 flavorText: ~
-              - name: Elysium
+        CROSSBOW:
+          default: 
+            name: Thunderer Crossbow
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Argos' Arbalest
                 flavorText: ~
         HEAD:
           default: 
-            name: Cutthroat Cap
+            name: Thunderer Cap
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Von Kleft Cap
+              - name: Gyrotinker Cap
                 flavorText: ~
         CHEST:
           default: 
-            name: Cutthroat Coat
+            name: Thunderer Coat
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Von Kleft Coat
+              - name: Gyrotinker Coat
                 flavorText: ~
         LEGS:
           default: 
-            name: Cutthroat Leggings
+            name: Thunderer Leggings
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Von Kleft Leggings
+              - name: Gyrotinker Leggings
                 flavorText: ~
         FEET:
           default: 
-            name: Cutthroat Boots
+            name: Thunderer Boots
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Von Kleft Boots
+              - name: Gyrotinker Boots
                 flavorText: ~
 
       BALANCE:
         BOW:
           default: 
-            name: Swindler Bow
+            name: Runecarver Bow
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Truthseeker
+              - name: Baleful Bow
+                flavorText: ~
+        CROSSBOW:
+          default: 
+            name: Runecarver Crossbow
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Dragon's Claw
                 flavorText: ~
         HEAD:
           default: 
-            name: Swindler Cap
+            name: Runecarver Cap
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Gloomwood Cap
+              - name: Gudr’s Greed Cap
                 flavorText: ~
         CHEST:
           default: 
-            name: Swindler Coat
+            name: Runecarver Coat
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Gloomwood Coat
+              - name: Gudr’s Greed Coat
                 flavorText: ~
         LEGS:
           default: 
-            name: Swindler Leggings
+            name: Runecarver Leggings
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Gloomwood Leggings
+              - name: Gudr’s Greed Leggings
                 flavorText: ~
         FEET:
           default: 
-            name: Swindler Boots
+            name: Runecarver Boots
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Gloomwood Boots
+              - name: Gudr’s Greed Boots
                 flavorText: ~
 
       DEFENSE:
         BOW:
           default: 
-            name: Envoy Bow
+            name: Quareller Bow
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Skytouched Recurve
+              - name: Goldpiercer
+                flavorText: ~
+        CROSSBOW:
+          default: 
+            name: Quareller Crossbow
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Sippa's Spyglass
                 flavorText: ~
         HEAD:
           default: 
-            name: Envoy Cap
+            name: Quareller Cap
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Bone Cap
+              - name: Permafrost Cap
                 flavorText: ~
         CHEST:
           default: 
-            name: Envoy Coat
+            name: Quareller Coat
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Bone Coat
+              - name: Permafrost Coat
                 flavorText: ~
         LEGS:
           default: 
-            name: Envoy Leggings
+            name: Quareller Leggings
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Bone Leggings
+              - name: Permafrost Leggings
                 flavorText: ~
         FEET:
           default: 
-            name: Envoy Boots
+            name: Quareller Boots
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Bone Boots
+              - name: Permafrost Boots
                 flavorText: ~
 
 
@@ -1685,129 +1707,151 @@ tooltips:
       OFFENSE:
         BOW:
           default: 
-            name: Cutthroat Bow
+            name: Sinister Bow
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Gaium Oak
+              - name: Recurve of Twilight
                 flavorText: ~
-              - name: Elysium
+        CROSSBOW:
+          default: 
+            name: Sinister Crossbow
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Harpies Touch
                 flavorText: ~
         HEAD:
           default: 
-            name: Cutthroat Cap
+            name: Sinister Cap
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Von Kleft Cap
+              - name: Shadow of Neferet Cap
                 flavorText: ~
         CHEST:
           default: 
-            name: Cutthroat Coat
+            name: Sinister Coat
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Von Kleft Coat
+              - name: Shadow of Neferet Coat
                 flavorText: ~
         LEGS:
           default: 
-            name: Cutthroat Leggings
+            name: Sinister Leggings
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Von Kleft Leggings
+              - name: Shadow of Neferet Leggings
                 flavorText: ~
         FEET:
           default: 
-            name: Cutthroat Boots
+            name: Sinister Boots
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Von Kleft Boots
+              - name: Shadow of Neferet Boots
                 flavorText: ~
 
       BALANCE:
         BOW:
           default: 
-            name: Swindler Bow
+            name: Trickster Bow
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Truthseeker
+              - name: Eagle's Wing
+                flavorText: ~
+        CROSSBOW:
+          default: 
+            name: Trickster Crossbow
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Starspine
                 flavorText: ~
         HEAD:
           default: 
-            name: Swindler Cap
+            name: Trickster Cap
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Gloomwood Cap
+              - name: Scion of the Wild Cap
                 flavorText: ~
         CHEST:
           default: 
-            name: Swindler Coat
+            name: Trickster Coat
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Gloomwood Coat
+              - name: Scion of the Wild Coat
                 flavorText: ~
         LEGS:
           default: 
-            name: Swindler Leggings
+            name: Trickster Leggings
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Gloomwood Leggings
+              - name: Scion of the Wild Leggings
                 flavorText: ~
         FEET:
           default: 
-            name: Swindler Boots
+            name: Trickster Boots
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Gloomwood Boots
+              - name: Scion of the Wild Boots
                 flavorText: ~
 
       DEFENSE:
         BOW:
           default: 
-            name: Envoy Bow
+            name: Shade Bow
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Skytouched Recurve
+              - name: Gaium Oak
+                flavorText: ~
+        CROSSBOW:
+          default: 
+            name: Shade Crossbow
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Manticore
                 flavorText: ~
         HEAD:
           default: 
-            name: Envoy Cap
+            name: Shade Cap
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Bone Cap
+              - name: Deepwood Shroud Cap
                 flavorText: ~
         CHEST:
           default: 
-            name: Envoy Coat
+            name: Shade Coat
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Bone Coat
+              - name: Deepwood Shroud Coat
                 flavorText: ~
         LEGS:
           default: 
-            name: Envoy Leggings
+            name: Shade Leggings
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Bone Leggings
+              - name: Deepwood Shroud Leggings
                 flavorText: ~
         FEET:
           default: 
-            name: Envoy Boots
+            name: Shade Boots
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Bone Boots
+              - name: Deepwood Shroud Boots
                 flavorText: ~
 
 
@@ -1815,17 +1859,23 @@ tooltips:
       OFFENSE:
         BOW:
           default: 
-            name: Cutthroat Bow
+            name: Predator Bow
             flavorText: ~
           special:
             LEGENDARY:
               - name: Gaium Oak
                 flavorText: ~
-              - name: Elysium
-                flavorText: ~
+        CROSSBOW:
+          default: 
+            name: Predator Crossbow
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Blink
+                flavorText: Don't
         HEAD:
           default: 
-            name: Cutthroat Cap
+            name: Predator Cap
             flavorText: ~
           special:
             LEGENDARY:
@@ -1833,7 +1883,7 @@ tooltips:
                 flavorText: ~
         CHEST:
           default: 
-            name: Cutthroat Coat
+            name: Predator Coat
             flavorText: ~
           special:
             LEGENDARY:
@@ -1841,7 +1891,7 @@ tooltips:
                 flavorText: ~
         LEGS:
           default: 
-            name: Cutthroat Leggings
+            name: Predator Leggings
             flavorText: ~
           special:
             LEGENDARY:
@@ -1849,7 +1899,7 @@ tooltips:
                 flavorText: ~
         FEET:
           default: 
-            name: Cutthroat Boots
+            name: Predator Boots
             flavorText: ~
           special:
             LEGENDARY:
@@ -1859,85 +1909,101 @@ tooltips:
       BALANCE:
         BOW:
           default: 
-            name: Swindler Bow
+            name: Trapper Bow
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Truthseeker
+              - name: Elysium
+                flavorText: ~
+        CROSSBOW:
+          default: 
+            name: Trapper Crossbow
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Eisenhorn’s Decree
                 flavorText: ~
         HEAD:
           default: 
-            name: Swindler Cap
+            name: Trapper Cap
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Gloomwood Cap
+              - name: Sabba’s Carapace Cap
                 flavorText: ~
         CHEST:
           default: 
-            name: Swindler Coat
+            name: Trapper Coat
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Gloomwood Coat
+              - name: Sabba’s Carapace Coat
                 flavorText: ~
         LEGS:
           default: 
-            name: Swindler Leggings
+            name: Trapper Leggings
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Gloomwood Leggings
+              - name: Sabba’s Carapace Leggings
                 flavorText: ~
         FEET:
           default: 
-            name: Swindler Boots
+            name: Trapper Boots
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Gloomwood Boots
+              - name: Sabba’s Carapace Boots
                 flavorText: ~
 
       DEFENSE:
         BOW:
           default: 
-            name: Envoy Bow
+            name: Stalker Bow
             flavorText: ~
           special:
             LEGENDARY:
               - name: Skytouched Recurve
                 flavorText: ~
-        HEAD:
+        CROSSBOW:
           default: 
-            name: Envoy Cap
+            name: Stalker Crossbow
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Bone Cap
+              - name: Stalker's Shame
+                flavorText: ~
+        HEAD:
+          default: 
+            name: Stalker Cap
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Wildebeast Hide Cap
                 flavorText: ~
         CHEST:
           default: 
-            name: Envoy Coat
+            name: Stalker Coat
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Bone Coat
+              - name: Wildebeast Hide Coat
                 flavorText: ~
         LEGS:
           default: 
-            name: Envoy Leggings
+            name: Stalker Leggings
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Bone Leggings
+              - name: Wildebeast Hide Leggings
                 flavorText: ~
         FEET:
           default: 
-            name: Envoy Boots
+            name: Stalker Boots
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Bone Boots
+              - name: Wildebeast Hide Boots
                 flavorText: ~
 
 
@@ -1949,7 +2015,15 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Eyegouger
+              - name: Moon Gob’s Bow
+                flavorText: ~
+        CROSSBOW:
+          default: 
+            name: Huntmaster Crossbow
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Sun Gob’s Crossbow
                 flavorText: ~
         HEAD:
           default: 
@@ -1957,7 +2031,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Bull Cap
+              - name: Barazaak Skulker Cap
                 flavorText: ~
         CHEST:
           default: 
@@ -1965,7 +2039,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Bull Coat
+              - name: Barazaak Skulker Coat
                 flavorText: ~
         LEGS:
           default: 
@@ -1973,7 +2047,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Bull Leggings
+              - name: Barazaak Skulker Leggings
                 flavorText: ~
         FEET:
           default: 
@@ -1981,49 +2055,57 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Bull Boots
+              - name: Barazaak Skulker Boots
                 flavorText: ~
 
       BALANCE:
         BOW:
           default: 
-            name: Beastmaster Bow
+            name: Beastwrangler Bow
             flavorText: ~
           special:
             LEGENDARY:
               - name: Gutgorger
                 flavorText: ~
-        HEAD:
+        CROSSBOW:
           default: 
-            name: Beastmaster Cap
+            name: Beastwrangler Crossbow
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Barazaak Cap
+              - name: Dwarf Gouger
+                flavorText: ~
+        HEAD:
+          default: 
+            name: Beastwrangler Cap
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Beastbreaker’s Dominance Cap
                 flavorText: ~
         CHEST:
           default: 
-            name: Beastmaster Coat
+            name: Beastwrangler Coat
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Barazaak Coat
+              - name: Beastbreaker’s Dominance Coat
                 flavorText: ~
         LEGS:
           default: 
-            name: Beastmaster Leggings
+            name: Beastwrangler Leggings
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Barazaak Leggings
+              - name: Beastbreaker’s Dominance Leggings
                 flavorText: ~
         FEET:
           default: 
-            name: Beastmaster Boots
+            name: Beastwrangler Boots
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Barazaak Boots
+              - name: Beastbreaker’s Dominance Boots
                 flavorText: ~
 
       DEFENSE:
@@ -2034,6 +2116,14 @@ tooltips:
           special:
             LEGENDARY:
               - name: Kneesplitter
+                flavorText: ~
+        CROSSBOW:
+          default: 
+            name: Mudlurker Crossbow
+            flavorText: ~
+          special:
+            LEGENDARY:
+              - name: Swiftshot
                 flavorText: ~
         HEAD:
           default: 
