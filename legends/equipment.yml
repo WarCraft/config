@@ -39,7 +39,7 @@ dropRates:
   COMMON: 0.0
   RARE: 75.0
   EPIC: 93.75
-  LEGENDARY: 99.609
+# LEGENDARY: 99.609
 # ANCIENT: 99.976
 
 
@@ -228,7 +228,7 @@ attributeRolls:
           low: 1
           high: 5
 
-legendaryRolls:
+#legendaryRolls:
   WARRIOR:
     OFFENSE:
       - - attribute: STRENGTH
@@ -846,177 +846,175 @@ tooltips:
       OFFENSE:
         SWORD:
           default: 
-            name: Hero Sword
+            name: Slayer Sword
             flavorText: ~
           special:
             LEGENDARY:
               - name: Orcbane
                 flavorText: ~
-              - name: The Bloody Baron
-                flavorText: [FUCK YOU!]
         AXE:
           default: 
-            name: Hero Axe
+            name: Slayer Axe
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Jagerax
+              - name: Verminlobber
                 flavorText: ~
         SHIELD:
           default: 
-            name: Hero Shield
+            name: Slayer Shield
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Guardian of the West
+              - name: Wailing Wall
                 flavorText: ~
         HEAD:
           default: 
-            name: Hero Helmet
+            name: Slayer Helmet
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Conqueror Helmet
+              - name: Khaz-aadt’s Avatar Helmet
                 flavorText: ~
         CHEST:
           default: 
-            name: Hero Chestplate
+            name: Slayer Chestplate
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Conqueror Chestplate
+              - name: Khaz-aadt’s Avatar Chestplate
                 flavorText: ~
         LEGS:
           default: 
-            name: Hero Legplates
+            name: Slayer Legplates
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Conqueror Legplates
+              - name: Khaz-aadt’s Avatar Legplates
                 flavorText: ~
         FEET:
           default: 
-            name: Hero Greaves
+            name: Slayer Greaves
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Conqueror Greaves
+              - name: Khaz-aadt’s Avatar Greaves
                 flavorText: ~
 
       BALANCE:
         SWORD:
           default: 
-            name: Champion Sword
+            name: Runesmith Sword
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Golden Rimmed Zweihander
+              - name: Giant's Shin
                 flavorText: ~
         AXE:
           default: 
-            name: Champion Axe
+            name: Runesmith Axe
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Great Estoc
+              - name: Oatbreaker
                 flavorText: ~
         SHIELD:
           default: 
-            name: Champion Shield
+            name: Runesmith Shield
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Battered Bastion
+              - name: Bulwark of the North
                 flavorText: ~
         HEAD:
           default: 
-            name: Champion Helmet
+            name: Runesmith Helmet
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Greatplate Helmet
+              - name: Legacy of Thelkan Helmet
                 flavorText: ~
         CHEST:
           default: 
-            name: Champion Chestplate
+            name: Runesmith Chestplate
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Greatplate Chestplate
+              - name: Legacy of Thelkan Chestplate
                 flavorText: ~
         LEGS:
           default: 
-            name: Champion Legplates
+            name: Runesmith Legplates
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Greatplate Legplates
+              - name: Legacy of Thelkan Legplates
                 flavorText: ~
         FEET:
           default: 
-            name: Champion Greaves
+            name: Runesmith Greaves
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Greatplate Greaves
+              - name: Legacy of Thelkan Greaves
                 flavorText: ~
 
       DEFENSE:
         SWORD:
           default: 
-            name: Guardian Sword
+            name: Grumbler Sword
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Excalibur
-                flavorText: [...whose power was meant, to unite all men...]
+              - name: Ovuz’o’kergull
+                flavorText: ~
         AXE:
           default: 
-            name: Guardian Axe
+            name: Grumbler Axe
             flavorText: ~
           special:
             LEGENDARY:
-              - name: The Cleanser
+              - name: Drak's Mercy
                 flavorText: ~
         SHIELD:
           default: 
-            name: Guardian Shield
+            name: Grumbler Shield
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Blinding Redoubt
+              - name: Vault Door
                 flavorText: ~
         HEAD:
           default: 
-            name: Guardian Helmet
+            name: Grumbler Helmet
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Sovereign Helmet
+              - name: Immortal King’s Oath Helmet
                 flavorText: ~
         CHEST:
           default: 
-            name: Guardian Chestplate
+            name: Grumbler Chestplate
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Sovereign Chestplate
+              - name: Immortal King’s Oath Chestplate
                 flavorText: ~
         LEGS:
           default: 
-            name: Guardian Legplates
+            name: Grumbler Legplates
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Sovereign Legplates
+              - name: Immortal King’s Oath Legplates
                 flavorText: ~
         FEET:
           default: 
-            name: Guardian Greaves
+            name: Grumbler Greaves
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Sovereign Greaves
+              - name: Immortal King’s Oath Greaves
                 flavorText: ~
 
 
@@ -1024,177 +1022,175 @@ tooltips:
       OFFENSE:
         SWORD:
           default: 
-            name: Hero Sword
+            name: Wardancer Sword
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Orcbane
+              - name: Murasame
                 flavorText: ~
-              - name: The Bloody Baron
-                flavorText: [FUCK YOU!]
         AXE:
           default: 
-            name: Hero Axe
+            name: Wardancer Axe
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Jagerax
+              - name: Woodfell
                 flavorText: ~
         SHIELD:
           default: 
-            name: Hero Shield
+            name: Wardancer Shield
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Guardian of the West
+              - name: Deflection
                 flavorText: ~
         HEAD:
           default: 
-            name: Hero Helmet
+            name: Wardancer Helmet
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Conqueror Helmet
+              - name: Eternal Dance Helmet
                 flavorText: ~
         CHEST:
           default: 
-            name: Hero Chestplate
+            name: Wardancer Chestplate
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Conqueror Chestplate
+              - name: Eternal Dance Chestplate
                 flavorText: ~
         LEGS:
           default: 
-            name: Hero Legplates
+            name: Wardancer Legplates
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Conqueror Legplates
+              - name: Eternal Dance Legplates
                 flavorText: ~
         FEET:
           default: 
-            name: Hero Greaves
+            name: Wardancer Greaves
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Conqueror Greaves
+              - name: Eternal Dance Greaves
                 flavorText: ~
 
       BALANCE:
         SWORD:
           default: 
-            name: Champion Sword
+            name: Dryad Sword
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Golden Rimmed Zweihander
+              - name: Globdalac
                 flavorText: ~
         AXE:
           default: 
-            name: Champion Axe
+            name: Dryad Axe
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Great Estoc
+              - name: Amberchild
                 flavorText: ~
         SHIELD:
           default: 
-            name: Champion Shield
+            name: Dryad Shield
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Battered Bastion
+              - name: Warden of the East
                 flavorText: ~
         HEAD:
           default: 
-            name: Champion Helmet
+            name: Dryad Helmet
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Greatplate Helmet
+              - name: Grace of the Aesir Helmet
                 flavorText: ~
         CHEST:
           default: 
-            name: Champion Chestplate
+            name: Dryad Chestplate
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Greatplate Chestplate
+              - name: Grace of the Aesir Chestplate
                 flavorText: ~
         LEGS:
           default: 
-            name: Champion Legplates
+            name: Dryad Legplates
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Greatplate Legplates
+              - name: Grace of the Aesir Legplates
                 flavorText: ~
         FEET:
           default: 
-            name: Champion Greaves
+            name: Dryad Greaves
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Greatplate Greaves
+              - name: Grace of the Aesir Greaves
                 flavorText: ~
 
       DEFENSE:
         SWORD:
           default: 
-            name: Guardian Sword
+            name: Warden Sword
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Excalibur
-                flavorText: [...whose power was meant, to unite all men...]
+              - name: Wind’s Dance
+                flavorText: ~
         AXE:
           default: 
-            name: Guardian Axe
+            name: Warden Axe
             flavorText: ~
           special:
             LEGENDARY:
-              - name: The Cleanser
+              - name: Chaga’s Dream
                 flavorText: ~
         SHIELD:
           default: 
-            name: Guardian Shield
+            name: Warden Shield
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Blinding Redoubt
+              - name: Wyrwood Bark
                 flavorText: ~
         HEAD:
           default: 
-            name: Guardian Helmet
+            name: Warden Helmet
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Sovereign Helmet
+              - name: Warden of Cyntra Helmet
                 flavorText: ~
         CHEST:
           default: 
-            name: Guardian Chestplate
+            name: Warden Chestplate
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Sovereign Chestplate
+              - name: Warden of Cyntra Chestplate
                 flavorText: ~
         LEGS:
           default: 
-            name: Guardian Legplates
+            name: Warden Legplates
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Sovereign Legplates
+              - name: Warden of Cyntra Legplates
                 flavorText: ~
         FEET:
           default: 
-            name: Guardian Greaves
+            name: Warden Greaves
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Sovereign Greaves
+              - name: Warden of Cyntra Greaves
                 flavorText: ~
 
 
@@ -1202,17 +1198,15 @@ tooltips:
       OFFENSE:
         SWORD:
           default: 
-            name: Hero Sword
+            name: Gladiator Sword
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Orcbane
-                flavorText: ~
               - name: The Bloody Baron
                 flavorText: [FUCK YOU!]
         AXE:
           default: 
-            name: Hero Axe
+            name: Gladiator Axe
             flavorText: ~
           special:
             LEGENDARY:
@@ -1220,43 +1214,43 @@ tooltips:
                 flavorText: ~
         SHIELD:
           default: 
-            name: Hero Shield
+            name: Gladiator Shield
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Guardian of the West
+              - name: Battered Bastion
                 flavorText: ~
         HEAD:
           default: 
-            name: Hero Helmet
+            name: Gladiator Helmet
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Conqueror Helmet
+              - name: Unbeaten Harness Helmet
                 flavorText: ~
         CHEST:
           default: 
-            name: Hero Chestplate
+            name: Gladiator Chestplate
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Conqueror Chestplate
+              - name: Unbeaten Harness Chestplate
                 flavorText: ~
         LEGS:
           default: 
-            name: Hero Legplates
+            name: Gladiator Legplates
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Conqueror Legplates
+              - name: Unbeaten Harness Legplates
                 flavorText: ~
         FEET:
           default: 
-            name: Hero Greaves
+            name: Gladiator Greaves
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Conqueror Greaves
+              - name: Unbeaten Harness Greaves
                 flavorText: ~
 
       BALANCE:
@@ -1282,7 +1276,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Battered Bastion
+              - name: Guardian of the West
                 flavorText: ~
         HEAD:
           default: 
@@ -1290,7 +1284,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Greatplate Helmet
+              - name: Champion’s Fate Helmet
                 flavorText: ~
         CHEST:
           default: 
@@ -1298,7 +1292,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Greatplate Chestplate
+              - name: Champion’s Fate Chestplate
                 flavorText: ~
         LEGS:
           default: 
@@ -1306,7 +1300,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Greatplate Legplates
+              - name: Champion’s Fate Legplates
                 flavorText: ~
         FEET:
           default: 
@@ -1314,7 +1308,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Greatplate Greaves
+              - name: Champion’s Fate Greaves
                 flavorText: ~
 
       DEFENSE:
@@ -1348,7 +1342,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Sovereign Helmet
+              - name: Emperor’s Final Stand Helmet
                 flavorText: ~
         CHEST:
           default: 
@@ -1356,7 +1350,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Sovereign Chestplate
+              - name: Emperor’s Final Stand Chestplate
                 flavorText: ~
         LEGS:
           default: 
@@ -1364,7 +1358,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Sovereign Legplates
+              - name: Emperor’s Final Stand Legplates
                 flavorText: ~
         FEET:
           default: 
@@ -1372,7 +1366,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Sovereign Greaves
+              - name: Emperor’s Final Stand Greaves
                 flavorText: ~
 
 
@@ -1392,7 +1386,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Searing Cleaver
+              - name: Searing Chopper
                 flavorText: ~
               - name: Gutripper
                 flavorText: ~
@@ -1402,9 +1396,9 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Corpsegrinder
+              - name: Steel Rooftop
                 flavorText: ~
-              - name: Bulwark of the South
+              - name: Corpsegrinder
                 flavorText: ~
         HEAD:
           default: 
@@ -1412,7 +1406,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Spiked Helmet
+              - name: Sraak the Spiked Helmet
                 flavorText: ~
         CHEST:
           default: 
@@ -1420,7 +1414,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Spiked Chestplate
+              - name: Sraak the Spiked Chestplate
                 flavorText: ~
         LEGS:
           default: 
@@ -1428,7 +1422,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Spiked Legplates
+              - name: Sraak the Spiked Legplates
                 flavorText: ~
         FEET:
           default: 
@@ -1436,7 +1430,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Spiked Greaves
+              - name: Sraak the Spiked Greaves
                 flavorText: ~
 
       BALANCE:
@@ -1462,7 +1456,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Steel Rooftop
+              - name: Defender of the South
                 flavorText: ~
         HEAD:
           default: 
@@ -1470,7 +1464,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Warchief Helmet
+              - name: Bull’s Might Helmet
                 flavorText: ~
         CHEST:
           default: 
@@ -1478,7 +1472,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Warchief Chestplate
+              - name: Bull’s Might Chestplate
                 flavorText: ~
         LEGS:
           default: 
@@ -1486,7 +1480,7 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Warchief Legplates
+              - name: Bull’s Might Legplates
                 flavorText: ~
         FEET:
           default: 
@@ -1494,21 +1488,21 @@ tooltips:
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Warchief Greaves
+              - name: Bull’s Might Greaves
                 flavorText: ~
 
       DEFENSE:
         SWORD:
           default: 
-            name: Rampart Sword
+            name: Ogre Sword
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Bull's Horn
+              - name: Vor's Horn
                 flavorText: ~
         AXE:
           default: 
-            name: Rampart Axe
+            name: Ogre Axe
             flavorText: ~
           special:
             LEGENDARY:
@@ -1516,43 +1510,43 @@ tooltips:
                 flavorText: ~
         SHIELD:
           default: 
-            name: Rampart Shield
+            name: Ogre Shield
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Pavise of Hate
+              - name: Pavise of Rage
                 flavorText: ~
         HEAD:
           default: 
-            name: Rampart Helmet
+            name: Ogre Helmet
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Ogre Helmet
+              - name: Bones of Gell’org Helmet
                 flavorText: ~
         CHEST:
           default: 
-            name: Rampart Chestplate
+            name: Ogre Chestplate
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Ogre Chestplate
+              - name: Bones of Gell’org Chestplate
                 flavorText: ~
         LEGS:
           default: 
-            name: Rampart Legplates
+            name: Ogre Legplates
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Ogre Legplates
+              - name: Bones of Gell’org Legplates
                 flavorText: ~
         FEET:
           default: 
-            name: Rampart Greaves
+            name: Ogre Greaves
             flavorText: ~
           special:
             LEGENDARY:
-              - name: Ogre Greaves
+              - name: Bones of Gell’org Greaves
                 flavorText: ~
 
 
