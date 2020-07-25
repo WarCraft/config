@@ -24,20 +24,20 @@ objectives:
       # outer
       - entry:
           world: world
-          translation: { x: -107.5, y: 56, z: 106.5 }
+          translation: { x: -107.5, y: 56, z: -106.5 }
           rotation: { x: 0, y: 0, z: 1 }
         exit:
           world: world
-          translation: { x: -111.5, y: 56, z: 106.5 }
+          translation: { x: -111.5, y: 56, z: -106.5 }
           rotation: { x: 0, y: 0, z: 1 }
       # inner
       - entry:
           world: world
-          translation: { x: -111.5, y: 56, z: 111.5 }
+          translation: { x: -111.5, y: 56, z: -111.5 }
           rotation: { x: 0, y: 0, z: 1 }
         exit:
           world: world
-          translation: { x: -107.5, y: 56, z: 111.5 }
+          translation: { x: -107.5, y: 56, z: -111.5 }
           rotation: { x: 0, y: 0, z: 1 }
     boundingBox:
       world: world
@@ -60,7 +60,7 @@ objectives:
       # outer
       - entry:
           world: world
-          translation: { x: 169.5, y: 56, z: 173.5 }
+          translation: { x: 169.5, y: 56, z: -173.5 }
           rotation: { x: 0, y: 0, z: 1 }
         exit:
           world: world
