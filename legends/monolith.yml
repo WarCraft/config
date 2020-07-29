@@ -15,10 +15,10 @@ teams:
     particleColor: Orange
   - name: Elves
     chatColor: GREEN
-    particleColor: Green
+    particleColor: Lime
   - name: Humans
     chatColor: AQUA
-    particleColor: Blue
+    particleColor: Aqua
   - name: Orcs
     chatColor: RED
     particleColor: Red
