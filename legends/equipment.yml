@@ -44,16 +44,16 @@ dropRates:
 
 
 itemTypes:
-  SWORD:
-    COMMON: SwordVariant:WOOD
-    RARE: SwordVariant:STONE
-    EPIC: SwordVariant:IRON
-    LEGENDARY: SwordVariant:DIAMOND
   AXE:
-    COMMON: AxeVariant:WOOD
-    RARE: AxeVariant:STONE
-    EPIC: AxeVariant:IRON
+    COMMON: AxeVariant:STONE
+    RARE: AxeVariant:IRON
+    EPIC: AxeVariant:GOLD
     LEGENDARY: AxeVariant:DIAMOND
+  SWORD:
+    COMMON: SwordVariant:STONE
+    RARE: SwordVariant:IRON
+    EPIC: SwordVariant:GOLD
+    LEGENDARY: SwordVariant:DIAMOND
   BOW:
     COMMON: BOW
     RARE: BOW
@@ -64,31 +64,33 @@ itemTypes:
     RARE: CROSSBOW
     EPIC: CROSSBOW
     LEGENDARY: CROSSBOW
+  STAFF:
+    COMMON: HoeVariant:STONE
+    RARE: HoeVariant:IRON
+    EPIC: HoeVariant:GOLD
+    LEGENDARY: HoeVariant:DIAMOND
   WAND:
     COMMON: STICK
     RARE: STICK
     EPIC: STICK
-    LEGENDARY: BLAZE_ROD
-  STAFF:
-    COMMON: HoeVariant:WOOD
-    RARE: HoeVariant:STONE
-    EPIC: HoeVariant:IRON
-    LEGENDARY: HoeVariant:DIAMOND
+    LEGENDARY: STICK
+
   SHIELD:
-    COMMON: SHIELD
-    RARE: SHIELD
-    EPIC: SHIELD
-    LEGENDARY: SHIELD
+    COMMON: MusicDiscVariant:DISC_13
+    RARE: MusicDiscVariant:DISC_13
+    EPIC: MusicDiscVariant:DISC_13
+    LEGENDARY: MusicDiscVariant:DISC_13
   BOOK:
-    COMMON: BOOK
-    RARE: BOOK
-    EPIC: BOOK
-    LEGENDARY: BOOK
+    COMMON: BLAZE_ROD
+    RARE: BLAZE_ROD
+    EPIC: BLAZE_ROD
+    LEGENDARY: BLAZE_ROD
+
   HEAD:
-    COMMON: HelmetVariant:LEATHER
-    RARE: HelmetVariant:CHAINMAIL
-    EPIC: HelmetVariant:IRON
-    LEGENDARY: HelmetVariant:DIAMOND
+    COMMON: MusicDiscVariant:DISC_11
+    RARE: MusicDiscVariant:DISC_11
+    EPIC: MusicDiscVariant:DISC_11
+    LEGENDARY: MusicDiscVariant:DISC_11
   CHEST:
     COMMON: ChestplateVariant:LEATHER
     RARE: ChestplateVariant:CHAINMAIL
@@ -228,7 +230,7 @@ attributeRolls:
           low: 1
           high: 5
 
-#legendaryRolls:
+legendaryRolls:
   WARRIOR:
     OFFENSE:
       - - attribute: STRENGTH
@@ -268,7 +270,7 @@ attributeRolls:
           high: 12
         - attribute: VITALITY
           low: 7
-          high: 7 
+          high: 7
   HUNTER:
     OFFENSE:
       - - attribute: DEXTERITY
@@ -308,7 +310,7 @@ attributeRolls:
           high: 12
         - attribute: VITALITY
           low: 7
-          high: 7 
+          high: 7
   MAGE:
     OFFENSE:
       - - attribute: INTELLECT
@@ -350,127 +352,127 @@ attributeRolls:
           low: 7
           high: 7
 
-# ancientRolls:
-#   WARRIOR:
-#     OFFENSE:
-#       - - attribute: STRENGTH
-#           low: 15
-#           high: 15
-#         - attribute: CRIT
-#           low: 10
-#           high: 10
-#       - - attribute: STRENGTH
-#           low: 10
-#           high: 10
-#         - attribute: CRIT
-#           low: 15
-#           high: 15
-#     BALANCE:
-#       - - attribute: STRENGTH
-#           low: 12
-#           high: 12
-#         - attribute: CRIT
-#           low: 12
-#           high: 12
-#       - - attribute: STRENGTH
-#           low: 12
-#           high: 12
-#         - attribute: VITALITY
-#           low: 12
-#           high: 12
-#     DEFENSE:
-#       - - attribute: STRENGTH
-#           low: 10
-#           high: 10
-#         - attribute: VITALITY
-#           low: 15
-#           high: 15
-#       - - attribute: STRENGTH
-#           low: 15
-#           high: 15
-#         - attribute: VITALITY
-#           low: 10
-#           high: 10
-#   HUNTER:
-#     OFFENSE:
-#       - - attribute: DEXTERITY
-#           low: 15
-#           high: 15
-#         - attribute: CRIT
-#           low: 10
-#           high: 10
-#       - - attribute: DEXTERITY
-#           low: 10
-#           high: 10
-#         - attribute: CRIT
-#           low: 15
-#           high: 15
-#     BALANCE:
-#       - - attribute: DEXTERITY
-#           low: 12
-#           high: 12
-#         - attribute: CRIT
-#           low: 12
-#           high: 12
-#       - - attribute: DEXTERITY
-#           low: 12
-#           high: 12
-#         - attribute: VITALITY
-#           low: 12
-#           high: 12
-#     DEFENSE:
-#       - - attribute: DEXTERITY
-#           low: 10
-#           high: 10
-#         - attribute: VITALITY
-#           low: 15
-#           high: 15
-#       - - attribute: DEXTERITY
-#           low: 15
-#           high: 15
-#         - attribute: VITALITY
-#           low: 10
-#           high: 10
-#   MAGE:
-#     OFFENSE:
-#       - - attribute: INTELLECT
-#           low: 15
-#           high: 15
-#         - attribute: CRIT
-#           low: 10
-#           high: 10
-#       - - attribute: INTELLECT
-#           low: 10
-#           high: 10
-#         - attribute: CRIT
-#           low: 15
-#           high: 15
-#     BALANCE:
-#       - - attribute: INTELLECT
-#           low: 12
-#           high: 12
-#         - attribute: CRIT
-#           low: 12
-#           high: 12
-#       - - attribute: INTELLECT
-#           low: 12
-#           high: 12
-#         - attribute: VITALITY
-#           low: 12
-#           high: 12
-#     DEFENSE:
-#       - - attribute: INTELLECT
-#           low: 10
-#           high: 10
-#         - attribute: VITALITY
-#           low: 15
-#           high: 15
-#       - - attribute: INTELLECT
-#           low: 15
-#           high: 15
-#         - attribute: VITALITY
-#           low: 10
-#           high: 10
+#ancientRolls:
+#  WARRIOR:
+#    OFFENSE:
+#      - - attribute: STRENGTH
+#          low: 15
+#          high: 15
+#        - attribute: CRIT
+#          low: 10
+#          high: 10
+#      - - attribute: STRENGTH
+#          low: 10
+#          high: 10
+#        - attribute: CRIT
+#          low: 15
+#          high: 15
+#    BALANCE:
+#      - - attribute: STRENGTH
+#          low: 12
+#          high: 12
+#        - attribute: CRIT
+#          low: 12
+#          high: 12
+#      - - attribute: STRENGTH
+#          low: 12
+#          high: 12
+#        - attribute: VITALITY
+#          low: 12
+#          high: 12
+#    DEFENSE:
+#      - - attribute: STRENGTH
+#          low: 10
+#          high: 10
+#        - attribute: VITALITY
+#          low: 15
+#          high: 15
+#      - - attribute: STRENGTH
+#          low: 15
+#          high: 15
+#        - attribute: VITALITY
+#          low: 10
+#          high: 10
+#  HUNTER:
+#    OFFENSE:
+#      - - attribute: DEXTERITY
+#          low: 15
+#          high: 15
+#        - attribute: CRIT
+#          low: 10
+#          high: 10
+#      - - attribute: DEXTERITY
+#          low: 10
+#          high: 10
+#        - attribute: CRIT
+#          low: 15
+#          high: 15
+#    BALANCE:
+#      - - attribute: DEXTERITY
+#          low: 12
+#          high: 12
+#        - attribute: CRIT
+#          low: 12
+#          high: 12
+#      - - attribute: DEXTERITY
+#          low: 12
+#          high: 12
+#        - attribute: VITALITY
+#          low: 12
+#          high: 12
+#    DEFENSE:
+#      - - attribute: DEXTERITY
+#          low: 10
+#          high: 10
+#        - attribute: VITALITY
+#          low: 15
+#          high: 15
+#      - - attribute: DEXTERITY
+#          low: 15
+#          high: 15
+#        - attribute: VITALITY
+#          low: 10
+#          high: 10
+#  MAGE:
+#    OFFENSE:
+#      - - attribute: INTELLECT
+#          low: 15
+#          high: 15
+#        - attribute: CRIT
+#          low: 10
+#          high: 10
+#      - - attribute: INTELLECT
+#          low: 10
+#          high: 10
+#        - attribute: CRIT
+#          low: 15
+#          high: 15
+#    BALANCE:
+#      - - attribute: INTELLECT
+#          low: 12
+#          high: 12
+#        - attribute: CRIT
+#          low: 12
+#          high: 12
+#      - - attribute: INTELLECT
+#          low: 12
+#          high: 12
+#        - attribute: VITALITY
+#          low: 12
+#          high: 12
+#    DEFENSE:
+#      - - attribute: INTELLECT
+#          low: 10
+#          high: 10
+#        - attribute: VITALITY
+#          low: 15
+#          high: 15
+#      - - attribute: INTELLECT
+#          low: 15
+#          high: 15
+#        - attribute: VITALITY
+#          low: 10
+#          high: 10
 
 
 offhandAttributeRolls:
@@ -717,127 +719,364 @@ offhandLegendaryRolls:
           low: 4
           high: 4
 
-# offhandAncientOffhandRolls:
-#   WARRIOR:
-#     OFFENSE:
-#       - - attribute: STRENGTH
-#           low: 5
-#           high: 5
-#         - attribute: CRIT
-#           low: 3
-#           high: 3
-#       - - attribute: STRENGTH
-#           low: 3
-#           high: 3
-#         - attribute: CRIT
-#           low: 5
-#           high: 5
-#     BALANCE:
-#       - - attribute: STRENGTH
-#           low: 4
-#           high: 4
-#         - attribute: CRIT
-#           low: 4
-#           high: 4
-#       - - attribute: STRENGTH
-#           low: 4
-#           high: 4
-#         - attribute: VITALITY
-#           low: 4
-#           high: 4
-#     DEFENSE:
-#       - - attribute: STRENGTH
-#           low: 5
-#           high: 5
-#         - attribute: VITALITY
-#           low: 3
-#           high: 3
-#       - - attribute: STRENGTH
-#           low: 3
-#           high: 3
-#         - attribute: VITALITY
-#           low: 5
-#           high: 5
-#   HUNTER:
-#     OFFENSE:
-#       - - attribute: DEXTERITY
-#           low: 5
-#           high: 5
-#         - attribute: CRIT
-#           low: 3
-#           high: 3
-#       - - attribute: DEXTERITY
-#           low: 3
-#           high: 3
-#         - attribute: CRIT
-#           low: 5
-#           high: 5
-#     BALANCE:
-#       - - attribute: DEXTERITY
-#           low: 4
-#           high: 4
-#         - attribute: CRIT
-#           low: 4
-#           high: 4
-#       - - attribute: DEXTERITY
-#           low: 4
-#           high: 4
-#         - attribute: VITALITY
-#           low: 4
-#           high: 4
-#     DEFENSE:
-#       - - attribute: DEXTERITY
-#           low: 5
-#           high: 5
-#         - attribute: VITALITY
-#           low: 3
-#           high: 3
-#       - - attribute: DEXTERITY
-#           low: 3
-#           high: 3
-#         - attribute: VITALITY
-#           low: 5
-#           high: 5
-#   MAGE:
-#     OFFENSE:
-#       - - attribute: INTELLECT
-#           low: 5
-#           high: 5
-#         - attribute: CRIT
-#           low: 3
-#           high: 3
-#       - - attribute: INTELLECT
-#           low: 3
-#           high: 3
-#         - attribute: CRIT
-#           low: 5
-#           high: 5
-#     BALANCE:
-#       - - attribute: INTELLECT
-#           low: 4
-#           high: 4
-#         - attribute: CRIT
-#           low: 4
-#           high: 4
-#       - - attribute: INTELLECT
-#           low: 4
-#           high: 4
-#         - attribute: VITALITY
-#           low: 4
-#           high: 4
-#     DEFENSE:
-#       - - attribute: INTELLECT
-#           low: 5
-#           high: 5
-#         - attribute: VITALITY
-#           low: 3
-#           high: 3
-#       - - attribute: INTELLECT
-#           low: 3
-#           high: 3
-#         - attribute: VITALITY
-#           low: 5
-#           high: 5
+#offhandAncientOffhandRolls:
+#  WARRIOR:
+#    OFFENSE:
+#      - - attribute: STRENGTH
+#          low: 5
+#          high: 5
+#        - attribute: CRIT
+#          low: 3
+#          high: 3
+#      - - attribute: STRENGTH
+#          low: 3
+#          high: 3
+#        - attribute: CRIT
+#          low: 5
+#          high: 5
+#    BALANCE:
+#      - - attribute: STRENGTH
+#          low: 4
+#          high: 4
+#        - attribute: CRIT
+#          low: 4
+#          high: 4
+#      - - attribute: STRENGTH
+#          low: 4
+#          high: 4
+#        - attribute: VITALITY
+#          low: 4
+#          high: 4
+#    DEFENSE:
+#      - - attribute: STRENGTH
+#          low: 5
+#          high: 5
+#        - attribute: VITALITY
+#          low: 3
+#          high: 3
+#      - - attribute: STRENGTH
+#          low: 3
+#          high: 3
+#        - attribute: VITALITY
+#          low: 5
+#          high: 5
+#  HUNTER:
+#    OFFENSE:
+#      - - attribute: DEXTERITY
+#          low: 5
+#          high: 5
+#        - attribute: CRIT
+#          low: 3
+#          high: 3
+#      - - attribute: DEXTERITY
+#          low: 3
+#          high: 3
+#        - attribute: CRIT
+#          low: 5
+#          high: 5
+#    BALANCE:
+#      - - attribute: DEXTERITY
+#          low: 4
+#          high: 4
+#        - attribute: CRIT
+#          low: 4
+#          high: 4
+#      - - attribute: DEXTERITY
+#          low: 4
+#          high: 4
+#        - attribute: VITALITY
+#          low: 4
+#          high: 4
+#    DEFENSE:
+#      - - attribute: DEXTERITY
+#          low: 5
+#          high: 5
+#        - attribute: VITALITY
+#          low: 3
+#          high: 3
+#      - - attribute: DEXTERITY
+#          low: 3
+#          high: 3
+#        - attribute: VITALITY
+#          low: 5
+#          high: 5
+#  MAGE:
+#    OFFENSE:
+#      - - attribute: INTELLECT
+#          low: 5
+#          high: 5
+#        - attribute: CRIT
+#          low: 3
+#          high: 3
+#      - - attribute: INTELLECT
+#          low: 3
+#          high: 3
+#        - attribute: CRIT
+#          low: 5
+#          high: 5
+#    BALANCE:
+#      - - attribute: INTELLECT
+#          low: 4
+#          high: 4
+#        - attribute: CRIT
+#          low: 4
+#          high: 4
+#      - - attribute: INTELLECT
+#          low: 4
+#          high: 4
+#        - attribute: VITALITY
+#          low: 4
+#          high: 4
+#    DEFENSE:
+#      - - attribute: INTELLECT
+#          low: 5
+#          high: 5
+#        - attribute: VITALITY
+#          low: 3
+#          high: 3
+#      - - attribute: INTELLECT
+#          low: 3
+#          high: 3
+#        - attribute: VITALITY
+#          low: 5
+#          high: 5
+
+
+customModelData:
+  AXE:
+    COMMON:
+      DWARF: 1
+      ELF: 2
+      HUMAN: 3
+      ORC: 4
+      WAYFARER: 100
+    RARE:
+      DWARF: 1
+      ELF: 2
+      HUMAN: 3
+      ORC: 4
+    EPIC:
+      DWARF: 1
+      ELF: 2
+      HUMAN: 3
+      ORC: 4
+  SWORD:
+    COMMON:
+      DWARF: 1
+      ELF: 2
+      HUMAN: 3
+      ORC: 4
+      WAYFARER: 100
+    RARE:
+      DWARF: 1
+      ELF: 2
+      HUMAN: 3
+      ORC: 4
+    EPIC:
+      DWARF: 1
+      ELF: 2
+      HUMAN: 3
+      ORC: 4
+  BOW:
+    COMMON:
+      DWARF: 1
+      ELF: 2
+      HUMAN: 3
+      ORC: 4
+      WAYFARER: 100
+    RARE:
+      DWARF: 5
+      ELF: 6
+      HUMAN: 7
+      ORC: 8
+    EPIC:
+      DWARF: 9
+      ELF: 10
+      HUMAN: 11
+      ORC: 12
+  CROSSBOW:
+    COMMON:
+      DWARF: 1
+      ELF: 2
+      HUMAN: 3
+      ORC: 4
+      WAYFARER: 100
+    RARE:
+      DWARF: 5
+      ELF: 6
+      HUMAN: 7
+      ORC: 8
+    EPIC:
+      DWARF: 9
+      ELF: 10
+      HUMAN: 11
+      ORC: 12
+  STAFF:
+    COMMON:
+      DWARF: 1
+      ELF: 2
+      HUMAN: 3
+      ORC: 4
+      WAYFARER: 100
+    RARE:
+      DWARF: 1
+      ELF: 2
+      HUMAN: 3
+      ORC: 4
+    EPIC:
+      DWARF: 1
+      ELF: 2
+      HUMAN: 3
+      ORC: 4
+  WAND:
+    COMMON:
+      DWARF: 1
+      ELF: 2
+      HUMAN: 3
+      ORC: 4
+      WAYFARER: 100
+    RARE:
+      DWARF: 5
+      ELF: 6
+      HUMAN: 7
+      ORC: 8
+    EPIC:
+      DWARF: 9
+      ELF: 10
+      HUMAN: 11
+      ORC: 12
+
+  SHIELD:
+    COMMON:
+      DWARF: 1
+      ELF: 2
+      HUMAN: 3
+      ORC: 4
+      WAYFARER: 100
+    RARE:
+      DWARF: 5
+      ELF: 6
+      HUMAN: 7
+      ORC: 8
+    EPIC:
+      DWARF: 9
+      ELF: 10
+      HUMAN: 11
+      ORC: 12
+  BOOK:
+    COMMON:
+      DWARF: 1
+      ELF: 2
+      HUMAN: 3
+      ORC: 4
+    RARE:
+      DWARF: 5
+      ELF: 6
+      HUMAN: 7
+      ORC: 8
+    EPIC:
+      DWARF: 9
+      ELF: 10
+      HUMAN: 11
+      ORC: 12
+
+helmetModelData:
+  BERSERKER:
+    COMMON:
+      DWARF: 111
+      ELF: 112
+      HUMAN: 113
+      ORC: 114
+    RARE:
+      DWARF: 121
+      ELF: 122
+      HUMAN: 123
+      ORC: 124
+    EPIC:
+      DWARF: 131
+      ELF: 132
+      HUMAN: 133
+      ORC: 134
+  GUARDIAN:
+    COMMON:
+      DWARF: 211
+      ELF: 212
+      HUMAN: 213
+      ORC: 214
+    RARE:
+      DWARF: 221
+      ELF: 222
+      HUMAN: 223
+      ORC: 224
+    EPIC:
+      DWARF: 231
+      ELF: 232
+      HUMAN: 233
+      ORC: 234
+  RANGER:
+    COMMON:
+      DWARF: 311
+      ELF: 312
+      HUMAN: 313
+      ORC: 314
+    RARE:
+      DWARF: 321
+      ELF: 322
+      HUMAN: 323
+      ORC: 324
+    EPIC:
+      DWARF: 331
+      ELF: 332
+      HUMAN: 333
+      ORC: 334
+  MARKSMAN:
+    COMMON:
+      DWARF: 411
+      ELF: 412
+      HUMAN: 413
+      ORC: 414
+    RARE:
+      DWARF: 421
+      ELF: 422
+      HUMAN: 423
+      ORC: 424
+    EPIC:
+      DWARF: 431
+      ELF: 432
+      HUMAN: 433
+      ORC: 434
+  ELEMENTALIST:
+    COMMON:
+      DWARF: 511
+      ELF: 512
+      HUMAN: 513
+      ORC: 514
+    RARE:
+      DWARF: 521
+      ELF: 522
+      HUMAN: 523
+      ORC: 524
+    EPIC:
+      DWARF: 531
+      ELF: 532
+      HUMAN: 533
+      ORC: 534
+  WIZARD:
+    COMMON:
+      DWARF: 611
+      ELF: 612
+      HUMAN: 613
+      ORC: 614
+    RARE:
+      DWARF: 621
+      ELF: 622
+      HUMAN: 623
+      ORC: 624
+    EPIC:
+      DWARF: 631
+      ELF: 632
+      HUMAN: 633
+      ORC: 634
 
 
 tooltips:
