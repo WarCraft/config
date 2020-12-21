@@ -62,7 +62,7 @@ combatClasses:
     offHandRequired: yes
     invalidWeaponsMessage: As an Elementalist you can only fight using a Staff (Hoe).
     leftClick: Fireball
-    rightClick: Bolt
+    rightClick: Chain Lightning
     shiftLeftClick: Hail Blast
     shiftRightClick: Molten Storm
     hasVanillaAbilities: no
