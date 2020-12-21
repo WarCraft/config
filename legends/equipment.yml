@@ -228,7 +228,7 @@ attributeRolls:
           low: 1
           high: 5
 
-#legendaryRolls:
+legendaryRolls:
   WARRIOR:
     OFFENSE:
       - - attribute: STRENGTH
