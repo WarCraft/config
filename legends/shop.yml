@@ -2653,6 +2653,7 @@ miniPets:
     skull: MHF_Enderman
     lore: []
     entityType: BAT
+    rainbow: no
   - id: CHICKEN
     type: MINI_PET
     rarity: EPIC
@@ -2660,6 +2661,7 @@ miniPets:
     skull: MHF_Chicken
     lore: ["Why did the chicken", "cross the road?"]
     entityType: CHICKEN
+    rainbow: no
   - id: COW
     type: MINI_PET
     rarity: EPIC
@@ -2667,6 +2669,7 @@ miniPets:
     skull: MHF_Cow
     lore: ["Show bubs!"]
     entityType: COW
+    rainbow: no
   - id: LLAMA
     type: MINI_PET
     rarity: EPIC
@@ -2674,6 +2677,7 @@ miniPets:
     skull: MHF_Sheep
     lore: []
     entityType: LLAMA
+    rainbow: no
   - id: OCELOT
     type: MINI_PET
     rarity: EPIC
@@ -2681,6 +2685,7 @@ miniPets:
     skull: MHF_Ocelot
     lore: []
     entityType: OCELOT
+    rainbow: no
   - id: PIG
     type: MINI_PET
     rarity: EPIC
@@ -2688,6 +2693,7 @@ miniPets:
     skull: MHF_Pig
     lore: ["Bacon is good for me!"]
     entityType: PIG
+    rainbow: no
   - id: RABBIT
     type: MINI_PET
     rarity: EPIC
@@ -2695,6 +2701,7 @@ miniPets:
     skull: MHF_Rabbit
     lore: []
     entityType: RABBIT
+    rainbow: no
   - id: SHEEP
     type: MINI_PET
     rarity: EPIC
@@ -2702,6 +2709,7 @@ miniPets:
     skull: MHF_Sheep
     lore: ["Ur baaaad!"]
     entityType: SHEEP
+    rainbow: no
   - id: SILVERFISH
     type: MINI_PET
     rarity: EPIC
@@ -2709,6 +2717,7 @@ miniPets:
     skull: MHF_Squid
     lore: []
     entityType: SILVERFISH
+    rainbow: no
   - id: WOLF
     type: MINI_PET
     rarity: EPIC
@@ -2716,6 +2725,7 @@ miniPets:
     skull: MHF_Wolf
     lore: []
     entityType: WOLF
+    rainbow: no
 
   #  - id: ENDERMITE_MINI_PET
   #    type: MINI_PET
@@ -2767,22 +2777,22 @@ miniPets:
   #    lore: []
   #    entityType: SQUID
 
-  - id: RAINBOW_BUNCHIE_MINI_PET
-    type: MINI_PET
-    rarity: ANCIENT
-    name: Rainbow Bunchie
-    skull: MHF_Llama
-    lore: []
-    entityType: LLAMA
-    rainbow: yes
-  - id: PARTY_PARROT_MINI_PET
-    type: MINI_PET
-    rarity: ANCIENT
-    name: Party Parrot
-    skull: MHF_Parrot
-    lore: []
-    entityType: PARROT
-    rainbow: yes
+  # - id: RAINBOW_BUNCHIE_MINI_PET
+  #   type: MINI_PET
+  #   rarity: ANCIENT
+  #   name: Rainbow Bunchie
+  #   skull: MHF_Llama
+  #   lore: []
+  #   entityType: LLAMA
+  #   rainbow: yes
+  # - id: PARTY_PARROT_MINI_PET
+  #   type: MINI_PET
+  #   rarity: ANCIENT
+  #   name: Party Parrot
+  #   skull: MHF_Parrot
+  #   lore: []
+  #   entityType: PARROT
+  #   rainbow: yes
 
 
 promotions:
