@@ -5,7 +5,7 @@ prices:
   #    LEGENDARY: 2250
   #  BUNDLE:
   #    RARE: 2450
-  SPECIALIZATION:
+  COMBAT_CLASS:
     EPIC: 4750
     LEGENDARY: 11500
   DECORATION:
@@ -35,39 +35,39 @@ prices:
 #    EPIC: 2450
 
 
-specializations:
+combatClasses:
   - id: ARMSMASTER
-    type: SPECIALIZATION
+    type: COMBAT_CLASS
     rarity: EPIC
     name: Armsmaster
     icon: SHIELD
     lore: []
   - id: BERSERKER
-    type: SPECIALIZATION
+    type: COMBAT_CLASS
     rarity: EPIC
     name: Berserker
     icon: AxeVariant:IRON
     lore: []
   - id: HUNTER
-    type: SPECIALIZATION
+    type: COMBAT_CLASS
     rarity: EPIC
     name: Hunter
     icon: TrapdoorVariant:OAK
     lore: []
   - id: MARKSMAN
-    type: SPECIALIZATION
+    type: COMBAT_CLASS
     rarity: EPIC
     name: Marksman
     icon: ARROW
     lore: []
   - id: TEMPEST
-    type: SPECIALIZATION
+    type: COMBAT_CLASS
     rarity: EPIC
     name: Tempest
     icon: HoeVariant:WOOD
     lore: []
   - id: WIZARD
-    type: SPECIALIZATION
+    type: COMBAT_CLASS
     rarity: EPIC
     name: Wizard
     icon: STICK
