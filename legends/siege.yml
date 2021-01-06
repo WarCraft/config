@@ -44,7 +44,7 @@ objectives:
       min: { x: -175, y: 32, z: -149 }
       max: { x: -102, y: 108, z: -74 }
     orientation: NORTH
-    defaultOccupiers: Dwarves
+    defaultOccupiers: DWARVES
 
   - id: ELF_FORT
     model: elf_fort
@@ -80,7 +80,7 @@ objectives:
       min: { x: 71, y: 42, z: -250 }
       max: { x: 183, y: 105, z: -134 }
     orientation: NORTH
-    defaultOccupiers: Elves
+    defaultOccupiers: ELVES
 
   - id: HUMAN_FORT
     model: human_fort
@@ -116,7 +116,7 @@ objectives:
       min: { x: -103, y: 52, z: 157 }
       max: { x: -10, y: 115, z: 238 }
     orientation: NORTH
-    defaultOccupiers: Humans
+    defaultOccupiers: HUMANS
 
   - id: ORC_FORT
     model: orc_fort
@@ -152,7 +152,7 @@ objectives:
       min: { x: 114, y: 47, z: 25 }
       max: { x: 209, y: 102, z: 126 }
     orientation: NORTH
-    defaultOccupiers: Orcs
+    defaultOccupiers: ORCS
 
   - id: CENTER_OBJECTIVE
     model: ~
