@@ -10,19 +10,44 @@ maintenanceMode:
   permission: monolith.staff
 
 teams:
-  - name: Dwarves
+  - id: DWARVES
+    name: Dwarves
+    spawn:
+      world: world
+      translation: { x: 0, y: 0, z: 0 }
+      rotation: { x: 0, y: 0, z: 0 }
     chatColor: GOLD
     particleColor: Orange
-  - name: Elves
+  - id: ELVES
+    name: Elves
+    spawn:
+      world: world
+      translation: { x: 0, y: 0, z: 0 }
+      rotation: { x: 0, y: 0, z: 0 }
     chatColor: GREEN
     particleColor: Lime
-  - name: Humans
+  - id: HUMANS
+    name: Humans
+    spawn:
+      world: world
+      translation: { x: 0, y: 0, z: 0 }
+      rotation: { x: 0, y: 0, z: 0 }
     chatColor: AQUA
     particleColor: Aqua
-  - name: Orcs
+  - id: ORCS
+    name: Orcs
+    spawn:
+      world: world
+      translation: { x: 0, y: 0, z: 0 }
+      rotation: { x: 0, y: 0, z: 0 }
     chatColor: RED
     particleColor: Red
-  - name: Wayfarers
+  - id: WAYFARERS
+    name: Wayfarers
+    spawn:
+      world: world
+      translation: { x: 0, y: 0, z: 0 }
+      rotation: { x: 0, y: 0, z: 0 }
     chatColor: GRAY
     particleColor: Silver
 
