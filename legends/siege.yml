@@ -7,13 +7,13 @@ objectivePercentTickDecay: 1
 siegeWeaponMaxIdleTime: 900
 
 requiredProgress:
-  KEEP: 100
+  FORT: 100
 
 objectives:
-  - id: DWARF_KEEP
-    model: dwarf_keep
-    typ: KEEP
-    name: Dwarf Keep
+  - id: DWARF_FORT
+    model: dwarf_fort
+    typ: FORT
+    name: Dwarf Fort
     capturePoint:
       location:
         world: world
@@ -46,10 +46,10 @@ objectives:
     orientation: NORTH
     defaultOccupiers: Dwarves
 
-  - id: ELF_KEEP
-    model: elf_keep
-    typ: KEEP
-    name: Elf Keep
+  - id: ELF_FORT
+    model: elf_fort
+    typ: FORT
+    name: Elf Fort
     capturePoint:
       location:
         world: world
@@ -82,10 +82,10 @@ objectives:
     orientation: NORTH
     defaultOccupiers: Elves
 
-  - id: HUMAN_KEEP
-    model: human_keep
-    typ: KEEP
-    name: Human Keep
+  - id: HUMAN_FORT
+    model: human_fort
+    typ: FORT
+    name: Human Fort
     capturePoint:
       location:
         world: world
@@ -118,10 +118,10 @@ objectives:
     orientation: NORTH
     defaultOccupiers: Humans
 
-  - id: ORC_KEEP
-    model: orc_keep
-    typ: KEEP
-    name: Orc Keep
+  - id: ORC_FORT
+    model: orc_fort
+    typ: FORT
+    name: Orc Fort
     capturePoint:
       location:
         world: world
@@ -156,7 +156,7 @@ objectives:
 
   - id: CENTER_OBJECTIVE
     model: ~
-    typ: KEEP
+    typ: FORT
     name: Death's Breach
     capturePoint:
       location:
