@@ -1,161 +1,430 @@
-# Hub portals
-hubPortals:
-  # Human unknown
-  - entryLocation:
-      world: OVERWORLD
-      translation: {x: -1525.5, y: 55, z: 330.5}
-    exitLocation:
-      world: OVERWORLD
-      translation: {x: -1520.5, y: 54, z: 331.5}
+# Legends config
 
-  # Orc unknown
-  - entryLocation:
-      world: OVERWORLD
-      translation: {x: 407.5, y: 44, z: 417.5}
-    exitLocation:
-      world: OVERWORLD
-      translation: {x: 413.5, y: 43, z: 416.5}
+challenges:
+  # dailies
+  - id: DAILY_KILLS
+    statisticId: DAILY_KILLS
+    name: Daily Kills
+    description: ""
+    requirement: 5
+    reward: 75
+  - id: DAILY_DAMAGE
+    statisticId: DAILY_DAMAGE
+    name: Daily Damage Done
+    description: ""
+    requirement: 250
+    reward: 75
+  - id: DAILY_FORTS
+    statisticId: DAILY_FORTS
+    name: Daily Forts Captured
+    description: ""
+    requirement: 1
+    reward: 75
+  - id: DAILY_STRONGHOLDS
+    statisticId: DAILY_STRONGHOLDS
+    name: Daily Strongholds Captured
+    description: ""
+    requirement: 1
+    reward: 150
+  - id: DAILY_GOLD
+    statisticId: DAILY_GOLD
+    name: Daily Gold Gained
+    description: ""
+    requirement: 150
+    reward: 75
+  - id: DAILY_FAVOR
+    statisticId: DAILY_FAVOR
+    name: Daily Favor Gained
+    description: ""
+    requirement: 300
+    reward: 75
+  - id: DAILY_PLAYTIME
+    statisticId: DAILY_PLAYTIME
+    name: Daily Time Played
+    description: ""
+    requirement: 15
+    reward: 75
+  - id: DAILY_MOBS
+    statisticId: DAILY_MOBS
+    name: Daily Mobs Killed
+    description: ""
+    requirement: 10
+    reward: 75
+  - id: DAILY_RESOURCES
+    statisticId: DAILY_RESOURCES
+    name: Daily Resources Gathered
+    description: ""
+    requirement: 15
+    reward: 75
+  - id: DAILY_CRATES
+    statisticId: DAILY_CRATES
+    name: Daily Crates Opened
+    description: ""
+    requirement: 3
+    reward: 75
+
+  # monthlies
+  - id: MONTHLY_KILLS
+    statisticId: MONTHLY_KILLS
+    name: Monthly Kills
+    description: ""
+    requirement: 50
+    reward: 500
+  - id: MONTHLY_DAMAGE
+    statisticId: MONTHLY_DAMAGE
+    name: Monthly Damage Done
+    description: ""
+    requirement: 2500
+    reward: 500
+  - id: MONTHLY_FORTS
+    statisticId: MONTHLY_FORTS
+    name: Monthly Forts Captured
+    description: ""
+    requirement: 10
+    reward: 500
+  - id: MONTHLY_STRONGHOLDS
+    statisticId: MONTHLY_STRONGHOLDS
+    name: Monthly Strongholds Captured
+    description: ""
+    requirement: 10
+    reward: 750
+  - id: MONTHLY_GOLD
+    statisticId: MONTHLY_GOLD
+    name: Monthly Gold Gained
+    description: ""
+    requirement: 1500
+    reward: 500
+  - id: MONTHLY_FAVOR
+    statisticId: MONTHLY_FAVOR
+    name: Monthly Favor Gained
+    description: ""
+    requirement: 3000
+    reward: 500
+  - id: MONTHLY_PLAYTIME
+    statisticId: MONTHLY_PLATIME
+    name: Monthly Time Played
+    description: ""
+    requirement: 150
+    reward: 500
+  - id: MONTHLY_MOBS
+    statisticId: MONTHLY_MOBS
+    name: Monthly Mobs Killed
+    description: ""
+    requirement: 100
+    reward: 500
+  - id: MONTHLY_RESOURCES
+    statisticId: MONTHLY_RESOURCES
+    name: Monthly Resources Gathered
+    description: ""
+    requirement: 150
+    reward: 500
+  - id: MONTHLY_CRATES
+    statisticId: MONTHLY_CRATES
+    name: Monthly Crates Opened
+    description: ""
+    requirement: 30
+    reward: 500
 
 
-spawnLocations:
-  WAYFARER:
-    world: OVERWORLD
-    translation: {x: -587.5, y: 90, z: -634.5}
-    pitch: 0
-    yaw: 90
-  HUMAN:
-    world: OVERWORLD
-    translation: {x: -1554.5, y: 54, z: 357.5}
-    pitch: 0
-    yaw: -90
-  ORC:
-    world: OVERWORLD
-    translation: {x: 444.5, y: 45, z: 414.5}
-    pitch: 0
-    yaw: 90
-#  ?d?:
-#    world: OVERWORLD
-#    x: -1534.5
-#    y: 81
-#    z: -1524.5
-#    pitch: 0
-#    yaw: -45
-#  ?e?:
-#    world: OVERWORLD
-#    x: 385.5
-#    y: 62
-#    z: -1517.5
-#    pitch: 0
-#    yaw: 45
+dailyRewards:
+  - { WAR_CRATE: 1 }
+  - { WAR_CRATE: 1 }
+  - { WAR_CRATE: 1 }
+  - { WAR_CRATE: 1 }
+  - { WAR_CRATE: 1 }
+  - { WAR_CRATE: 1 }
+  - { LEGEND_CRATE: 1 }
+  - { WAR_CRATE: 1 }
+  - { WAR_CRATE: 1 }
+  - { WAR_CRATE: 1 }
+  - { WAR_CRATE: 1 }
+  - { WAR_CRATE: 1 }
+  - { WAR_CRATE: 1 }
+  - { LEGEND_CRATE: 1 }
+  - { WAR_CRATE: 1 }
+  - { WAR_CRATE: 2 }
+  - { WAR_CRATE: 1 }
+  - { WAR_CRATE: 2 }
+  - { WAR_CRATE: 1 }
+  - { WAR_CRATE: 2 }
+  - { LEGEND_CRATE: 2 }
+  - { WAR_CRATE: 2 }
+  - { WAR_CRATE: 2 }
+  - { WAR_CRATE: 2 }
+  - { WAR_CRATE: 2 }
+  - { WAR_CRATE: 2 }
+  - { WAR_CRATE: 2 }
+  - { TITAN_CRATE: 1 }
 
 
-# Game configuration
-objectivePoints:
-  KEEP: 150
-  OUTPOST: 75
-  RESOURCE: 25
-  TUTORIAL: 0
+leaderboards:
+  leaderboards:
+    # dailies
+    - statistic: DAILY_KILLS
+      name: Daily Kills
+      description: ""
+    - statistic: DAILY_DAMAGE
+      name: Daily Damage Done
+      description:
+    - statistic: DAILY_FORTS
+      name: Daily Forts Captured
+      description: ""
+    - statistic: DAILY_STRONGHOLDS
+      name: Daily Strongholds Captured
+      description: ""
+    - statistic: DAILY_GOLD
+      name: Daily Gold Gained
+      description: ""
+    - statistic: DAILY_FAVOR
+      name: Daily Favor Gained
+      description: ""
+    - statistic: DAILY_PLAYTIME
+      name: Daily Time Played
+      description: ""
+    - statistic: DAILY_MOBS
+      name: Daily Mobs Killed
+      description: ""
+    - statistic: DAILY_RESOURCES
+      name: Daily Resources Gathered
+      description: ""
+    - statistic: DAILY_CRATES
+      name: Daily Crates Opened
+      description: ""
 
-objectiveCrates:
-  KEEP: 5
-  OUTPOST: 3
-  RESOURCE: 2
-  TUTORIAL: 0
+    # monthlies
+    - statistic: MONTHLY_KILLS
+      name: Monthly Kills
+      description: ""
+    - statistic: MONTHLY_DAMAGE
+      name: Monthly Damage Done
+      description:
+    - statistic: MONTHLY_FORTS
+      name: Monthly Forts Captured
+      description: ""
+    - statistic: MONTHLY_STRONGHOLDS
+      name: Monthly Strongholds Captured
+      description: ""
+    - statistic: MONTHLY_GOLD
+      name: Monthly Gold Gained
+      description: ""
+    - statistic: MONTHLY_FAVOR
+      name: Monthly Favor Gained
+      description: ""
+    - statistic: MONTHLY_PLAYTIME
+      name: Monthly Time Played
+      description: ""
+    - statistic: MONTHLY_MOBS
+      name: Monthly Mobs Killed
+      description: ""
+    - statistic: MONTHLY_RESOURCES
+      name: Monthly Resources Gathered
+      description: ""
+    - statistic: MONTHLY_CRATES
+      name: Monthly Crates Opened
+      description: ""
 
-favorPlayerKill: 5
-favorEliteMobKill: 2
-favorMobKill: 1
+    # all-time
+    - statistic: ALLTIME_KILLS
+      name: All-time Kills
+      description: ""
+    - statistic: ALLTIME_DAMAGE
+      name: All-time Damage Done
+      description:
+    - statistic: ALLTIME_FORTS
+      name: All-time Forts Captured
+      description: ""
+    - statistic: ALLTIME_STRONGHOLDS
+      name: All-time Strongholds Captured
+      description: ""
+    - statistic: ALLTIME_GOLD
+      name: All-time Gold Gained
+      description: ""
+    - statistic: ALLTIME_FAVOR
+      name: All-time Favor Gained
+      description: ""
+    - statistic: ALLTIME_PLAYTIME
+      name: All-time Time Played
+      description: ""
+    - statistic: ALLTIME_MOBS
+      name: All-time Mobs Killed
+      description: ""
+    - statistic: ALLTIME_RESOURCES
+      name: All-time Resources Gathered
+      description: ""
+    - statistic: ALLTIME_CRATES
+      name: All-time Crates Opened
+      description: ""
+
+  dailyPrizes:
+    - { LEGEND_CRATE: 1, WAR_CRATE: 3 }
+    - { WAR_CRATE: 2 }
+    - { WAR_CRATE: 1 }
+
+  monthlyPrizes:
+    - { TITAN_CRATE: 3, LEGEND_CRATE: 6, WAR_CRATE: 9 }
+    - { TITAN_CRATE: 2, LEGEND_CRATE: 4, WAR_CRATE: 9 }
+    - { TITAN_CRATE: 1, LEGEND_CRATE: 2, WAR_CRATE: 9 }
+    - { LEGEND_CRATE: 3, WAR_CRATE: 6 }
+    - { LEGEND_CRATE: 2, WAR_CRATE: 6 }
+    - { LEGEND_CRATE: 1, WAR_CRATE: 6 }
+    - { WAR_CRATE: 3 }
+    - { WAR_CRATE: 3 }
+    - { WAR_CRATE: 3 }
+    - { WAR_CRATE: 3 }
 
 
-# Rank configuration
-rankPrefixes:
-  - name: Wood
-    color: DARK_GREEN
-  - name: Stone
-    color: GRAY
-  - name: Iron
-    color: DARK_GRAY
-  - name: Gold
-    color: GOLD
-  - name: Emerald
-    color: GREEN
-  - name: Diamond
-    color: AQUA
-  - name: Obsidian
-    color: DARK_PURPLE
+levels:
+  - { value: 1, color: WHITE, requiredFavor: 0, rewards: [ ] }
+  - { value: 2, color: WHITE, requiredFavor: 1000, rewards: [ ] }
+  - { value: 3, color: WHITE, requiredFavor: 2000, rewards: [ ] }
+  - { value: 4, color: WHITE, requiredFavor: 3000, rewards: [ ] }
+  - { value: 5, color: WHITE, requiredFavor: 4000, rewards: [ ] }
+  - { value: 6, color: WHITE, requiredFavor: 5000, rewards: [ ] }
+  - { value: 7, color: WHITE, requiredFavor: 6000, rewards: [ ] }
+  - { value: 8, color: WHITE, requiredFavor: 7000, rewards: [ ] }
+  - { value: 9, color: WHITE, requiredFavor: 8000, rewards: [ ] }
+  - { value: 10, color: DARK_GRAY, requiredFavor: 9000, rewards: [ ] }
+  - { value: 11, color: DARK_GRAY, requiredFavor: 11000, rewards: [ ] }
+  - { value: 12, color: DARK_GRAY, requiredFavor: 13000, rewards: [ ] }
+  - { value: 13, color: DARK_GRAY, requiredFavor: 15000, rewards: [ ] }
+  - { value: 14, color: DARK_GRAY, requiredFavor: 17000, rewards: [ ] }
+  - { value: 15, color: DARK_GRAY, requiredFavor: 19000, rewards: [ ] }
+  - { value: 16, color: DARK_GRAY, requiredFavor: 21000, rewards: [ ] }
+  - { value: 17, color: DARK_GRAY, requiredFavor: 23000, rewards: [ ] }
+  - { value: 18, color: DARK_GRAY, requiredFavor: 25000, rewards: [ ] }
+  - { value: 19, color: DARK_GRAY, requiredFavor: 27000, rewards: [ ] }
+  - { value: 20, color: GOLD, requiredFavor: 29000, rewards: [ ] }
+  - { value: 21, color: GOLD, requiredFavor: 33000, rewards: [ ] }
+  - { value: 22, color: GOLD, requiredFavor: 37000, rewards: [ ] }
+  - { value: 23, color: GOLD, requiredFavor: 41000, rewards: [ ] }
+  - { value: 24, color: GOLD, requiredFavor: 45000, rewards: [ ] }
+  - { value: 25, color: GOLD, requiredFavor: 49000, rewards: [ ] }
+  - { value: 26, color: GOLD, requiredFavor: 53000, rewards: [ ] }
+  - { value: 27, color: GOLD, requiredFavor: 57000, rewards: [ ] }
+  - { value: 28, color: GOLD, requiredFavor: 61000, rewards: [ ] }
+  - { value: 29, color: GOLD, requiredFavor: 65000, rewards: [ ] }
+  - { value: 30, color: GREEN, requiredFavor: 69000, rewards: [ ] }
+  - { value: 31, color: GREEN, requiredFavor: 77000, rewards: [ ] }
+  - { value: 32, color: GREEN, requiredFavor: 85000, rewards: [ ] }
+  - { value: 33, color: GREEN, requiredFavor: 93000, rewards: [ ] }
+  - { value: 34, color: GREEN, requiredFavor: 101000, rewards: [ ] }
+  - { value: 35, color: GREEN, requiredFavor: 109000, rewards: [ ] }
+  - { value: 36, color: GREEN, requiredFavor: 117000, rewards: [ ] }
+  - { value: 37, color: GREEN, requiredFavor: 125000, rewards: [ ] }
+  - { value: 38, color: GREEN, requiredFavor: 133000, rewards: [ ] }
+  - { value: 39, color: GREEN, requiredFavor: 141000, rewards: [ ] }
+  - { value: 40, color: AQUA, requiredFavor: 149000, rewards: [ ] }
+  - { value: 41, color: AQUA, requiredFavor: 165000, rewards: [ ] }
+  - { value: 42, color: AQUA, requiredFavor: 181000, rewards: [ ] }
+  - { value: 43, color: AQUA, requiredFavor: 197000, rewards: [ ] }
+  - { value: 44, color: AQUA, requiredFavor: 213000, rewards: [ ] }
+  - { value: 45, color: AQUA, requiredFavor: 229000, rewards: [ ] }
+  - { value: 46, color: AQUA, requiredFavor: 245000, rewards: [ ] }
+  - { value: 47, color: AQUA, requiredFavor: 261000, rewards: [ ] }
+  - { value: 48, color: AQUA, requiredFavor: 277000, rewards: [ ] }
+  - { value: 49, color: AQUA, requiredFavor: 293000, rewards: [ ] }
+  - { value: 50, color: DARK_PURPLE, requiredFavor: 309000, rewards: [ ] }
 
-humanRankSuffixes:
-  - Squire
-  - Footman
-  - Knight
-  - Captain
-  - Champion
-  - Hero
-  - Legend
+#rankUpRewards:
+#  1: {}
+#  2: {WAR_CRATE: 3}
+#  3: {WAR_CRATE: 3}
+#  4: {WAR_CRATE: 3}
+#  5: {WAR_CRATE: 3}
+#  6: {WAR_CRATE: 3}
+#  7: {WAR_CRATE: 3, LEGEND_CRATE: 1}
+#
+#  8: {}
+#  9: {WAR_CRATE: 4}
+#  10: {WAR_CRATE: 4}
+#  11: {WAR_CRATE: 4, LEGEND_CRATE: 1}
+#  12: {WAR_CRATE: 4}
+#  13: {WAR_CRATE: 4}
+#  14: {WAR_CRATE: 4, LEGEND_CRATE: 1}
+#
+#  15: {}
+#  16: {WAR_CRATE: 5}
+#  17: {WAR_CRATE: 5, LEGEND_CRATE: 1}
+#  18: {WAR_CRATE: 5}
+#  19: {WAR_CRATE: 5, LEGEND_CRATE: 1}
+#  20: {WAR_CRATE: 5}
+#  21: {WAR_CRATE: 5, LEGEND_CRATE: 1}
+#
+#  22: {}
+#  23: {WAR_CRATE: 6, LEGEND_CRATE: 1}
+#  24: {WAR_CRATE: 6, LEGEND_CRATE: 1}
+#  25: {WAR_CRATE: 6, TITAN_CRATE: 1}
+#  26: {WAR_CRATE: 6, LEGEND_CRATE: 1}
+#  27: {WAR_CRATE: 6, LEGEND_CRATE: 1}
+#  28: {WAR_CRATE: 6, TITAN_CRATE: 1}
+#
+#  29: {}
+#  30: {WAR_CRATE: 7, TITAN_CRATE: 1}
+#  31: {WAR_CRATE: 7, LEGEND_CRATE: 2}
+#  32: {WAR_CRATE: 7, TITAN_CRATE: 1}
+#  33: {WAR_CRATE: 7, LEGEND_CRATE: 2}
+#  34: {WAR_CRATE: 7, TITAN_CRATE: 1}
+#  35: {WAR_CRATE: 7, LEGEND_CRATE: 2, TITAN_CRATE: 1}
+#
+#  36: {}
+#  37: {WAR_CRATE: 8, TITAN_CRATE: 2}
+#  38: {WAR_CRATE: 8, LEGEND_CRATE: 2}
+#  39: {WAR_CRATE: 8, TITAN_CRATE: 2}
+#  40: {WAR_CRATE: 8, LEGEND_CRATE: 2}
+#  41: {WAR_CRATE: 8, TITAN_CRATE: 2}
+#  42: {WAR_CRATE: 8, LEGEND_CRATE: 2, TITAN_CRATE: 2}
+#
+#  43: {}
+#  44: {WAR_CRATE: 9, LEGEND_CRATE: 3}
+#  45: {WAR_CRATE: 9, TITAN_CRATE: 3}
+#  46: {WAR_CRATE: 9, LEGEND_CRATE: 3, TITAN_CRATE: 3}
+#  47: {WAR_CRATE: 9, LEGEND_CRATE: 3}
+#  48: {WAR_CRATE: 9, TITAN_CRATE: 3}
+#  49: {WAR_CRATE: 9, LEGEND_CRATE: 3, TITAN_CRATE: 3}
 
-orcRankSuffixes:
-  - Tuskling
-  - Grunt
-  - Raider
-  - Marauder
-  - Overseer
-  - Warlord
-  - Legend
 
-rankFavorTable: [
-  1000, 2000, 3000, 4000, 5000, 6000,                          # +1000 (Wood)
-  8000, 10000, 12000, 14000, 16000, 18000, 20000,              # +2000 (Stone)
-  24000, 28000, 32000, 36000, 40000, 44000, 48000,             # +4000 (Iron)
-  56000, 64000, 72000, 80000, 88000, 96000, 104000,            # +8000 (Gold)
-  120000, 136000, 152000, 168000, 184000, 200000, 216000,      # +16000 (Emerald)
-  248000, 280000, 312000, 344000, 376000, 408000, 440000,      # +32000 (Diamond)
-  504000, 568000, 632000, 696000, 760000, 824000, 888000,      # +64000 (Obsidian)
-  1016000]                                                     # +128000 (Prestige rank-up)
-
-
-# Loot crate configuration
 lootCrates:
-  - name: War Crate
-    type: WAR_CRATE
+  - id: WAR_CRATE
+    name: War Crate
     rarity: COMMON
-    itemType: ChestVariant:NORMAL
-    dropTable:
-      - type: EQUIPMENT
+    chestVariant: NORMAL
+    dropTables:
+      - typ: EQUIPMENT
         chance: 44.3
         distribution:
           COMMON: 50
           RARE: 40
           EPIC: 8
           LEGENDARY: 2
-      - type: EQUIPMENT_UPGRADE
+      - typ: EQUIPMENT_UPGRADE
         chance: 20
         distribution:
           COMMON: 50
           RARE: 40
           EPIC: 8
           LEGENDARY: 2
-      - type: CONSUMABLE
+      - typ: CONSUMABLE
         chance: 20
         distribution:
           COMMON: 60
           RARE: 30
           EPIC: 8
           LEGENDARY: 2
-      - type: DECORATION
+      - typ: DECORATION
         chance: 0.5
         distribution:
           RARE: 80
           EPIC: 20
-      - type: DECORATION_PACK
+      - typ: DECORATION_PACK
         chance: 0.1
         distribution:
           RARE: 80
           EPIC: 20
-      - type: MINI_PET
+      - typ: MINI_PET
         chance: 0.1
         distribution:
           EPIC: 100
-      - type: GOLD
+      - typ: GOLD
         chance: 15
         distribution:
           COMMON: 50
@@ -163,47 +432,47 @@ lootCrates:
           EPIC: 14
           LEGENDARY: 1
 
-  - name: Vote Crate
-    type: VOTE_CRATE
+  - id: VOTE_CRATE
+    name: Vote Crate
     rarity: COMMON
-    itemType: ChestVariant:NORMAL
-    dropTable:
-      - type: EQUIPMENT
+    chestVariant: NORMAL
+    dropTables:
+      - typ: EQUIPMENT
         chance: 34.3
         distribution:
           COMMON: 50
           RARE: 40
           EPIC: 8
           LEGENDARY: 2
-      - type: EQUIPMENT_UPGRADE
+      - typ: EQUIPMENT_UPGRADE
         chance: 15
         distribution:
           COMMON: 50
           RARE: 40
           EPIC: 8
           LEGENDARY: 2
-      - type: CONSUMABLE
+      - typ: CONSUMABLE
         chance: 25
         distribution:
           COMMON: 60
           RARE: 30
           EPIC: 8
           LEGENDARY: 2
-      - type: DECORATION
+      - typ: DECORATION
         chance: 0.5
         distribution:
           RARE: 80
           EPIC: 20
-      - type: DECORATION_PACK
+      - typ: DECORATION_PACK
         chance: 0.1
         distribution:
           RARE: 80
           EPIC: 20
-      - type: MINI_PET
+      - typ: MINI_PET
         chance: 0.1
         distribution:
           EPIC: 100
-      - type: GOLD
+      - typ: GOLD
         chance: 25
         distribution:
           COMMON: 50
@@ -211,11 +480,11 @@ lootCrates:
           EPIC: 14
           LEGENDARY: 1
 
-  - name: Legend Crate
-    type: LEGEND_CRATE
+  - id: LEGEND_CRATE
+    name: Legend Crate
     rarity: EPIC
-    itemType: ChestVariant:NORMAL
-    dropTable:
+    chestVariant: NORMAL
+    dropTables:
       - type: EQUIPMENT
         chance: 35
         distribution:
@@ -243,7 +512,7 @@ lootCrates:
         distribution:
           EPIC: 90
           LEGENDARY: 10
-      - type: SPECIALIZATION
+      - type: COMBAT_CLASS
         chance: 1
         distribution:
           RARE: 70
@@ -255,11 +524,11 @@ lootCrates:
           EPIC: 35
           LEGENDARY: 15
 
-  - name: Titan Crate
-    type: TITAN_CRATE
+  - id: TITAN_CRATE
+    name: Titan Crate
     rarity: LEGENDARY
-    itemType: ChestVariant:ENDER
-    dropTable:
+    chestVariant: ENDER
+    dropTables:
       - type: EQUIPMENT
         chance: 18
         distribution:
@@ -287,7 +556,7 @@ lootCrates:
         distribution:
           EPIC: 70
           LEGENDARY: 30
-      - type: SPECIALIZATION
+      - type: COMBAT_CLASS
         chance: 3
         distribution:
           RARE: 50
@@ -296,64 +565,30 @@ lootCrates:
         chance: 5
         distribution:
           EPIC: 50
-          LEGENDARY: 35
-          ANCIENT: 15
+          LEGENDARY: 50
 
 
-# Rank-Up rewards
-rankUpRewards:
-  1: {}
-  2: {WAR_CRATE: 3}
-  3: {WAR_CRATE: 3}
-  4: {WAR_CRATE: 3}
-  5: {WAR_CRATE: 3}
-  6: {WAR_CRATE: 3}
-  7: {WAR_CRATE: 3, LEGEND_CRATE: 1}
+objectiveCaptureRewards:
+  STRONGHOLD: { WAR_CRATE: 6 }
+  FORT: { WAR_CRATE: 3 }
+  TUTORIAL: { }
 
-  8: {}
-  9: {WAR_CRATE: 4}
-  10: {WAR_CRATE: 4}
-  11: {WAR_CRATE: 4, LEGEND_CRATE: 1}
-  12: {WAR_CRATE: 4}
-  13: {WAR_CRATE: 4}
-  14: {WAR_CRATE: 4, LEGEND_CRATE: 1}
+objectiveDefaultOccupiers:
+  DWARF_FORT: DWARVES
+  ELF_FORT: ELVES
+  HUMAN_FORT: HUMANS
+  ORC_FORT: ORCS
 
-  15: {}
-  16: {WAR_CRATE: 5}
-  17: {WAR_CRATE: 5, LEGEND_CRATE: 1}
-  18: {WAR_CRATE: 5}
-  19: {WAR_CRATE: 5, LEGEND_CRATE: 1}
-  20: {WAR_CRATE: 5}
-  21: {WAR_CRATE: 5, LEGEND_CRATE: 1}
+objectiveTallyPoints:
+  STRONGHOLD: 50
+  FORT: 20
+  TUTORIAL: 0
 
-  22: {}
-  23: {WAR_CRATE: 6, LEGEND_CRATE: 1}
-  24: {WAR_CRATE: 6, LEGEND_CRATE: 1}
-  25: {WAR_CRATE: 6, TITAN_CRATE: 1}
-  26: {WAR_CRATE: 6, LEGEND_CRATE: 1}
-  27: {WAR_CRATE: 6, LEGEND_CRATE: 1}
-  28: {WAR_CRATE: 6, TITAN_CRATE: 1}
+playerKillFavor: 5
+mobKillFavor: 1
+eliteMobKillFavor: 2
 
-  29: {}
-  30: {WAR_CRATE: 7, TITAN_CRATE: 1}
-  31: {WAR_CRATE: 7, LEGEND_CRATE: 2}
-  32: {WAR_CRATE: 7, TITAN_CRATE: 1}
-  33: {WAR_CRATE: 7, LEGEND_CRATE: 2}
-  34: {WAR_CRATE: 7, TITAN_CRATE: 1}
-  35: {WAR_CRATE: 7, LEGEND_CRATE: 2, TITAN_CRATE: 1}
-
-  36: {}
-  37: {WAR_CRATE: 8, TITAN_CRATE: 2}
-  38: {WAR_CRATE: 8, LEGEND_CRATE: 2}
-  39: {WAR_CRATE: 8, TITAN_CRATE: 2}
-  40: {WAR_CRATE: 8, LEGEND_CRATE: 2}
-  41: {WAR_CRATE: 8, TITAN_CRATE: 2}
-  42: {WAR_CRATE: 8, LEGEND_CRATE: 2, TITAN_CRATE: 2}
-
-  43: {}
-  44: {WAR_CRATE: 9, LEGEND_CRATE: 3}
-  45: {WAR_CRATE: 9, TITAN_CRATE: 3}
-  46: {WAR_CRATE: 9, LEGEND_CRATE: 3, TITAN_CRATE: 3}
-  47: {WAR_CRATE: 9, LEGEND_CRATE: 3}
-  48: {WAR_CRATE: 9, TITAN_CRATE: 3}
-  49: {WAR_CRATE: 9, LEGEND_CRATE: 3, TITAN_CRATE: 3}
+skirmishTimes:
+  - 2 # UTC = 21 NYT
+  - 20 # UTC = 15 NYT
+  - 23 # UTC = 18 NYT
