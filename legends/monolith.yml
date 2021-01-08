@@ -65,11 +65,11 @@ teams:
     chatColor: GRAY
     particleColor: Silver
 
-# Staff Permissions
-staffPermission: monolith.staff
-modPermission: monolith.mod
-adminPermission: monolith.admin
-devPermission: monolith.dev
+staffPermissions:
+  staff: monolith.staff
+  mod: monolith.mod
+  admin: monolith.admin
+  dev: monolith.dev
 
 # Miscellaneous
 baseHealth: 40
