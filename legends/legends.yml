@@ -178,7 +178,7 @@ leaderboards:
       description: ""
     - statistic: DAILY_DAMAGE
       name: Daily Damage Done
-      description:
+      description: ""
     - statistic: DAILY_FORTS
       name: Daily Forts Captured
       description: ""
@@ -210,7 +210,7 @@ leaderboards:
       description: ""
     - statistic: MONTHLY_DAMAGE
       name: Monthly Damage Done
-      description:
+      description: ""
     - statistic: MONTHLY_FORTS
       name: Monthly Forts Captured
       description: ""
@@ -242,7 +242,7 @@ leaderboards:
       description: ""
     - statistic: ALLTIME_DAMAGE
       name: All-time Damage Done
-      description:
+      description: ""
     - statistic: ALLTIME_FORTS
       name: All-time Forts Captured
       description: ""
