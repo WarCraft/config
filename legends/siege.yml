@@ -1,5 +1,6 @@
 objectiveBuildType: Obj
 siegeWeaponBuildType: Siege
+siegePlotBuildType: Plot
 
 objectiveTickPeriod: 1
 objectiveMaxTickProgress: 5
