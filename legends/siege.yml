@@ -1,5 +1,6 @@
 objectiveBuildType: Obj
 siegeWeaponBuildType: Siege
+siegePlotBuildType: Plot
 
 objectiveTickPeriod: 1
 objectiveMaxTickProgress: 5
@@ -7,13 +8,13 @@ objectivePercentTickDecay: 1
 siegeWeaponMaxIdleTime: 900
 
 requiredProgress:
-  KEEP: 100
+  FORT: 100
 
 objectives:
-  - id: DWARF_KEEP
-    model: dwarf_keep
-    typ: KEEP
-    name: Dwarf Keep
+  - id: DWARF_FORT
+    model: dwarf_fort
+    typ: FORT
+    name: Dwarf Fort
     capturePoint:
       location:
         world: world
@@ -44,12 +45,12 @@ objectives:
       min: { x: -175, y: 32, z: -149 }
       max: { x: -102, y: 108, z: -74 }
     orientation: NORTH
-    defaultOccupiers: Dwarves
+    defaultOccupiers: DWARVES
 
-  - id: ELF_KEEP
-    model: elf_keep
-    typ: KEEP
-    name: Elf Keep
+  - id: ELF_FORT
+    model: elf_fort
+    typ: FORT
+    name: Elf Fort
     capturePoint:
       location:
         world: world
@@ -80,12 +81,12 @@ objectives:
       min: { x: 71, y: 42, z: -250 }
       max: { x: 183, y: 105, z: -134 }
     orientation: NORTH
-    defaultOccupiers: Elves
+    defaultOccupiers: ELVES
 
-  - id: HUMAN_KEEP
-    model: human_keep
-    typ: KEEP
-    name: Human Keep
+  - id: HUMAN_FORT
+    model: human_fort
+    typ: FORT
+    name: Human Fort
     capturePoint:
       location:
         world: world
@@ -116,12 +117,12 @@ objectives:
       min: { x: -103, y: 52, z: 157 }
       max: { x: -10, y: 115, z: 238 }
     orientation: NORTH
-    defaultOccupiers: Humans
+    defaultOccupiers: HUMANS
 
-  - id: ORC_KEEP
-    model: orc_keep
-    typ: KEEP
-    name: Orc Keep
+  - id: ORC_FORT
+    model: orc_fort
+    typ: FORT
+    name: Orc Fort
     capturePoint:
       location:
         world: world
@@ -152,11 +153,11 @@ objectives:
       min: { x: 114, y: 47, z: 25 }
       max: { x: 209, y: 102, z: 126 }
     orientation: NORTH
-    defaultOccupiers: Orcs
+    defaultOccupiers: ORCS
 
   - id: CENTER_OBJECTIVE
     model: ~
-    typ: KEEP
+    typ: FORT
     name: Death's Breach
     capturePoint:
       location:
@@ -164,7 +165,7 @@ objectives:
         translation: { x: 0, y: 68, z: 8 }
         rotation: { x: 0, y: 0, z: 1 }
       radius: 2.5
-    portals: []
+    portals: [ ]
     boundingBox:
       world: world
       min: { x: 0, y: 0, z: 0 }

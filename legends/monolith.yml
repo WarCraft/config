@@ -1,3 +1,17 @@
+database:
+  # if embedded is set to yes the plugin will create an SQLite database
+  # in the plugin data folder and doesn't require any other setup.
+  embedded: yes
+  # if embedded is set to no the plugin will attempt to connect to a
+  # hosted database using any of the following settings:
+  postgres: ~
+#    host: localhost
+#    port: 5432
+#    database: postgres
+#    user: postgres
+#    password: postgres
+#    ssl: yes
+
 buildRepository:
   boundingBox:
     world: world
@@ -10,27 +24,52 @@ maintenanceMode:
   permission: monolith.staff
 
 teams:
-  - name: Dwarves
+  - id: DWARVES
+    name: Dwarves
+    spawn:
+      world: world
+      translation: { x: 0, y: 0, z: 0 }
+      rotation: { x: 0, y: 0, z: 0 }
     chatColor: GOLD
     particleColor: Orange
-  - name: Elves
+  - id: ELVES
+    name: Elves
+    spawn:
+      world: world
+      translation: { x: 0, y: 0, z: 0 }
+      rotation: { x: 0, y: 0, z: 0 }
     chatColor: GREEN
     particleColor: Lime
-  - name: Humans
+  - id: HUMANS
+    name: Humans
+    spawn:
+      world: world
+      translation: { x: 0, y: 0, z: 0 }
+      rotation: { x: 0, y: 0, z: 0 }
     chatColor: AQUA
     particleColor: Aqua
-  - name: Orcs
+  - id: ORCS
+    name: Orcs
+    spawn:
+      world: world
+      translation: { x: 0, y: 0, z: 0 }
+      rotation: { x: 0, y: 0, z: 0 }
     chatColor: RED
     particleColor: Red
-  - name: Wayfarers
+  - id: WAYFARERS
+    name: Wayfarers
+    spawn:
+      world: world
+      translation: { x: 0, y: 0, z: 0 }
+      rotation: { x: 0, y: 0, z: 0 }
     chatColor: GRAY
     particleColor: Silver
 
-# Staff Permissions
-staffPermission: monolith.staff
-modPermission: monolith.mod
-adminPermission: monolith.admin
-devPermission: monolith.dev
+staffPermissions:
+  staff: monolith.staff
+  mod: monolith.mod
+  admin: monolith.admin
+  dev: monolith.dev
 
 # Miscellaneous
 baseHealth: 40

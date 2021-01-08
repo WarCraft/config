@@ -1,46 +1,69 @@
+database:
+  # if embedded is set to yes the plugin will create an SQLite database
+  # in the plugin data folder and doesn't require any other setup.
+  embedded: yes
+  # if embedded is set to no the plugin will attempt to connect to a
+  # hosted database using any of the following settings:
+  postgres: ~
+#    host: localhost
+#    port: 5432
+#    database: postgres
+#    user: postgres
+#    password: postgres
+#    ssl: yes
+
+defaultTag: ""
+
 defaultChannel: Global
 
 globalChannels:
   - name: Global
     aliases: []
+    shortcut: ~
     color: GRAY
-    formattingString: "[<channel.name>] <sender.color>[<sender.tag>] <channel.color><sender.name>: <text>"
+    format: "[<channel.name>] <sender.color>[<sender.tag>] <channel.color><sender.name>: <text>"
+    permission: ~
   - name: Staff
     aliases: []
+    shortcut: ~
     color: LIGHT_PURPLE
-    formattingString: "[<channel.name>] <sender.name>: <text>"
-    requiredPermission: monolith.staff
+    format: "[<channel.name>] <sender.name>: <text>"
+    permission: monolith.staff
   - name: Human
     aliases: []
+    shortcut: ~
     color: GRAY
-    formattingString: "[<channel.name>] <sender.color>[<sender.tag>] <channel.color><sender.name>: <text>"
-    requiredPermission: legends.human
+    format: "[<channel.name>] <sender.color>[<sender.tag>] <channel.color><sender.name>: <text>"
+    permission: legends.human
   - name: Orc
     aliases: []
+    shortcut: ~
     color: GRAY
-    formattingString: "[<channel.name>] <sender.color>[<sender.tag>] <channel.color><sender.name>: <text>"
-    requiredPermission: legends.orc
+    format: "[<channel.name>] <sender.color>[<sender.tag>] <channel.color><sender.name>: <text>"
+    permission: legends.orc
 
 localChannels:
   - name: Local
     aliases: [say, s, rp]
     shortcut: "(("
     color: WHITE
-    formattingString: "<sender.color>[<sender.tag>] <channel.color><sender.name>: <text>"
+    format: "<sender.color>[<sender.tag>] <channel.color><sender.name>: <text>"
     radius: 25
   - name: Emote
     aliases: [e, pose]
     shortcut: "*"
     color: GOLD
-    formattingString: "<sender.color>[<sender.tag>] <channel.color><sender.name> <text>"
+    format: "<sender.color>[<sender.tag>] <channel.color><sender.name> <text>"
     radius: 25
   - name: Yell
     aliases: [y, shout]
+    shortcut: ~
     color: RED
-    formattingString: "<sender.color>[<sender.tag>] <channel.color><sender.name>: <text>"
+    format: "<sender.color>[<sender.tag>] <channel.color><sender.name>: <text>"
     radius: 50
   - name: Whisper
     aliases: [w]
+    shortcut: ~
     color: AQUA
-    formattingString: "<sender.color>[<sender.tag>] <channel.color><sender.name>: <text>"
+    format: "<sender.color>[<sender.tag>] <channel.color><sender.name>: <text>"
     radius: 5

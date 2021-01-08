@@ -1084,7 +1084,7 @@ tooltips:
     DWARF:
       OFFENSE:
         SWORD:
-          default: 
+          default:
             name: Slayer Sword
             flavorText: ~
           special:
@@ -1092,7 +1092,7 @@ tooltips:
               - name: Orcbane
                 flavorText: ~
         AXE:
-          default: 
+          default:
             name: Slayer Axe
             flavorText: ~
           special:
@@ -1100,7 +1100,7 @@ tooltips:
               - name: Verminlobber
                 flavorText: ~
         SHIELD:
-          default: 
+          default:
             name: Slayer Shield
             flavorText: ~
           special:
@@ -1108,7 +1108,7 @@ tooltips:
               - name: Wailing Wall
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Slayer Helmet
             flavorText: ~
           special:
@@ -1116,7 +1116,7 @@ tooltips:
               - name: Khaz-aadt’s Avatar Helmet
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Slayer Chestplate
             flavorText: ~
           special:
@@ -1124,7 +1124,7 @@ tooltips:
               - name: Khaz-aadt’s Avatar Chestplate
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Slayer Legplates
             flavorText: ~
           special:
@@ -1132,7 +1132,7 @@ tooltips:
               - name: Khaz-aadt’s Avatar Legplates
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Slayer Greaves
             flavorText: ~
           special:
@@ -1142,7 +1142,7 @@ tooltips:
 
       BALANCE:
         SWORD:
-          default: 
+          default:
             name: Runesmith Sword
             flavorText: ~
           special:
@@ -1150,7 +1150,7 @@ tooltips:
               - name: Giant's Shin
                 flavorText: ~
         AXE:
-          default: 
+          default:
             name: Runesmith Axe
             flavorText: ~
           special:
@@ -1158,7 +1158,7 @@ tooltips:
               - name: Oatbreaker
                 flavorText: ~
         SHIELD:
-          default: 
+          default:
             name: Runesmith Shield
             flavorText: ~
           special:
@@ -1166,7 +1166,7 @@ tooltips:
               - name: Bulwark of the North
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Runesmith Helmet
             flavorText: ~
           special:
@@ -1174,7 +1174,7 @@ tooltips:
               - name: Legacy of Thelkan Helmet
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Runesmith Chestplate
             flavorText: ~
           special:
@@ -1182,7 +1182,7 @@ tooltips:
               - name: Legacy of Thelkan Chestplate
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Runesmith Legplates
             flavorText: ~
           special:
@@ -1190,7 +1190,7 @@ tooltips:
               - name: Legacy of Thelkan Legplates
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Runesmith Greaves
             flavorText: ~
           special:
@@ -1200,7 +1200,7 @@ tooltips:
 
       DEFENSE:
         SWORD:
-          default: 
+          default:
             name: Grumbler Sword
             flavorText: ~
           special:
@@ -1208,7 +1208,7 @@ tooltips:
               - name: Ovuz’o’kergull
                 flavorText: ~
         AXE:
-          default: 
+          default:
             name: Grumbler Axe
             flavorText: ~
           special:
@@ -1216,7 +1216,7 @@ tooltips:
               - name: Drak's Mercy
                 flavorText: ~
         SHIELD:
-          default: 
+          default:
             name: Grumbler Shield
             flavorText: ~
           special:
@@ -1224,7 +1224,7 @@ tooltips:
               - name: Vault Door
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Grumbler Helmet
             flavorText: ~
           special:
@@ -1232,7 +1232,7 @@ tooltips:
               - name: Immortal King’s Oath Helmet
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Grumbler Chestplate
             flavorText: ~
           special:
@@ -1240,7 +1240,7 @@ tooltips:
               - name: Immortal King’s Oath Chestplate
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Grumbler Legplates
             flavorText: ~
           special:
@@ -1248,7 +1248,7 @@ tooltips:
               - name: Immortal King’s Oath Legplates
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Grumbler Greaves
             flavorText: ~
           special:
@@ -1260,7 +1260,7 @@ tooltips:
     ELF:
       OFFENSE:
         SWORD:
-          default: 
+          default:
             name: Wardancer Sword
             flavorText: ~
           special:
@@ -1268,7 +1268,7 @@ tooltips:
               - name: Murasame
                 flavorText: ~
         AXE:
-          default: 
+          default:
             name: Wardancer Axe
             flavorText: ~
           special:
@@ -1276,7 +1276,7 @@ tooltips:
               - name: Woodfell
                 flavorText: ~
         SHIELD:
-          default: 
+          default:
             name: Wardancer Shield
             flavorText: ~
           special:
@@ -1284,7 +1284,7 @@ tooltips:
               - name: Deflection
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Wardancer Helmet
             flavorText: ~
           special:
@@ -1292,7 +1292,7 @@ tooltips:
               - name: Eternal Dance Helmet
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Wardancer Chestplate
             flavorText: ~
           special:
@@ -1300,7 +1300,7 @@ tooltips:
               - name: Eternal Dance Chestplate
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Wardancer Legplates
             flavorText: ~
           special:
@@ -1308,7 +1308,7 @@ tooltips:
               - name: Eternal Dance Legplates
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Wardancer Greaves
             flavorText: ~
           special:
@@ -1318,7 +1318,7 @@ tooltips:
 
       BALANCE:
         SWORD:
-          default: 
+          default:
             name: Dryad Sword
             flavorText: ~
           special:
@@ -1326,7 +1326,7 @@ tooltips:
               - name: Globdalac
                 flavorText: ~
         AXE:
-          default: 
+          default:
             name: Dryad Axe
             flavorText: ~
           special:
@@ -1334,7 +1334,7 @@ tooltips:
               - name: Amberchild
                 flavorText: ~
         SHIELD:
-          default: 
+          default:
             name: Dryad Shield
             flavorText: ~
           special:
@@ -1342,7 +1342,7 @@ tooltips:
               - name: Warden of the East
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Dryad Helmet
             flavorText: ~
           special:
@@ -1350,7 +1350,7 @@ tooltips:
               - name: Grace of the Aesir Helmet
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Dryad Chestplate
             flavorText: ~
           special:
@@ -1358,7 +1358,7 @@ tooltips:
               - name: Grace of the Aesir Chestplate
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Dryad Legplates
             flavorText: ~
           special:
@@ -1366,7 +1366,7 @@ tooltips:
               - name: Grace of the Aesir Legplates
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Dryad Greaves
             flavorText: ~
           special:
@@ -1376,7 +1376,7 @@ tooltips:
 
       DEFENSE:
         SWORD:
-          default: 
+          default:
             name: Warden Sword
             flavorText: ~
           special:
@@ -1384,7 +1384,7 @@ tooltips:
               - name: Wind’s Dance
                 flavorText: ~
         AXE:
-          default: 
+          default:
             name: Warden Axe
             flavorText: ~
           special:
@@ -1392,7 +1392,7 @@ tooltips:
               - name: Chaga’s Dream
                 flavorText: ~
         SHIELD:
-          default: 
+          default:
             name: Warden Shield
             flavorText: ~
           special:
@@ -1400,7 +1400,7 @@ tooltips:
               - name: Wyrwood Bark
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Warden Helmet
             flavorText: ~
           special:
@@ -1408,7 +1408,7 @@ tooltips:
               - name: Warden of Cyntra Helmet
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Warden Chestplate
             flavorText: ~
           special:
@@ -1416,7 +1416,7 @@ tooltips:
               - name: Warden of Cyntra Chestplate
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Warden Legplates
             flavorText: ~
           special:
@@ -1424,7 +1424,7 @@ tooltips:
               - name: Warden of Cyntra Legplates
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Warden Greaves
             flavorText: ~
           special:
@@ -1436,15 +1436,15 @@ tooltips:
     HUMAN:
       OFFENSE:
         SWORD:
-          default: 
+          default:
             name: Gladiator Sword
             flavorText: ~
           special:
             LEGENDARY:
               - name: The Bloody Baron
-                flavorText: [FUCK YOU!]
+                flavorText: [ FUCK YOU! ]
         AXE:
-          default: 
+          default:
             name: Gladiator Axe
             flavorText: ~
           special:
@@ -1452,7 +1452,7 @@ tooltips:
               - name: Jagerax
                 flavorText: ~
         SHIELD:
-          default: 
+          default:
             name: Gladiator Shield
             flavorText: ~
           special:
@@ -1460,7 +1460,7 @@ tooltips:
               - name: Battered Bastion
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Gladiator Helmet
             flavorText: ~
           special:
@@ -1468,7 +1468,7 @@ tooltips:
               - name: Unbeaten Harness Helmet
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Gladiator Chestplate
             flavorText: ~
           special:
@@ -1476,7 +1476,7 @@ tooltips:
               - name: Unbeaten Harness Chestplate
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Gladiator Legplates
             flavorText: ~
           special:
@@ -1484,7 +1484,7 @@ tooltips:
               - name: Unbeaten Harness Legplates
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Gladiator Greaves
             flavorText: ~
           special:
@@ -1494,7 +1494,7 @@ tooltips:
 
       BALANCE:
         SWORD:
-          default: 
+          default:
             name: Champion Sword
             flavorText: ~
           special:
@@ -1502,7 +1502,7 @@ tooltips:
               - name: Golden Rimmed Zweihander
                 flavorText: ~
         AXE:
-          default: 
+          default:
             name: Champion Axe
             flavorText: ~
           special:
@@ -1510,7 +1510,7 @@ tooltips:
               - name: Great Estoc
                 flavorText: ~
         SHIELD:
-          default: 
+          default:
             name: Champion Shield
             flavorText: ~
           special:
@@ -1518,7 +1518,7 @@ tooltips:
               - name: Guardian of the West
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Champion Helmet
             flavorText: ~
           special:
@@ -1526,7 +1526,7 @@ tooltips:
               - name: Champion’s Fate Helmet
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Champion Chestplate
             flavorText: ~
           special:
@@ -1534,7 +1534,7 @@ tooltips:
               - name: Champion’s Fate Chestplate
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Champion Legplates
             flavorText: ~
           special:
@@ -1542,7 +1542,7 @@ tooltips:
               - name: Champion’s Fate Legplates
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Champion Greaves
             flavorText: ~
           special:
@@ -1552,15 +1552,15 @@ tooltips:
 
       DEFENSE:
         SWORD:
-          default: 
+          default:
             name: Guardian Sword
             flavorText: ~
           special:
             LEGENDARY:
               - name: Excalibur
-                flavorText: [...whose power was meant, to unite all men...]
+                flavorText: [ ...whose power was meant, to unite all men... ]
         AXE:
-          default: 
+          default:
             name: Guardian Axe
             flavorText: ~
           special:
@@ -1568,7 +1568,7 @@ tooltips:
               - name: The Cleanser
                 flavorText: ~
         SHIELD:
-          default: 
+          default:
             name: Guardian Shield
             flavorText: ~
           special:
@@ -1576,7 +1576,7 @@ tooltips:
               - name: Blinding Redoubt
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Guardian Helmet
             flavorText: ~
           special:
@@ -1584,7 +1584,7 @@ tooltips:
               - name: Emperor’s Final Stand Helmet
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Guardian Chestplate
             flavorText: ~
           special:
@@ -1592,7 +1592,7 @@ tooltips:
               - name: Emperor’s Final Stand Chestplate
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Guardian Legplates
             flavorText: ~
           special:
@@ -1600,7 +1600,7 @@ tooltips:
               - name: Emperor’s Final Stand Legplates
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Guardian Greaves
             flavorText: ~
           special:
@@ -1612,7 +1612,7 @@ tooltips:
     ORC:
       OFFENSE:
         SWORD:
-          default: 
+          default:
             name: Warmonger Sword
             flavorText: ~
           special:
@@ -1620,7 +1620,7 @@ tooltips:
               - name: Executioner's Blade
                 flavorText: ~
         AXE:
-          default: 
+          default:
             name: Warmonger Axe
             flavorText: ~
           special:
@@ -1630,7 +1630,7 @@ tooltips:
               - name: Gutripper
                 flavorText: ~
         SHIELD:
-          default: 
+          default:
             name: Warmonger Shield
             flavorText: ~
           special:
@@ -1640,7 +1640,7 @@ tooltips:
               - name: Corpsegrinder
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Warmonger Helmet
             flavorText: ~
           special:
@@ -1648,7 +1648,7 @@ tooltips:
               - name: Sraak the Spiked Helmet
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Warmonger Chestplate
             flavorText: ~
           special:
@@ -1656,7 +1656,7 @@ tooltips:
               - name: Sraak the Spiked Chestplate
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Warmonger Legplates
             flavorText: ~
           special:
@@ -1664,7 +1664,7 @@ tooltips:
               - name: Sraak the Spiked Legplates
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Warmonger Greaves
             flavorText: ~
           special:
@@ -1674,7 +1674,7 @@ tooltips:
 
       BALANCE:
         SWORD:
-          default: 
+          default:
             name: Chieftain Sword
             flavorText: ~
           special:
@@ -1682,7 +1682,7 @@ tooltips:
               - name: Armageddon
                 flavorText: ~
         AXE:
-          default: 
+          default:
             name: Chieftain Axe
             flavorText: ~
           special:
@@ -1690,7 +1690,7 @@ tooltips:
               - name: Skullsplitter
                 flavorText: ~
         SHIELD:
-          default: 
+          default:
             name: Chieftain Shield
             flavorText: ~
           special:
@@ -1698,7 +1698,7 @@ tooltips:
               - name: Defender of the South
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Chieftain Helmet
             flavorText: ~
           special:
@@ -1706,7 +1706,7 @@ tooltips:
               - name: Bull’s Might Helmet
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Chieftain Chestplate
             flavorText: ~
           special:
@@ -1714,7 +1714,7 @@ tooltips:
               - name: Bull’s Might Chestplate
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Chieftain Legplates
             flavorText: ~
           special:
@@ -1722,7 +1722,7 @@ tooltips:
               - name: Bull’s Might Legplates
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Chieftain Greaves
             flavorText: ~
           special:
@@ -1732,7 +1732,7 @@ tooltips:
 
       DEFENSE:
         SWORD:
-          default: 
+          default:
             name: Ogre Sword
             flavorText: ~
           special:
@@ -1740,7 +1740,7 @@ tooltips:
               - name: Vor's Horn
                 flavorText: ~
         AXE:
-          default: 
+          default:
             name: Ogre Axe
             flavorText: ~
           special:
@@ -1748,7 +1748,7 @@ tooltips:
               - name: Warlord's Cleaver
                 flavorText: ~
         SHIELD:
-          default: 
+          default:
             name: Ogre Shield
             flavorText: ~
           special:
@@ -1756,7 +1756,7 @@ tooltips:
               - name: Pavise of Rage
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Ogre Helmet
             flavorText: ~
           special:
@@ -1764,7 +1764,7 @@ tooltips:
               - name: Bones of Gell’org Helmet
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Ogre Chestplate
             flavorText: ~
           special:
@@ -1772,7 +1772,7 @@ tooltips:
               - name: Bones of Gell’org Chestplate
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Ogre Legplates
             flavorText: ~
           special:
@@ -1780,7 +1780,7 @@ tooltips:
               - name: Bones of Gell’org Legplates
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Ogre Greaves
             flavorText: ~
           special:
@@ -1793,7 +1793,7 @@ tooltips:
     DWARF:
       OFFENSE:
         BOW:
-          default: 
+          default:
             name: Thunderer Bow
             flavorText: ~
           special:
@@ -1801,7 +1801,7 @@ tooltips:
               - name: Wintertooth
                 flavorText: ~
         CROSSBOW:
-          default: 
+          default:
             name: Thunderer Crossbow
             flavorText: ~
           special:
@@ -1809,7 +1809,7 @@ tooltips:
               - name: Argos' Arbalest
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Thunderer Cap
             flavorText: ~
           special:
@@ -1817,7 +1817,7 @@ tooltips:
               - name: Gyrotinker Cap
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Thunderer Coat
             flavorText: ~
           special:
@@ -1825,7 +1825,7 @@ tooltips:
               - name: Gyrotinker Coat
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Thunderer Leggings
             flavorText: ~
           special:
@@ -1833,7 +1833,7 @@ tooltips:
               - name: Gyrotinker Leggings
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Thunderer Boots
             flavorText: ~
           special:
@@ -1843,7 +1843,7 @@ tooltips:
 
       BALANCE:
         BOW:
-          default: 
+          default:
             name: Runecarver Bow
             flavorText: ~
           special:
@@ -1851,7 +1851,7 @@ tooltips:
               - name: Baleful Bow
                 flavorText: ~
         CROSSBOW:
-          default: 
+          default:
             name: Runecarver Crossbow
             flavorText: ~
           special:
@@ -1859,7 +1859,7 @@ tooltips:
               - name: Dragon's Claw
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Runecarver Cap
             flavorText: ~
           special:
@@ -1867,7 +1867,7 @@ tooltips:
               - name: Gudr’s Greed Cap
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Runecarver Coat
             flavorText: ~
           special:
@@ -1875,7 +1875,7 @@ tooltips:
               - name: Gudr’s Greed Coat
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Runecarver Leggings
             flavorText: ~
           special:
@@ -1883,7 +1883,7 @@ tooltips:
               - name: Gudr’s Greed Leggings
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Runecarver Boots
             flavorText: ~
           special:
@@ -1893,7 +1893,7 @@ tooltips:
 
       DEFENSE:
         BOW:
-          default: 
+          default:
             name: Quareller Bow
             flavorText: ~
           special:
@@ -1901,7 +1901,7 @@ tooltips:
               - name: Goldpiercer
                 flavorText: ~
         CROSSBOW:
-          default: 
+          default:
             name: Quareller Crossbow
             flavorText: ~
           special:
@@ -1909,7 +1909,7 @@ tooltips:
               - name: Sippa's Spyglass
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Quareller Cap
             flavorText: ~
           special:
@@ -1917,7 +1917,7 @@ tooltips:
               - name: Permafrost Cap
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Quareller Coat
             flavorText: ~
           special:
@@ -1925,7 +1925,7 @@ tooltips:
               - name: Permafrost Coat
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Quareller Leggings
             flavorText: ~
           special:
@@ -1933,7 +1933,7 @@ tooltips:
               - name: Permafrost Leggings
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Quareller Boots
             flavorText: ~
           special:
@@ -1945,7 +1945,7 @@ tooltips:
     ELF:
       OFFENSE:
         BOW:
-          default: 
+          default:
             name: Sinister Bow
             flavorText: ~
           special:
@@ -1953,7 +1953,7 @@ tooltips:
               - name: Recurve of Twilight
                 flavorText: ~
         CROSSBOW:
-          default: 
+          default:
             name: Sinister Crossbow
             flavorText: ~
           special:
@@ -1961,7 +1961,7 @@ tooltips:
               - name: Harpies Touch
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Sinister Cap
             flavorText: ~
           special:
@@ -1969,7 +1969,7 @@ tooltips:
               - name: Shadow of Neferet Cap
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Sinister Coat
             flavorText: ~
           special:
@@ -1977,7 +1977,7 @@ tooltips:
               - name: Shadow of Neferet Coat
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Sinister Leggings
             flavorText: ~
           special:
@@ -1985,7 +1985,7 @@ tooltips:
               - name: Shadow of Neferet Leggings
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Sinister Boots
             flavorText: ~
           special:
@@ -1995,7 +1995,7 @@ tooltips:
 
       BALANCE:
         BOW:
-          default: 
+          default:
             name: Trickster Bow
             flavorText: ~
           special:
@@ -2003,7 +2003,7 @@ tooltips:
               - name: Eagle's Wing
                 flavorText: ~
         CROSSBOW:
-          default: 
+          default:
             name: Trickster Crossbow
             flavorText: ~
           special:
@@ -2011,7 +2011,7 @@ tooltips:
               - name: Starspine
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Trickster Cap
             flavorText: ~
           special:
@@ -2019,7 +2019,7 @@ tooltips:
               - name: Scion of the Wild Cap
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Trickster Coat
             flavorText: ~
           special:
@@ -2027,7 +2027,7 @@ tooltips:
               - name: Scion of the Wild Coat
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Trickster Leggings
             flavorText: ~
           special:
@@ -2035,7 +2035,7 @@ tooltips:
               - name: Scion of the Wild Leggings
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Trickster Boots
             flavorText: ~
           special:
@@ -2045,7 +2045,7 @@ tooltips:
 
       DEFENSE:
         BOW:
-          default: 
+          default:
             name: Shade Bow
             flavorText: ~
           special:
@@ -2053,7 +2053,7 @@ tooltips:
               - name: Gaium Oak
                 flavorText: ~
         CROSSBOW:
-          default: 
+          default:
             name: Shade Crossbow
             flavorText: ~
           special:
@@ -2061,7 +2061,7 @@ tooltips:
               - name: Manticore
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Shade Cap
             flavorText: ~
           special:
@@ -2069,7 +2069,7 @@ tooltips:
               - name: Deepwood Shroud Cap
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Shade Coat
             flavorText: ~
           special:
@@ -2077,7 +2077,7 @@ tooltips:
               - name: Deepwood Shroud Coat
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Shade Leggings
             flavorText: ~
           special:
@@ -2085,7 +2085,7 @@ tooltips:
               - name: Deepwood Shroud Leggings
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Shade Boots
             flavorText: ~
           special:
@@ -2097,7 +2097,7 @@ tooltips:
     HUMAN:
       OFFENSE:
         BOW:
-          default: 
+          default:
             name: Predator Bow
             flavorText: ~
           special:
@@ -2105,15 +2105,15 @@ tooltips:
               - name: Gaium Oak
                 flavorText: ~
         CROSSBOW:
-          default: 
+          default:
             name: Predator Crossbow
             flavorText: ~
           special:
             LEGENDARY:
               - name: Blink
-                flavorText: [Don't]
+                flavorText: [ Don't ]
         HEAD:
-          default: 
+          default:
             name: Predator Cap
             flavorText: ~
           special:
@@ -2121,7 +2121,7 @@ tooltips:
               - name: Von Kleft Cap
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Predator Coat
             flavorText: ~
           special:
@@ -2129,7 +2129,7 @@ tooltips:
               - name: Von Kleft Coat
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Predator Leggings
             flavorText: ~
           special:
@@ -2137,7 +2137,7 @@ tooltips:
               - name: Von Kleft Leggings
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Predator Boots
             flavorText: ~
           special:
@@ -2147,7 +2147,7 @@ tooltips:
 
       BALANCE:
         BOW:
-          default: 
+          default:
             name: Trapper Bow
             flavorText: ~
           special:
@@ -2155,7 +2155,7 @@ tooltips:
               - name: Elysium
                 flavorText: ~
         CROSSBOW:
-          default: 
+          default:
             name: Trapper Crossbow
             flavorText: ~
           special:
@@ -2163,7 +2163,7 @@ tooltips:
               - name: Eisenhorn’s Decree
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Trapper Cap
             flavorText: ~
           special:
@@ -2171,7 +2171,7 @@ tooltips:
               - name: Sabba’s Carapace Cap
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Trapper Coat
             flavorText: ~
           special:
@@ -2179,7 +2179,7 @@ tooltips:
               - name: Sabba’s Carapace Coat
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Trapper Leggings
             flavorText: ~
           special:
@@ -2187,7 +2187,7 @@ tooltips:
               - name: Sabba’s Carapace Leggings
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Trapper Boots
             flavorText: ~
           special:
@@ -2197,7 +2197,7 @@ tooltips:
 
       DEFENSE:
         BOW:
-          default: 
+          default:
             name: Stalker Bow
             flavorText: ~
           special:
@@ -2205,7 +2205,7 @@ tooltips:
               - name: Skytouched Recurve
                 flavorText: ~
         CROSSBOW:
-          default: 
+          default:
             name: Stalker Crossbow
             flavorText: ~
           special:
@@ -2213,7 +2213,7 @@ tooltips:
               - name: Stalker's Shame
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Stalker Cap
             flavorText: ~
           special:
@@ -2221,7 +2221,7 @@ tooltips:
               - name: Wildebeast Hide Cap
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Stalker Coat
             flavorText: ~
           special:
@@ -2229,7 +2229,7 @@ tooltips:
               - name: Wildebeast Hide Coat
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Stalker Leggings
             flavorText: ~
           special:
@@ -2237,7 +2237,7 @@ tooltips:
               - name: Wildebeast Hide Leggings
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Stalker Boots
             flavorText: ~
           special:
@@ -2249,7 +2249,7 @@ tooltips:
     ORC:
       OFFENSE:
         BOW:
-          default: 
+          default:
             name: Huntmaster Bow
             flavorText: ~
           special:
@@ -2257,7 +2257,7 @@ tooltips:
               - name: Moon Gob’s Bow
                 flavorText: ~
         CROSSBOW:
-          default: 
+          default:
             name: Huntmaster Crossbow
             flavorText: ~
           special:
@@ -2265,7 +2265,7 @@ tooltips:
               - name: Sun Gob’s Crossbow
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Huntmaster Cap
             flavorText: ~
           special:
@@ -2273,7 +2273,7 @@ tooltips:
               - name: Barazaak Skulker Cap
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Huntmaster Coat
             flavorText: ~
           special:
@@ -2281,7 +2281,7 @@ tooltips:
               - name: Barazaak Skulker Coat
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Huntmaster Leggings
             flavorText: ~
           special:
@@ -2289,7 +2289,7 @@ tooltips:
               - name: Barazaak Skulker Leggings
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Huntmaster Boots
             flavorText: ~
           special:
@@ -2299,7 +2299,7 @@ tooltips:
 
       BALANCE:
         BOW:
-          default: 
+          default:
             name: Beastwrangler Bow
             flavorText: ~
           special:
@@ -2307,7 +2307,7 @@ tooltips:
               - name: Gutgorger
                 flavorText: ~
         CROSSBOW:
-          default: 
+          default:
             name: Beastwrangler Crossbow
             flavorText: ~
           special:
@@ -2315,7 +2315,7 @@ tooltips:
               - name: Dwarf Gouger
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Beastwrangler Cap
             flavorText: ~
           special:
@@ -2323,7 +2323,7 @@ tooltips:
               - name: Beastbreaker’s Dominance Cap
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Beastwrangler Coat
             flavorText: ~
           special:
@@ -2331,7 +2331,7 @@ tooltips:
               - name: Beastbreaker’s Dominance Coat
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Beastwrangler Leggings
             flavorText: ~
           special:
@@ -2339,7 +2339,7 @@ tooltips:
               - name: Beastbreaker’s Dominance Leggings
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Beastwrangler Boots
             flavorText: ~
           special:
@@ -2349,7 +2349,7 @@ tooltips:
 
       DEFENSE:
         BOW:
-          default: 
+          default:
             name: Mudlurker Bow
             flavorText: ~
           special:
@@ -2357,7 +2357,7 @@ tooltips:
               - name: Kneesplitter
                 flavorText: ~
         CROSSBOW:
-          default: 
+          default:
             name: Mudlurker Crossbow
             flavorText: ~
           special:
@@ -2365,7 +2365,7 @@ tooltips:
               - name: Swiftshot
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Mudlurker Cap
             flavorText: ~
           special:
@@ -2373,7 +2373,7 @@ tooltips:
               - name: Preystalker Cap
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Mudlurker Coat
             flavorText: ~
           special:
@@ -2381,7 +2381,7 @@ tooltips:
               - name: Preystalker Coat
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Mudlurker Leggings
             flavorText: ~
           special:
@@ -2389,7 +2389,7 @@ tooltips:
               - name: Preystalker Leggings
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Mudlurker Boots
             flavorText: ~
           special:
@@ -2402,7 +2402,7 @@ tooltips:
     DWARF:
       OFFENSE:
         WAND:
-          default: 
+          default:
             name: Delver Wand
             flavorText: ~
           special:
@@ -2410,7 +2410,7 @@ tooltips:
               - name: Transmutator
                 flavorText: ~
         STAFF:
-          default: 
+          default:
             name: Delver Staff
             flavorText: ~
           special:
@@ -2418,7 +2418,7 @@ tooltips:
               - name: Staff of Command
                 flavorText: ~
         BOOK:
-          default: 
+          default:
             name: Delver Book
             flavorText: ~
           special:
@@ -2426,7 +2426,7 @@ tooltips:
               - name: End’s Prophecy
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Delver Hat
             flavorText: ~
           special:
@@ -2434,7 +2434,7 @@ tooltips:
               - name: Fragmented Core Hat
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Delver Robe
             flavorText: ~
           special:
@@ -2442,7 +2442,7 @@ tooltips:
               - name: Fragmented Core Robe
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Delver Pants
             flavorText: ~
           special:
@@ -2450,7 +2450,7 @@ tooltips:
               - name: Fragmented Core Pants
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Delver Shoes
             flavorText: ~
           special:
@@ -2460,7 +2460,7 @@ tooltips:
 
       BALANCE:
         WAND:
-          default: 
+          default:
             name: Runepriest Wand
             flavorText: ~
           special:
@@ -2468,7 +2468,7 @@ tooltips:
               - name: Dorri’s Dizzle Dazzle
                 flavorText: ~
         STAFF:
-          default: 
+          default:
             name: Runepriest Staff
             flavorText: ~
           special:
@@ -2476,7 +2476,7 @@ tooltips:
               - name: Ten Thunder
                 flavorText: ~
         BOOK:
-          default: 
+          default:
             name: Runepriest Book
             flavorText: ~
           special:
@@ -2484,7 +2484,7 @@ tooltips:
               - name: Secrets of Seduction
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Runepriest Hat
             flavorText: ~
           special:
@@ -2492,7 +2492,7 @@ tooltips:
               - name: Crimson Priest Hat
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Runepriest Robe
             flavorText: ~
           special:
@@ -2500,7 +2500,7 @@ tooltips:
               - name: Crimson Priest Robe
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Sorcerer Pants
             flavorText: ~
           special:
@@ -2508,7 +2508,7 @@ tooltips:
               - name: Crimson Priest Pants
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Runepriest Shoes
             flavorText: ~
           special:
@@ -2518,7 +2518,7 @@ tooltips:
 
       DEFENSE:
         WAND:
-          default: 
+          default:
             name: Earthen Wand
             flavorText: ~
           special:
@@ -2526,7 +2526,7 @@ tooltips:
               - name: Kabouter
                 flavorText: ~
         STAFF:
-          default: 
+          default:
             name: Earthen Staff
             flavorText: ~
           special:
@@ -2534,7 +2534,7 @@ tooltips:
               - name: Mountain’s Might
                 flavorText: ~
         BOOK:
-          default: 
+          default:
             name: Earthen Book
             flavorText: ~
           special:
@@ -2542,7 +2542,7 @@ tooltips:
               - name: Encyclopedia of Grudges
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Earthen Hat
             flavorText: ~
           special:
@@ -2550,7 +2550,7 @@ tooltips:
               - name: Burden of the Wise Hat
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Earthen Robe
             flavorText: ~
           special:
@@ -2558,7 +2558,7 @@ tooltips:
               - name: Burden of the Wise Robe
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Earthen Pants
             flavorText: ~
           special:
@@ -2566,7 +2566,7 @@ tooltips:
               - name: Burden of the Wise Pants
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Earthen Shoes
             flavorText: ~
           special:
@@ -2578,7 +2578,7 @@ tooltips:
     ELF:
       OFFENSE:
         WAND:
-          default: 
+          default:
             name: Spellsinger Wand
             flavorText: ~
           special:
@@ -2586,7 +2586,7 @@ tooltips:
               - name: Siren’s Song
                 flavorText: ~
         STAFF:
-          default: 
+          default:
             name: Spellsinger Staff
             flavorText: ~
           special:
@@ -2594,7 +2594,7 @@ tooltips:
               - name: The Nightmare
                 flavorText: ~
         BOOK:
-          default: 
+          default:
             name: Spellsinger Book
             flavorText: ~
           special:
@@ -2602,7 +2602,7 @@ tooltips:
               - name: Lila’s Libretto
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Spellsinger Hat
             flavorText: ~
           special:
@@ -2610,7 +2610,7 @@ tooltips:
               - name: Solya’s Serenade Hat
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Spellsinger Robe
             flavorText: ~
           special:
@@ -2618,7 +2618,7 @@ tooltips:
               - name: Solya’s Serenade Robe
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Spellsinger Pants
             flavorText: ~
           special:
@@ -2626,7 +2626,7 @@ tooltips:
               - name: Solya’s Serenade Pants
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Spellsinger Shoes
             flavorText: ~
           special:
@@ -2636,7 +2636,7 @@ tooltips:
 
       BALANCE:
         WAND:
-          default: 
+          default:
             name: Druid Wand
             flavorText: ~
           special:
@@ -2644,7 +2644,7 @@ tooltips:
               - name: Prophet’s Branch
                 flavorText: ~
         STAFF:
-          default: 
+          default:
             name: Druid Staff
             flavorText: ~
           special:
@@ -2652,7 +2652,7 @@ tooltips:
               - name: Grovetender
                 flavorText: ~
         BOOK:
-          default: 
+          default:
             name: Druid Book
             flavorText: ~
           special:
@@ -2660,7 +2660,7 @@ tooltips:
               - name: Overgrown Octavo
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Druid Hat
             flavorText: ~
           special:
@@ -2668,7 +2668,7 @@ tooltips:
               - name: Nature’s Symbiosis Hat
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Druid Robe
             flavorText: ~
           special:
@@ -2676,7 +2676,7 @@ tooltips:
               - name: Nature’s Symbiosis Robe
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Druid Pants
             flavorText: ~
           special:
@@ -2684,7 +2684,7 @@ tooltips:
               - name: Nature’s Symbiosis Pants
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Druid Shoes
             flavorText: ~
           special:
@@ -2694,7 +2694,7 @@ tooltips:
 
       DEFENSE:
         WAND:
-          default: 
+          default:
             name: Loremaster Wand
             flavorText: ~
           special:
@@ -2702,7 +2702,7 @@ tooltips:
               - name: Timetwister
                 flavorText: ~
         STAFF:
-          default: 
+          default:
             name: Loremaster Staff
             flavorText: ~
           special:
@@ -2710,15 +2710,18 @@ tooltips:
               - name: Soulshaper
                 flavorText: ~
         BOOK:
-          default: 
+          default:
             name: Loremaster Book
             flavorText: ~
           special:
             LEGENDARY:
               - name: Secrets of the Realm’s Weave
-                flavorText: [If you try to read it you'll find the pages to be blank. You can only see unreadable text in your peripheral vision.]
+                flavorText:
+                  - If you try to read it you'll find the pages
+                  - to be blank. You can only see unreadable
+                  - text in your peripheral vision.
         HEAD:
-          default: 
+          default:
             name: Loremaster Hat
             flavorText: ~
           special:
@@ -2726,7 +2729,7 @@ tooltips:
               - name: Flavor of Time Hat
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Loremaster Robe
             flavorText: ~
           special:
@@ -2734,7 +2737,7 @@ tooltips:
               - name: Flavor of Time Robe
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Loremaster Pants
             flavorText: ~
           special:
@@ -2742,7 +2745,7 @@ tooltips:
               - name: Flavor of Time Pants
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Loremaster Shoes
             flavorText: ~
           special:
@@ -2754,7 +2757,7 @@ tooltips:
     HUMAN:
       OFFENSE:
         WAND:
-          default: 
+          default:
             name: Twisted Wand
             flavorText: ~
           special:
@@ -2762,7 +2765,7 @@ tooltips:
               - name: Hand of the Haruspex
                 flavorText: ~
         STAFF:
-          default: 
+          default:
             name: Twisted Staff
             flavorText: ~
           special:
@@ -2770,7 +2773,7 @@ tooltips:
               - name: Grand Deceiver Rod
                 flavorText: ~
         BOOK:
-          default: 
+          default:
             name: Twisted Book
             flavorText: ~
           special:
@@ -2778,7 +2781,7 @@ tooltips:
               - name: Notes of the Crone
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Twisted Hat
             flavorText: ~
           special:
@@ -2786,7 +2789,7 @@ tooltips:
               - name: Archmage’s Defiance Hat
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Twisted Robe
             flavorText: ~
           special:
@@ -2794,7 +2797,7 @@ tooltips:
               - name: Archmage’s Defiance Robe
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Twisted Pants
             flavorText: ~
           special:
@@ -2802,7 +2805,7 @@ tooltips:
               - name: Archmage’s Defiance Pants
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Twisted Shoes
             flavorText: ~
           special:
@@ -2812,7 +2815,7 @@ tooltips:
 
       BALANCE:
         WAND:
-          default: 
+          default:
             name: Sorcerer Wand
             flavorText: ~
           special:
@@ -2820,7 +2823,7 @@ tooltips:
               - name: Bright
                 flavorText: ~
         STAFF:
-          default: 
+          default:
             name: Sorcerer Staff
             flavorText: ~
           special:
@@ -2828,7 +2831,7 @@ tooltips:
               - name: Talking Turtle Taff
                 flavorText: ~
         BOOK:
-          default: 
+          default:
             name: Sorcerer Book
             flavorText: ~
           special:
@@ -2836,7 +2839,7 @@ tooltips:
               - name: High Mage’s Journal
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Sorcerer Hat
             flavorText: ~
           special:
@@ -2844,7 +2847,7 @@ tooltips:
               - name: Fandal’s Finery Hat
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Sorcerer Robe
             flavorText: ~
           special:
@@ -2852,7 +2855,7 @@ tooltips:
               - name: Fandal’s Finery Robe
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Sorcerer Pants
             flavorText: ~
           special:
@@ -2860,7 +2863,7 @@ tooltips:
               - name: Fandal’s Finery Pants
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Sorcerer Shoes
             flavorText: ~
           special:
@@ -2870,7 +2873,7 @@ tooltips:
 
       DEFENSE:
         WAND:
-          default: 
+          default:
             name: Enchanter Wand
             flavorText: ~
           special:
@@ -2878,7 +2881,7 @@ tooltips:
               - name: Deflector
                 flavorText: ~
         STAFF:
-          default: 
+          default:
             name: Enchanter Staff
             flavorText: ~
           special:
@@ -2886,7 +2889,7 @@ tooltips:
               - name: Warpwood Cane
                 flavorText: ~
         BOOK:
-          default: 
+          default:
             name: Enchanter Book
             flavorText: ~
           special:
@@ -2894,7 +2897,7 @@ tooltips:
               - name: Withered Lexicon
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Enchanter Hat
             flavorText: ~
           special:
@@ -2902,7 +2905,7 @@ tooltips:
               - name: Shimmer of the Invoker Hat
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Enchanter Robe
             flavorText: ~
           special:
@@ -2910,7 +2913,7 @@ tooltips:
               - name: Shimmer of the Invoker Robe
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Enchanter Pants
             flavorText: ~
           special:
@@ -2918,7 +2921,7 @@ tooltips:
               - name: Shimmer of the Invoker Pants
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Enchanter Shoes
             flavorText: ~
           special:
@@ -2930,7 +2933,7 @@ tooltips:
     ORC:
       OFFENSE:
         WAND:
-          default: 
+          default:
             name: Warlock Wand
             flavorText: ~
           special:
@@ -2938,7 +2941,7 @@ tooltips:
               - name: Elder Spirit
                 flavorText: ~
         STAFF:
-          default: 
+          default:
             name: Warlock Staff
             flavorText: ~
           special:
@@ -2946,7 +2949,7 @@ tooltips:
               - name: K'took the Serpent
                 flavorText: ~
         BOOK:
-          default: 
+          default:
             name: Warlock Book
             flavorText: ~
           special:
@@ -2958,7 +2961,7 @@ tooltips:
                   - "Kick them in the chin"
                   - "Put them on the spot'"
         HEAD:
-          default: 
+          default:
             name: Warlock Hat
             flavorText: ~
           special:
@@ -2966,7 +2969,7 @@ tooltips:
               - name: Pox Ridden Hat
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Warlock Robe
             flavorText: ~
           special:
@@ -2974,7 +2977,7 @@ tooltips:
               - name: Pox Ridden Robe
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Warlock Pants
             flavorText: ~
           special:
@@ -2982,7 +2985,7 @@ tooltips:
               - name: Pox Ridden Pants
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Warlock Shoes
             flavorText: ~
           special:
@@ -2992,7 +2995,7 @@ tooltips:
 
       BALANCE:
         WAND:
-          default: 
+          default:
             name: Seer Wand
             flavorText: ~
           special:
@@ -3000,7 +3003,7 @@ tooltips:
               - name: Baba's Fetish
                 flavorText: ~
         STAFF:
-          default: 
+          default:
             name: Seer Staff
             flavorText: ~
           special:
@@ -3008,7 +3011,7 @@ tooltips:
               - name: Tuskling's Prodder
                 flavorText: ~
         BOOK:
-          default: 
+          default:
             name: Seer Book
             flavorText: ~
           special:
@@ -3016,7 +3019,7 @@ tooltips:
               - name: Late Seer's Last Message
                 flavorText: ~
         HEAD:
-          default: 
+          default:
             name: Seer Hat
             flavorText: ~
           special:
@@ -3024,7 +3027,7 @@ tooltips:
               - name: Garga’s Wail Hat
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Seer Robe
             flavorText: ~
           special:
@@ -3032,7 +3035,7 @@ tooltips:
               - name: Garga’s Wail Robe
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Seer Pants
             flavorText: ~
           special:
@@ -3040,7 +3043,7 @@ tooltips:
               - name: Garga’s Wail Pants
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Seer Shoes
             flavorText: ~
           special:
@@ -3050,7 +3053,7 @@ tooltips:
 
       DEFENSE:
         WAND:
-          default: 
+          default:
             name: Shaman Wand
             flavorText: ~
           special:
@@ -3058,7 +3061,7 @@ tooltips:
               - name: Totemcarver
                 flavorText: ~
         STAFF:
-          default: 
+          default:
             name: Shaman Staff
             flavorText: ~
           special:
@@ -3066,15 +3069,15 @@ tooltips:
               - name: Bursting Volcano
                 flavorText: ~
         BOOK:
-          default: 
+          default:
             name: Shaman Book
             flavorText: ~
           special:
             LEGENDARY:
               - name: Bibsqeek's Scribbles
-                flavorText: [The rantings of a lost goblin druid]
+                flavorText: [ The rantings of a lost goblin druid ]
         HEAD:
-          default: 
+          default:
             name: Shaman Hat
             flavorText: ~
           special:
@@ -3082,7 +3085,7 @@ tooltips:
               - name: Volcano’s Restraint Hat
                 flavorText: ~
         CHEST:
-          default: 
+          default:
             name: Shaman Robe
             flavorText: ~
           special:
@@ -3090,7 +3093,7 @@ tooltips:
               - name: Volcano’s Restraint Robe
                 flavorText: ~
         LEGS:
-          default: 
+          default:
             name: Shaman Pants
             flavorText: ~
           special:
@@ -3098,7 +3101,7 @@ tooltips:
               - name: Volcano’s Restraint Pants
                 flavorText: ~
         FEET:
-          default: 
+          default:
             name: Shaman Shoes
             flavorText: ~
           special:
