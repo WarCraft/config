@@ -14,7 +14,8 @@ database:
 
 combatClasses:
   # Warrior
-  - name: Berserker
+  - id: BERSERKER
+    name: Berserker
     permission: warcraft.berserker
     aliases: [bs]
     mainHands: [AXE]
@@ -27,7 +28,8 @@ combatClasses:
     shiftRightClick: Shatter
     hasVanillaAbilities: yes
 
-  - name: Guardian
+  - id: GUARDIAN
+    name: Guardian
     permission: warcraft.guardian
     aliases: [gd]
     mainHands: [SWORD]
@@ -41,7 +43,8 @@ combatClasses:
     hasVanillaAbilities: yes
 
   # Hunter
-  - name: Marksman
+  - id: MARKSMAN
+    name: Marksman
     permission: warcraft.marksman
     aliases: [mm]
     mainHands: [CROSSBOW]
@@ -54,7 +57,8 @@ combatClasses:
     shiftRightClick: Sneak
     hasVanillaAbilities: yes
 
-  - name: Ranger
+  - id: RANGER
+    name: Ranger
     permission: warcraft.ranger
     aliases: [ht]
     mainHands: [BOW]
@@ -68,7 +72,8 @@ combatClasses:
     hasVanillaAbilities: yes
 
   # Mage
-  - name: Elementalist
+  - id: ELEMENTALIST
+    name: Elementalist
     permission: warcraft.elementalist
     aliases: [et]
     mainHands: [HOE]
@@ -81,7 +86,8 @@ combatClasses:
     shiftRightClick: Molten Storm
     hasVanillaAbilities: no
 
-  - name: Wizard
+  - id: WIZARD
+    name: Wizard
     permission: warcraft.wizard
     aliases: [wz]
     mainHands: [STICK, BLAZE_ROD]
@@ -94,8 +100,9 @@ combatClasses:
     shiftRightClick: Mass Bamboozle
     hasVanillaAbilities: no
     
-  - name: WizardTwo
-    permission: warcraft.wizardtwo
+  - id: WIZARD2
+    name: Wizard2
+    permission: warcraft.wizard2
     aliases: [wz2]
     mainHands: [STICK, BLAZE_ROD]
     offHands: [BOOK]
