@@ -194,18 +194,18 @@ entityGatheringSpots:
     entityCount: 10
     spawnLocation:
       world: OVERWORLD
-      translation: {x: 89, y: 43, z: 420}
+      translation: { x: 89, y: 43, z: 420 }
     spawnRadius: 5
-#      - world: OVERWORLD
-#        x: 64
-#        y: 43
-#        z: 415
-#        radius: 5
-#      - world: OVERWORLD
-#        x: 59
-#        y: 43
-#        z: 416
-#        radius: 5
+    #      - world: OVERWORLD
+    #        x: 64
+    #        y: 43
+    #        z: 415
+    #        radius: 5
+    #      - world: OVERWORLD
+    #        x: 59
+    #        y: 43
+    #        z: 416
+    #        radius: 5
     drop:
       type: PorkchopVariant:RAW
       name: Meat

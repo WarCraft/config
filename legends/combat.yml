@@ -17,9 +17,9 @@ combatClasses:
   - id: BERSERKER
     name: Berserker
     permission: warcraft.berserker
-    aliases: [bs]
-    mainHands: [AXE]
-    offHands: [AXE]
+    aliases: [ bs ]
+    mainHands: [ AXE ]
+    offHands: [ AXE ]
     offHandRequired: no
     invalidWeaponsMessage: As a Berserker you can only fight using an Axe and optionally a Skull.
     leftClick: ~
@@ -31,9 +31,9 @@ combatClasses:
   - id: GUARDIAN
     name: Guardian
     permission: warcraft.guardian
-    aliases: [gd]
-    mainHands: [SWORD]
-    offHands: [SHIELD]
+    aliases: [ gd ]
+    mainHands: [ SWORD ]
+    offHands: [ SHIELD ]
     offHandRequired: no
     invalidWeaponsMessage: As a Guardian you can only fight using a Sword and optionally a Shield.
     leftClick: ~
@@ -46,9 +46,9 @@ combatClasses:
   - id: MARKSMAN
     name: Marksman
     permission: warcraft.marksman
-    aliases: [mm]
-    mainHands: [CROSSBOW]
-    offHands: []
+    aliases: [ mm ]
+    mainHands: [ CROSSBOW ]
+    offHands: [ ]
     offHandRequired: yes
     invalidWeaponsMessage: As a Marksman you can only fight using a Crossbow.
     leftClick: Power Shot
@@ -60,9 +60,9 @@ combatClasses:
   - id: RANGER
     name: Ranger
     permission: warcraft.ranger
-    aliases: [ht]
-    mainHands: [BOW]
-    offHands: []
+    aliases: [ ht ]
+    mainHands: [ BOW ]
+    offHands: [ ]
     offHandRequired: yes
     invalidWeaponsMessage: As a Ranger you can only fight using a Bow.
     leftClick: Toxic Arrow
@@ -75,9 +75,9 @@ combatClasses:
   - id: ELEMENTALIST
     name: Elementalist
     permission: warcraft.elementalist
-    aliases: [et]
-    mainHands: [HOE]
-    offHands: []
+    aliases: [ et ]
+    mainHands: [ HOE ]
+    offHands: [ ]
     offHandRequired: yes
     invalidWeaponsMessage: As an Elementalist you can only fight using a Staff (Hoe).
     leftClick: Fireball
@@ -89,9 +89,9 @@ combatClasses:
   - id: WIZARD
     name: Wizard
     permission: warcraft.wizard
-    aliases: [wz]
-    mainHands: [STICK, BLAZE_ROD]
-    offHands: [BOOK]
+    aliases: [ wz ]
+    mainHands: [ STICK, BLAZE_ROD ]
+    offHands: [ BOOK ]
     offHandRequired: no
     invalidWeaponsMessage: As a Wizard you can only fight using a Wand (Sticks) and optionally a Book.
     leftClick: Arcane Fizzle
@@ -99,13 +99,13 @@ combatClasses:
     shiftLeftClick: Teleport
     shiftRightClick: Mass Bamboozle
     hasVanillaAbilities: no
-    
+
   - id: WIZARD2
     name: Wizard2
     permission: warcraft.wizard2
-    aliases: [wz2]
-    mainHands: [STICK, BLAZE_ROD]
-    offHands: [BOOK]
+    aliases: [ wz2 ]
+    mainHands: [ STICK, BLAZE_ROD ]
+    offHands: [ BOOK ]
     offHandRequired: no
     invalidWeaponsMessage: As a Wizard you can only fight using a Wand (Sticks) and optionally a Book.
     leftClick: Magic Scatter
@@ -120,7 +120,7 @@ abilities:
     damage: "1"
     cooldown: "0"
 
- # Berserker
+  # Berserker
   - name: Maul
     damage: "3"
     absorption-level: "1"
@@ -256,7 +256,7 @@ abilities:
     nausea-duration: "8"
     range: "30"
     cooldown: "35"
-    
+
   # Wizard Alternate
   - name: Magic Scatter
     velocity: "0.2"
