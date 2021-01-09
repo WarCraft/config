@@ -498,39 +498,39 @@ lootCrates:
     rarity: EPIC
     chestVariant: NORMAL
     dropTables:
-      - type: EQUIPMENT
+      - typ: EQUIPMENT
         chance: 35
         distribution:
           EPIC: 75
           LEGENDARY: 25
-      - type: EQUIPMENT_UPGRADE
+      - typ: EQUIPMENT_UPGRADE
         chance: 20
         distribution:
           EPIC: 75
           LEGENDARY: 25
-      - type: DECORATION
+      - typ: DECORATION
         chance: 25
         distribution:
           RARE: 75
           EPIC: 20
           LEGENDARY: 5
-      - type: DECORATION_PACK
+      - typ: DECORATION_PACK
         chance: 3
         distribution:
           RARE: 65
           EPIC: 25
           LEGENDARY: 10
-      - type: MINI_PET
+      - typ: MINI_PET
         chance: 1
         distribution:
           EPIC: 90
           LEGENDARY: 10
-      - type: COMBAT_CLASS
+      - typ: COMBAT_CLASS
         chance: 1
         distribution:
           RARE: 70
           EPIC: 30
-      - type: GOLD
+      - typ: GOLD
         chance: 15
         distribution:
           RARE: 50
@@ -542,39 +542,39 @@ lootCrates:
     rarity: LEGENDARY
     chestVariant: ENDER
     dropTables:
-      - type: EQUIPMENT
+      - typ: EQUIPMENT
         chance: 18
         distribution:
           EPIC: 50
           LEGENDARY: 50
-      - type: EQUIPMENT_UPGRADE
+      - typ: EQUIPMENT_UPGRADE
         chance: 15
         distribution:
           EPIC: 50
           LEGENDARY: 50
-      - type: DECORATION
+      - typ: DECORATION
         chance: 50
         distribution:
           RARE: 40
           EPIC: 35
           LEGENDARY: 25
-      - type: DECORATION_PACK
+      - typ: DECORATION_PACK
         chance: 6
         distribution:
           RARE: 50
           EPIC: 35
           LEGENDARY: 15
-      - type: MINI_PET
+      - typ: MINI_PET
         chance: 3
         distribution:
           EPIC: 70
           LEGENDARY: 30
-      - type: COMBAT_CLASS
+      - typ: COMBAT_CLASS
         chance: 3
         distribution:
           RARE: 50
           EPIC: 50
-      - type: GOLD
+      - typ: GOLD
         chance: 5
         distribution:
           EPIC: 50
