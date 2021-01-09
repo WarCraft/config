@@ -12,19 +12,19 @@ prices:
     RARE: 250
     EPIC: 500
     LEGENDARY: 750
-#    ANCIENT: 1250
+  #    ANCIENT: 1250
   DECORATION_PACK:
     RARE: 2450
     EPIC: 4750
     LEGENDARY: 7450
-#    ANCIENT: 9750
+  #    ANCIENT: 9750
   #  EMOTE:
   #    RARE: 250
   #    EPIC: 750
   MINI_PET:
     EPIC: 4750
     LEGENDARY: 9750
-#    ANCIENT: 14500
+  #    ANCIENT: 14500
   PROMOTION:
     EPIC: 4750
 #  TOOL:
@@ -81,102 +81,119 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: Bed
+    pack: BASIC
     description: [ ]
   - id: BOOKSHELF
     itemType: BOOKSHELF
     typ: DECORATION
     rarity: RARE
     name: Bookshelf
+    pack: BASIC
     description: [ ]
   - id: CHEST
     itemType: ChestVariant:NORMAL
     typ: DECORATION
     rarity: RARE
     name: Chest
+    pack: BASIC
     description: [ ]
   - id: GLASS
     itemType: GlassVariant:NORMAL
     typ: DECORATION
     rarity: RARE
     name: Glass
+    pack: BASIC
     description: [ ]
   - id: GLASS_PANE
     itemType: GlassPaneVariant:NORMAL
     typ: DECORATION
     rarity: RARE
     name: Glass Pane
+    pack: BASIC
     description: [ ]
   - id: LADDER
     itemType: LADDER
     typ: DECORATION
     rarity: RARE
     name: Ladder
+    pack: BASIC
     description: [ ]
   - id: DOOR
     itemType: DoorVariant:OAK
     typ: DECORATION
     rarity: RARE
     name: Door
+    pack: BASIC
     description: [ ]
   - id: FENCE
     itemType: FenceVariant:OAK
     typ: DECORATION
     rarity: RARE
     name: Fence
+    pack: BASIC
     description: [ ]
   - id: FENCE_GATE
     itemType: FenceGateVariant:OAK
     typ: DECORATION
     rarity: RARE
     name: Fence Gate
+    pack: BASIC
     description: [ ]
   - id: PLANKS
     itemType: PlanksVariant:OAK
     typ: DECORATION
     rarity: RARE
     name: Planks
+    pack: BASIC
     description: [ ]
   - id: SLAB
     itemType: SlabVariant:OAK
     typ: DECORATION
     rarity: RARE
     name: Slab
+    pack: BASIC
     description: [ ]
   - id: STAIRS
     itemType: StairsVariant:OAK
     typ: DECORATION
     rarity: RARE
     name: Stairs
+    pack: BASIC
     description: [ ]
   - id: SIGN
     itemType: SignVariant:OAK
     typ: DECORATION
     rarity: RARE
     name: Sign
+    pack: BASIC
     description: [ ]
   - id: TORCH
     itemType: TORCH
     typ: DECORATION
     rarity: RARE
     name: Torch
+    pack: BASIC
     description: [ ]
   - id: BUTTON
     itemType: ButtonVariant:OAK
     typ: DECORATION
     rarity: RARE
     name: Button
+    pack: BASIC
     description: [ ]
   - id: PRESSURE_PLATE
     itemType: PressurePlateVariant:OAK
     typ: DECORATION
     rarity: RARE
     name: Pressure Plate
+    pack: BASIC
     description: [ ]
   - id: TRAPDOOR
     itemType: TrapdoorVariant:OAK
     typ: DECORATION
     rarity: RARE
     name: Trapdoor
+    pack: BASIC
     description: [ ]
 
   # Fabrics pack
@@ -185,96 +202,112 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: White wool
+    pack: FABRICS
     description: [ ]
   - id: ORANGE_WOOL
     itemType: WoolVariant:ORANGE
     typ: DECORATION
     rarity: RARE
     name: Orange wool
+    pack: FABRICS
     description: [ ]
   - id: MAGENTA_WOOL
     itemType: WoolVariant:MAGENTA
     typ: DECORATION
     rarity: RARE
     name: Magenta wool
+    pack: FABRICS
     description: [ ]
   - id: LIGHT_BLUE_WOOL
     itemType: WoolVariant:LIGHT_BLUE
     typ: DECORATION
     rarity: RARE
     name: Light blue wool
+    pack: FABRICS
     description: [ ]
   - id: YELLOW_WOOL
     itemType: WoolVariant:YELLOW
     typ: DECORATION
     rarity: RARE
     name: Yellow wool
+    pack: FABRICS
     description: [ ]
   - id: LIME_WOOL
     itemType: WoolVariant:LIME
     typ: DECORATION
     rarity: RARE
     name: Lime wool
+    pack: FABRICS
     description: [ ]
   - id: PINK_WOOL
     itemType: WoolVariant:PINK
     typ: DECORATION
     rarity: RARE
     name: Pink wool
+    pack: FABRICS
     description: [ ]
   - id: GRAY_WOOL
     itemType: WoolVariant:GRAY
     typ: DECORATION
     rarity: RARE
     name: Gray wool
+    pack: FABRICS
     description: [ ]
   - id: LIGHT_GRAY_WOOL
     itemType: WoolVariant:LIGHT_GRAY
     typ: DECORATION
     rarity: RARE
     name: Light gray wool
+    pack: FABRICS
     description: [ ]
   - id: CYAN_WOOL
     itemType: WoolVariant:CYAN
     typ: DECORATION
     rarity: RARE
     name: Cyan wool
+    pack: FABRICS
     description: [ ]
   - id: PURPLE_WOOL
     itemType: WoolVariant:PURPLE
     typ: DECORATION
     rarity: RARE
     name: Purple wool
+    pack: FABRICS
     description: [ ]
   - id: BLUE_WOOL
     itemType: WoolVariant:BLUE
     typ: DECORATION
     rarity: RARE
     name: Blue wool
+    pack: FABRICS
     description: [ ]
   - id: BROWN_WOOL
     itemType: WoolVariant:BROWN
     typ: DECORATION
     rarity: RARE
     name: Brown wool
+    pack: FABRICS
     description: [ ]
   - id: GREEN_WOOL
     itemType: WoolVariant:GREEN
     typ: DECORATION
     rarity: RARE
     name: Green wool
+    pack: FABRICS
     description: [ ]
   - id: RED_WOOL
     itemType: WoolVariant:RED
     typ: DECORATION
     rarity: RARE
     name: Red wool
+    pack: FABRICS
     description: [ ]
   - id: BLACK_WOOL
     itemType: WoolVariant:BLACK
     typ: DECORATION
     rarity: RARE
     name: Black wool
+    pack: FABRICS
     description: [ ]
 
   - id: WHITE_CARPET
@@ -282,96 +315,112 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: White carpet
+    pack: FABRICS
     description: [ ]
   - id: ORANGE_CARPET
     itemType: CarpetVariant:ORANGE
     typ: DECORATION
     rarity: RARE
     name: Orange carpet
+    pack: FABRICS
     description: [ ]
   - id: MAGENTA_CARPET
     itemType: CarpetVariant:MAGENTA
     typ: DECORATION
     rarity: RARE
     name: Magenta carpet
+    pack: FABRICS
     description: [ ]
   - id: LIGHT_BLUE_CARPET
     itemType: CarpetVariant:LIGHT_BLUE
     typ: DECORATION
     rarity: RARE
     name: Light blue carpet
+    pack: FABRICS
     description: [ ]
   - id: YELLOW_CARPET
     itemType: CarpetVariant:YELLOW
     typ: DECORATION
     rarity: RARE
     name: Yellow carpet
+    pack: FABRICS
     description: [ ]
   - id: LIME_CARPET
     itemType: CarpetVariant:LIME
     typ: DECORATION
     rarity: RARE
     name: Lime carpet
+    pack: FABRICS
     description: [ ]
   - id: PINK_CARPET
     itemType: CarpetVariant:PINK
     typ: DECORATION
     rarity: RARE
     name: Pink carpet
+    pack: FABRICS
     description: [ ]
   - id: GRAY_CARPET
     itemType: CarpetVariant:GRAY
     typ: DECORATION
     rarity: RARE
     name: Gray carpet
+    pack: FABRICS
     description: [ ]
   - id: LIGHT_GRAY_CARPET
     itemType: CarpetVariant:LIGHT_GRAY
     typ: DECORATION
     rarity: RARE
     name: Light gray carpet
+    pack: FABRICS
     description: [ ]
   - id: CYAN_CARPET
     itemType: CarpetVariant:CYAN
     typ: DECORATION
     rarity: RARE
     name: Cyan carpet
+    pack: FABRICS
     description: [ ]
   - id: PURPLE_CARPET
     itemType: CarpetVariant:PURPLE
     typ: DECORATION
     rarity: RARE
     name: Purple carpet
+    pack: FABRICS
     description: [ ]
   - id: BLUE_CARPET
     itemType: CarpetVariant:BLUE
     typ: DECORATION
     rarity: RARE
     name: Blue carpet
+    pack: FABRICS
     description: [ ]
   - id: BROWN_CARPET
     itemType: CarpetVariant:BROWN
     typ: DECORATION
     rarity: RARE
     name: Brown carpet
+    pack: FABRICS
     description: [ ]
   - id: GREEN_CARPET
     itemType: CarpetVariant:GREEN
     typ: DECORATION
     rarity: RARE
     name: Green carpet
+    pack: FABRICS
     description: [ ]
   - id: RED_CARPET
     itemType: CarpetVariant:RED
     typ: DECORATION
     rarity: RARE
     name: Red carpet
+    pack: FABRICS
     description: [ ]
   - id: BLACK_CARPET
     itemType: CarpetVariant:BLACK
     typ: DECORATION
     rarity: RARE
     name: Black carpet
+    pack: FABRICS
     description: [ ]
 
   # Flowers pack
@@ -380,66 +429,77 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: Allium
+    pack: FLOWERS
     description: [ ]
   - id: AZURE_BLUET
     itemType: FlowerVariant:AZURE_BLUET
     typ: DECORATION
     rarity: RARE
     name: Azure bluet
+    pack: FLOWERS
     description: [ ]
   - id: BLUE_ORCHID
     itemType: FlowerVariant:BLUE_ORCHID
     typ: DECORATION
     rarity: RARE
     name: Blue orchitemType
+    pack: FLOWERS
     description: [ ]
   - id: DANDELION
     itemType: FlowerVariant:DANDELION
     typ: DECORATION
     rarity: RARE
     name: Dandelion
+    pack: FLOWERS
     description: [ ]
   - id: ORANGE_TULIP
     itemType: FlowerVariant:ORANGE_TULIP
     typ: DECORATION
     rarity: RARE
     name: Orange tulip
+    pack: FLOWERS
     description: [ ]
   - id: OXEYE_DAISY
     itemType: FlowerVariant:OXEYE_DAISY
     typ: DECORATION
     rarity: RARE
     name: Oxeye daisy
+    pack: FLOWERS
     description: [ ]
   - id: PINK_TULIP
     itemType: FlowerVariant:PINK_TULIP
     typ: DECORATION
     rarity: RARE
     name: Pink tulip
+    pack: FLOWERS
     description: [ ]
   - id: POPPY
     itemType: FlowerVariant:POPPY
     typ: DECORATION
     rarity: RARE
     name: Poppy
+    pack: FLOWERS
     description: [ ]
   - id: RED_TULIP
     itemType: FlowerVariant:RED_TULIP
     typ: DECORATION
     rarity: RARE
     name: Red tulip
+    pack: FLOWERS
     description: [ ]
   - id: WHITE_TULIP
     itemType: FlowerVariant:WHITE_TULIP
     typ: DECORATION
     rarity: RARE
     name: White tulip
+    pack: FLOWERS
     description: [ ]
   - id: FLOWER_POT
     itemType: FLOWER_POT
     typ: DECORATION
     rarity: RARE
     name: Flower pot
+    pack: FLOWERS
     description: [ ]
 
   # Glass pack
@@ -448,96 +508,112 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: White stained glass
+    pack: GLASS
     description: [ ]
   - id: ORANGE_GLASS
     itemType: GlassVariant:ORANGE
     typ: DECORATION
     rarity: RARE
     name: Orange stained glass
+    pack: GLASS
     description: [ ]
   - id: MAGENTA_GLASS
     itemType: GlassVariant:MAGENTA
     typ: DECORATION
     rarity: RARE
     name: Magenta stained glass
+    pack: GLASS
     description: [ ]
   - id: LIGHT_BLUE_GLASS
     itemType: GlassVariant:LIGHT_BLUE
     typ: DECORATION
     rarity: RARE
     name: Light blue stained glass
+    pack: GLASS
     description: [ ]
   - id: YELLOW_GLASS
     itemType: GlassVariant:YELLOW
     typ: DECORATION
     rarity: RARE
     name: Yellow stained glass
+    pack: GLASS
     description: [ ]
   - id: LIME_GLASS
     itemType: GlassVariant:LIME
     typ: DECORATION
     rarity: RARE
     name: Lime stained glass
+    pack: GLASS
     description: [ ]
   - id: PINK_GLASS
     itemType: GlassVariant:PINK
     typ: DECORATION
     rarity: RARE
     name: Pink stained glass
+    pack: GLASS
     description: [ ]
   - id: GRAY_GLASS
     itemType: GlassVariant:GRAY
     typ: DECORATION
     rarity: RARE
     name: Gray stained glass
+    pack: GLASS
     description: [ ]
   - id: LIGHT_GRAY_GLASS
     itemType: GlassVariant:LIGHT_GRAY
     typ: DECORATION
     rarity: RARE
     name: Light gray stained glass
+    pack: GLASS
     description: [ ]
   - id: CYAN_GLASS
     itemType: GlassVariant:CYAN
     typ: DECORATION
     rarity: RARE
     name: Cyan stained glass
+    pack: GLASS
     description: [ ]
   - id: PURPLE_GLASS
     itemType: GlassVariant:PURPLE
     typ: DECORATION
     rarity: RARE
     name: Purple stained glass
+    pack: GLASS
     description: [ ]
   - id: BLUE_GLASS
     itemType: GlassVariant:BLUE
     typ: DECORATION
     rarity: RARE
     name: Blue stained glass
+    pack: GLASS
     description: [ ]
   - id: BROWN_GLASS
     itemType: GlassVariant:BROWN
     typ: DECORATION
     rarity: RARE
     name: Brown stained glass
+    pack: GLASS
     description: [ ]
   - id: GREEN_GLASS
     itemType: GlassVariant:GREEN
     typ: DECORATION
     rarity: RARE
     name: Green stained glass
+    pack: GLASS
     description: [ ]
   - id: RED_GLASS
     itemType: GlassVariant:RED
     typ: DECORATION
     rarity: RARE
     name: Red stained glass
+    pack: GLASS
     description: [ ]
   - id: BLACK_GLASS
     itemType: GlassVariant:BLACK
     typ: DECORATION
     rarity: RARE
     name: Black stained glass
+    pack: GLASS
     description: [ ]
 
   - id: WHITE_GLASS_PANE
@@ -545,96 +621,112 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: White stained glass pane
+    pack: GLASS
     description: [ ]
   - id: ORANGE_GLASS_PANE
     itemType: GlassPaneVariant:ORANGE
     typ: DECORATION
     rarity: RARE
     name: Orange stained glass pane
+    pack: GLASS
     description: [ ]
   - id: MAGENTA_GLASS_PANE
     itemType: GlassPaneVariant:MAGENTA
     typ: DECORATION
     rarity: RARE
     name: Magenta stained glass pane
+    pack: GLASS
     description: [ ]
   - id: LIGHT_BLUE_GLASS_PANE
     itemType: GlassPaneVariant:LIGHT_BLUE
     typ: DECORATION
     rarity: RARE
     name: Light blue stained glass pane
+    pack: GLASS
     description: [ ]
   - id: YELLOW_GLASS_PANE
     itemType: GlassPaneVariant:YELLOW
     typ: DECORATION
     rarity: RARE
     name: Yellow stained glass pane
+    pack: GLASS
     description: [ ]
   - id: LIME_GLASS_PANE
     itemType: GlassPaneVariant:LIME
     typ: DECORATION
     rarity: RARE
     name: Lime stained glass pane
+    pack: GLASS
     description: [ ]
   - id: PINK_GLASS_PANE
     itemType: GlassPaneVariant:PINK
     typ: DECORATION
     rarity: RARE
     name: Pink stained glass pane
+    pack: GLASS
     description: [ ]
   - id: GRAY_GLASS_PANE
     itemType: GlassPaneVariant:GRAY
     typ: DECORATION
     rarity: RARE
     name: Gray stained glass pane
+    pack: GLASS
     description: [ ]
   - id: LIGHT_GRAY_GLASS_PANE
     itemType: GlassPaneVariant:LIGHT_GRAY
     typ: DECORATION
     rarity: RARE
     name: Light gray stained glass pane
+    pack: GLASS
     description: [ ]
   - id: CYAN_GLASS_PANE
     itemType: GlassPaneVariant:CYAN
     typ: DECORATION
     rarity: RARE
     name: Cyan stained glass pane
+    pack: GLASS
     description: [ ]
   - id: PURPLE_GLASS_PANE
     itemType: GlassPaneVariant:PURPLE
     typ: DECORATION
     rarity: RARE
     name: Purple stained glass pane
+    pack: GLASS
     description: [ ]
   - id: BLUE_GLASS_PANE
     itemType: GlassPaneVariant:BLUE
     typ: DECORATION
     rarity: RARE
     name: Blue stained glass pane
+    pack: GLASS
     description: [ ]
   - id: BROWN_GLASS_PANE
     itemType: GlassPaneVariant:BROWN
     typ: DECORATION
     rarity: RARE
     name: Brown stained glass pane
+    pack: GLASS
     description: [ ]
   - id: GREEN_GLASS_PANE
     itemType: GlassPaneVariant:GREEN
     typ: DECORATION
     rarity: RARE
     name: Green stained glass pane
+    pack: GLASS
     description: [ ]
   - id: RED_GLASS_PANE
     itemType: GlassPaneVariant:RED
     typ: DECORATION
     rarity: RARE
     name: Red stained glass pane
+    pack: GLASS
     description: [ ]
   - id: BLACK_GLASS_PANE
     itemType: GlassPaneVariant:BLACK
     typ: DECORATION
     rarity: RARE
     name: Black stained glass pane
+    pack: GLASS
     description: [ ]
 
   # Gardening pack
@@ -643,114 +735,133 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: Brown mushroom
+    pack: GARDENING
     description: [ ]
   - id: CARROT
     itemType: CARROT
     typ: DECORATION
     rarity: RARE
     name: Carrot
+    pack: GARDENING
     description: [ ]
   - id: COCOA_BEANS
     itemType: COCOA_BEANS
     typ: DECORATION
     rarity: RARE
     name: Cocoa beans
+    pack: GARDENING
     description: [ ]
   - id: DIRT
     itemType: DirtVariant:NORMAL
     typ: DECORATION
     rarity: RARE
     name: Dirt
+    pack: GARDENING
     description: [ ]
   - id: GRASS
     itemType: GRASS
     typ: DECORATION
     rarity: RARE
     name: Grass
+    pack: GARDENING
     description: [ ]
   - id: JACK_OF_THE_LANTERN
     itemType: JACK_OF_THE_LANTERN
     typ: DECORATION
     rarity: RARE
     name: Jack o'lantern
+    pack: GARDENING
     description: [ ]
   - id: FERN
     itemType: FERN
     typ: DECORATION
     rarity: RARE
     name: Fern
+    pack: GARDENING
     description: [ ]
   - id: LILAC
     itemType: PlantVariant:LILAC
     typ: DECORATION
     rarity: RARE
     name: Lilac
+    pack: GARDENING
     description: [ ]
   - id: LILY_PAD
     itemType: LILY_PAD
     typ: DECORATION
     rarity: RARE
     name: Lily pad
+    pack: GARDENING
     description: [ ]
   - id: MELON
     itemType: MELON
     typ: DECORATION
     rarity: RARE
     name: Melon
+    pack: GARDENING
     description: [ ]
   - id: MELON_SEEDS
     itemType: SeedsVariant:MELON
     typ: DECORATION
     rarity: RARE
     name: Melon seeds
+    pack: GARDENING
     description: [ ]
   - id: PEONY
     itemType: PlantVariant:PEONY
     typ: DECORATION
     rarity: RARE
     name: Peony
+    pack: GARDENING
     description: [ ]
   - id: POTATO
     itemType: POTATO
     typ: DECORATION
     rarity: RARE
     name: Potato
+    pack: GARDENING
     description: [ ]
   - id: PUMPKIN
     itemType: PUMPKIN
     typ: DECORATION
     rarity: RARE
     name: Pumpkin
+    pack: GARDENING
     description: [ ]
   - id: PUMPKIN_SEEDS
     itemType: SeedsVariant:PUMPKIN
     typ: DECORATION
     rarity: RARE
     name: Pumpkin seeds
+    pack: GARDENING
     description: [ ]
   - id: SUNFLOWER
     itemType: PlantVariant:SUNFLOWER
     typ: DECORATION
     rarity: RARE
     name: Sunflower
+    pack: GARDENING
     description: [ ]
   - id: RED_MUSHROOM
     itemType: MushroomVariant:RED
     typ: DECORATION
     rarity: RARE
     name: Red mushroom
+    pack: GARDENING
     description: [ ]
   - id: ROSE_BUSH
     itemType: PlantVariant:ROSE_BUSH
     typ: DECORATION
     rarity: RARE
     name: Rose bush
+    pack: GARDENING
     description: [ ]
   - id: VINES
     itemType: VINES
     typ: DECORATION
     rarity: RARE
     name: Vines
+    pack: GARDENING
     description: [ ]
 
   # Stone pack
@@ -759,186 +870,217 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: Andesite
+    pack: STONE
     description: [ ]
   - id: BRICK_SLAB
     itemType: SlabVariant:BRICK
     typ: DECORATION
     rarity: RARE
     name: Brick slab
+    pack: STONE
     description: [ ]
   - id: BRICK_STAIRS
     itemType: StairsVariant:BRICK
     typ: DECORATION
     rarity: RARE
     name: Brick stairs
+    pack: STONE
     description: [ ]
   - id: BRICK_BLOCK
     itemType: BrickBlockVariant:NORMAL
     typ: DECORATION
     rarity: RARE
     name: Brick block
+    pack: STONE
     description: [ ]
   - id: CHISELED_QUARTZ_BLOCK
     itemType: QuartzBlockVariant:CHISELED
     typ: DECORATION
     rarity: RARE
     name: Chiseled quartz block
+    pack: STONE
     description: [ ]
   - id: CHISELED_STONE_BRICK
     itemType: StoneBrickVariant:CHISELED
     typ: DECORATION
     rarity: RARE
     name: Chiseled stone bricks
+    pack: STONE
     description: [ ]
   - id: COBBLESTONE
     itemType: CobblestoneVariant:NORMAL
     typ: DECORATION
     rarity: RARE
     name: Cobblestone
+    pack: STONE
     description: [ ]
   - id: MOSSY_COBBLESTONE
     itemType: CobblestoneVariant:MOSSY
     typ: DECORATION
     rarity: RARE
     name: Mossy cobblestone
+    pack: STONE
     description: [ ]
   - id: COBBLESTONE_SLAB
     itemType: SlabVariant:COBBLESTONE
     typ: DECORATION
     rarity: RARE
     name: Cobblestone slab
+    pack: STONE
     description: [ ]
   - id: COBBLESTONE_STAIRS
     itemType: StairsVariant:COBBLESTONE
     typ: DECORATION
     rarity: RARE
     name: Cobblestone stairs
+    pack: STONE
     description: [ ]
   - id: COBBLESTONE_WALL
     itemType: WallVariant:COBBLESTONE
     typ: DECORATION
     rarity: RARE
     name: Cobblestone wall
+    pack: STONE
     description: [ ]
   - id: CRACKED_STONE_BRICK
     itemType: StoneBrickVariant:CRACKED
     typ: DECORATION
     rarity: RARE
     name: Cracked stone bricks
+    pack: STONE
     description: [ ]
   - id: DIORITE
     itemType: DioriteVariant:NORMAL
     typ: DECORATION
     rarity: RARE
     name: Diorite
+    pack: STONE
     description: [ ]
   - id: GRANITE
     itemType: GraniteVariant:NORMAL
     typ: DECORATION
     rarity: RARE
     name: Granite
+    pack: STONE
     description: [ ]
   - id: GRAVEL
     itemType: GRAVEL
     typ: DECORATION
     rarity: RARE
     name: Gravel
+    pack: STONE
     description: [ ]
   - id: MOSSY_STONE_BRICK
     itemType: StoneBrickVariant:MOSSY
     typ: DECORATION
     rarity: RARE
     name: Mossy stone brick
+    pack: STONE
     description: [ ]
   - id: MOSSY_COBBLESTONE_WALL
     itemType: WallVariant:MOSSY_COBBLESTONE
     typ: DECORATION
     rarity: RARE
     name: Mossy cobblestone wall
+    pack: STONE
     description: [ ]
   - id: QUARTZ_PILLAR
     itemType: PillarVariant:QUARTZ
     typ: DECORATION
     rarity: RARE
     name: Pillar quartz block
+    pack: STONE
     description: [ ]
   - id: POLISHED_ANDESITE
     itemType: AndesiteVariant:POLISHED
     typ: DECORATION
     rarity: RARE
     name: Polished andesite
+    pack: STONE
     description: [ ]
   - id: POLISHED_DIORITE
     itemType: DioriteVariant:POLISHED
     typ: DECORATION
     rarity: RARE
     name: Polished diorite
+    pack: STONE
     description: [ ]
   - id: POLISHED_GRANITE
     itemType: GraniteVariant:POLISHED
     typ: DECORATION
     rarity: RARE
     name: Polished granite
+    pack: STONE
     description: [ ]
   - id: QUARTZ_BLOCK
     itemType: QuartzBlockVariant:NORMAL
     typ: DECORATION
     rarity: RARE
     name: Quartz block
+    pack: STONE
     description: [ ]
   - id: QUARTZ_SLAB
     itemType: SlabVariant:QUARTZ
     typ: DECORATION
     rarity: RARE
     name: Quartz slab
+    pack: STONE
     description: [ ]
   - id: QUARTZ_STAIRS
     itemType: StairsVariant:QUARTZ
     typ: DECORATION
     rarity: RARE
     name: Quartz stairs
+    pack: STONE
     description: [ ]
   - id: STONE
     itemType: StoneVariant:NORMAL
     typ: DECORATION
     rarity: RARE
     name: Stone
+    pack: STONE
     description: [ ]
   - id: STONE_BRICK_SLAB
     itemType: SlabVariant:STONE_BRICK
     typ: DECORATION
     rarity: RARE
     name: Stone brick slab
+    pack: STONE
     description: [ ]
   - id: STONE_BRICK_STAIRS
     itemType: StairsVariant:STONE_BRICK
     typ: DECORATION
     rarity: RARE
     name: Stone brick stairs
+    pack: STONE
     description: [ ]
   - id: STONE_BRICK
     itemType: StoneBrickVariant:NORMAL
     typ: DECORATION
     rarity: RARE
     name: Stone brick
+    pack: STONE
     description: [ ]
   - id: STONE_BUTTON
     itemType: ButtonVariant:STONE
     typ: DECORATION
     rarity: RARE
     name: Stone button
+    pack: STONE
     description: [ ]
   - id: STONE_PRESSURE_PLATE
     itemType: PressurePlateVariant:STONE
     typ: DECORATION
     rarity: RARE
     name: Stone pressure plate
+    pack: STONE
     description: [ ]
   - id: STONE_SLAB
     itemType: SlabVariant:STONE
     typ: DECORATION
     rarity: RARE
     name: Stone slab
+    pack: STONE
     description: [ ]
 
   # Ores pack
@@ -947,42 +1089,49 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: Coal ore
+    pack: ORES
     description: [ ]
   - id: DIAMOND_ORE
     itemType: DIAMOND_ORE
     typ: DECORATION
     rarity: RARE
     name: Diamond ore
+    pack: ORES
     description: [ ]
   - id: EMERALD_ORE
     itemType: EMERALD_ORE
     typ: DECORATION
     rarity: RARE
     name: Emerald ore
+    pack: ORES
     description: [ ]
   - id: GOLD_ORE
     itemType: GOLD_ORE
     typ: DECORATION
     rarity: RARE
     name: Gold ore
+    pack: ORES
     description: [ ]
   - id: IRON_ORE
     itemType: IRON_ORE
     typ: DECORATION
     rarity: RARE
     name: Iron ore
+    pack: ORES
     description: [ ]
   - id: LAPIS_ORE
     itemType: LAPIS_ORE
     typ: DECORATION
     rarity: RARE
     name: Lapis ore
+    pack: ORES
     description: [ ]
   - id: REDSTONE_ORE # is it possible to put glowing redstone ore back?
     itemType: REDSTONE_ORE # is it possible to put glowing redstone ore back?
     typ: DECORATION
     rarity: RARE
     name: Redstone ore
+    pack: ORES
     description: [ ]
 
   # Gemstones pack
@@ -991,36 +1140,42 @@ decorations:
     typ: DECORATION
     rarity: EPIC
     name: Diamond block
+    pack: GEMSTONES
     description: [ ]
   - id: EMERALD_BLOCK
     itemType: EMERALD_BLOCK
     typ: DECORATION
     rarity: EPIC
     name: Emerald block
+    pack: GEMSTONES
     description: [ ]
   - id: GOLD_BLOCK
     itemType: GOLD_BLOCK
     typ: DECORATION
     rarity: EPIC
     name: Gold block
+    pack: GEMSTONES
     description: [ ]
   - id: IRON_BLOCK
     itemType: IRON_BLOCK
     typ: DECORATION
     rarity: EPIC
     name: Iron block
+    pack: GEMSTONES
     description: [ ]
   - id: LAPIS_BLOCK
     itemType: LAPIS_BLOCK
     typ: DECORATION
     rarity: EPIC
     name: Lapis block
+    pack: GEMSTONES
     description: [ ]
   - id: REDSTONE_BLOCK
     itemType: REDSTONE_BLOCK
     typ: DECORATION
     rarity: EPIC
     name: Redstone block
+    pack: GEMSTONES
     description: [ ]
 
   # Desert pack
@@ -1029,78 +1184,91 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: Cactus
+    pack: DESERT
     description: [ ]
   - id: RED_SAND
     itemType: SandVariant:RED
     typ: DECORATION
     rarity: RARE
     name: Red sand
+    pack: DESERT
     description: [ ]
   - id: RED_SANDSTONE
     itemType: SandstoneVariant:RED
     typ: DECORATION
     rarity: RARE
     name: Red sandstone
+    pack: DESERT
     description: [ ]
   - id: SMOOTH_SANDSTONE
     itemType: SandstoneVariant:SMOOTH
     typ: DECORATION
     rarity: RARE
     name: Smooth sandstone
+    pack: DESERT
     description: [ ]
   - id: CHISELED_SANDSTONE
     itemType: SandstoneVariant:CHISELED
     typ: DECORATION
     rarity: RARE
     name: Chiseled sandstone
+    pack: DESERT
     description: [ ]
   - id: RED_SANDSTONE_SLAB
     itemType: SlabVariant:RED_SANDSTONE
     typ: DECORATION
     rarity: RARE
     name: Red sandstone slab
+    pack: DESERT
     description: [ ]
   - id: RED_SANDSTONE_STAIRS
     itemType: StairsVariant:RED_SANDSTONE
     typ: DECORATION
     rarity: RARE
     name: Red sandstone stairs
+    pack: DESERT
     description: [ ]
   - id: SAND
     itemType: SandVariant:NORMAL
     typ: DECORATION
     rarity: RARE
     name: Sand
+    pack: DESERT
     description: [ ]
   - id: SANDSTONE
     itemType: SandstoneVariant:NORMAL
     typ: DECORATION
     rarity: RARE
     name: Sandstone
+    pack: DESERT
     description: [ ]
   - id: SMOOTH_RED_SANDSTONE
     itemType: SandstoneVariant:SMOOTH_RED
     typ: DECORATION
     rarity: RARE
     name: Smooth red sandstone
+    pack: DESERT
     description: [ ]
   - id: CHISELED_RED_SANDSTONE
     itemType: SandstoneVariant:CHISELED_RED
     typ: DECORATION
     rarity: RARE
     name: Chiseled red sandstone
+    pack: DESERT
     description: [ ]
   - id: SANDSTONE_SLAB
     itemType: SlabVariant:SANDSTONE
     typ: DECORATION
     rarity: RARE
     name: Sandstone slab
+    pack: DESERT
     description: [ ]
   - id: SANDSTONE_STAIRS
     itemType: StairsVariant:SANDSTONE
     typ: DECORATION
     rarity: RARE
     name: Sandstone stairs
+    pack: DESERT
     description: [ ]
 
   # Wood pack
@@ -1109,36 +1277,42 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: Acacia door
+    pack: WOOD
     description: [ ]
   - id: ACACIA_FENCE
     itemType: FenceVariant:ACACIA
     typ: DECORATION
     rarity: RARE
     name: Acacia fence
+    pack: WOOD
     description: [ ]
   - id: ACACIA_FENCE_GATE
     itemType: FenceGateVariant:ACACIA
     typ: DECORATION
     rarity: RARE
     name: Acacia fence gate
+    pack: WOOD
     description: [ ]
   - id: ACACIA_PLANKS
     itemType: PlanksVariant:ACACIA
     typ: DECORATION
     rarity: RARE
     name: Acacia wood plank
+    pack: WOOD
     description: [ ]
   - id: ACACIA_SLAB
     itemType: SlabVariant:ACACIA
     typ: DECORATION
     rarity: RARE
     name: Acacia wood slab
+    pack: WOOD
     description: [ ]
   - id: ACACIA_STAIRS
     itemType: StairsVariant:ACACIA
     typ: DECORATION
     rarity: RARE
     name: Acacia wood stairs
+    pack: WOOD
     description: [ ]
 
   - id: BIRCH_DOOR
@@ -1146,36 +1320,42 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: Birch door
+    pack: WOOD
     description: [ ]
   - id: BIRCH_FENCE
     itemType: FenceVariant:BIRCH
     typ: DECORATION
     rarity: RARE
     name: Birch fence
+    pack: WOOD
     description: [ ]
   - id: BIRCH_FENCE_GATE
     itemType: FenceGateVariant:BIRCH
     typ: DECORATION
     rarity: RARE
     name: Birch fence gate
+    pack: WOOD
     description: [ ]
   - id: BIRCH_PLANKS
     itemType: PlanksVariant:BIRCH
     typ: DECORATION
     rarity: RARE
     name: Birch wood plank
+    pack: WOOD
     description: [ ]
   - id: BIRCH_SLAB
     itemType: SlabVariant:BIRCH
     typ: DECORATION
     rarity: RARE
     name: Birch wood slab
+    pack: WOOD
     description: [ ]
   - id: BIRCH_STAIRS
     itemType: StairsVariant:BIRCH
     typ: DECORATION
     rarity: RARE
     name: Birch wood stairs
+    pack: WOOD
     description: [ ]
 
   - id: DARK_OAK_DOOR
@@ -1183,36 +1363,42 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: Dark oak door
+    pack: WOOD
     description: [ ]
   - id: DARK_OAK_FENCE
     itemType: FenceVariant:DARK_OAK
     typ: DECORATION
     rarity: RARE
     name: Dark oak fence
+    pack: WOOD
     description: [ ]
   - id: DARK_OAK_FENCE_GATE
     itemType: FenceGateVariant:DARK_OAK
     typ: DECORATION
     rarity: RARE
     name: Dark oak fence gate
+    pack: WOOD
     description: [ ]
   - id: DARK_OAK_PLANKS
     itemType: PlanksVariant:DARK_OAK
     typ: DECORATION
     rarity: RARE
     name: Dark oak wood plank
+    pack: WOOD
     description: [ ]
   - id: DARK_OAK_SLAB
     itemType: SlabVariant:DARK_OAK
     typ: DECORATION
     rarity: RARE
     name: Dark oak wood slab
+    pack: WOOD
     description: [ ]
   - id: DARK_OAK_STAIRS
     itemType: StairsVariant:DARK_OAK
     typ: DECORATION
     rarity: RARE
     name: Dark oak wood stairs
+    pack: WOOD
     description: [ ]
 
   - id: JUNGLE_DOOR
@@ -1220,36 +1406,42 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: Jungle door
+    pack: WOOD
     description: [ ]
   - id: JUNGLE_FENCE
     itemType: FenceVariant:JUNGLE
     typ: DECORATION
     rarity: RARE
     name: Jungle fence
+    pack: WOOD
     description: [ ]
   - id: JUNGLE_FENCE_GATE
     itemType: FenceGateVariant:JUNGLE
     typ: DECORATION
     rarity: RARE
     name: Jungle fence gate
+    pack: WOOD
     description: [ ]
   - id: JUNGLE_PLANKS
     itemType: PlanksVariant:JUNGLE
     typ: DECORATION
     rarity: RARE
     name: Jungle wood plank
+    pack: WOOD
     description: [ ]
   - id: JUNGLE_SLAB
     itemType: SlabVariant:JUNGLE
     typ: DECORATION
     rarity: RARE
     name: Jungle wood slab
+    pack: WOOD
     description: [ ]
   - id: JUNGLE_STAIRS
     itemType: StairsVariant:JUNGLE
     typ: DECORATION
     rarity: RARE
     name: Jungle wood stairs
+    pack: WOOD
     description: [ ]
 
   - id: SPRUCE_DOOR
@@ -1257,36 +1449,42 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: Spruce door
+    pack: WOOD
     description: [ ]
   - id: SPRUCE_FENCE
     itemType: FenceVariant:SPRUCE
     typ: DECORATION
     rarity: RARE
     name: Spruce fence
+    pack: WOOD
     description: [ ]
   - id: SPRUCE_FENCE_GATE
     itemType: FenceGateVariant:SPRUCE
     typ: DECORATION
     rarity: RARE
     name: Spruce fence gate
+    pack: WOOD
     description: [ ]
   - id: SPRUCE_PLANKS
     itemType: PlanksVariant:SPRUCE
     typ: DECORATION
     rarity: RARE
     name: Spruce wood plank
+    pack: WOOD
     description: [ ]
   - id: SPRUCE_SLAB
     itemType: SlabVariant:SPRUCE
     typ: DECORATION
     rarity: RARE
     name: Spruce wood slab
+    pack: WOOD
     description: [ ]
   - id: SPRUCE_STAIRS
     itemType: StairsVariant:SPRUCE
     typ: DECORATION
     rarity: RARE
     name: Spruce wood stairs
+    pack: WOOD
     description: [ ]
 
   # Nature pack
@@ -1295,42 +1493,49 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: Coarse dirt
+    pack: NATURE
     description: [ ]
   - id: PODZOL
     itemType: PODZOL
     typ: DECORATION
     rarity: RARE
     name: Podzol
+    pack: NATURE
     description: [ ]
   - id: TALL_GRASS
     itemType: GrassVariant:TALL
     typ: DECORATION
     rarity: RARE
     name: Tall grass
+    pack: NATURE
     description: [ ]
   - id: TALL_FERN
     itemType: FernVariant:TALL
     typ: DECORATION
     rarity: RARE
     name: Tall fern
+    pack: NATURE
     description: [ ]
   - id: DEAD_BUSH
     itemType: DEAD_BUSH
     typ: DECORATION
     rarity: RARE
     name: Dead bush
+    pack: NATURE
     description: [ ]
   - id: BROWN_MUSHROOM_BLOCK
     itemType: MushroomBlockVariant:BROWN
     typ: DECORATION
     rarity: RARE
     name: Brown mushroom block
+    pack: NATURE
     description: [ ]
   - id: RED_MUSHROOM_BLOCK
     itemType: MushroomBlockVariant:RED
     typ: DECORATION
     rarity: RARE
     name: Red mushroom block
+    pack: NATURE
     description: [ ]
 
   - id: ACACIA_LEAVES
@@ -1338,12 +1543,14 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: Acacia leaves
+    pack: NATURE
     description: [ ]
   - id: ACACIA_WOOD
     itemType: WoodVariant:ACACIA
     typ: DECORATION
     rarity: RARE
     name: Acacia wood
+    pack: NATURE
     description: [ ]
 
   - id: BIRCH_LEAVES
@@ -1351,12 +1558,14 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: Birch leaves
+    pack: NATURE
     description: [ ]
   - id: BIRCH_WOOD
     itemType: WoodVariant:BIRCH
     typ: DECORATION
     rarity: RARE
     name: Birch wood
+    pack: NATURE
     description: [ ]
 
   - id: DARK_OAK_LEAVES
@@ -1364,12 +1573,14 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: Dark oak leaves
+    pack: NATURE
     description: [ ]
   - id: DARK_OAK_WOOD
     itemType: WoodVariant:DARK_OAK
     typ: DECORATION
     rarity: RARE
     name: Dark oak wood
+    pack: NATURE
     description: [ ]
 
   - id: JUNGLE_LEAVES
@@ -1377,12 +1588,14 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: Jungle leaves
+    pack: NATURE
     description: [ ]
   - id: JUNGLE_WOOD
     itemType: WoodVariant:JUNGLE
     typ: DECORATION
     rarity: RARE
     name: Jungle wood
+    pack: NATURE
     description: [ ]
 
   - id: OAK_LEAVES
@@ -1390,12 +1603,14 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: Oak leaves
+    pack: NATURE
     description: [ ]
   - id: OAK_WOOD
     itemType: WoodVariant:OAK
     typ: DECORATION
     rarity: RARE
     name: Oak wood
+    pack: NATURE
     description: [ ]
 
   - id: SPRUCE_LEAVES
@@ -1403,12 +1618,14 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: Spruce leaves
+    pack: NATURE
     description: [ ]
   - id: SPRUCE_WOOD
     itemType: WoodVariant:SPRUCE
     typ: DECORATION
     rarity: RARE
     name: Spruce wood
+    pack: NATURE
     description: [ ]
 
   # Art pack
@@ -1417,24 +1634,28 @@ decorations:
     typ: DECORATION
     rarity: EPIC
     name: Armor stand
+    pack: ART
     description: [ ]
   - id: BANNER
     itemType: BANNER
     typ: DECORATION
     rarity: EPIC
     name: Banner
+    pack: ART
     description: [ ] # TODO add banner patterns and other banner colors
   - id: ITEM_FRAME
     itemType: ITEM_FRAME
     typ: DECORATION
     rarity: EPIC
     name: Item frame
+    pack: ART
     description: [ ]
   - id: PAINTING
     itemType: PAINTING
     typ: DECORATION
     rarity: EPIC
     name: Painting
+    pack: ART
     description: [ ]
 
   # Music pack
@@ -1443,84 +1664,98 @@ decorations:
     typ: DECORATION
     rarity: LEGENDARY
     name: Note block
+    pack: MUSIC
     description: [ ]
   - id: JUKEBOX
     itemType: JUKEBOX
     typ: DECORATION
     rarity: LEGENDARY
     name: Jukebox
+    pack: MUSIC
     description: [ ]
   - id: MUSIC_DISC_11
     itemType: MusicDiscVariant:DISC_11
     typ: DECORATION
     rarity: LEGENDARY
     name: 11
+    pack: MUSIC
     description: [ ]
   - id: MUSIC_DISC_13
     itemType: MusicDiscVariant:DISC_13
     typ: DECORATION
     rarity: LEGENDARY
     name: 13
+    pack: MUSIC
     description: [ ]
   - id: MUSIC_DISC_BLOCKS
     itemType: MusicDiscVariant:DISC_BLOCKS
     typ: DECORATION
     rarity: LEGENDARY
     name: Blocks
+    pack: MUSIC
     description: [ ]
   - id: MUSIC_DISC_CAT
     itemType: MusicDiscVariant:DISC_CAT
     typ: DECORATION
     rarity: LEGENDARY
     name: Cat
+    pack: MUSIC
     description: [ ]
   - id: MUSIC_DISC_CHIRP
     itemType: MusicDiscVariant:DISC_CHIRP
     typ: DECORATION
     rarity: LEGENDARY
     name: Chirp
+    pack: MUSIC
     description: [ ]
   - id: MUSIC_DISC_FAR
     itemType: MusicDiscVariant:DISC_FAR
     typ: DECORATION
     rarity: LEGENDARY
     name: Far
+    pack: MUSIC
     description: [ ]
   - id: MUSIC_DISC_MALL
     itemType: MusicDiscVariant:DISC_MALL
     typ: DECORATION
     rarity: LEGENDARY
     name: Mall
+    pack: MUSIC
     description: [ ]
   - id: MUSIC_DISC_MELLOHI
     itemType: MusicDiscVariant:DISC_MELLOHI
     typ: DECORATION
     rarity: LEGENDARY
     name: Mellohi
+    pack: MUSIC
     description: [ ]
   - id: MUSIC_DISC_STAL
     itemType: MusicDiscVariant:DISC_STAL
     typ: DECORATION
     rarity: LEGENDARY
     name: Stal
+    pack: MUSIC
     description: [ ]
   - id: MUSIC_DISC_STRAD
     itemType: MusicDiscVariant:DISC_STRAD
     typ: DECORATION
     rarity: LEGENDARY
     name: Strad
+    pack: MUSIC
     description: [ ]
   - id: MUSIC_DISC_WAIT
     itemType: MusicDiscVariant:DISC_WAIT
     typ: DECORATION
     rarity: LEGENDARY
     name: Wait
+    pack: MUSIC
     description: [ ]
   - id: MUSIC_DISC_WARD
     itemType: MusicDiscVariant:DISC_WARD
     typ: DECORATION
     rarity: LEGENDARY
     name: Ward
+    pack: MUSIC
     description: [ ]
 
   # Ice and fire pack
@@ -1529,50 +1764,58 @@ decorations:
     typ: DECORATION
     rarity: LEGENDARY
     name: Ice
+    pack: ICE_AND_FIRE
     description: [ ]
   - id: BLUE_ICE
     itemType: IceVariant:BLUE
     typ: DECORATION
     rarity: LEGENDARY
     name: Blue ice
+    pack: ICE_AND_FIRE
     description: [ ]
   - id: PACKED_ICE
     itemType: IceVariant:PACKED
     typ: DECORATION
     rarity: LEGENDARY
     name: Packed ice
+    pack: ICE_AND_FIRE
     description: [ ]
   - id: MAGMA_BLOCK
     itemType: MAGMA_BLOCK
     typ: DECORATION
     rarity: LEGENDARY
     name: Magma block
+    pack: ICE_AND_FIRE
     description: [ ]
   - id: SNOW
     itemType: SNOW
     typ: DECORATION
     rarity: LEGENDARY
     name: Snow
+    pack: ICE_AND_FIRE
     description: [ ]
   - id: SNOW_BLOCK
     itemType: SNOW_BLOCK
     typ: DECORATION
     rarity: LEGENDARY
     name: Snow block
+    pack: ICE_AND_FIRE
     description: [ ]
 
-  # Clay pack
+  # Terracotta pack
   - id: CLAY_BLOCK
     itemType: CLAY_BLOCK
     typ: DECORATION
     rarity: RARE
     name: Clay
+    pack: TERRACOTTA
     description: [ ]
   - id: TERRACOTTA
     itemType: TERRACOTTA
     typ: DECORATION
     rarity: RARE
     name: Terracotta
+    pack: TERRACOTTA
     description: [ ]
 
   - id: WHITE_TERRACOTTA
@@ -1580,194 +1823,226 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: White terracotta
+    pack: TERRACOTTA
     description: [ ]
   - id: ORANGE_TERRACOTTA
     itemType: TerracottaVariant:ORANGE
     typ: DECORATION
     rarity: RARE
     name: Orange terracotta
+    pack: TERRACOTTA
     description: [ ]
   - id: MAGENTA_TERRACOTTA
     itemType: TerracottaVariant:MAGENTA
     typ: DECORATION
     rarity: RARE
     name: Magenta terracotta
+    pack: TERRACOTTA
     description: [ ]
   - id: LIGHT_BLUE_TERRACOTTA
     itemType: TerracottaVariant:LIGHT_BLUE
     typ: DECORATION
     rarity: RARE
     name: Light blue terracotta
+    pack: TERRACOTTA
     description: [ ]
   - id: YELLOW_TERRACOTTA
     itemType: TerracottaVariant:YELLOW
     typ: DECORATION
     rarity: RARE
     name: Yellow terracotta
+    pack: TERRACOTTA
     description: [ ]
   - id: LIME_TERRACOTTA
     itemType: TerracottaVariant:LIME
     typ: DECORATION
     rarity: RARE
     name: Lime terracotta
+    pack: TERRACOTTA
     description: [ ]
   - id: PINK_TERRACOTTA
     itemType: TerracottaVariant:PINK
     typ: DECORATION
     rarity: RARE
     name: Pink terracotta
+    pack: TERRACOTTA
     description: [ ]
   - id: GRAY_TERRACOTTA
     itemType: TerracottaVariant:GRAY
     typ: DECORATION
     rarity: RARE
     name: Gray terracotta
+    pack: TERRACOTTA
     description: [ ]
   - id: LIGHT_GRAY_TERRACOTTA
     itemType: TerracottaVariant:LIGHT_GRAY
     typ: DECORATION
     rarity: RARE
     name: Light gray terracotta
+    pack: TERRACOTTA
     description: [ ]
   - id: CYAN_TERRACOTTA
     itemType: TerracottaVariant:CYAN
     typ: DECORATION
     rarity: RARE
     name: Cyan terracotta
+    pack: TERRACOTTA
     description: [ ]
   - id: PURPLE_TERRACOTTA
     itemType: TerracottaVariant:PURPLE
     typ: DECORATION
     rarity: RARE
     name: Purple terracotta
+    pack: TERRACOTTA
     description: [ ]
   - id: BLUE_TERRACOTTA
     itemType: TerracottaVariant:BLUE
     typ: DECORATION
     rarity: RARE
     name: Blue terracotta
+    pack: TERRACOTTA
     description: [ ]
   - id: BROWN_TERRACOTTA
     itemType: TerracottaVariant:BROWN
     typ: DECORATION
     rarity: RARE
     name: Brown terracotta
+    pack: TERRACOTTA
     description: [ ]
   - id: GREEN_TERRACOTTA
     itemType: TerracottaVariant:GREEN
     typ: DECORATION
     rarity: RARE
     name: Green terracotta
+    pack: TERRACOTTA
     description: [ ]
   - id: RED_TERRACOTTA
     itemType: TerracottaVariant:RED
     typ: DECORATION
     rarity: RARE
     name: Red terracotta
+    pack: TERRACOTTA
     description: [ ]
   - id: BLACK_TERRACOTTA
     itemType: TerracottaVariant:BLACK
     typ: DECORATION
     rarity: RARE
     name: Black terracotta
+    pack: TERRACOTTA
     description: [ ]
 
-  # Terracotta pack
+  # Glazed terracotta pack
   - id: WHITE_GLAZED_TERRACOTTA
     itemType: GlazedTerracottaVariant:WHITE
     typ: DECORATION
     rarity: RARE
     name: White glazed terracotta
+    pack: GLAZED_TERRACOTTA
     description: [ ]
   - id: ORANGE_GLAZED_TERRACOTTA
     itemType: GlazedTerracottaVariant:ORANGE
     typ: DECORATION
     rarity: RARE
     name: Orange glazed terracotta
+    pack: GLAZED_TERRACOTTA
     description: [ ]
   - id: MAGENTA_GLAZED_TERRACOTTA
     itemType: GlazedTerracottaVariant:MAGENTA
     typ: DECORATION
     rarity: RARE
     name: Magenta glazed terracotta
+    pack: GLAZED_TERRACOTTA
     description: [ ]
   - id: LIGHT_BLUE_GLAZED_TERRACOTTA
     itemType: GlazedTerracottaVariant:LIGHT_BLUE
     typ: DECORATION
     rarity: RARE
     name: Light blue glazed terracotta
+    pack: GLAZED_TERRACOTTA
     description: [ ]
   - id: YELLOW_GLAZED_TERRACOTTA
     itemType: GlazedTerracottaVariant:YELLOW
     typ: DECORATION
     rarity: RARE
     name: Yellow glazed terracotta
+    pack: GLAZED_TERRACOTTA
     description: [ ]
   - id: LIME_GLAZED_TERRACOTTA
     itemType: GlazedTerracottaVariant:LIME
     typ: DECORATION
     rarity: RARE
     name: Lime glazed terracotta
+    pack: GLAZED_TERRACOTTA
     description: [ ]
   - id: PINK_GLAZED_TERRACOTTA
     itemType: GlazedTerracottaVariant:PINK
     typ: DECORATION
     rarity: RARE
     name: Pink glazed terracotta
+    pack: GLAZED_TERRACOTTA
     description: [ ]
   - id: GRAY_GLAZED_TERRACOTTA
     itemType: GlazedTerracottaVariant:GRAY
     typ: DECORATION
     rarity: RARE
     name: Gray glazed terracotta
+    pack: GLAZED_TERRACOTTA
     description: [ ]
   - id: LIGHT_GRAY_GLAZED_TERRACOTTA
     itemType: GlazedTerracottaVariant:LIGHT_GRAY
     typ: DECORATION
     rarity: RARE
     name: Light gray glazed terracotta
+    pack: GLAZED_TERRACOTTA
     description: [ ]
   - id: CYAN_GLAZED_TERRACOTTA
     itemType: GlazedTerracottaVariant:CYAN
     typ: DECORATION
     rarity: RARE
     name: Cyan glazed terracotta
+    pack: GLAZED_TERRACOTTA
     description: [ ]
   - id: PURPLE_GLAZED_TERRACOTTA
     itemType: GlazedTerracottaVariant:PURPLE
     typ: DECORATION
     rarity: RARE
     name: Purple glazed terracotta
+    pack: GLAZED_TERRACOTTA
     description: [ ]
   - id: BLUE_GLAZED_TERRACOTTA
     itemType: GlazedTerracottaVariant:BLUE
     typ: DECORATION
     rarity: RARE
     name: Blue glazed terracotta
+    pack: GLAZED_TERRACOTTA
     description: [ ]
   - id: BROWN_GLAZED_TERRACOTTA
     itemType: GlazedTerracottaVariant:BROWN
     typ: DECORATION
     rarity: RARE
     name: Brown glazed terracotta
+    pack: GLAZED_TERRACOTTA
     description: [ ]
   - id: GREEN_GLAZED_TERRACOTTA
     itemType: GlazedTerracottaVariant:GREEN
     typ: DECORATION
     rarity: RARE
     name: Green glazed terracotta
+    pack: GLAZED_TERRACOTTA
     description: [ ]
   - id: RED_GLAZED_TERRACOTTA
     itemType: GlazedTerracottaVariant:RED
     typ: DECORATION
     rarity: RARE
     name: Red glazed terracotta
+    pack: GLAZED_TERRACOTTA
     description: [ ]
   - id: BLACK_GLAZED_TERRACOTTA
     itemType: GlazedTerracottaVariant:BLACK
     typ: DECORATION
     rarity: RARE
     name: Black glazed terracotta
+    pack: GLAZED_TERRACOTTA
     description: [ ]
 
   # Concrete pack
@@ -1776,96 +2051,112 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: White concrete
+    pack: CONCRETE
     description: [ ]
   - id: ORANGE_CONCRETE
     itemType: ConcreteVariant:ORANGE
     typ: DECORATION
     rarity: RARE
     name: Orange concrete
+    pack: CONCRETE
     description: [ ]
   - id: MAGENTA_CONCRETE
     itemType: ConcreteVariant:MAGENTA
     typ: DECORATION
     rarity: RARE
     name: Magenta concrete
+    pack: CONCRETE
     description: [ ]
   - id: LIGHT_BLUE_CONCRETE
     itemType: ConcreteVariant:LIGHT_BLUE
     typ: DECORATION
     rarity: RARE
     name: Light blue concrete
+    pack: CONCRETE
     description: [ ]
   - id: YELLOW_CONCRETE
     itemType: ConcreteVariant:YELLOW
     typ: DECORATION
     rarity: RARE
     name: Yellow concrete
+    pack: CONCRETE
     description: [ ]
   - id: LIME_CONCRETE
     itemType: ConcreteVariant:LIME
     typ: DECORATION
     rarity: RARE
     name: Lime concrete
+    pack: CONCRETE
     description: [ ]
   - id: PINK_CONCRETE
     itemType: ConcreteVariant:PINK
     typ: DECORATION
     rarity: RARE
     name: Pink concrete
+    pack: CONCRETE
     description: [ ]
   - id: GRAY_CONCRETE
     itemType: ConcreteVariant:GRAY
     typ: DECORATION
     rarity: RARE
     name: Gray concrete
+    pack: CONCRETE
     description: [ ]
   - id: LIGHT_GRAY_CONCRETE
     itemType: ConcreteVariant:LIGHT_GRAY
     typ: DECORATION
     rarity: RARE
     name: Light gray concrete
+    pack: CONCRETE
     description: [ ]
   - id: CYAN_CONCRETE
     itemType: ConcreteVariant:CYAN
     typ: DECORATION
     rarity: RARE
     name: Cyan concrete
+    pack: CONCRETE
     description: [ ]
   - id: PURPLE_CONCRETE
     itemType: ConcreteVariant:PURPLE
     typ: DECORATION
     rarity: RARE
     name: Purple concrete
+    pack: CONCRETE
     description: [ ]
   - id: BLUE_CONCRETE
     itemType: ConcreteVariant:BLUE
     typ: DECORATION
     rarity: RARE
     name: Blue concrete
+    pack: CONCRETE
     description: [ ]
   - id: BROWN_CONCRETE
     itemType: ConcreteVariant:BROWN
     typ: DECORATION
     rarity: RARE
     name: Brown concrete
+    pack: CONCRETE
     description: [ ]
   - id: GREEN_CONCRETE
     itemType: ConcreteVariant:GREEN
     typ: DECORATION
     rarity: RARE
     name: Green concrete
+    pack: CONCRETE
     description: [ ]
   - id: RED_CONCRETE
     itemType: ConcreteVariant:RED
     typ: DECORATION
     rarity: RARE
     name: Red concrete
+    pack: CONCRETE
     description: [ ]
   - id: BLACK_CONCRETE
     itemType: ConcreteVariant:BLACK
     typ: DECORATION
     rarity: RARE
     name: Black concrete
+    pack: CONCRETE
     description: [ ]
 
   - id: WHITE_CONCRETE_POWDER
@@ -1873,96 +2164,112 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: White concrete powder
+    pack: CONCRETE
     description: [ ]
   - id: ORANGE_CONCRETE_POWDER
     itemType: ConcretePowderVariant:ORANGE
     typ: DECORATION
     rarity: RARE
     name: Orange concrete powder
+    pack: CONCRETE
     description: [ ]
   - id: MAGENTA_CONCRETE_POWDER
     itemType: ConcretePowderVariant:MAGENTA
     typ: DECORATION
     rarity: RARE
     name: Magenta concrete powder
+    pack: CONCRETE
     description: [ ]
   - id: LIGHT_BLUE_CONCRETE_POWDER
     itemType: ConcretePowderVariant:LIGHT_BLUE
     typ: DECORATION
     rarity: RARE
     name: Light blue concrete powder
+    pack: CONCRETE
     description: [ ]
   - id: YELLOW_CONCRETE_POWDER
     itemType: ConcretePowderVariant:YELLOW
     typ: DECORATION
     rarity: RARE
     name: Yellow concrete powder
+    pack: CONCRETE
     description: [ ]
   - id: LIME_CONCRETE_POWDER
     itemType: ConcretePowderVariant:LIME
     typ: DECORATION
     rarity: RARE
     name: Lime concrete powder
+    pack: CONCRETE
     description: [ ]
   - id: PINK_CONCRETE_POWDER
     itemType: ConcretePowderVariant:PINK
     typ: DECORATION
     rarity: RARE
     name: Pink concrete powder
+    pack: CONCRETE
     description: [ ]
   - id: GRAY_CONCRETE_POWDER
     itemType: ConcretePowderVariant:GRAY
     typ: DECORATION
     rarity: RARE
     name: Gray concrete powder
+    pack: CONCRETE
     description: [ ]
   - id: LIGHT_GRAY_CONCRETE_POWDER
     itemType: ConcretePowderVariant:LIGHT_GRAY
     typ: DECORATION
     rarity: RARE
     name: Light gray concrete powder
+    pack: CONCRETE
     description: [ ]
   - id: CYAN_CONCRETE_POWDER
     itemType: ConcretePowderVariant:CYAN
     typ: DECORATION
     rarity: RARE
     name: Cyan concrete powder
+    pack: CONCRETE
     description: [ ]
   - id: PURPLE_CONCRETE_POWDER
     itemType: ConcretePowderVariant:PURPLE
     typ: DECORATION
     rarity: RARE
     name: Purple concrete powder
+    pack: CONCRETE
     description: [ ]
   - id: BLUE_CONCRETE_POWDER
     itemType: ConcretePowderVariant:BLUE
     typ: DECORATION
     rarity: RARE
     name: Blue concrete powder
+    pack: CONCRETE
     description: [ ]
   - id: BROWN_CONCRETE_POWDER
     itemType: ConcretePowderVariant:BROWN
     typ: DECORATION
     rarity: RARE
     name: Brown concrete powder
+    pack: CONCRETE
     description: [ ]
   - id: GREEN_CONCRETE_POWDER
     itemType: ConcretePowderVariant:GREEN
     typ: DECORATION
     rarity: RARE
     name: Green concrete powder
+    pack: CONCRETE
     description: [ ]
   - id: RED_CONCRETE_POWDER
     itemType: ConcretePowderVariant:RED
     typ: DECORATION
     rarity: RARE
     name: Red concrete powder
+    pack: CONCRETE
     description: [ ]
   - id: BLACK_CONCRETE_POWDER
     itemType: ConcretePowderVariant:BLACK
     typ: DECORATION
     rarity: RARE
     name: Black concrete powder
+    pack: CONCRETE
     description: [ ]
 
   # Blurple pack
@@ -1971,54 +2278,63 @@ decorations:
     typ: DECORATION
     rarity: RARE
     name: Chorus plant
+    pack: BLURPLE
     description: [ ]
   - id: CHORUS_FLOWER
     itemType: CHORUS_FLOWER
     typ: DECORATION
     rarity: RARE
     name: Chorus flower
+    pack: BLURPLE
     description: [ ]
   - id: PURPUR_BLOCK
     itemType: PURPUR_BLOCK
     typ: DECORATION
     rarity: RARE
     name: Purpur block
+    pack: BLURPLE
     description: [ ]
   - id: PURPUR_PILLAR
     itemType: PillarVariant:PURPUR
     typ: DECORATION
     rarity: RARE
     name: Purpur pillar
+    pack: BLURPLE
     description: [ ]
   - id: PURPUR_STAIRS
     itemType: StairsVariant:PURPUR
     typ: DECORATION
     rarity: RARE
     name: Purpur stairs
+    pack: BLURPLE
     description: [ ]
   - id: PURPUR_SLAB
     itemType: SlabVariant:PURPUR
     typ: DECORATION
     rarity: RARE
     name: Purpur slab
+    pack: BLURPLE
     description: [ ]
   - id: PRISMARINE
     itemType: PRISMARINE
     typ: DECORATION
     rarity: RARE
     name: Prismarine
+    pack: BLURPLE
     description: [ ]
   - id: PRISMARINE_BRICK
     itemType: PrismarineVariant:BRICK
     typ: DECORATION
     rarity: RARE
     name: Prismarine bricks
+    pack: BLURPLE
     description: [ ]
   - id: DARK_PRISMARINE
     itemType: PrismarineVariant:DARK
     typ: DECORATION
     rarity: RARE
     name: Dark prismarine
+    pack: BLURPLE
     description: [ ]
 
   # Nether pack
@@ -2027,116 +2343,135 @@ decorations:
     typ: DECORATION
     rarity: EPIC
     name: Bone block
+    pack: NETHER
     description: [ ]
   - id: GLOWSTONE
     itemType: GLOWSTONE
     typ: DECORATION
     rarity: EPIC
     name: Glowstone
+    pack: NETHER
     description: [ ]
   - id: NETHER_BRICK_BLOCK
     itemType: BrickBlockVariant:NETHER
     typ: DECORATION
     rarity: EPIC
     name: Nether brick
+    pack: NETHER
     description: [ ]
   - id: NETHER_BRICK_FENCE
     itemType: FenceVariant:NETHER_BRICK
     typ: DECORATION
     rarity: EPIC
     name: Nether brick fence
+    pack: NETHER
     description: [ ]
   - id: NETHER_BRICK_SLAB
     itemType: SlabVariant:NETHER_BRICK
     typ: DECORATION
     rarity: EPIC
     name: Nether brick slab
+    pack: NETHER
     description: [ ]
   - id: NETHER_BRICK_STAIRS
     itemType: StairsVariant:NETHER_BRICK
     typ: DECORATION
     rarity: EPIC
     name: Nether brick stairs
+    pack: NETHER
     description: [ ]
   - id: QUARTZ_ORE
     itemType: QUARTZ_ORE
     typ: DECORATION
     rarity: EPIC
     name: Quartz ore
+    pack: NETHER
     description: [ ]
   - id: NETHER_WART
     itemType: NETHER_WART
     typ: DECORATION
     rarity: EPIC
     name: Nether wart
+    pack: NETHER
     description: [ ]
   - id: NETHER_WART_BLOCK
     itemType: NETHER_WART_BLOCK
     typ: DECORATION
     rarity: EPIC
     name: Nether wart block
+    pack: NETHER
     description: [ ]
   - id: NETHERRACK
     itemType: NETHERRACK
     typ: DECORATION
     rarity: EPIC
     name: Netherrack
+    pack: NETHER
     description: [ ]
   - id: OBSIDIAN
     itemType: OBSIDIAN
     typ: DECORATION
     rarity: EPIC
     name: ObsitemTypeian
+    pack: NETHER
     description: [ ]
   - id: RED_NETHER_BRICK_BLOCK
     itemType: BrickBlockVariant:RED_NETHER
     typ: DECORATION
     rarity: EPIC
     name: Red nether brick
+    pack: NETHER
     description: [ ]
   - id: SOUL_SAND
     itemType: SOUL_SAND
     typ: DECORATION
     rarity: EPIC
     name: Soul sand
+    pack: NETHER
     description: [ ]
 
-  # Mob pack
+  # Mob heads pack
   - id: SKELETON_MOB_HEAD
     itemType: MobHeadVariant:SKELETON
     typ: DECORATION
     rarity: LEGENDARY
     name: Skeleton head
+    pack: MOB_HEADS
     description: [ ]
   - id: WITHER_SKELETON_MOB_HEAD
     itemType: MobHeadVariant:WITHER_SKELETON
     typ: DECORATION
     rarity: LEGENDARY
     name: Wither skeleton head
+    pack: MOB_HEADS
     description: [ ]
   - id: ZOMBIE_MOB_HEAD
     itemType: MobHeadVariant:ZOMBIE
     typ: DECORATION
     rarity: LEGENDARY
     name: Zombie head
+    pack: MOB_HEADS
     description: [ ]
   - id: PLAYER_MOB_HEAD
     itemType: MobHeadVariant:PLAYER
     typ: DECORATION
     rarity: LEGENDARY
     name: Player head
+    pack: MOB_HEADS
     description: [ ]
   - id: CREEPER_MOB_HEAD
     itemType: MobHeadVariant:CREEPER
     typ: DECORATION
     rarity: LEGENDARY
     name: Creeper head
+    pack: MOB_HEADS
     description: [ ]
   - id: DRAGON_MOB_HEAD
     itemType: MobHeadVariant:DRAGON
     typ: DECORATION
     rarity: LEGENDARY
     name: Dragon head
+    pack: MOB_HEADS
     description: [ ]
 
 
