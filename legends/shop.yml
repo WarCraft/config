@@ -1677,14 +1677,14 @@ decorations:
     itemType: MusicDiscVariant:DISC_11
     typ: DECORATION
     rarity: LEGENDARY
-    name: 11
+    name: "11"
     pack: MUSIC
     description: [ ]
   - id: MUSIC_DISC_13
     itemType: MusicDiscVariant:DISC_13
     typ: DECORATION
     rarity: LEGENDARY
-    name: 13
+    name: "13"
     pack: MUSIC
     description: [ ]
   - id: MUSIC_DISC_BLOCKS
