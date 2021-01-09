@@ -845,243 +845,243 @@ offhandLegendaryRolls:
 customModelData:
   AXE:
     COMMON:
-      DWARF: 1
-      ELF: 2
-      HUMAN: 3
-      ORC: 4
-      WAYFARER: 100
+      DWARVES: 1
+      ELVES: 2
+      HUMANS: 3
+      ORCS: 4
+      WAYFARERS: 100
     RARE:
-      DWARF: 1
-      ELF: 2
-      HUMAN: 3
-      ORC: 4
+      DWARVES: 1
+      ELVES: 2
+      HUMANS: 3
+      ORCS: 4
     EPIC:
-      DWARF: 1
-      ELF: 2
-      HUMAN: 3
-      ORC: 4
+      DWARVES: 1
+      ELVES: 2
+      HUMANS: 3
+      ORCS: 4
   SWORD:
     COMMON:
-      DWARF: 1
-      ELF: 2
-      HUMAN: 3
-      ORC: 4
-      WAYFARER: 100
+      DWARVES: 1
+      ELVES: 2
+      HUMANS: 3
+      ORCS: 4
+      WAYFARERS: 100
     RARE:
-      DWARF: 1
-      ELF: 2
-      HUMAN: 3
-      ORC: 4
+      DWARVES: 1
+      ELVES: 2
+      HUMANS: 3
+      ORCS: 4
     EPIC:
-      DWARF: 1
-      ELF: 2
-      HUMAN: 3
-      ORC: 4
+      DWARVES: 1
+      ELVES: 2
+      HUMANS: 3
+      ORCS: 4
   BOW:
     COMMON:
-      DWARF: 1
-      ELF: 2
-      HUMAN: 3
-      ORC: 4
-      WAYFARER: 100
+      DWARVES: 1
+      ELVES: 2
+      HUMANS: 3
+      ORCS: 4
+      WAYFARERS: 100
     RARE:
-      DWARF: 5
-      ELF: 6
-      HUMAN: 7
-      ORC: 8
+      DWARVES: 5
+      ELVES: 6
+      HUMANS: 7
+      ORCS: 8
     EPIC:
-      DWARF: 9
-      ELF: 10
-      HUMAN: 11
-      ORC: 12
+      DWARVES: 9
+      ELVES: 10
+      HUMANS: 11
+      ORCS: 12
   CROSSBOW:
     COMMON:
-      DWARF: 1
-      ELF: 2
-      HUMAN: 3
-      ORC: 4
-      WAYFARER: 100
+      DWARVES: 1
+      ELVES: 2
+      HUMANS: 3
+      ORCS: 4
+      WAYFARERS: 100
     RARE:
-      DWARF: 5
-      ELF: 6
-      HUMAN: 7
-      ORC: 8
+      DWARVES: 5
+      ELVES: 6
+      HUMANS: 7
+      ORCS: 8
     EPIC:
-      DWARF: 9
-      ELF: 10
-      HUMAN: 11
-      ORC: 12
+      DWARVES: 9
+      ELVES: 10
+      HUMANS: 11
+      ORCS: 12
   STAFF:
     COMMON:
-      DWARF: 1
-      ELF: 2
-      HUMAN: 3
-      ORC: 4
-      WAYFARER: 100
+      DWARVES: 1
+      ELVES: 2
+      HUMANS: 3
+      ORCS: 4
+      WAYFARERS: 100
     RARE:
-      DWARF: 1
-      ELF: 2
-      HUMAN: 3
-      ORC: 4
+      DWARVES: 1
+      ELVES: 2
+      HUMANS: 3
+      ORCS: 4
     EPIC:
-      DWARF: 1
-      ELF: 2
-      HUMAN: 3
-      ORC: 4
+      DWARVES: 1
+      ELVES: 2
+      HUMANS: 3
+      ORCS: 4
   WAND:
     COMMON:
-      DWARF: 1
-      ELF: 2
-      HUMAN: 3
-      ORC: 4
-      WAYFARER: 100
+      DWARVES: 1
+      ELVES: 2
+      HUMANS: 3
+      ORCS: 4
+      WAYFARERS: 100
     RARE:
-      DWARF: 5
-      ELF: 6
-      HUMAN: 7
-      ORC: 8
+      DWARVES: 5
+      ELVES: 6
+      HUMANS: 7
+      ORCS: 8
     EPIC:
-      DWARF: 9
-      ELF: 10
-      HUMAN: 11
-      ORC: 12
+      DWARVES: 9
+      ELVES: 10
+      HUMANS: 11
+      ORCS: 12
 
   SHIELD:
     COMMON:
-      DWARF: 1
-      ELF: 2
-      HUMAN: 3
-      ORC: 4
-      WAYFARER: 100
+      DWARVES: 1
+      ELVES: 2
+      HUMANS: 3
+      ORCS: 4
+      WAYFARERS: 100
     RARE:
-      DWARF: 5
-      ELF: 6
-      HUMAN: 7
-      ORC: 8
+      DWARVES: 5
+      ELVES: 6
+      HUMANS: 7
+      ORCS: 8
     EPIC:
-      DWARF: 9
-      ELF: 10
-      HUMAN: 11
-      ORC: 12
+      DWARVES: 9
+      ELVES: 10
+      HUMANS: 11
+      ORCS: 12
   BOOK:
     COMMON:
-      DWARF: 1
-      ELF: 2
-      HUMAN: 3
-      ORC: 4
+      DWARVES: 1
+      ELVES: 2
+      HUMANS: 3
+      ORCS: 4
     RARE:
-      DWARF: 5
-      ELF: 6
-      HUMAN: 7
-      ORC: 8
+      DWARVES: 5
+      ELVES: 6
+      HUMANS: 7
+      ORCS: 8
     EPIC:
-      DWARF: 9
-      ELF: 10
-      HUMAN: 11
-      ORC: 12
+      DWARVES: 9
+      ELVES: 10
+      HUMANS: 11
+      ORCS: 12
 
 helmetModelData:
   BERSERKER:
     COMMON:
-      DWARF: 111
-      ELF: 112
-      HUMAN: 113
-      ORC: 114
+      DWARVES: 111
+      ELVES: 112
+      HUMANS: 113
+      ORCS: 114
     RARE:
-      DWARF: 121
-      ELF: 122
-      HUMAN: 123
-      ORC: 124
+      DWARVES: 121
+      ELVES: 122
+      HUMANS: 123
+      ORCS: 124
     EPIC:
-      DWARF: 131
-      ELF: 132
-      HUMAN: 133
-      ORC: 134
+      DWARVES: 131
+      ELVES: 132
+      HUMANS: 133
+      ORCS: 134
   GUARDIAN:
     COMMON:
-      DWARF: 211
-      ELF: 212
-      HUMAN: 213
-      ORC: 214
+      DWARVES: 211
+      ELVES: 212
+      HUMANS: 213
+      ORCS: 214
     RARE:
-      DWARF: 221
-      ELF: 222
-      HUMAN: 223
-      ORC: 224
+      DWARVES: 221
+      ELVES: 222
+      HUMANS: 223
+      ORCS: 224
     EPIC:
-      DWARF: 231
-      ELF: 232
-      HUMAN: 233
-      ORC: 234
+      DWARVES: 231
+      ELVES: 232
+      HUMANS: 233
+      ORCS: 234
   RANGER:
     COMMON:
-      DWARF: 311
-      ELF: 312
-      HUMAN: 313
-      ORC: 314
+      DWARVES: 311
+      ELVES: 312
+      HUMANS: 313
+      ORCS: 314
     RARE:
-      DWARF: 321
-      ELF: 322
-      HUMAN: 323
-      ORC: 324
+      DWARVES: 321
+      ELVES: 322
+      HUMANS: 323
+      ORCS: 324
     EPIC:
-      DWARF: 331
-      ELF: 332
-      HUMAN: 333
-      ORC: 334
+      DWARVES: 331
+      ELVES: 332
+      HUMANS: 333
+      ORCS: 334
   MARKSMAN:
     COMMON:
-      DWARF: 411
-      ELF: 412
-      HUMAN: 413
-      ORC: 414
+      DWARVES: 411
+      ELVES: 412
+      HUMANS: 413
+      ORCS: 414
     RARE:
-      DWARF: 421
-      ELF: 422
-      HUMAN: 423
-      ORC: 424
+      DWARVES: 421
+      ELVES: 422
+      HUMANS: 423
+      ORCS: 424
     EPIC:
-      DWARF: 431
-      ELF: 432
-      HUMAN: 433
-      ORC: 434
+      DWARVES: 431
+      ELVES: 432
+      HUMANS: 433
+      ORCS: 434
   ELEMENTALIST:
     COMMON:
-      DWARF: 511
-      ELF: 512
-      HUMAN: 513
-      ORC: 514
+      DWARVES: 511
+      ELVES: 512
+      HUMANS: 513
+      ORCS: 514
     RARE:
-      DWARF: 521
-      ELF: 522
-      HUMAN: 523
-      ORC: 524
+      DWARVES: 521
+      ELVES: 522
+      HUMANS: 523
+      ORCS: 524
     EPIC:
-      DWARF: 531
-      ELF: 532
-      HUMAN: 533
-      ORC: 534
+      DWARVES: 531
+      ELVES: 532
+      HUMANS: 533
+      ORCS: 534
   WIZARD:
     COMMON:
-      DWARF: 611
-      ELF: 612
-      HUMAN: 613
-      ORC: 614
+      DWARVES: 611
+      ELVES: 612
+      HUMANS: 613
+      ORCS: 614
     RARE:
-      DWARF: 621
-      ELF: 622
-      HUMAN: 623
-      ORC: 624
+      DWARVES: 621
+      ELVES: 622
+      HUMANS: 623
+      ORCS: 624
     EPIC:
-      DWARF: 631
-      ELF: 632
-      HUMAN: 633
-      ORC: 634
+      DWARVES: 631
+      ELVES: 632
+      HUMANS: 633
+      ORCS: 634
 
 
 tooltips:
   WARRIOR:
-    DWARF:
+    DWARVES:
       OFFENSE:
         SWORD:
           default:
@@ -1257,7 +1257,7 @@ tooltips:
                 flavorText: ~
 
 
-    ELF:
+    ELVES:
       OFFENSE:
         SWORD:
           default:
@@ -1433,7 +1433,7 @@ tooltips:
                 flavorText: ~
 
 
-    HUMAN:
+    HUMANS:
       OFFENSE:
         SWORD:
           default:
@@ -1609,7 +1609,7 @@ tooltips:
                 flavorText: ~
 
 
-    ORC:
+    ORCS:
       OFFENSE:
         SWORD:
           default:
@@ -1790,7 +1790,7 @@ tooltips:
 
 
   HUNTER:
-    DWARF:
+    DWARVES:
       OFFENSE:
         BOW:
           default:
@@ -1942,7 +1942,7 @@ tooltips:
                 flavorText: ~
 
 
-    ELF:
+    ELVES:
       OFFENSE:
         BOW:
           default:
@@ -2094,7 +2094,7 @@ tooltips:
                 flavorText: ~
 
 
-    HUMAN:
+    HUMANS:
       OFFENSE:
         BOW:
           default:
@@ -2246,7 +2246,7 @@ tooltips:
                 flavorText: ~
 
 
-    ORC:
+    ORCS:
       OFFENSE:
         BOW:
           default:
@@ -2399,7 +2399,7 @@ tooltips:
 
 
   MAGE:
-    DWARF:
+    DWARVES:
       OFFENSE:
         WAND:
           default:
@@ -2575,7 +2575,7 @@ tooltips:
                 flavorText: ~
 
 
-    ELF:
+    ELVES:
       OFFENSE:
         WAND:
           default:
@@ -2754,7 +2754,7 @@ tooltips:
                 flavorText: ~
 
 
-    HUMAN:
+    HUMANS:
       OFFENSE:
         WAND:
           default:
@@ -2930,7 +2930,7 @@ tooltips:
                 flavorText: ~
 
 
-    ORC:
+    ORCS:
       OFFENSE:
         WAND:
           default:
