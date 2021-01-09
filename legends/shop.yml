@@ -12,19 +12,19 @@ prices:
     RARE: 250
     EPIC: 500
     LEGENDARY: 750
-    ANCIENT: 1250
+#    ANCIENT: 1250
   DECORATION_PACK:
     RARE: 2450
     EPIC: 4750
     LEGENDARY: 7450
-    ANCIENT: 9750
+#    ANCIENT: 9750
   #  EMOTE:
   #    RARE: 250
   #    EPIC: 750
   MINI_PET:
     EPIC: 4750
     LEGENDARY: 9750
-    ANCIENT: 14500
+#    ANCIENT: 14500
   PROMOTION:
     EPIC: 4750
 #  TOOL:
@@ -1441,85 +1441,85 @@ decorations:
   - id: NOTE_BLOCK
     itemType: NOTE_BLOCK
     typ: DECORATION
-    rarity: ANCIENT
+    rarity: LEGENDARY
     name: Note block
     lore: [ ]
   - id: JUKEBOX
     itemType: JUKEBOX
     typ: DECORATION
-    rarity: ANCIENT
+    rarity: LEGENDARY
     name: Jukebox
     lore: [ ]
   - id: MUSIC_DISC_11
     itemType: MusicDiscVariant:DISC_11
     typ: DECORATION
-    rarity: ANCIENT
+    rarity: LEGENDARY
     name: 11
     lore: [ ]
   - id: MUSIC_DISC_13
     itemType: MusicDiscVariant:DISC_13
     typ: DECORATION
-    rarity: ANCIENT
+    rarity: LEGENDARY
     name: 13
     lore: [ ]
   - id: MUSIC_DISC_BLOCKS
     itemType: MusicDiscVariant:DISC_BLOCKS
     typ: DECORATION
-    rarity: ANCIENT
+    rarity: LEGENDARY
     name: Blocks
     lore: [ ]
   - id: MUSIC_DISC_CAT
     itemType: MusicDiscVariant:DISC_CAT
     typ: DECORATION
-    rarity: ANCIENT
+    rarity: LEGENDARY
     name: Cat
     lore: [ ]
   - id: MUSIC_DISC_CHIRP
     itemType: MusicDiscVariant:DISC_CHIRP
     typ: DECORATION
-    rarity: ANCIENT
+    rarity: LEGENDARY
     name: Chirp
     lore: [ ]
   - id: MUSIC_DISC_FAR
     itemType: MusicDiscVariant:DISC_FAR
     typ: DECORATION
-    rarity: ANCIENT
+    rarity: LEGENDARY
     name: Far
     lore: [ ]
   - id: MUSIC_DISC_MALL
     itemType: MusicDiscVariant:DISC_MALL
     typ: DECORATION
-    rarity: ANCIENT
+    rarity: LEGENDARY
     name: Mall
     lore: [ ]
   - id: MUSIC_DISC_MELLOHI
     itemType: MusicDiscVariant:DISC_MELLOHI
     typ: DECORATION
-    rarity: ANCIENT
+    rarity: LEGENDARY
     name: Mellohi
     lore: [ ]
   - id: MUSIC_DISC_STAL
     itemType: MusicDiscVariant:DISC_STAL
     typ: DECORATION
-    rarity: ANCIENT
+    rarity: LEGENDARY
     name: Stal
     lore: [ ]
   - id: MUSIC_DISC_STRAD
     itemType: MusicDiscVariant:DISC_STRAD
     typ: DECORATION
-    rarity: ANCIENT
+    rarity: LEGENDARY
     name: Strad
     lore: [ ]
   - id: MUSIC_DISC_WAIT
     itemType: MusicDiscVariant:DISC_WAIT
     typ: DECORATION
-    rarity: ANCIENT
+    rarity: LEGENDARY
     name: Wait
     lore: [ ]
   - id: MUSIC_DISC_WARD
     itemType: MusicDiscVariant:DISC_WARD
     typ: DECORATION
-    rarity: ANCIENT
+    rarity: LEGENDARY
     name: Ward
     lore: [ ]
 
@@ -2467,7 +2467,7 @@ decorationPacks:
 
   - id: MUSIC
     typ: DECORATION_PACK
-    rarity: RARE
+    rarity: LEGENDARY
     name: Music Pack
     icon: JUKEBOX
     lore: [ ]
@@ -2489,7 +2489,7 @@ decorationPacks:
 
   - id: ICE_AND_FIRE
     typ: DECORATION_PACK
-    rarity: ANCIENT
+    rarity: LEGENDARY
     name: Ice and fire Pack
     icon: MAGMA_BLOCK
     lore: [ ]
@@ -2632,7 +2632,7 @@ decorationPacks:
 
   - id: MOB_HEADS
     typ: DECORATION_PACK
-    rarity: ANCIENT
+    rarity: LEGENDARY
     name: Mob heads Pack
     icon: MobHeadVariant:CREEPER
     lore: [ ]
