@@ -28,7 +28,7 @@ teams:
     name: Dwarves
     spawn:
       world: world
-      translation: { x: 0, y: 0, z: 0 }
+      translation: { x: -146, y: 54, z: -109 }
       rotation: { x: 0, y: 0, z: 0 }
     chatColor: GOLD
     particleColor: Orange
@@ -36,7 +36,7 @@ teams:
     name: Elves
     spawn:
       world: world
-      translation: { x: 0, y: 0, z: 0 }
+      translation: { x: 115, y: 71, z: -199.5 }
       rotation: { x: 0, y: 0, z: 0 }
     chatColor: GREEN
     particleColor: Lime
@@ -44,7 +44,7 @@ teams:
     name: Humans
     spawn:
       world: world
-      translation: { x: 0, y: 0, z: 0 }
+      translation: { x: -67.5, y: 67, z: 190.5 }
       rotation: { x: 0, y: 0, z: 0 }
     chatColor: AQUA
     particleColor: Aqua
@@ -52,7 +52,7 @@ teams:
     name: Orcs
     spawn:
       world: world
-      translation: { x: 0, y: 0, z: 0 }
+      translation: { x: 167, y: 70, z: 61 }
       rotation: { x: 0, y: 0, z: 0 }
     chatColor: RED
     particleColor: Red
@@ -60,7 +60,7 @@ teams:
     name: Wayfarers
     spawn:
       world: world
-      translation: { x: 0, y: 0, z: 0 }
+      translation: { x: 0, y: 68, z: 8 }
       rotation: { x: 0, y: 0, z: 0 }
     chatColor: GRAY
     particleColor: Silver
