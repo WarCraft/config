@@ -202,9 +202,9 @@ abilities:
     cooldown: "2"
 
   # Elementalist
-  - name: Bolt
-    radius: "2"
-    damage: "3"
+  - name: Chain Lightning
+    radius: "10"
+    damage: "5"
     range: "30"
     cooldown: "10"
   - name: Hail Blast
