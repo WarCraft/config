@@ -43,7 +43,24 @@ dropRates:
 # ANCIENT: 99.976
 
 
-itemTypes:
+armorTypes:
+  WARRIOR:
+    HEAD: MusicDiscVariant:DISC_11
+    CHEST: ChestplateVariant:IRON
+    LEGS: LeggingsVariant:IRON
+    FEET: BootsVariant:IRON
+  HUNTER:
+    HEAD: MusicDiscVariant:DISC_11
+    CHEST: ChestplateVariant:CHAINMAIL
+    LEGS: LeggingsVariant:CHAINMAIL
+    FEET: BootsVariant:CHAINMAIL
+  MAGE:
+    HEAD: MusicDiscVariant:DISC_11
+    CHEST: ChestplateVariant:LEATHER
+    LEGS: LeggingsVariant:LEATHER
+    FEET: BootsVariant:LEATHER
+
+weaponTypes:
   AXE:
     COMMON: AxeVariant:STONE
     RARE: AxeVariant:IRON
@@ -85,27 +102,6 @@ itemTypes:
     RARE: BLAZE_ROD
     EPIC: BLAZE_ROD
     LEGENDARY: BLAZE_ROD
-
-  HEAD:
-    COMMON: MusicDiscVariant:DISC_11
-    RARE: MusicDiscVariant:DISC_11
-    EPIC: MusicDiscVariant:DISC_11
-    LEGENDARY: MusicDiscVariant:DISC_11
-  CHEST:
-    COMMON: ChestplateVariant:LEATHER
-    RARE: ChestplateVariant:CHAINMAIL
-    EPIC: ChestplateVariant:IRON
-    LEGENDARY: ChestplateVariant:DIAMOND
-  LEGS:
-    COMMON: LeggingsVariant:LEATHER
-    RARE: LeggingsVariant:CHAINMAIL
-    EPIC: LeggingsVariant:IRON
-    LEGENDARY: LeggingsVariant:DIAMOND
-  FEET:
-    COMMON: BootsVariant:LEATHER
-    RARE: BootsVariant:CHAINMAIL
-    EPIC: BootsVariant:IRON
-    LEGENDARY: BootsVariant:DIAMOND
 
 
 attributeRolls:

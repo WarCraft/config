@@ -160,6 +160,10 @@ abilities:
     slow-duration: "5"
     cooldown: "20"
 
+  # Hunter
+  - name: Pet Respawns
+    cooldown: "30"
+
   # Marksman
   - name: Power Shot
     damage: "3"
@@ -174,7 +178,7 @@ abilities:
     duration: "7"
     cooldown: "45"
 
-  # Hunter
+  # Ranger
   - name: Toxic Arrow
     damage: "3"
     poison-level: "2"
@@ -266,7 +270,7 @@ abilities:
     range: "8"
     cooldown: "4"
     distance: "8"
-  - name: "Magic Scatter (Projectile)"
+  - name: Magic Scatter (Projectile)
     velocity: "0.75"
     radius: "0.5"
     damage: "3"
