@@ -27,6 +27,7 @@ objectives:
           world: world
           translation: { x: -107.5, y: 56, z: -106.5 }
           rotation: { x: 0, y: 0, z: 1 }
+        radius: 1
         exit:
           world: world
           translation: { x: -111.5, y: 56, z: -106.5 }
@@ -37,6 +38,7 @@ objectives:
           world: world
           translation: { x: -111.5, y: 56, z: -111.5 }
           rotation: { x: 0, y: 0, z: 1 }
+        radius: 1
         exit:
           world: world
           translation: { x: -107.5, y: 56, z: -111.5 }
@@ -65,6 +67,7 @@ objectives:
           world: world
           translation: { x: 169.5, y: 56, z: -173.5 }
           rotation: { x: 0, y: 0, z: 1 }
+        radius: 1
         exit:
           world: world
           translation: { x: 166.5, y: 55, z: -175.5 }
@@ -75,6 +78,7 @@ objectives:
           world: world
           translation: { x: 169.5, y: 55, z: -182.5 }
           rotation: { x: 0, y: 0, z: 1 }
+        radius: 1
         exit:
           world: world
           translation: { x: 173.5, y: 56, z: -181.5 }
@@ -103,6 +107,7 @@ objectives:
           world: world
           translation: { x: -92.5, y: 60, z: 162.5 }
           rotation: { x: 0, y: 0, z: 1 }
+        radius: 1
         exit:
           world: world
           translation: { x: -88.5, y: 62, z: 167.5 }
@@ -113,6 +118,7 @@ objectives:
           world: world
           translation: { x: -92.5, y: 62, z: 171.5 }
           rotation: { x: 0, y: 0, z: 1 }
+        radius: 1
         exit:
           world: world
           translation: { x: -96.5, y: 61, z: 168.5 }
@@ -141,6 +147,7 @@ objectives:
           world: world
           translation: { x: 159.5, y: 64, z: 111.5 }
           rotation: { x: 0, y: 0, z: 1 }
+        radius: 1
         exit:
           world: world
           translation: { x: 163.5, y: 65, z: 109.5 }
@@ -151,6 +158,7 @@ objectives:
           world: world
           translation: { x: 167.5, y: 65, z: 113.5 }
           rotation: { x: 0, y: 0, z: 1 }
+        radius: 1
         exit:
           world: world
           translation: { x: 165.5, y: 63, z: 117.5 }
@@ -173,7 +181,18 @@ objectives:
         translation: { x: 0, y: 68, z: 8 }
         rotation: { x: 0, y: 0, z: 1 }
       radius: 2.5
-    portals: [ ]
+    portals:
+      # outer
+      - entry:
+          world: world
+          translation: { x: 0.5, y: 8, z: 8.5 }
+          rotation: { x: 0, y: 0, z: 1 }
+        radius: 8
+        exit:
+          world: world_the_end
+          translation: { x: 0.5, y: 177, z: 0.5 }
+          rotation: { x: 0, y: 0, z: 1 }
+        orientation: ~
     boundingBox:
       world: world
       min: { x: 0, y: 0, z: 0 }
