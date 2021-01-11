@@ -407,8 +407,8 @@ lootCrates:
         distribution:
           COMMON: 50
           RARE: 40
-          EPIC: 8
-          LEGENDARY: 2
+          EPIC: 10
+      #   LEGENDARY: 2
       - typ: EQUIPMENT_UPGRADE
         chance: 20
         distribution:
@@ -455,8 +455,8 @@ lootCrates:
         distribution:
           COMMON: 50
           RARE: 40
-          EPIC: 8
-          LEGENDARY: 2
+          EPIC: 10
+      #   LEGENDARY: 2
       - typ: EQUIPMENT_UPGRADE
         chance: 15
         distribution:
@@ -501,8 +501,9 @@ lootCrates:
       - typ: EQUIPMENT
         chance: 35
         distribution:
-          EPIC: 75
-          LEGENDARY: 25
+          RARE: 50
+          EPIC: 50
+      #   LEGENDARY: 25
       - typ: EQUIPMENT_UPGRADE
         chance: 20
         distribution:
@@ -545,8 +546,9 @@ lootCrates:
       - typ: EQUIPMENT
         chance: 18
         distribution:
-          EPIC: 50
-          LEGENDARY: 50
+          RARE: 20
+          EPIC: 80
+      #   LEGENDARY: 50
       - typ: EQUIPMENT_UPGRADE
         chance: 15
         distribution:
