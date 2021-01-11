@@ -45,20 +45,70 @@ dropRates:
 
 armorTypes:
   WARRIOR:
-    HEAD: MusicDiscVariant:DISC_11
-    CHEST: ChestplateVariant:IRON
-    LEGS: LeggingsVariant:IRON
-    FEET: BootsVariant:IRON
+    DWARVES:
+      HEAD: MusicDiscVariant:DISC_11
+      CHEST: ChestplateVariant:IRON
+      LEGS: LeggingsVariant:IRON
+      FEET: BootsVariant:IRON
+    ELVES:
+      HEAD: MusicDiscVariant:DISC_11
+      CHEST: ChestplateVariant:IRON
+      LEGS: LeggingsVariant:IRON
+      FEET: BootsVariant:IRON
+    HUMANS:
+      HEAD: MusicDiscVariant:DISC_11
+      CHEST: ChestplateVariant:IRON
+      LEGS: LeggingsVariant:IRON
+      FEET: BootsVariant:IRON
+    ORCS:
+      HEAD: MusicDiscVariant:DISC_11
+      CHEST: ChestplateVariant:IRON
+      LEGS: LeggingsVariant:IRON
+      FEET: BootsVariant:IRON
+
   HUNTER:
-    HEAD: MusicDiscVariant:DISC_11
-    CHEST: ChestplateVariant:CHAINMAIL
-    LEGS: LeggingsVariant:CHAINMAIL
-    FEET: BootsVariant:CHAINMAIL
+    DWARVES:
+      HEAD: MusicDiscVariant:DISC_11
+      CHEST: ChestplateVariant:CHAINMAIL
+      LEGS: LeggingsVariant:CHAINMAIL
+      FEET: BootsVariant:CHAINMAIL
+    ELVES:
+      HEAD: MusicDiscVariant:DISC_11
+      CHEST: ChestplateVariant:CHAINMAIL
+      LEGS: LeggingsVariant:CHAINMAIL
+      FEET: BootsVariant:CHAINMAIL
+    HUMANS:
+      HEAD: MusicDiscVariant:DISC_11
+      CHEST: ChestplateVariant:CHAINMAIL
+      LEGS: LeggingsVariant:CHAINMAIL
+      FEET: BootsVariant:CHAINMAIL
+    ORCS:
+      HEAD: MusicDiscVariant:DISC_11
+      CHEST: ChestplateVariant:CHAINMAIL
+      LEGS: LeggingsVariant:CHAINMAIL
+      FEET: BootsVariant:CHAINMAIL
+
   MAGE:
-    HEAD: MusicDiscVariant:DISC_11
-    CHEST: ChestplateVariant:LEATHER
-    LEGS: LeggingsVariant:LEATHER
-    FEET: BootsVariant:LEATHER
+    DWARVES:
+      HEAD: MusicDiscVariant:DISC_11
+      CHEST: ChestplateVariant:ORANGE_LEATHER
+      LEGS: LeggingsVariant:ORANGE_LEATHER
+      FEET: BootsVariant:ORANGE_LEATHER
+    ELVES:
+      HEAD: MusicDiscVariant:DISC_11
+      CHEST: ChestplateVariant:GREEN_LEATHER
+      LEGS: LeggingsVariant:GREEN_LEATHER
+      FEET: BootsVariant:GREEN_LEATHER
+    HUMANS:
+      HEAD: MusicDiscVariant:DISC_11
+      CHEST: ChestplateVariant:BLUE_LEATHER
+      LEGS: LeggingsVariant:BLUE_LEATHER
+      FEET: BootsVariant:BLUE_LEATHER
+    ORCS:
+      HEAD: MusicDiscVariant:DISC_11
+      CHEST: ChestplateVariant:RED_LEATHER
+      LEGS: LeggingsVariant:RED_LEATHER
+      FEET: BootsVariant:RED_LEATHER
 
 weaponTypes:
   AXE:
