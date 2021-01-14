@@ -10,6 +10,11 @@ siegeWeaponMaxIdleTime: 900
 requiredProgress:
   FORT: 100
 
+requiredResources:
+  trebuchet:
+    WOOD: 20
+    STONE: 10
+
 objectives:
   - id: DWARF_FORT
     model: dwarf_fort
