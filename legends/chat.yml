@@ -21,25 +21,25 @@ globalChannels:
     aliases: [ ]
     shortcut: ~
     color: GRAY
-    format: "[<channel.name>] <sender.color>[<sender.tag>] <channel.color><sender.name>: <text>"
+    format: "${channel.color}[${channel.name}] ${sender.name}: ${text}"
     permission: ~
   - name: Staff
     aliases: [ ]
     shortcut: ~
     color: LIGHT_PURPLE
-    format: "[<channel.name>] <sender.name>: <text>"
+    format: "${channel.color}[${channel.name}] ${sender.name}: ${text}"
     permission: monolith.staff
   - name: Human
     aliases: [ ]
     shortcut: ~
     color: GRAY
-    format: "[<channel.name>] <sender.color>[<sender.tag>] <channel.color><sender.name>: <text>"
+    format: "${channel.color}[${channel.name}] ${sender.name}: ${text}"
     permission: legends.human
   - name: Orc
     aliases: [ ]
     shortcut: ~
     color: GRAY
-    format: "[<channel.name>] <sender.color>[<sender.tag>] <channel.color><sender.name>: <text>"
+    format: "${channel.color}[${channel.name}] ${sender.name}: ${text}"
     permission: legends.orc
 
 localChannels:
@@ -47,23 +47,23 @@ localChannels:
     aliases: [ say, s, rp ]
     shortcut: "(("
     color: WHITE
-    format: "<sender.color>[<sender.tag>] <channel.color><sender.name>: <text>"
+    format: "${channel.color} ${sender.name}: ${text}"
     radius: 25
   - name: Emote
     aliases: [ e, pose ]
     shortcut: "*"
     color: GOLD
-    format: "<sender.color>[<sender.tag>] <channel.color><sender.name> <text>"
+    format: "${channel.color} ${sender.name}: ${text}"
     radius: 25
   - name: Yell
     aliases: [ y, shout ]
     shortcut: ~
     color: RED
-    format: "<sender.color>[<sender.tag>] <channel.color><sender.name>: <text>"
+    format: "${channel.color} ${sender.name}: ${text}"
     radius: 50
   - name: Whisper
     aliases: [ w ]
     shortcut: ~
     color: AQUA
-    format: "<sender.color>[<sender.tag>] <channel.color><sender.name>: <text>"
+    format: "${channel.color} ${sender.name}: ${text}"
     radius: 5
