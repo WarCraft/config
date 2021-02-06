@@ -583,41 +583,6 @@ lootCrates:
           LEGENDARY: 50
 
 
-npcs:
-  - typ: BLUEPRINT_VENDOR
-    team: DWARVES
-    name: Blueprint Vendor
-    entityType: VILLAGER
-    location:
-      world: world
-      translation: { x: -129, y: 54, z: -113 }
-      rotation: { x: 0, y: 0, z: 0 }
-  - typ: BLUEPRINT_VENDOR
-    team: ELVES
-    name: Blueprint Vendor
-    entityType: VILLAGER
-    location:
-      world: world
-      translation: { x: 142, y: 54, z: -187 }
-      rotation: { x: 0, y: 0, z: 0 }
-  - typ: BLUEPRINT_VENDOR
-    team: HUMANS
-    name: Blueprint Vendor
-    entityType: VILLAGER
-    location:
-      world: world
-      translation: { x: -52, y: 67, z: 183 }
-      rotation: { x: 0, y: 0, z: 0 }
-  - typ: BLUEPRINT_VENDOR
-    team: ORCS
-    name: Blueprint Vendor
-    entityType: VILLAGER
-    location:
-      world: world
-      translation: { x: 151, y: 70, z: 64 }
-      rotation: { x: 0, y: 0, z: 0 }
-
-
 objectiveCaptureRewards:
   STRONGHOLD: { WAR_CRATE: 6 }
   FORT: { WAR_CRATE: 3 }
