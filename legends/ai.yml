@@ -1,33 +1,101 @@
 npcs:
+  # DWARVES
   - typ: BLUEPRINT_VENDOR
     team: DWARVES
     name: Blueprint Vendor
     entityType: VILLAGER
     location:
       world: world
-      translation: { x: -129, y: 54, z: -113 }
+      translation: { x: -202, y: 56, z: -297 }
       rotation: { x: 0, y: 0, z: 0 }
+  - typ: TOOL_VENDOR
+    team: DWARVES
+    name: Tool Vendor
+    entityType: VILLAGER
+    location:
+      world: world
+      translation: { x: -218, y: 57, z: -298 }
+      rotation: { x: 0, y: 0, z: 0 }
+  - typ: FOOD_VENDOR
+    team: DWARVES
+    name: Food Vendor
+    entityType: VILLAGER
+    location:
+      world: world
+      translation: { x: -202, y: 56, z: -311 }
+      rotation: { x: 0, y: 0, z: 0 }
+  # ELVES
   - typ: BLUEPRINT_VENDOR
     team: ELVES
     name: Blueprint Vendor
     entityType: VILLAGER
     location:
       world: world
-      translation: { x: 142, y: 54, z: -187 }
+      translation: { x: 304, y: 65, z: -243 }
       rotation: { x: 0, y: 0, z: 0 }
+  - typ: TOOL_VENDOR
+    team: ELVES
+    name: Tool Vendor
+    entityType: VILLAGER
+    location:
+      world: world
+      translation: { x: 315, y: 67, z: -254 }
+      rotation: { x: 0, y: 0, z: 0 }
+  - typ: FOOD_VENDOR
+    team: ELVES
+    name: Food Vendor
+    entityType: VILLAGER
+    location:
+      world: world
+      translation: { x: 313, y: 66, z: -238 }
+      rotation: { x: 0, y: 0, z: 0 }
+  # HUMANS
   - typ: BLUEPRINT_VENDOR
     team: HUMANS
     name: Blueprint Vendor
     entityType: VILLAGER
     location:
       world: world
-      translation: { x: -52, y: 67, z: 183 }
+      translation: { x: -289, y: 70, z: 263 }
       rotation: { x: 0, y: 0, z: 0 }
+  - typ: TOOL_VENDOR
+    team: HUMANS
+    name: Tool Vendor
+    entityType: VILLAGER
+    location:
+      world: world
+      translation: { x: -290, y: 72, z: 271 }
+      rotation: { x: 0, y: 0, z: 0 }
+  - typ: FOOD_VENDOR
+    team: HUMANS
+    name: Food Vendor
+    entityType: VILLAGER
+    location:
+      world: world
+      translation: { x: -258, y: 73, z: 280 }
+      rotation: { x: 0, y: 0, z: 0 }
+  # ORCS
   - typ: BLUEPRINT_VENDOR
     team: ORCS
     name: Blueprint Vendor
     entityType: VILLAGER
     location:
       world: world
-      translation: { x: 151, y: 70, z: 64 }
+      translation: { x: 317, y: 73, z: 231 }
+      rotation: { x: 0, y: 0, z: 0 }
+  - typ: TOOL_VENDOR
+    team: ORCS
+    name: Tool Vendor
+    entityType: VILLAGER
+    location:
+      world: world
+      translation: { x: 315, y: 74, z: 253 }
+      rotation: { x: 0, y: 0, z: 0 }
+  - typ: FOOD_VENDOR
+    team: ORCS
+    name: Food Vendor
+    entityType: VILLAGER
+    location:
+      world: world
+      translation: { x: 305, y: 73, z: 235 }
       rotation: { x: 0, y: 0, z: 0 }
