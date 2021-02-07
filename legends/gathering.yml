@@ -1,41 +1,27 @@
 blockGatheringSpots:
-  - id: OVERWORLD_STONE
+  - id: OVERWORLD
     boundingBox:
       world: world
-      min: { x: -1616, y: 31, z: -45 }
-      max: { x: -1540, y: 43, z: 17 }
-    blockType: STONE
-    cooldownType: BEDROCK
-    drop:
-      type: STONE
-      name: Stone
-    cooldownInSeconds: 600
-    cooldownDeviationPercentage: 20
-    
-  - id: OVERWORLD_LOG
-    boundingBox:
-      world: OVERWORLD
-      min: { x: -780, y: 33, z: 397 }
-      max: { x: -756, y: 34, z: 417 }
-    blockType: LOG
-    cooldownType: BEDROCK
-    drop:
-      type: LOG
-      name: Lumber
-    cooldownInSeconds: 600
-    cooldownDeviationPercentage: 20
-
-  - id: OVERWORLD_WOOD
-    boundingBox:
-      world: OVERWORLD
-      min: { x: -780, y: 33, z: 397 }
-      max: { x: -756, y: 34, z: 417 }
-    blockType: WOOD
-    cooldownType: BEDROCK
-    drop:
-      type: LOG
-      name: Lumber
-    cooldownInSeconds: 600
-    cooldownDeviationPercentage: 20
+      min: { x: -1000, y: 1, z: -1000 }
+      max: { x: 1000, y: 255, z: 1000 }
+    blocks:
+      - blockData: STONE
+        dropData: STONE
+        dropName: Stone
+        cooldown: 600
+        cooldownDelta: 20
+        cooldownData: BEDROCK 
+      - blockData: LOG
+        dropData: LOG
+        dropName: Lumber
+        cooldown: 600
+        cooldownDelta: 20
+        cooldownData: BEDROCK
+      - blockData: WOOD
+        dropData: LOG
+        dropName: Lumber
+        cooldown: 600
+        cooldownDelta: 20
+        cooldownData: BEDROCK
 
 entityGatheringSpots: []
