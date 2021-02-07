@@ -1,213 +1,41 @@
 blockGatheringSpots:
-  - id: HUMAN_FARM
+  - id: OVERWORLD_STONE
     boundingBox:
-      world: OVERWORLD
-      minimumCorner:
-        x: -1616
-        y: 31
-        z: -45
-      maximumCorner:
-        x: -1540
-        y: 43
-        z: 17
-    blockType: WheatState:AGE_7
-    cooldownType: WheatState:AGE_3
-    drop:
-      type: WHEAT
-      name: Wheat
-    cooldownInSeconds: 60
-    cooldownDeviationPercentage: 20
-
-  - id: HUMAN_LUMBER_MILL
-    boundingBox:
-      world: OVERWORLD
-      minimumCorner:
-        x: -780
-        y: 33
-        z: 397
-      maximumCorner:
-        x: -756
-        y: 34
-        z: 417
-    blockType: LogVariant:OAK
-    cooldownType: BEDROCK
-    drop:
-      type: LogVariant:OAK
-      name: Lumber
-    cooldownInSeconds: 60
-    cooldownDeviationPercentage: 20
-
-  - id: HUMAN_MINE
-    boundingBox:
-      world: OVERWORLD
-      minimumCorner:
-        x: -1156
-        y: 26
-        z: 488
-      maximumCorner:
-        x: -1126
-        y: 46
-        z: 518
+      world: world
+      min: { x: -1616, y: 31, z: -45 }
+      max: { x: -1540, y: 43, z: 17 }
     blockType: STONE
     cooldownType: BEDROCK
     drop:
       type: STONE
       name: Stone
-    cooldownInSeconds: 60
+    cooldownInSeconds: 600
     cooldownDeviationPercentage: 20
-
-  - id: HUMAN_COAL_MINE
+    
+  - id: OVERWORLD_LOG
     boundingBox:
       world: OVERWORLD
-      minimumCorner:
-        x: 106
-        y: 46
-        z: 313
-      maximumCorner:
-        x: 123
-        y: 57
-        z: 325
-    blockType: COAL_ORE
+      min: { x: -780, y: 33, z: 397 }
+      max: { x: -756, y: 34, z: 417 }
+    blockType: LOG
     cooldownType: BEDROCK
     drop:
-      type: COAL
-      name: Coal
-    cooldownInSeconds: 60
-    cooldownDeviationPercentage: 20
-
-  - id: ORC_LUMBER_MILL
-    boundingBox:
-      world: OVERWORLD
-      minimumCorner:
-        x: 445
-        y: 35
-        z: -5
-      maximumCorner:
-        x: 468
-        y: 38
-        z: 29
-    blockType: LogVariant:ACACIA
-    cooldownType: BEDROCK
-    drop:
-      type: LogVariant:OAK
+      type: LOG
       name: Lumber
-    cooldownInSeconds: 60
+    cooldownInSeconds: 600
     cooldownDeviationPercentage: 20
 
-  - id: ORC_MINE
+  - id: OVERWORLD_WOOD
     boundingBox:
       world: OVERWORLD
-      minimumCorner:
-        x: -138
-        y: 33
-        z: 473
-      maximumCorner:
-        x: -105
-        y: 48
-        z: 508
-    blockType: STONE
+      min: { x: -780, y: 33, z: 397 }
+      max: { x: -756, y: 34, z: 417 }
+    blockType: WOOD
     cooldownType: BEDROCK
     drop:
-      type: STONE
-      name: Stone
-    cooldownInSeconds: 60
-    cooldownDeviationPercentage: 20
-
-  - id: TUTORIAL_FARM
-    boundingBox:
-      world: THE_END
-      minimumCorner:
-        x: 195
-        y: 179
-        z: -135
-      maximumCorner:
-        x: 200
-        y: 179
-        z: -130
-    blockType: WheatState:AGE_7
-    cooldownType: WheatState:AGE_3
-    drop:
-      type: WHEAT
-      name: Wheat
-    cooldownInSeconds: 6
-    cooldownDeviationPercentage: 20
-
-  - id: TUTORIAL_LUMBER_MILL
-    boundingBox:
-      world: THE_END
-      minimumCorner:
-        x: 209
-        y: 179
-        z: -133
-      maximumCorner:
-        x: 209
-        y: 179
-        z: -131
-    blockType: LogVariant:OAK
-    cooldownType: BEDROCK
-    drop:
-      type: LogVariant:OAK
+      type: LOG
       name: Lumber
-    cooldownInSeconds: 6
+    cooldownInSeconds: 600
     cooldownDeviationPercentage: 20
 
-  - id: TUTORIAL_MINE
-    boundingBox:
-      world: THE_END
-      minimumCorner:
-        x: 201
-        y: 175
-        z: -129
-      maximumCorner:
-        x: 206
-        y: 181
-        z: -123
-    blockType: STONE
-    cooldownType: BEDROCK
-    drop:
-      type: STONE
-      name: Stone
-    cooldownInSeconds: 6
-    cooldownDeviationPercentage: 20
-  - id: TUTORIAL_MINE_2
-    boundingBox:
-      world: THE_END
-      minimumCorner:
-        x: 201
-        y: 175
-        z: -129
-      maximumCorner:
-        x: 206
-        y: 181
-        z: -123
-    blockType: COBBLESTONE
-    cooldownType: BEDROCK
-    drop:
-      type: STONE
-      name: Stone
-    cooldownInSeconds: 6
-    cooldownDeviationPercentage: 20
-
-entityGatheringSpots:
-  - id: ORC_FARM
-    entityType: PIG
-    entityCount: 10
-    spawnLocation:
-      world: OVERWORLD
-      translation: { x: 89, y: 43, z: 420 }
-    spawnRadius: 5
-    #      - world: OVERWORLD
-    #        x: 64
-    #        y: 43
-    #        z: 415
-    #        radius: 5
-    #      - world: OVERWORLD
-    #        x: 59
-    #        y: 43
-    #        z: 416
-    #        radius: 5
-    drop:
-      type: PorkchopVariant:RAW
-      name: Meat
-    cooldownInSeconds: 10
-    cooldownDeviationPercentage: 20
+entityGatheringSpots: []
