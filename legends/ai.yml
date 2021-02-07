@@ -24,6 +24,14 @@ npcs:
       world: world
       translation: { x: -202, y: 56, z: -311 }
       rotation: { x: 0, y: 0, z: 0 }
+  - typ: WEAPON_VENDOR
+    team: DWARVES
+    name: Weapon Vendor
+    entityType: VILLAGER
+    location:
+      world: world
+      translation: { x: -207, y: 57, z: -303 }
+      rotation: { x: 0, y: 0, z: 0 }
   # ELVES
   - typ: BLUEPRINT_VENDOR
     team: ELVES
@@ -48,6 +56,14 @@ npcs:
     location:
       world: world
       translation: { x: 313, y: 66, z: -238 }
+      rotation: { x: 0, y: 0, z: 0 }
+  - typ: WEAPON_VENDOR
+    team: ELVES
+    name: Weapon Vendor
+    entityType: VILLAGER
+    location:
+      world: world
+      translation: { x: 318, y: 66, z: -240 }
       rotation: { x: 0, y: 0, z: 0 }
   # HUMANS
   - typ: BLUEPRINT_VENDOR
@@ -74,6 +90,14 @@ npcs:
       world: world
       translation: { x: -258, y: 73, z: 280 }
       rotation: { x: 0, y: 0, z: 0 }
+  - typ: WEAPON_VENDOR
+    team: HUMANS
+    name: Weapon Vendor
+    entityType: VILLAGER
+    location:
+      world: world
+      translation: { x: -277, y: 71, z: 266 }
+      rotation: { x: 0, y: 0, z: 0 }
   # ORCS
   - typ: BLUEPRINT_VENDOR
     team: ORCS
@@ -98,4 +122,12 @@ npcs:
     location:
       world: world
       translation: { x: 305, y: 73, z: 235 }
+      rotation: { x: 0, y: 0, z: 0 }
+  - typ: WEAPON_VENDOR
+    team: ORCS
+    name: Weapon Vendor
+    entityType: VILLAGER
+    location:
+      world: world
+      translation: { x: 310, y: 74, z: 244 }
       rotation: { x: 0, y: 0, z: 0 }
