@@ -101,9 +101,9 @@ armorTypes:
       FEET: BootsVariant:GREEN_LEATHER
     HUMANS:
       HEAD: MusicDiscVariant:DISC_11
-      CHEST: ChestplateVariant:BLUE_LEATHER
-      LEGS: LeggingsVariant:BLUE_LEATHER
-      FEET: BootsVariant:BLUE_LEATHER
+      CHEST: ChestplateVariant:AQUA_LEATHER
+      LEGS: LeggingsVariant:AQUA_LEATHER
+      FEET: BootsVariant:AQUA_LEATHER
     ORCS:
       HEAD: MusicDiscVariant:DISC_11
       CHEST: ChestplateVariant:RED_LEATHER
