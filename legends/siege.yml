@@ -183,7 +183,7 @@ objectives:
     capturePoint:
       location:
         world: world
-        translation: { x: 0, y: 68, z: 8.5 }
+        translation: { x: 0.5, y: 68, z: 8.5 }
         rotation: { x: 0, y: 0, z: 1 }
       radius: 2.5
     portals:
