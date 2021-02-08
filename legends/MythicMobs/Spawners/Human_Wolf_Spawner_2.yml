@@ -1,0 +1,26 @@
+Human_Wolf_Spawner_2:
+  SpawnerGroup: Human_Wolf_Spawner_2
+  MobName: Wolf1
+  World: world
+  X: -193
+  Y: 68
+  Z: 327
+  Radius: 8
+  UseTimer: true
+  MaxMobs: '4'
+  MobLevel: '1'
+  MobsPerSpawn: 1
+  Cooldown: 120
+  CooldownTimer: 0
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 40
+  ScalingRange: 25.0
+  LeashRange: 0
+  HealOnLeash: true
+  ResetThreatOnLeash: true
+  ShowFlames: true
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0
