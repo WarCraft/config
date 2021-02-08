@@ -1,12 +1,13 @@
-Dunewalker1:
+Husk1:
   Type: HUSK
-  Display: 'Dunewalker'
-  Health: 15
-  Damage: 3
+  Display: 'Husk'
+  Health: 10
+  Damage: 2
   Options:
     PreventOtherDrops: true
-    MovementSpeed: 0.2
+    MovementSpeed: 0.3
     FollowRange: 20
+    PreventSunburn: true
   AIGoalSelectors:
   - 0 clear
   - 1 meleeattack
