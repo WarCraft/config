@@ -1,1 +1,26 @@
-
+Human_Camp_Spawner_1:
+  SpawnerGroup: Human_Camp_Spawner_1
+  MobName: Zombie1
+  World: world
+  X: -155
+  Y: 59
+  Z: 325
+  Radius: 8
+  UseTimer: true
+  MaxMobs: '6'
+  MobLevel: '1'
+  MobsPerSpawn: 3
+  Cooldown: 30
+  CooldownTimer: 0
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 40
+  ScalingRange: 25.0
+  LeashRange: 0
+  HealOnLeash: true
+  ResetThreatOnLeash: true
+  ShowFlames: true
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0
