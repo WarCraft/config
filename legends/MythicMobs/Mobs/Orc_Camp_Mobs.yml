@@ -16,7 +16,7 @@ Dunewalker1:
   - 1 attacker
   - 2 players
   Skills:
-  - command{c="drop-loot <mob.name> <mob.uuid> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
+  - command{c="drop-loot <mob.name> <mob.uuid> <mob.l.w> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
 
 Elemental:
   Type: BLAZE
@@ -36,4 +36,4 @@ Elemental:
   - 1 attacker
   - 2 players
   Skills:
-  - command{c="drop-loot <mob.name> <mob.uuid> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
+  - command{c="drop-loot <mob.name> <mob.uuid> <mob.l.w> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
