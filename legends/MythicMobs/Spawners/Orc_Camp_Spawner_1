@@ -1,0 +1,26 @@
+Orc_Camp_Spawner_1:
+  SpawnerGroup: Orc_Camp_Spawner_1
+  MobName: Husk1
+  World: world
+  X: 155
+  Y: 34
+  Z: 225
+  Radius: 4
+  UseTimer: true
+  MaxMobs: '6'
+  MobLevel: '1'
+  MobsPerSpawn: 3
+  Cooldown: 20
+  CooldownTimer: 0
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 40
+  ScalingRange: 25.0
+  LeashRange: 0
+  HealOnLeash: true
+  ResetThreatOnLeash: true
+  ShowFlames: true
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0
