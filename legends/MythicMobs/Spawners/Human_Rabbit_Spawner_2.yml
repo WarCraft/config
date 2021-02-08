@@ -1,0 +1,26 @@
+Human_Rabbit_Spawner_2:
+  SpawnerGroup: Human_Rabbit_Spawner_2
+  MobName: Rabbit1
+  World: world
+  X: -225
+  Y: 43
+  Z: 105
+  Radius: 10
+  UseTimer: true
+  MaxMobs: '2'
+  MobLevel: '1'
+  MobsPerSpawn: 1
+  Cooldown: 120
+  CooldownTimer: 0
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 40
+  ScalingRange: 25.0
+  LeashRange: 0
+  HealOnLeash: true
+  ResetThreatOnLeash: true
+  ShowFlames: true
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0
