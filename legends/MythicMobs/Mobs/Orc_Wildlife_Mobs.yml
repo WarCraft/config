@@ -1,1 +1,59 @@
+Boar1:
+  Type: PIG
+  Display: 'Boar'
+  Health: 10
+  Damage: 3
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.3
+    FollowRange: 20
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - command{c="drop-loot <mob.name> <mob.uuid> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
 
+Llama1:
+  Type: LLAMA
+  Display: 'Alpaca'
+  Health: 10
+  Damage: 3
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.3
+    FollowRange: 20
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - command{c="drop-loot <mob.name> <mob.uuid> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
+
+Silverfish1:
+  Type: SILVERFISH
+  Display: 'Scorpion'
+  Health: 10
+  Damage: 3
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.3
+    FollowRange: 20
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - command{c="drop-loot <mob.name> <mob.uuid> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
