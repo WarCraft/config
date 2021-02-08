@@ -23,9 +23,9 @@ objectives:
     capturePoint:
       location:
         world: world
-        translation: { x: -146, y: 54, z: -109 }
+        translation: { x: -140, y: 55, z: -109 }
         rotation: { x: 0, y: 0, z: 1 }
-      radius: 6
+      radius: 2.5
     portals:
       # outer
       - entry:
@@ -183,7 +183,7 @@ objectives:
     capturePoint:
       location:
         world: world
-        translation: { x: 0, y: 68, z: 8 }
+        translation: { x: 0, y: 68, z: 8.5 }
         rotation: { x: 0, y: 0, z: 1 }
       radius: 2.5
     portals:
