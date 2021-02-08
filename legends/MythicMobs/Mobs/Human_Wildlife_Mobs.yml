@@ -16,8 +16,9 @@ Wolf1:
   - 1 attacker
   - 2 players
   Skills:
-  
-Alpha Wolf:
+  - command{c="drop-loot <mob.name> <mob.uuid> <mob.l.w> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
+
+Alpha_Wolf1:
   Type: WOLF
   Display: 'Alpha Wolf'
   Health: 20
@@ -35,7 +36,7 @@ Alpha Wolf:
   - 1 attacker
   - 2 players
   Skills:
-  - command{c="dropitems <mob.name> <mob.uuid> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
+  - command{c="drop-loot <mob.name> <mob.uuid> <mob.l.w> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
 
 Bee1:
   Type: BEE
@@ -55,4 +56,24 @@ Bee1:
   - 1 attacker
   - 2 players
   Skills:
-  - command{c="dropitems <mob.name> <mob.uuid> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
+  - command{c="drop-loot <mob.name> <mob.uuid> <mob.l.w> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
+
+Rabbit1:
+  Type: RABBIT
+  Display: 'Rabbit'
+  Health: 10
+  Damage: 2
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.3
+    FollowRange: 20
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - command{c="drop-loot <mob.name> <mob.uuid> <mob.l.w> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
