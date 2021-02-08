@@ -16,7 +16,7 @@ Charred:
   - 1 attacker
   - 2 players
   Skills:
-  - command{c="dropitems <mob.name> <mob.uuid> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
+  - command{c="drop-loot <mob.name> <mob.uuid> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
 
 RiderHorse:
   Type: SKELETON_HORSE
@@ -59,4 +59,25 @@ Rider:
   - 1 attacker
   - 2 players
   Skills:
-  - command{c="dropitems <mob.name> <mob.uuid> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
+  - command{c="drop-loot <mob.name> <mob.uuid> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
+
+Zombie1:
+  Type: ZOMBIE
+  Display: 'Zombie'
+  Health: 10
+  Damage: 2
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.3
+    FollowRange: 20
+    PreventSunburn: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - command{c="drop-loot <mob.name> <mob.uuid> <mob.l.x> <mob.l.y> <mob.l.z>"} @trigger ~onDeath
