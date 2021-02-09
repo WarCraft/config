@@ -10,7 +10,7 @@ Human_Camp_Spawner_1:
   MaxMobs: '6'
   MobLevel: '1'
   MobsPerSpawn: 3
-  Cooldown: 15
+  Cooldown: 20
   CooldownTimer: 0
   Warmup: 0
   WarmupTimer: 0
