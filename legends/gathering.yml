@@ -13,13 +13,13 @@ blockGatheringSpots:
         cooldownData: BEDROCK 
       - blockData: LOG
         dropData: LOG
-        dropName: Lumber
+        dropName: Log
         cooldown: 600
         cooldownDelta: 20
         cooldownData: BEDROCK
       - blockData: WOOD
         dropData: LOG
-        dropName: Lumber
+        dropName: Log
         cooldown: 600
         cooldownDelta: 20
         cooldownData: BEDROCK
