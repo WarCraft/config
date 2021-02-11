@@ -12,7 +12,7 @@ requiredProgress:
 
 requiredResources:
   trebuchet:
-    WOOD: 20
+    LOG: 20
     STONE: 10
 
 objectives:
