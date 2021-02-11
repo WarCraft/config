@@ -60,7 +60,7 @@ teams:
     name: Wayfarers
     spawn:
       world: world
-      translation: { x: 0, y: 68, z: 8 }
+      translation: { x: 0.5, y: 101, z: 8.5 }
       rotation: { x: 0, y: 0, z: 0 }
     chatColor: GRAY
     particleColor: SILVER
