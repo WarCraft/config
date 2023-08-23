@@ -1,4 +1,13 @@
 npcs:
+  # ARENA
+  - typ: BATTLE_MASTER
+    team: ~
+    name: Battle Master
+    entityType: VILLAGER
+    location:
+      world: world
+      translation: { x: 427, y: 64, z: 134 }
+      rotation: { x: 0, y: 0, z: 0 }
   # DWARVES
   - typ: BLUEPRINT_VENDOR
     team: DWARVES
