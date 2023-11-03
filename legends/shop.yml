@@ -887,7 +887,7 @@ decorations:
     pack: STONE
     description: [ ]
   - id: BRICK_BLOCK
-    itemType: BrickBlockVariant:NORMAL
+    itemType: BricksBlockVariant:NORMAL
     typ: DECORATION
     rarity: RARE
     name: Brick block
@@ -2353,7 +2353,7 @@ decorations:
     pack: NETHER
     description: [ ]
   - id: NETHER_BRICK_BLOCK
-    itemType: BrickBlockVariant:NETHER
+    itemType: BricksBlockVariant:NETHER
     typ: DECORATION
     rarity: EPIC
     name: Nether brick
@@ -2416,7 +2416,7 @@ decorations:
     pack: NETHER
     description: [ ]
   - id: RED_NETHER_BRICK_BLOCK
-    itemType: BrickBlockVariant:RED_NETHER
+    itemType: BricksBlockVariant:RED_NETHER
     typ: DECORATION
     rarity: EPIC
     name: Red nether brick
