@@ -2367,14 +2367,14 @@ decorations:
     pack: NETHER
     description: [ ]
   - id: NETHER_BRICK_SLAB
-    itemType: SlabVariant:NETHER_BRICK
+    itemType: SlabVariant:NETHER_BRICKS
     typ: DECORATION
     rarity: EPIC
     name: Nether brick slab
     pack: NETHER
     description: [ ]
   - id: NETHER_BRICK_STAIRS
-    itemType: StairsVariant:NETHER_BRICK
+    itemType: StairsVariant:NETHER_BRICKS
     typ: DECORATION
     rarity: EPIC
     name: Nether brick stairs
