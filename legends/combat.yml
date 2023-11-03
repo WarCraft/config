@@ -319,3 +319,15 @@ abilities:
     damage: "50"
     range: "500"
     cooldown: "0"
+
+blacklistedColumnAreas:
+  - world: world
+    center: { x: 452, y: 30, z: 105 }
+    radius: 50
+    halfHeight: 75
+
+whitelistedColumnAreas:
+  - world: world
+    center: { x: 452, y: 30, z: 105 }
+    radius: 35
+    halfHeight: 30
