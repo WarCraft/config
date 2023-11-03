@@ -322,12 +322,12 @@ abilities:
 
 blacklistedColumnAreas:
   - world: world
-    center: { x: 452, y: 30, z: 105 }
+    center: { x: 452.5, y: 30.5, z: 105.5 }
     radius: 50
     halfHeight: 75
 
 whitelistedColumnAreas:
   - world: world
-    center: { x: 452, y: 30, z: 105 }
+    center: { x: 452.5, y: 30.5, z: 105.5 }
     radius: 35
     halfHeight: 30
