@@ -873,14 +873,14 @@ decorations:
     pack: STONE
     description: [ ]
   - id: BRICK_SLAB
-    itemType: SlabVariant:BRICK
+    itemType: SlabVariant:BRICKS
     typ: DECORATION
     rarity: RARE
-    name: Brick slab
+    name: Bricks slab
     pack: STONE
     description: [ ]
   - id: BRICK_STAIRS
-    itemType: StairsVariant:BRICK
+    itemType: StairsVariant:BRICKS
     typ: DECORATION
     rarity: RARE
     name: Brick stairs
