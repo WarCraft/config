@@ -320,18 +320,20 @@ abilities:
     range: "500"
     cooldown: "0"
 
-blacklistedColumnAreas:
-  # Outer Arena
-  - world: world
-    center: { x: 452.5, y: 62.5, z: 105.5 }
-    radius: 50
-    halfHeight: 40
+blacklistedBlockAreas: [ ]
 
 whitelistedBlockAreas:
   # Upper Arena
   - world: world
     min: { x: 434, y: 60, z: 87 }
     max: { x: 470, y: 73, z: 123 }
+
+blacklistedColumnAreas:
+  # Outer Arena
+  - world: world
+    center: { x: 452.5, y: 62.5, z: 105.5 }
+    radius: 50
+    halfHeight: 40
 
 whitelistedColumnAreas:
   # Lower Arena
