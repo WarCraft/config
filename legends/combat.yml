@@ -321,13 +321,15 @@ abilities:
     cooldown: "0"
 
 blacklistedColumnAreas:
+  # Arena
   - world: world
-    center: { x: 452.5, y: 30.5, z: 105.5 }
+    center: { x: 452.5, y: 62.5, z: 105.5 }
     radius: 50
-    halfHeight: 75
+    halfHeight: 40
 
 whitelistedColumnAreas:
+  # Arena
   - world: world
-    center: { x: 452.5, y: 30.5, z: 105.5 }
+    center: { x: 452.5, y: 42.5, z: 105.5 }
     radius: 35
-    halfHeight: 30
+    halfHeight: 20
