@@ -607,3 +607,11 @@ skirmishTimes:
   - 2 # UTC = 21 NYT
   - 20 # UTC = 15 NYT
   - 23 # UTC = 18 NYT
+
+arenaGameArea:
+  world: world
+  min: { x: 434, y: 60, z: 87 }
+  max: { x: 470, y: 73, z: 123 }
+arenaSpawnPlayer1:
+arenaSpawnPlayer2:
+
