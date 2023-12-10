@@ -613,5 +613,10 @@ arenaGameArea:
   min: { x: 434, y: 60, z: 87 }
   max: { x: 470, y: 73, z: 123 }
 arenaSpawnPlayer1:
+  world: world
+  translation: { x: 452.5, y: 66.5, z: 109.5 }
+  rotation: { x: 0, y: 0, z: 0 }
 arenaSpawnPlayer2:
-
+  world: world
+  translation: { x: 452.5, y: 66.5, z: 101.5 }
+  rotation: { x: 0, y: 0, z: 0 }
